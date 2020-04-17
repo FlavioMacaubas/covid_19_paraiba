@@ -80,7 +80,7 @@ app.layout = html.Div(
                     },
                 ),
                 html.Div(children='''
-                        Laboratório de Inteligência Artificial e Macroeconomia Computacional.
+                        Laboratório de Inteligência Artificial e Macroeconomia Computacional (LABIMEC).
                         ''',
                         className='nine columns',
                         style={
