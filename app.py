@@ -212,7 +212,8 @@ app.layout = html.Div(
           ''')
         ], className = "six columns")
 
-    ], className='ten columns offset-by-one')
+    ], id="mainContainer",
+    style={"display": "flex", "flex-direction": "column"})
 
 
 )
