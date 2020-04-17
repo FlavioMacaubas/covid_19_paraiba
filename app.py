@@ -104,7 +104,7 @@ app.layout = html.Div(
                         dcc.Dropdown(
                             id='Cities',
                             options=cidades_pb,
-                            value =['Paraíba'],
+                            value =['Paraíba', 'João Pessoa'],
                             multi = True,
                             className="dcc_control",
                         ),
