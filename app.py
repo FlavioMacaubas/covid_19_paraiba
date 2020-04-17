@@ -13,7 +13,7 @@ os.chdir('C:/Users/Macaubas/PycharmProjects/untitled/venv/Scripts')
 external_stylesheets = ['https://codepen.io/amyoshino/pen/jzXypZ.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-df = pd.read_csv("paraiba_covid.csv")
+server = app.server
 
 eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020', '04-04-2020', '07-04-2020','08-04-2020','14-04-2020']
 
@@ -308,4 +308,4 @@ def update_text(data):
     return '---', city_data['Paraíba']['confirmados'][-1], city_data['Paraíba']['recuperados'][-1],city_data['Paraíba']['obitos'][-1]
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
