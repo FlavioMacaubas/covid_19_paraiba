@@ -174,16 +174,16 @@ app.layout = html.Div(
                     dcc.Graph(
                         id='example-graph'
                     )
-                ], className='six columns'
+                ], className="pretty_container six columns"
                 ),
 
                 html.Div([
                     dcc.Graph(
                         id='example-graph-2'
                     )
-                ], className='six columns'
+                ], className="pretty_container six columns"
                 )
-            ], className="row"
+            ], className="row flex-display"
         ),
 
 
