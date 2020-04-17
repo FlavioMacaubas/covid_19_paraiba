@@ -5,10 +5,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
-import os
 from dash.dependencies import Input, Output, State, ClientsideFunction
-
-os.chdir('C:/Users/Macaubas/PycharmProjects/untitled/venv/Scripts')
 
 external_stylesheets = ['https://codepen.io/amyoshino/pen/jzXypZ.css']
 
