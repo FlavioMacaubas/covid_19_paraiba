@@ -254,6 +254,7 @@ def update_image_src(selector):
             'title': 'Panorama Confirmados/Recuperados/Óbitos {}'.format(selector[0]),
             'xaxis': dict(
                 title='Dia',
+                height: 400,
                 titlefont=dict(
                     family='Courier New, monospace',
                     size=20,
@@ -285,6 +286,7 @@ def update_image_src(selector, situacao):
             'title': 'Série Temporal - Quantidade de {}'.format(situacao),
             'xaxis': dict(
                 title='Dia',
+                height: 400,
                 titlefont=dict(
                     family='Courier New, monospace',
                     size=20,
