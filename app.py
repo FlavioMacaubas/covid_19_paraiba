@@ -168,23 +168,31 @@ app.layout = html.Div(
         ),
 
 
-        # Exibe os gráficos
+ # Exibe os gráficos
         html.Div(
             [
-                html.Div([
-                    dcc.Graph(
-                        id='example-graph'
-                    )
-                ], className="pretty_container six columns"
-                ),
 
                 html.Div([
-                    dcc.Graph(
-                        id='example-graph-2'
+                    html.Div([
+                        dcc.Graph(
+                            id='example-graph'
+                        )
+                    ], className="svg-container"
+                    ),
+
+                    html.Div([
+                        dcc.Graph(
+                            id='example-graph-2'
+                        )
+                    ], className="svg-container"
                     )
-                ], className="pretty_container six columns"
-                )
-            ], className="row flex-display"
+                ]),
+
+                html.Div([
+                    html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='1000', height='800'),
+                ], className="svg-container"),
+
+            ], className="row flex-display",
         ),
 
 
