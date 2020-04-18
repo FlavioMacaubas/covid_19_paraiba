@@ -11,6 +11,7 @@ external_stylesheets = ['https://codepen.io/amyoshino/pen/jzXypZ.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
+app.title = "Covid-19 Paraíba"
 
 eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020', '04-04-2020', '07-04-2020','08-04-2020','14-04-2020']
 
@@ -62,8 +63,8 @@ app.layout = html.Div(
                     src=app.get_asset_url("logo_nova.jpg"),
                     className='three columns',
                     style={
-                        'height': '10%',
-                        'width': '10%',
+                        'height': '7%',
+                        'width': '7%',
                         'float': 'right',
                         'position': 'relative',
                     },
