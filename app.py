@@ -189,7 +189,7 @@ app.layout = html.Div(
                 ]),
 
                 html.Div([
-                    html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='1000', height='800'),
+                    html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='330%', height='800'),
                 ], className="svg-container"),
 
             ], className="row flex-display",
