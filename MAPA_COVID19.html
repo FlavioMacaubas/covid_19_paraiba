@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_631a4c32a1204639b48646baafcccde7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_631a4c32a1204639b48646baafcccde7" ></div>
+        
+</body>
+<script>    
+    
+            var map_631a4c32a1204639b48646baafcccde7 = L.map(
+                "map_631a4c32a1204639b48646baafcccde7",
+                {
+                    center: [-8.0, -37.01],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: true,
+                }
+            );
+            L.control.scale().addTo(map_631a4c32a1204639b48646baafcccde7);
+
+            
+
+        
+    
+            var tile_layer_b78b567205774826af68d327852b62df = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_631a4c32a1204639b48646baafcccde7);
+        
+    
+        function geo_json_832f34d80a2c47959e24fc4039cade74_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_832f34d80a2c47959e24fc4039cade74_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_832f34d80a2c47959e24fc4039cade74_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_832f34d80a2c47959e24fc4039cade74.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_832f34d80a2c47959e24fc4039cade74_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_832f34d80a2c47959e24fc4039cade74 = L.geoJson(null, {
+                onEachFeature: geo_json_832f34d80a2c47959e24fc4039cade74_onEachFeature,
+            
+                style: geo_json_832f34d80a2c47959e24fc4039cade74_styler,
+        });
+        function geo_json_832f34d80a2c47959e24fc4039cade74_add (data) {
+            geo_json_832f34d80a2c47959e24fc4039cade74.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_832f34d80a2c47959e24fc4039cade74_add({"features": [{"geometry": {"coordinates": [[[-34.8336898577, -7.0979675376], [-34.8219732646, -7.1105151812], [-34.8220028353, -7.1304092766], [-34.8097468927, -7.144802542], [-34.7970010802, -7.1463914668], [-34.79333473, -7.1540906511], [-34.7944765175, -7.1953560049], [-34.802689877, -7.2101462231], [-34.8052515429, -7.2396909862], [-34.8083359748, -7.2430713535], [-34.8067780258, -7.2362539869], [-34.8178592708, -7.2386084876], [-34.8183641584, -7.2338700478], [-34.8253321901, -7.2341052028], [-34.8225236603, -7.2301510379], [-34.8319718511, -7.2281954337], [-34.8380007284, -7.2314188766], [-34.8384685606, -7.2373379655], [-34.8399452425, -7.2340371592], [-34.8421193778, -7.2363782382], [-34.8464461786, -7.2348193918], [-34.8450859734, -7.2319156082], [-34.8491117853, -7.2347515519], [-34.8529460703, -7.2301731683], [-34.8621697544, -7.2298268722], [-34.8653357184, -7.2258525978], [-34.8695179567, -7.2274340363], [-34.8723923097, -7.2206871527], [-34.9041714319, -7.2124360908], [-34.9115039702, -7.2128047007], [-34.9295268927, -7.2255095248], [-34.937166662, -7.212797354], [-34.9635903005, -7.2140500398], [-34.9678984149, -7.2155366241], [-34.970247671, -7.1987112693], [-34.9734694165, -7.1751786857], [-34.9640871422, -7.1675867781000004], [-34.953059896, -7.1688438182], [-34.9471638941, -7.1634976617], [-34.9341972318, -7.16854739], [-34.9270277139, -7.1671251862], [-34.9242813628, -7.1705249591], [-34.9165217063, -7.1655185032], [-34.9110023644, -7.1538401263], [-34.9109168662, -7.1486727968], [-34.9176351683, -7.1430776274], [-34.9188626482, -7.1336801694], [-34.9128636822, -7.1282373818], [-34.9042792481, -7.1266488189], [-34.9019730163, -7.1204521561], [-34.8953325615, -7.1222936368], [-34.8914455205, -7.1108961033], [-34.8952139184, -7.1056655902], [-34.8916393853, -7.0950088644000004], [-34.8652184889, -7.0577169754], [-34.8573584628, -7.0633797877], [-34.8586608293, -7.0672507596], [-34.859642406, -7.0746003284], [-34.865776887, -7.0804829976], [-34.8571858579, -7.0948512135], [-34.8450803384, -7.0994328214], [-34.8496962444, -7.0616418702], [-34.8433577961, -7.0554186969], [-34.8380010399, -7.0680049446], [-34.8301169563, -7.0730015118], [-34.8336898577, -7.0979675376]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_c2d5ee38a7724341af0aa6c043e2a306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e32f255ebf6544548581a6259cc41fc6 = $(`<div id="html_e32f255ebf6544548581a6259cc41fc6" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>JoÃ£o Pessoa</i></b><br>                  Casos Confirmados: 103<br>                 Óbitos: 9<br>                 </div>`)[0];
+            popup_c2d5ee38a7724341af0aa6c043e2a306.setContent(html_e32f255ebf6544548581a6259cc41fc6);
+        
+
+        geo_json_832f34d80a2c47959e24fc4039cade74.bindPopup(popup_c2d5ee38a7724341af0aa6c043e2a306)
+        ;
+
+        
+    
+    
+        function geo_json_688cdbe5c5f642a9ab3575a55e9aa993_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_688cdbe5c5f642a9ab3575a55e9aa993_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_688cdbe5c5f642a9ab3575a55e9aa993_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_688cdbe5c5f642a9ab3575a55e9aa993.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_688cdbe5c5f642a9ab3575a55e9aa993_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_688cdbe5c5f642a9ab3575a55e9aa993 = L.geoJson(null, {
+                onEachFeature: geo_json_688cdbe5c5f642a9ab3575a55e9aa993_onEachFeature,
+            
+                style: geo_json_688cdbe5c5f642a9ab3575a55e9aa993_styler,
+        });
+        function geo_json_688cdbe5c5f642a9ab3575a55e9aa993_add (data) {
+            geo_json_688cdbe5c5f642a9ab3575a55e9aa993.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_688cdbe5c5f642a9ab3575a55e9aa993_add({"features": [{"geometry": {"coordinates": [[[-34.8914455205, -7.1108961033], [-34.8953325615, -7.1222936368], [-34.9019730163, -7.1204521561], [-34.9042792481, -7.1266488189], [-34.9128636822, -7.1282373818], [-34.9188626482, -7.1336801694], [-34.9176351683, -7.1430776274], [-34.9109168662, -7.1486727968], [-34.9110023644, -7.1538401263], [-34.9165217063, -7.1655185032], [-34.9242813628, -7.1705249591], [-34.9270277139, -7.1671251862], [-34.9341972318, -7.16854739], [-34.9471638941, -7.1634976617], [-34.953059896, -7.1688438182], [-34.9640871422, -7.1675867781000004], [-34.9734694165, -7.1751786857], [-34.9539300853, -7.1445416411], [-34.9412539987, -7.1246710458], [-34.9258345876, -7.1184071057], [-34.921220238000004, -7.1224661822], [-34.9187506365, -7.1151887147], [-34.9150847303, -7.115764287], [-34.9115280299, -7.1067668452], [-34.9142526794, -7.1026082423], [-34.9085797571, -7.1021981513], [-34.9154541281, -7.0936387423], [-34.9118371888, -7.0787439142], [-34.9025231796, -7.0884051136], [-34.8916393853, -7.0950088644000004], [-34.8952139184, -7.1056655902], [-34.8914455205, -7.1108961033]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_a3549d3c20bc452a846d0bc0058688d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0631a85e59374f00bcac8e84ca925871 = $(`<div id="html_0631a85e59374f00bcac8e84ca925871" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Bayeux</i></b><br>                  Casos Confirmados: 4<br>                 Óbitos: 1<br>                 </div>`)[0];
+            popup_a3549d3c20bc452a846d0bc0058688d2.setContent(html_0631a85e59374f00bcac8e84ca925871);
+        
+
+        geo_json_688cdbe5c5f642a9ab3575a55e9aa993.bindPopup(popup_a3549d3c20bc452a846d0bc0058688d2)
+        ;
+
+        
+    
+    
+        function geo_json_0d85c2f58cb94594a3ef10447f33ea08_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_0d85c2f58cb94594a3ef10447f33ea08_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_0d85c2f58cb94594a3ef10447f33ea08_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_0d85c2f58cb94594a3ef10447f33ea08.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_0d85c2f58cb94594a3ef10447f33ea08_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_0d85c2f58cb94594a3ef10447f33ea08 = L.geoJson(null, {
+                onEachFeature: geo_json_0d85c2f58cb94594a3ef10447f33ea08_onEachFeature,
+            
+                style: geo_json_0d85c2f58cb94594a3ef10447f33ea08_styler,
+        });
+        function geo_json_0d85c2f58cb94594a3ef10447f33ea08_add (data) {
+            geo_json_0d85c2f58cb94594a3ef10447f33ea08.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_0d85c2f58cb94594a3ef10447f33ea08_add({"features": [{"geometry": {"coordinates": [[[-34.8636659744, -6.9804063003], [-34.8579490294, -6.9839079887], [-34.8473924017, -6.981641014], [-34.849308326, -6.999559352], [-34.8588355978, -7.0152153981], [-34.8652758008, -7.0042999431], [-34.8671629407, -6.9872818777], [-34.8636659744, -6.9804063003]], [[-34.8254684241, -7.0065962406], [-34.8298639975, -7.030473581], [-34.8405292664, -7.0422910209], [-34.8433577961, -7.0554186969], [-34.8496962444, -7.0616418702], [-34.8450803384, -7.0994328214], [-34.8571858579, -7.0948512135], [-34.865776887, -7.0804829976], [-34.859642406, -7.0746003284], [-34.8586608293, -7.0672507596], [-34.8573584628, -7.0633797877], [-34.8652184889, -7.0577169754], [-34.8592774996, -7.0267111996], [-34.8548075126, -7.027110961], [-34.8483085086, -7.0110030335], [-34.8348314232, -6.9983413183], [-34.8351922897, -6.9788726833], [-34.8415071902, -6.966146439], [-34.8298934377, -6.9662120489], [-34.8254684241, -7.0065962406]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_7ed35bcbc0d74e92abf2a791a5e00350 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_499206eeb136469b8b50bebcb8f3fcbe = $(`<div id="html_499206eeb136469b8b50bebcb8f3fcbe" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Cabedelo</i></b><br>                  Casos Confirmados: 5<br>                 Óbitos: 2<br>                 </div>`)[0];
+            popup_7ed35bcbc0d74e92abf2a791a5e00350.setContent(html_499206eeb136469b8b50bebcb8f3fcbe);
+        
+
+        geo_json_0d85c2f58cb94594a3ef10447f33ea08.bindPopup(popup_7ed35bcbc0d74e92abf2a791a5e00350)
+        ;
+
+        
+    
+    
+        function geo_json_21cc141a234c4686a3eba140e9f99796_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_21cc141a234c4686a3eba140e9f99796_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_21cc141a234c4686a3eba140e9f99796_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_21cc141a234c4686a3eba140e9f99796.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_21cc141a234c4686a3eba140e9f99796_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_21cc141a234c4686a3eba140e9f99796 = L.geoJson(null, {
+                onEachFeature: geo_json_21cc141a234c4686a3eba140e9f99796_onEachFeature,
+            
+                style: geo_json_21cc141a234c4686a3eba140e9f99796_styler,
+        });
+        function geo_json_21cc141a234c4686a3eba140e9f99796_add (data) {
+            geo_json_21cc141a234c4686a3eba140e9f99796.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_21cc141a234c4686a3eba140e9f99796_add({"features": [{"geometry": {"coordinates": [[[-36.0452637166, -7.1653747466], [-36.0338356728, -7.1732618166], [-36.0333127364, -7.1729075154], [-36.0326087925, -7.1661915046], [-36.0293886743, -7.1651188875], [-35.9964317292, -7.1640042294], [-35.986714503, -7.1604754459], [-35.978576331, -7.1734274706], [-35.9788552945, -7.1758601572], [-35.9786561816, -7.1761891287], [-35.9638346934, -7.1942336305], [-35.9553933619, -7.1971450591], [-35.9543185668, -7.1957505069], [-35.9540526846, -7.1954049957], [-35.947283717, -7.1927736047], [-35.9379386922, -7.1940938524], [-35.9392490917, -7.1860765751], [-35.939867401, -7.1744428582], [-35.9376602049, -7.1748887805], [-35.9047624231, -7.1815382629], [-35.9042989072, -7.1813733843], [-35.8952808022, -7.1678607438], [-35.887629273499996, -7.1563973744], [-35.8843048382, -7.1737426906], [-35.8729884177, -7.1868875538], [-35.8725316835, -7.1936986535], [-35.865665277, -7.2018661132], [-35.8648663573, -7.2108115888], [-35.8518044397, -7.2023044674], [-35.8434457305, -7.1919560932], [-35.8408048611, -7.195475124], [-35.8339519275, -7.1945058565], [-35.8143446102, -7.2070697309], [-35.8346934562, -7.2402768672], [-35.8400787987, -7.2496347247], [-35.8387447076, -7.2511476622], [-35.835548752, -7.252408636], [-35.8125635774, -7.2570024081], [-35.8002523203, -7.2668533371], [-35.7880903596, -7.2694175134], [-35.7826090637, -7.2754444988], [-35.7731951203, -7.2761471807], [-35.7699262121, -7.2805744164], [-35.7644720352, -7.2809011544], [-35.7518593331, -7.2721287984], [-35.7439964024, -7.2776164115], [-35.7320040181, -7.2769508022], [-35.7159576257, -7.2633092924], [-35.70381155, -7.2598254776], [-35.7264474588, -7.3051011368], [-35.735733413, -7.3236810894], [-35.7397980604, -7.3176603858], [-35.7562720287, -7.3261909901], [-35.7689652452, -7.3227834076], [-35.7833399178, -7.3180480209], [-35.7954742491, -7.3208019219], [-35.8085565639, -7.3193422343], [-35.823613586, -7.3282129875], [-35.8381266573, -7.3306000184], [-35.8382717306, -7.3293866563], [-35.8416665946, -7.3009794847], [-35.8719571643, -7.2997867483], [-35.8879806822, -7.2916847558], [-35.8877496527, -7.286465295], [-35.9091940063, -7.2861959032], [-35.9392318581, -7.2858162478], [-35.9446727595, -7.2846234691], [-35.9441708726, -7.2797734739], [-35.9506315705, -7.2793178542], [-35.9570180716, -7.287239102], [-35.9620130168, -7.2881743479], [-35.9616786676, -7.2977708538], [-35.9825784668, -7.2957756093], [-35.9768729362, -7.3014582947], [-35.977632137, -7.3133746831], [-35.9775760235, -7.3198882518], [-35.9827800692, -7.3219511096], [-35.9795559572, -7.3391963526], [-35.9829953934, -7.3401000462], [-35.9818143141, -7.3439145436], [-35.9871342629, -7.3453276901], [-35.9860662589, -7.3481001144], [-35.9862370905, -7.367755026], [-36.003567626, -7.3805622836], [-36.003014839, -7.3842691945], [-36.0084194712, -7.3830101475], [-36.0135932235, -7.3860640931], [-36.0164193713, -7.379557176], [-36.0190885545, -7.3814587312], [-36.034356696, -7.369600438], [-36.0391588803, -7.3672550698], [-36.1282809415, -7.3582472853], [-36.1190745659, -7.301743206], [-36.114026302, -7.2708032742], [-36.113952284, -7.2703524615], [-36.1144426057, -7.2546969355], [-36.1106132417, -7.2564003625], [-36.1087356989, -7.2522856043], [-36.1059055628, -7.238159965], [-36.1025418348, -7.2355987562], [-36.1046130175, -7.2305490335], [-36.1022963697, -7.2197440958], [-36.0939448027, -7.2092430229], [-36.0920630395, -7.1953962581], [-36.0945109649, -7.1536040903], [-36.0889599251, -7.155381562], [-36.0629268851, -7.1657743416], [-36.0452637166, -7.1653747466]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_d99e1132fe7f4525b2507051fc0890d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15a4e483e6564d89be71fa98f3fccef2 = $(`<div id="html_15a4e483e6564d89be71fa98f3fccef2" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Campina Grande</i></b><br>                  Casos Confirmados: 3<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_d99e1132fe7f4525b2507051fc0890d0.setContent(html_15a4e483e6564d89be71fa98f3fccef2);
+        
+
+        geo_json_21cc141a234c4686a3eba140e9f99796.bindPopup(popup_d99e1132fe7f4525b2507051fc0890d0)
+        ;
+
+        
+    
+    
+        function geo_json_ed80a7f58a2346f29d55d786c96767ed_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_ed80a7f58a2346f29d55d786c96767ed_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_ed80a7f58a2346f29d55d786c96767ed_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_ed80a7f58a2346f29d55d786c96767ed.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_ed80a7f58a2346f29d55d786c96767ed_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_ed80a7f58a2346f29d55d786c96767ed = L.geoJson(null, {
+                onEachFeature: geo_json_ed80a7f58a2346f29d55d786c96767ed_onEachFeature,
+            
+                style: geo_json_ed80a7f58a2346f29d55d786c96767ed_styler,
+        });
+        function geo_json_ed80a7f58a2346f29d55d786c96767ed_add (data) {
+            geo_json_ed80a7f58a2346f29d55d786c96767ed.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_ed80a7f58a2346f29d55d786c96767ed_add({"features": [{"geometry": {"coordinates": [[[-34.9696978606, -6.9213219298], [-34.9338721931, -6.9466813421], [-34.9215680344, -6.9553867255], [-34.91063714, -6.9493396588], [-34.9073096191, -6.9537996006], [-34.9054617803, -6.9501729073], [-34.9020495466, -6.9551612061], [-34.8992138625, -6.9538871626], [-34.8984549541, -6.9568900199], [-34.8905722608, -6.9594966235], [-34.882321889400004, -6.9555821714], [-34.878820003, -6.959113416], [-34.8817135913, -6.9642480788], [-34.8704832952, -6.9657512805], [-34.8685273211, -6.9789793055], [-34.8705816015, -6.9850379925], [-34.8680100996, -7.0065115671], [-34.8592774996, -7.0267111996], [-34.8652184889, -7.0577169754], [-34.8916393853, -7.0950088644000004], [-34.9025231796, -7.0884051136], [-34.9118371888, -7.0787439142], [-34.9154541281, -7.0936387423], [-34.9085797571, -7.1021981513], [-34.9142526794, -7.1026082423], [-34.9115280299, -7.1067668452], [-34.9150847303, -7.115764287], [-34.9187506365, -7.1151887147], [-34.921220238000004, -7.1224661822], [-34.9258345876, -7.1184071057], [-34.9412539987, -7.1246710458], [-34.9539300853, -7.1445416411], [-34.9734694165, -7.1751786857], [-34.970247671, -7.1987112693], [-34.9678984149, -7.2155366241], [-34.9635903005, -7.2140500398], [-34.937166662, -7.212797354], [-34.9295268927, -7.2255095248], [-34.9349408247, -7.2386327809], [-34.9410051261, -7.2412879255], [-34.9435232956, -7.248536677], [-34.9497229086, -7.2753499958], [-34.9625062761, -7.2815668425], [-34.9686142408, -7.2821279821000005], [-34.9738052964, -7.2738651864], [-34.9908259108, -7.2677072221], [-35.0174966485, -7.2699980664], [-35.039276508, -7.2764032907], [-35.0434832383, -7.2783739915], [-35.0448503951, -7.2771157082], [-35.0446282076, -7.2744310587], [-35.0553740734, -7.2667489618], [-35.0671827114, -7.2288858822], [-35.0539957902, -7.1838529499], [-35.0421137948, -7.1433113533], [-35.0432238442, -7.1362822348], [-35.0389819753, -7.128799214], [-35.0473973149, -7.1275833315], [-35.0448365562, -7.1206979703], [-35.0466496059, -7.1155415658], [-35.05168468, -7.1012184354], [-35.058895778, -7.080692224], [-35.1610091686, -7.0318047807], [-35.1291554353, -7.0105509549], [-35.1273834157, -7.0094296975], [-35.1346343131, -7.0066411503], [-35.138171381, -6.9832905513], [-35.1459633349, -6.972845957], [-35.1395341494, -6.9626935553], [-35.1370509355, -6.9444416707], [-35.1323175014, -6.9404208617], [-35.1062003432, -6.9368284006], [-35.1006473786, -6.9381812344], [-35.0899923826, -6.9395496023], [-35.0754411465, -6.9347735912], [-35.0589155181, -6.934425565], [-35.037123078, -6.918917285], [-34.9888238663, -6.9077766204], [-34.9696978606, -6.9213219298]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_b281742ac4fd4647b8fecbc0c749257e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5dc991f90834856ae0f28213b55dd1b = $(`<div id="html_d5dc991f90834856ae0f28213b55dd1b" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Santa Rita</i></b><br>                  Casos Confirmados: 10<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_b281742ac4fd4647b8fecbc0c749257e.setContent(html_d5dc991f90834856ae0f28213b55dd1b);
+        
+
+        geo_json_ed80a7f58a2346f29d55d786c96767ed.bindPopup(popup_b281742ac4fd4647b8fecbc0c749257e)
+        ;
+
+        
+    
+    
+        function geo_json_5f4ee54449004d10957aa95fce4a6a12_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_5f4ee54449004d10957aa95fce4a6a12_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_5f4ee54449004d10957aa95fce4a6a12_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_5f4ee54449004d10957aa95fce4a6a12.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_5f4ee54449004d10957aa95fce4a6a12_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_5f4ee54449004d10957aa95fce4a6a12 = L.geoJson(null, {
+                onEachFeature: geo_json_5f4ee54449004d10957aa95fce4a6a12_onEachFeature,
+            
+                style: geo_json_5f4ee54449004d10957aa95fce4a6a12_styler,
+        });
+        function geo_json_5f4ee54449004d10957aa95fce4a6a12_add (data) {
+            geo_json_5f4ee54449004d10957aa95fce4a6a12.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_5f4ee54449004d10957aa95fce4a6a12_add({"features": [{"geometry": {"coordinates": [[[-35.2070447074, -6.940451521], [-35.1839613992, -6.954482677], [-35.1787575547, -6.9502663483], [-35.1785516092, -6.9524059815], [-35.1547486065, -6.9400271144], [-35.148942577, -6.9421827839], [-35.1323175014, -6.9404208617], [-35.1370509355, -6.9444416707], [-35.1395341494, -6.9626935553], [-35.1459633349, -6.972845957], [-35.138171381, -6.9832905513], [-35.1346343131, -7.0066411503], [-35.1273834157, -7.0094296975], [-35.1291554353, -7.0105509549], [-35.1610091686, -7.0318047807], [-35.1457124641, -7.0453251687], [-35.1376706329, -7.052431289], [-35.1179180034, -7.0703087411], [-35.1281799869, -7.099346237], [-35.1396151468, -7.1317218623], [-35.1427470091, -7.1405916061], [-35.1521106049, -7.1490096926], [-35.1678272856, -7.1601852469], [-35.1723108122, -7.1639105888], [-35.1788895311, -7.1734438843], [-35.1870648431, -7.1769705866], [-35.1875059182, -7.1770392952], [-35.1904283521, -7.1761616174], [-35.1909409942, -7.1706060411], [-35.1966355458, -7.1744717637], [-35.2008772557, -7.1720584022], [-35.2091866463, -7.1748221884], [-35.2117571172, -7.1652656656], [-35.217067616, -7.1653110483999995], [-35.2172585612, -7.1585633488], [-35.2276937044, -7.1607274825000005], [-35.2270261486, -7.1498922234], [-35.231231903, -7.1489963343], [-35.2320884431, -7.1421071755], [-35.2375874784, -7.1378513285], [-35.2389982382, -7.1296866051], [-35.2357895087, -7.1228406869], [-35.2383578567, -7.1192292338], [-35.250780997, -7.121744201], [-35.2612082405, -7.1289116181], [-35.2610344569, -7.1375977443], [-35.2706233748, -7.1321009298], [-35.2750234853, -7.1211214899], [-35.2729386516, -7.1161209759], [-35.2850849516, -7.1164492759], [-35.2839010647, -7.1106340036], [-35.287493391699996, -7.1085551955], [-35.278667707, -7.1047030252], [-35.2610279287, -7.0765266679], [-35.2609363616, -7.0763332433], [-35.2544144189, -7.0677979615], [-35.2531954256, -7.0578019559], [-35.2479585578, -7.0508281441], [-35.2583947516, -7.037239114], [-35.2556773895, -7.026331262], [-35.2557188301, -7.0128335306], [-35.2527758449, -6.9854507068], [-35.263336206299996, -6.9639385531], [-35.2622604272, -6.9550287569], [-35.2563140901, -6.9525125136], [-35.2437704728, -6.9538057457], [-35.2221062793, -6.9469675911], [-35.2217832055, -6.946433068], [-35.2214829231, -6.9459389252], [-35.2192260591, -6.9422155404], [-35.2070447074, -6.940451521]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_f77b74f053c542b9a54ca96fff9bface = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0da91a7268640a38bff4ab3d283b177 = $(`<div id="html_f0da91a7268640a38bff4ab3d283b177" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>SapÃ©</i></b><br>                  Casos Confirmados: 1<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_f77b74f053c542b9a54ca96fff9bface.setContent(html_f0da91a7268640a38bff4ab3d283b177);
+        
+
+        geo_json_5f4ee54449004d10957aa95fce4a6a12.bindPopup(popup_f77b74f053c542b9a54ca96fff9bface)
+        ;
+
+        
+    
+    
+        function geo_json_69462b7717244beeae40248593a0fad3_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_69462b7717244beeae40248593a0fad3_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_69462b7717244beeae40248593a0fad3_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_69462b7717244beeae40248593a0fad3.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_69462b7717244beeae40248593a0fad3_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_69462b7717244beeae40248593a0fad3 = L.geoJson(null, {
+                onEachFeature: geo_json_69462b7717244beeae40248593a0fad3_onEachFeature,
+            
+                style: geo_json_69462b7717244beeae40248593a0fad3_styler,
+        });
+        function geo_json_69462b7717244beeae40248593a0fad3_add (data) {
+            geo_json_69462b7717244beeae40248593a0fad3.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_69462b7717244beeae40248593a0fad3_add({"features": [{"geometry": {"coordinates": [[[-38.123621175, -7.0863244389], [-38.1064438639, -7.0875245786], [-38.0979223255, -7.0864594293], [-38.0946079239, -7.09077024], [-38.0912735245, -7.0902680948], [-38.0582177878, -7.0870471685], [-38.0578332568, -7.0947125089], [-38.0649595454, -7.1149909144], [-38.063224518, -7.1186636186], [-38.070774655, -7.1216963248], [-38.0775570466, -7.1394173364], [-38.0762541877, -7.1492993115], [-38.0670256508, -7.1671078265], [-38.0526864956, -7.1808557733], [-38.0524570234, -7.1915261059], [-38.0507817411, -7.1985885775], [-38.0558281463, -7.2023992339], [-38.0529288949, -7.2074313939], [-38.0571522757, -7.2135994883], [-38.0561775653, -7.219196456], [-38.0640705805, -7.2212657069], [-38.0667689375, -7.2186586657], [-38.0692701017, -7.2210894194], [-38.0842984498, -7.2183205433], [-38.0915126251, -7.2349423394], [-38.1174310764, -7.224785638], [-38.1333224672, -7.2232379551], [-38.1557760233, -7.2210504824], [-38.1576332754, -7.1888477593], [-38.1576800809, -7.188754299], [-38.1717592648, -7.1605464484], [-38.2271360122, -7.1510627406], [-38.2313189405, -7.1463035203], [-38.2324883693, -7.1311331812], [-38.2041615937, -7.1198265415], [-38.1980996766, -7.12030449], [-38.1876060414, -7.1141185101], [-38.186790977, -7.1179338574], [-38.1810008959, -7.1185120965], [-38.1754316203, -7.1077982607], [-38.160561963, -7.1080540878], [-38.1531707468, -7.0989576354], [-38.1432092027, -7.0878412339], [-38.1335411344, -7.087390803], [-38.1297215025, -7.0901588646], [-38.123621175, -7.0863244389]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_64297bae7023495f981a4e4f3ffba7ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f7e3449573b4cc995a4602f02228a2e = $(`<div id="html_2f7e3449573b4cc995a4602f02228a2e" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Igaracy</i></b><br>                  Casos Confirmados: 1<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_64297bae7023495f981a4e4f3ffba7ba.setContent(html_2f7e3449573b4cc995a4602f02228a2e);
+        
+
+        geo_json_69462b7717244beeae40248593a0fad3.bindPopup(popup_64297bae7023495f981a4e4f3ffba7ba)
+        ;
+
+        
+    
+    
+        function geo_json_f8787beecc0f412dbce54092a636ecf7_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_f8787beecc0f412dbce54092a636ecf7_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_f8787beecc0f412dbce54092a636ecf7_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_f8787beecc0f412dbce54092a636ecf7.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_f8787beecc0f412dbce54092a636ecf7_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_f8787beecc0f412dbce54092a636ecf7 = L.geoJson(null, {
+                onEachFeature: geo_json_f8787beecc0f412dbce54092a636ecf7_onEachFeature,
+            
+                style: geo_json_f8787beecc0f412dbce54092a636ecf7_styler,
+        });
+        function geo_json_f8787beecc0f412dbce54092a636ecf7_add (data) {
+            geo_json_f8787beecc0f412dbce54092a636ecf7.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_f8787beecc0f412dbce54092a636ecf7_add({"features": [{"geometry": {"coordinates": [[[-36.6743598589, -7.3811101058], [-36.6639698525, -7.3891298652], [-36.6354891195, -7.3923122393], [-36.6345871072, -7.393439319], [-36.5931837812, -7.4451359179], [-36.5304503226, -7.5276662167], [-36.5410355698, -7.5359212084], [-36.5999977935, -7.5819144484], [-36.6395557656, -7.5854164825], [-36.7119602776, -7.5918219229], [-36.7139825415, -7.5927293602], [-36.7087943886, -7.6211840528], [-36.699003219, -7.6747855745999995], [-36.6932133616, -7.678522178], [-36.6882983062, -7.6757221627], [-36.6794796715, -7.6771917573], [-36.6703767819, -7.6827936873], [-36.6613707483, -7.6799715849], [-36.6583253601, -7.6843366982], [-36.6689077931, -7.6834313117], [-36.7072241686, -7.6965669162], [-36.7125220567, -7.6948706352], [-36.7284357818, -7.7010391517], [-36.7297505979, -7.7049220849], [-36.74496126, -7.7140530942000005], [-36.7539095785, -7.7152127205], [-36.7638000507, -7.7283767019], [-36.7865582872, -7.6900341595], [-36.7965493454, -7.6731877869], [-36.7960960267, -7.6645454931], [-36.7954482806, -7.6616082048], [-36.7826957413, -7.656431233], [-36.7831606335, -7.6482543417], [-36.8099861559, -7.6457327895], [-36.8146478075, -7.6187784436], [-36.8230761891, -7.608321543], [-36.823187104, -7.6082486413], [-36.8393388118, -7.5932188466], [-36.8244098282, -7.5795296552], [-36.8385930968, -7.5585211702], [-36.8290385791, -7.5390448376], [-36.828511822, -7.5369647362], [-36.8740669916, -7.5348357468], [-36.8871675483, -7.5342224521], [-36.9005206427, -7.533596486], [-36.8759024908, -7.5156626185], [-36.8539183975, -7.4996489588], [-36.8341179937, -7.4852311155], [-36.7682414403, -7.4627892072], [-36.7374943958, -7.4523162527], [-36.7350217726, -7.4217719024], [-36.7268905514, -7.4107040666], [-36.7270595768, -7.405610873], [-36.7162289737, -7.4014471501], [-36.7118411681, -7.3951512608], [-36.7080583366, -7.3923500986], [-36.6920827782, -7.3864931046], [-36.6805781347, -7.3876858097], [-36.6743598589, -7.3811101058]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_405956ca50944d4382efd9a0f41815f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6949aa948e894eb286943b35595bf2f4 = $(`<div id="html_6949aa948e894eb286943b35595bf2f4" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Serra Branca</i></b><br>                  Casos Confirmados: 1<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_405956ca50944d4382efd9a0f41815f0.setContent(html_6949aa948e894eb286943b35595bf2f4);
+        
+
+        geo_json_f8787beecc0f412dbce54092a636ecf7.bindPopup(popup_405956ca50944d4382efd9a0f41815f0)
+        ;
+
+        
+    
+    
+        function geo_json_f9b82ca293ff4a089a5a540336a52ee6_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_f9b82ca293ff4a089a5a540336a52ee6_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_f9b82ca293ff4a089a5a540336a52ee6_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_f9b82ca293ff4a089a5a540336a52ee6.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_f9b82ca293ff4a089a5a540336a52ee6_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_f9b82ca293ff4a089a5a540336a52ee6 = L.geoJson(null, {
+                onEachFeature: geo_json_f9b82ca293ff4a089a5a540336a52ee6_onEachFeature,
+            
+                style: geo_json_f9b82ca293ff4a089a5a540336a52ee6_styler,
+        });
+        function geo_json_f9b82ca293ff4a089a5a540336a52ee6_add (data) {
+            geo_json_f9b82ca293ff4a089a5a540336a52ee6.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_f9b82ca293ff4a089a5a540336a52ee6_add({"features": [{"geometry": {"coordinates": [[[-36.730734279800004, -6.9757835279], [-36.718217172, -6.9823309994], [-36.7121030246, -6.9796154154], [-36.6993659138, -6.9479373612], [-36.6943347122, -6.9340868178], [-36.6868817458, -6.9255593032], [-36.6545422194, -6.9278345529], [-36.6596321698, -6.9342213912], [-36.6614171175, -6.9611467975], [-36.6668601619, -6.9691924835000005], [-36.6714516749, -6.9715045604], [-36.6858302363, -6.9688963226], [-36.6958804382, -6.9762406588], [-36.7014769184, -6.985619415], [-36.6948405231, -7.000951983], [-36.6861741943, -7.0091326776], [-36.7028246234, -7.0069363064], [-36.7252507716, -7.0034555753], [-36.7302520276, -7.0187920609], [-36.7418167384, -7.024889044], [-36.7700452387, -7.0375454911], [-36.7810521521, -7.0340161777], [-36.7870162876, -7.0360648092], [-36.8041423658, -7.0303931209], [-36.820459389, -7.0482899073], [-36.8580764049, -7.064141345], [-36.8663523082, -7.0606273657], [-36.8662382862, -7.0124005559], [-36.7913148179, -6.9323211173], [-36.7744540822, -6.9145296229], [-36.7596611444, -6.9141366298], [-36.7662068129, -6.9354642212], [-36.755465496, -6.953863072], [-36.7370386653, -6.9724049134], [-36.730734279800004, -6.9757835279]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_af0959fc6845486d8d93809e23d7cc67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67ab170741c64aae9e408a034831d338 = $(`<div id="html_67ab170741c64aae9e408a034831d338" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Junco do SeridÃ³</i></b><br>                  Casos Confirmados: 3<br>                 Óbitos: 1<br>                 </div>`)[0];
+            popup_af0959fc6845486d8d93809e23d7cc67.setContent(html_67ab170741c64aae9e408a034831d338);
+        
+
+        geo_json_f9b82ca293ff4a089a5a540336a52ee6.bindPopup(popup_af0959fc6845486d8d93809e23d7cc67)
+        ;
+
+        
+    
+    
+        function geo_json_8d7934d484ef4d3aa172f6216b47dff2_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_8d7934d484ef4d3aa172f6216b47dff2_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_8d7934d484ef4d3aa172f6216b47dff2_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_8d7934d484ef4d3aa172f6216b47dff2.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_8d7934d484ef4d3aa172f6216b47dff2_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_8d7934d484ef4d3aa172f6216b47dff2 = L.geoJson(null, {
+                onEachFeature: geo_json_8d7934d484ef4d3aa172f6216b47dff2_onEachFeature,
+            
+                style: geo_json_8d7934d484ef4d3aa172f6216b47dff2_styler,
+        });
+        function geo_json_8d7934d484ef4d3aa172f6216b47dff2_add (data) {
+            geo_json_8d7934d484ef4d3aa172f6216b47dff2.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_8d7934d484ef4d3aa172f6216b47dff2_add({"features": [{"geometry": {"coordinates": [[[-37.4846639202, -6.9124857342], [-37.4725643372, -6.9146641086], [-37.4616935038, -6.9128583781], [-37.4340858253, -6.91653608], [-37.4092004954, -6.929253011], [-37.4068356189, -6.9316423914000005], [-37.4065606326, -6.9318112382], [-37.3961596935, -6.9360927317000005], [-37.3863630553, -6.9360598038], [-37.3773315799, -6.9309498576], [-37.346692763, -6.9271538897], [-37.2991451314, -6.9153774897], [-37.2851286948, -6.9144201463], [-37.2849921132, -6.9144164132], [-37.2557751336, -6.9132508661], [-37.2453873435, -6.9088278176], [-37.2193312004, -6.9092673807], [-37.2122134327, -6.9059842536], [-37.1979512308, -6.9058458999], [-37.190133115, -6.9171797101], [-37.1784585028, -6.9180535186], [-37.1778187197, -6.9214496527], [-37.193304812, -6.9347316253999995], [-37.183113741, -6.9357781702], [-37.1729883095, -6.9440708454], [-37.1806355869, -6.964319659], [-37.1739903137, -6.9729241768], [-37.1726724428, -6.9818058551], [-37.2038070077, -7.0001738727], [-37.2276966063, -7.019275243], [-37.2238039853, -7.038305159], [-37.230232304, -7.0464947908], [-37.2330119499, -7.0454386974], [-37.2386700057, -7.056527364], [-37.2165140462, -7.0731655741], [-37.2133437048, -7.0813094723], [-37.2167569736, -7.0844652707], [-37.2169793897, -7.0846708535], [-37.2445471688, -7.1101619485], [-37.287132178, -7.0762950133], [-37.2873179021, -7.0761468761], [-37.2874793688, -7.076017871], [-37.3211833691, -7.0815016166], [-37.3140795829, -7.0844402484], [-37.3160707258, -7.0906277967], [-37.313774157, -7.0942849167], [-37.3233866392, -7.111094936], [-37.3284851867, -7.1138379875], [-37.328015716, -7.1228727342], [-37.3338635022, -7.1294646822], [-37.336543003, -7.1395006857], [-37.352722880900004, -7.1438357382], [-37.3562080052, -7.1417601007], [-37.3806248138, -7.153250802], [-37.3878075556, -7.1504759486], [-37.3883227615, -7.1443109349], [-37.3895094931, -7.1301161045], [-37.3595259018, -7.1258876814], [-37.3612045403, -7.1120956801], [-37.3497876464, -7.1136844935], [-37.3466545213, -7.0842387973], [-37.3484816637, -7.052839905], [-37.3520665543, -7.0531067692], [-37.3556315784, -7.0418189408], [-37.368917436, -6.9997149339], [-37.3874654497, -6.9985705038], [-37.410370425, -7.0054194041], [-37.4171116289, -7.0043221733], [-37.4240874803, -6.9979795137], [-37.4330186195, -6.9976438863], [-37.4365824983, -6.9968564904], [-37.4484303426, -6.9972985114], [-37.4574695811, -6.9913192662], [-37.4698082005, -6.9913825728], [-37.4931954622, -6.9990730524], [-37.517864865600004, -7.0000299677], [-37.5154858582, -6.9910128910000005], [-37.5237104102, -6.9872044237], [-37.5216483057, -6.9723730706], [-37.5105905362, -6.9679523793], [-37.5090330092, -6.9601341633], [-37.4920752288, -6.9569512088], [-37.4829083975, -6.9696123845], [-37.4706242912, -6.9687565801], [-37.4593365687, -6.9658818051], [-37.4518919264, -6.9594854182], [-37.4522079523, -6.9564664089], [-37.4654323471, -6.9498453783], [-37.459334573, -6.9309317985], [-37.4720344873, -6.9294804137], [-37.4826362263, -6.9152144651], [-37.4846639202, -6.9124857342]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_748f989bec634f1e8942278388669269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828e24785e664cc08a0bd51642eb4960 = $(`<div id="html_828e24785e664cc08a0bd51642eb4960" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Patos</i></b><br>                  Casos Confirmados: 4<br>                 Óbitos: 1<br>                 </div>`)[0];
+            popup_748f989bec634f1e8942278388669269.setContent(html_828e24785e664cc08a0bd51642eb4960);
+        
+
+        geo_json_8d7934d484ef4d3aa172f6216b47dff2.bindPopup(popup_748f989bec634f1e8942278388669269)
+        ;
+
+        
+    
+    
+        function geo_json_ed1b6fa333a34e45bf39cc49115b1176_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#ffaf00", "weight": 1};
+            }
+        }
+        function geo_json_ed1b6fa333a34e45bf39cc49115b1176_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "darkblue", "fillColor": "darkred", "weight": 3};
+            }
+        }
+        function geo_json_ed1b6fa333a34e45bf39cc49115b1176_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    geo_json_ed1b6fa333a34e45bf39cc49115b1176.resetStyle(e.target);
+                },
+                mouseover: function(e) {
+                    e.target.setStyle(geo_json_ed1b6fa333a34e45bf39cc49115b1176_highlighter(e.target.feature));
+                },
+                click: function(e) {
+                    map_631a4c32a1204639b48646baafcccde7.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_ed1b6fa333a34e45bf39cc49115b1176 = L.geoJson(null, {
+                onEachFeature: geo_json_ed1b6fa333a34e45bf39cc49115b1176_onEachFeature,
+            
+                style: geo_json_ed1b6fa333a34e45bf39cc49115b1176_styler,
+        });
+        function geo_json_ed1b6fa333a34e45bf39cc49115b1176_add (data) {
+            geo_json_ed1b6fa333a34e45bf39cc49115b1176.addData(data)
+                .addTo(map_631a4c32a1204639b48646baafcccde7);
+        }
+            geo_json_ed1b6fa333a34e45bf39cc49115b1176_add({"features": [{"geometry": {"coordinates": [[[-38.180295819, -6.5977949099], [-38.1632776405, -6.6218183414], [-38.1453989509, -6.6049795887], [-38.1270231097, -6.5968591165], [-38.1193476267, -6.5946385278], [-38.118033474, -6.5977563178], [-38.107416571, -6.6040077325], [-38.1029941054, -6.6300237876], [-38.099056147, -6.6305845239], [-38.1019799988, -6.644758113], [-38.0925616913, -6.665947281], [-38.0938738262, -6.6693096399], [-38.0915665508, -6.6887772022], [-38.1014748792, -6.7229457386], [-38.1396923821, -6.7530403645], [-38.1355955993, -6.7875385459], [-38.1295132782, -6.8176229612], [-38.1189089645, -6.8531936146], [-38.1309107518, -6.8600409595], [-38.1329855876, -6.8713903003], [-38.1371767226, -6.8723825327], [-38.1505283788, -6.8951327189], [-38.1638501758, -6.8762812849], [-38.1671538012, -6.8716053113], [-38.1960315344, -6.869122475], [-38.1961833265, -6.8691578128], [-38.2714190516, -6.8867633437], [-38.2569391162, -6.9042255097], [-38.2758554182, -6.9103339322], [-38.2810263806, -6.9059841674], [-38.2914682565, -6.9091733454], [-38.3129727499, -6.897207527], [-38.3244583084, -6.8750663626], [-38.3167017532, -6.8421909907], [-38.3177051989, -6.8277086026], [-38.3092667133, -6.8091589272], [-38.306985322, -6.8041436848], [-38.2900909893, -6.7669988942], [-38.3533823361, -6.7715254876], [-38.3721464377, -6.772302359], [-38.3598930029, -6.7621482747], [-38.3559970342, -6.7573914818], [-38.3552243872, -6.6938205775], [-38.3550693869, -6.6812550407], [-38.3550639475, -6.6808108245], [-38.3505338953, -6.6592028521], [-38.3458748803, -6.6365747512], [-38.3411660131, -6.6285062039], [-38.3526158636, -6.6199606188], [-38.3527355232, -6.614372343], [-38.3381594948, -6.6174479531], [-38.3138388823, -6.6128629431], [-38.3026080052, -6.6266488732], [-38.2921906848, -6.6296836794], [-38.2833654111, -6.6457452908], [-38.2714214072, -6.6276576423], [-38.2635713325, -6.6202026662], [-38.262791564, -6.6129498284], [-38.2559212838, -6.6079190337], [-38.2459486396, -6.5973913205], [-38.185283609, -6.5977643392], [-38.180295819, -6.5977949099]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+        var popup_91ce0180e0ba44fc8a9426adbd14bfee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb4ad3feadb449d885d6944a698ab101 = $(`<div id="html_eb4ad3feadb449d885d6944a698ab101" style="width: 100.0%; height: 100.0%;">Cidade: <b><i>Sousa</i></b><br>                  Casos Confirmados: 1<br>                 Óbitos: 0<br>                 </div>`)[0];
+            popup_91ce0180e0ba44fc8a9426adbd14bfee.setContent(html_eb4ad3feadb449d885d6944a698ab101);
+        
+
+        geo_json_ed1b6fa333a34e45bf39cc49115b1176.bindPopup(popup_91ce0180e0ba44fc8a9426adbd14bfee)
+        ;
+
+        
+    
+    
+            var layer_control_c695e19328ce44049402a0aba6ac7aeb = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_b78b567205774826af68d327852b62df,
+                },
+                overlays :  {
+                    "Jo\u00c3\u00a3o Pessoa" : geo_json_832f34d80a2c47959e24fc4039cade74,
+                    "Bayeux" : geo_json_688cdbe5c5f642a9ab3575a55e9aa993,
+                    "Cabedelo" : geo_json_0d85c2f58cb94594a3ef10447f33ea08,
+                    "Campina Grande" : geo_json_21cc141a234c4686a3eba140e9f99796,
+                    "Santa Rita" : geo_json_ed80a7f58a2346f29d55d786c96767ed,
+                    "Sap\u00c3\u00a9" : geo_json_5f4ee54449004d10957aa95fce4a6a12,
+                    "Igaracy" : geo_json_69462b7717244beeae40248593a0fad3,
+                    "Serra Branca" : geo_json_f8787beecc0f412dbce54092a636ecf7,
+                    "Junco do Serid\u00c3\u00b3" : geo_json_f9b82ca293ff4a089a5a540336a52ee6,
+                    "Patos" : geo_json_8d7934d484ef4d3aa172f6216b47dff2,
+                    "Sousa" : geo_json_ed1b6fa333a34e45bf39cc49115b1176,
+                },
+            };
+            L.control.layers(
+                layer_control_c695e19328ce44049402a0aba6ac7aeb.base_layers,
+                layer_control_c695e19328ce44049402a0aba6ac7aeb.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_631a4c32a1204639b48646baafcccde7);
+        
+</script>
