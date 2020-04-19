@@ -125,26 +125,10 @@ app.layout = html.Div(
             ],
             className="row flex-display",
         ),
-
-        # Gráficos
-        html.Div(children=[
-
-            # Mapa
-            html.Div(children=[
-                html.H4([
-                    "Mapa",
-                ], className="container_title"),
-                html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%', height='838'),
-            ], className='six columns pretty_container',
-                style={
-                    'float' : 'left',
-                    'width': '50%',
-                    'margin-right': '0',
-                },
-                id="map-div"
-            ),
-
-            html.Div(
+        
+        #Gráficos
+        html.div(children=[
+             html.Div(
                 children=[
                     html.H4([
                         "Série Temporal dos Municípios Selecionados",
@@ -182,6 +166,25 @@ app.layout = html.Div(
                 ], style={'float': 'right'},
                 className='six columns pretty_container', id="range-div"
             ),
+        ]),
+        
+        # Mapas
+        html.Div(children=[
+
+            # Mapa
+            html.Div(children=[
+                html.H4([
+                    "Mapa",
+                ], className="container_title"),
+                html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%', height='838'),
+            ], className='six columns pretty_container',
+                style={
+                    'float' : 'left',
+                    'width': '97%',
+                    'margin-right': '0',
+                },
+                id="map-div"
+            ), 
         ]),
 
 
