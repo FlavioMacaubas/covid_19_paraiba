@@ -151,7 +151,7 @@ app.layout = html.Div(
                     dcc.Graph(
                         id='example-graph-2',
                     ),
-                ], style={'float': 'right'},
+                ],
                 className='six columns pretty_container', id="created-div"
             ),
 
@@ -163,7 +163,7 @@ app.layout = html.Div(
                     dcc.Graph(
                         id='example-graph',
                     ),
-                ], style={'float': 'right'},
+                ], style={'height' : 475},
                 className='six columns pretty_container', id="range-div"
             ),
         ]),
