@@ -86,7 +86,7 @@ app.layout = html.Div(
                         ),
                         
                                             # Radio items para selecionar status
-                        html.P('Filtrar dados por:'),
+                        html.P('Filtrar dados por: (apenas a Série Temporal)'),
                         dcc.RadioItems(
                                 id="situacao",
                                 options=[
