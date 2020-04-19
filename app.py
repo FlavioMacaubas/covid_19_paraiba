@@ -84,6 +84,21 @@ app.layout = html.Div(
                             multi=True,
                             className="dcc_control",
                         ),
+                        
+                                            # Radio items para selecionar status
+                        html.P('Filtrar dados por:'),
+                        dcc.RadioItems(
+                                id="situacao",
+                                options=[
+                                    {"label": "Confirmados ", "value": "confirmados"},
+                                    {"label": "Recuperados", "value": "recuperados"},
+                                    {"label": "Óbitos ", "value": "obitos"},
+                                ],
+                                value="confirmados",
+                                labelStyle={"display": "inline-block"},
+                                className="dcc_control",
+                        ),
+
                     ],
                      className ='six columns pretty_container',
                      id="indicator-div"
@@ -133,21 +148,6 @@ app.layout = html.Div(
                     html.H4([
                         "Série Temporal dos Municípios Selecionados",
                     ], className="container_title"),
-
-                    # Radio items para selecionar status
-                    html.P('Filtrar dados por:'),
-                    dcc.RadioItems(
-                        id="situacao",
-                        options=[
-                            {"label": "Confirmados ", "value": "confirmados"},
-                            {"label": "Recuperados", "value": "recuperados"},
-                            {"label": "Óbitos ", "value": "obitos"},
-                        ],
-                        value="confirmados",
-                        labelStyle={"display": "inline-block"},
-                        className="dcc_control",
-                    ),
-
                     dcc.Graph(
                         id='example-graph-2',
                     ),
@@ -163,7 +163,7 @@ app.layout = html.Div(
                     dcc.Graph(
                         id='example-graph',
                     ),
-                ], style={'height' : 475},
+                ],
                 className='six columns pretty_container', id="range-div"
             ),
         ]),
