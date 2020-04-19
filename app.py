@@ -75,11 +75,6 @@ app.layout = html.Div(
                     [
                         html.H4([
                             "Escolha as cidades que deseja:",
-                            html.Img(
-                                id='show-indicator-modal',
-                                src="assets/question-circle-solid.svg",
-                                className='info-icon',
-                            ),
                         ], className="container_title"),
 
                         dcc.Dropdown(
@@ -138,11 +133,6 @@ app.layout = html.Div(
             html.Div(children=[
                 html.H4([
                     "Mapa",
-                    html.Img(
-                        id='show-map-modal',
-                        src="assets/question-circle-solid.svg",
-                        className='info-icon',
-                    ),
                 ], className="container_title"),
                 html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='90%', height='838'),
             ], className='twelve columns pretty_container',
@@ -158,11 +148,6 @@ app.layout = html.Div(
                 children=[
                     html.H4([
                         "Série Temporal dos Municípios Selecionados",
-                        html.Img(
-                            id='show-created-modal',
-                            src="assets/question-circle-solid.svg",
-                            className='info-icon',
-                        ),
                     ], className="container_title"),
 
                     # Radio items para selecionar status
@@ -190,11 +175,6 @@ app.layout = html.Div(
                 children=[
                     html.H4([
                         "Panorama Confirmado/Recuperados/Óbitos",
-                        html.Img(
-                            id='show-range-modal',
-                            src="assets/question-circle-solid.svg",
-                            className='info-icon',
-                        ),
                     ], className="container_title"),
                     dcc.Graph(
                         id='example-graph',
