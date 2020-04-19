@@ -26,13 +26,3 @@ pytz==2019.1
 six==1.12.0
 traitlets==4.3.2
 Werkzeug==0.15.4
-distributed
-numpy
-pandas
-pyproj
-python-snappy
-fastparquet
-requests
-fsspec>=0.3.3
-dask[dataframe]
-gunicorn
