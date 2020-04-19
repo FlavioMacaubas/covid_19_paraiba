@@ -52,44 +52,18 @@ app.layout = html.Div(
         dcc.Store(id="aggregate_data"),
 
         #### CABEÇALHO
-        html.Div(
-            [
-                html.H1(children='Covid-19 (Paraíba)¹ ² ³',
-                        className='nine columns',
-                        style={
-                            'margin-top':40,
-                        }),
-                html.Img(
-                    src=app.get_asset_url("logo_nova.jpg"),
-                    className='three columns',
-                    style={
-                        'height': '7%',
-                        'width': '7%',
-                        'float': 'right',
-                        'position': 'relative',
-                    },
-                ),
-                html.Img(
-                    src=app.get_asset_url("ufpb.png"),
-                    className='three columns',
-                    style={
-                        'height': '6%',
-                        'width': '6%',
-                        'float': 'right',
-                        'position': 'relative',
-                        'margin-top':15,
-                    },
-                ),
-                html.Div(children='''
-                        Laboratório de Inteligência Artificial e Macroeconomia Computacional (LABIMEC).
-                        ''',
-                        className='nine columns',
-                        style={
-                             'margin-bottom': 40,
-                         }
-                )
-            ], className="row"
-        ),
+        html.Div([
+            html.H1(children=[
+                'Covid-19 (Paraíba)¹²³',
+                html.A(
+                    html.Img(
+                        src="assets/logo_nova.jpg",
+                        style={'float': 'right', 'height': '150px'}
+                    ),
+
+                    href="https://dash.plot.ly/"),
+            ], style={'text-align': 'left'}),
+        ]),
 
         dcc.Markdown(children=''' > Atualizado pelo Boletim Epidemiológico nº 9 de 14/04/2020.'''),
 
@@ -99,36 +73,26 @@ app.layout = html.Div(
                 # Dropdown para selecionar cidade
                 html.Div(
                     [
-                        dcc.Markdown(children='''O gráfico de barras mostrará os dados da primeira cidade selecionada.
-                                                    Como padrão, os dados apresentados são o do Estado.'''),
-                        html.P('Escolha cidade:'),
+                        html.H4([
+                            "Escolha as cidades que deseja:",
+                            html.Img(
+                                id='show-indicator-modal',
+                                src="assets/question-circle-solid.svg",
+                                className='info-icon',
+                            ),
+                        ], className="container_title"),
+
                         dcc.Dropdown(
                             id='Cities',
                             options=cidades_pb,
-                            value =['Paraíba', 'João Pessoa'],
-                            multi = True,
+                            value=['Paraíba', 'João Pessoa'],
+                            multi=True,
                             className="dcc_control",
                         ),
-
-                        html.P('Filtrar dados por:'),
-                        dcc.RadioItems(
-                            id="situacao",
-                            options=[
-                                {"label": "Confirmados ", "value": "confirmados"},
-                                {"label": "Recuperados", "value": "recuperados"},
-                                {"label": "Óbitos ", "value": "obitos"},
-                            ],
-                            value="confirmados",
-                            labelStyle={"display": "inline-block"},
-                            className="dcc_control",
-                        )
                     ],
-                    className='six columns',
-                    style={'margin-top': '10'}
+                     className ='six columns pretty_container',
+                     id="indicator-div"
                 ),
-
-                # Radio items para selecionar status
-
 
                 html.Div(
                     [
@@ -167,33 +131,78 @@ app.layout = html.Div(
             className="row flex-display",
         ),
 
+        # Gráficos
+        html.Div(children=[
 
- # Exibe os gráficos
-        html.Div(
-            [
+            # Mapa
+            html.Div(children=[
+                html.H4([
+                    "Mapa",
+                    html.Img(
+                        id='show-map-modal',
+                        src="assets/question-circle-solid.svg",
+                        className='info-icon',
+                    ),
+                ], className="container_title"),
+                html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%', height='838'),
+            ], className='twelve columns pretty_container',
+                style={
+                    'float' : 'left',
+                    'width': '50%',
+                    'margin-right': '0',
+                },
+                id="map-div"
+            ),
 
-                html.Div([
-                    html.Div([
-                        dcc.Graph(
-                            id='example-graph'
-                        )
-                    ], className="svg-container"
+            html.Div(
+                children=[
+                    html.H4([
+                        "Série Temporal dos Municípios Selecionados",
+                        html.Img(
+                            id='show-created-modal',
+                            src="assets/question-circle-solid.svg",
+                            className='info-icon',
+                        ),
+                    ], className="container_title"),
+
+                    # Radio items para selecionar status
+                    html.P('Filtrar dados por:'),
+                    dcc.RadioItems(
+                        id="situacao",
+                        options=[
+                            {"label": "Confirmados ", "value": "confirmados"},
+                            {"label": "Recuperados", "value": "recuperados"},
+                            {"label": "Óbitos ", "value": "obitos"},
+                        ],
+                        value="confirmados",
+                        labelStyle={"display": "inline-block"},
+                        className="dcc_control",
                     ),
 
-                    html.Div([
-                        dcc.Graph(
-                            id='example-graph-2'
-                        )
-                    ], className="svg-container"
-                    )
-                ]),
+                    dcc.Graph(
+                        id='example-graph-2',
+                    ),
+                ], style={'float': 'right'},
+                className='six columns pretty_container', id="created-div"
+            ),
 
-                html.Div([
-                    html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='330%', height='800'),
-                ], className="svg-container"),
-
-            ], className="row flex-display",
-        ),
+            html.Div(
+                children=[
+                    html.H4([
+                        "Panorama Confirmado/Recuperados/Óbitos",
+                        html.Img(
+                            id='show-range-modal',
+                            src="assets/question-circle-solid.svg",
+                            className='info-icon',
+                        ),
+                    ], className="container_title"),
+                    dcc.Graph(
+                        id='example-graph',
+                    ),
+                ], style={'float': 'right'},
+                className='six columns pretty_container', id="range-div"
+            ),
+        ]),
 
 
         # Notas de roda pé
@@ -219,12 +228,10 @@ app.layout = html.Div(
                 children='''
           ³ O Dashboard não substitui, sob qualquer hipótese, os dados oficiais do Governo do Estado da Paraíba.
           ''')
-        ], className = "six columns")
+        ])
 
-    ], id="mainContainer",
-    style={"display": "flex", "flex-direction": "column"})
-
-
+    ], id="mainContainer", style={"display": "flex", "flex-direction": "column"}
+    )
 )
 
 
@@ -251,8 +258,7 @@ def update_image_src(selector):
     figure = {
         'data': data,
         'layout': {
-            'title': 'Panorama Confirmados/Recuperados/Óbitos {}'.format(selector[0]),
-            'height': 400,
+            'height': 350,
             'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
@@ -276,6 +282,8 @@ def update_image_src(selector):
     dash.dependencies.Output('example-graph-2', 'figure'),
     [dash.dependencies.Input('Cities', 'value'), dash.dependencies.Input('situacao','value')])
 def update_image_src(selector, situacao):
+    if len(selector) == 0:
+        selector.append('Paraíba')
     data = []
     for city in selector:
         data.append({'x': city_data[city]['dias'], 'y': city_data[city][situacao],
@@ -283,8 +291,7 @@ def update_image_src(selector, situacao):
     figure = {
         'data': data,
         'layout': {
-            'title': 'Série Temporal - Quantidade de {}'.format(situacao),
-            'height': 400,
+            'height': 350,
             'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
@@ -311,10 +318,14 @@ def update_image_src(selector, situacao):
         Output("oilText", "children"),
         Output("waterText", "children"),
     ],
-    [Input("aggregate_data", "data")],
+    [Input("aggregate_data", "data"), dash.dependencies.Input('Cities', 'value')],
 )
-def update_text(data):
-    return '---', city_data['Paraíba']['confirmados'][-1], city_data['Paraíba']['recuperados'][-1],city_data['Paraíba']['obitos'][-1]
+def update_text(data, selector):
+    if len(selector) == 0:
+        selecionado = 'Paraíba'
+    else:
+        selecionado = selector[0]
+    return '---', city_data[selecionado]['confirmados'][-1], city_data[selecionado]['recuperados'][-1],city_data[selecionado]['obitos'][-1]
 
 if __name__ == '__main__':
     app.run_server()
