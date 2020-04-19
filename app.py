@@ -65,7 +65,11 @@ app.layout = html.Div(
             ], style={'text-align': 'left'}),
         ]),
 
-        dcc.Markdown(children=''' > Atualizado pelo Boletim Epidemiológico nº 9 de 14/04/2020.'''),
+        dcc.Markdown(children=
+                     ''' > Atualizado pelo Boletim Epidemiológico nº 9 de 14/04/2020.
+                            
+                         > Para uma melhor experiência, acesse por seu computador.
+        '''),
 
         # Containers para mostrar os valores
         html.Div(
