@@ -127,7 +127,7 @@ app.layout = html.Div(
         ),
         
         #Gráficos
-        html.div(children=[
+        html.Div(children=[
              html.Div(
                 children=[
                     html.H4([
