@@ -145,6 +145,11 @@ app.layout = html.Div(
 
                     href="https://dash.plot.ly/"),
             ], style={'text-align': 'left'}),
+          
+            html.H6(children=[
+                'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC'
+            ], style={'text-align': 'left'}),
+          
         ]),
 
         dcc.Markdown(children=
@@ -423,7 +428,9 @@ def update_text(data, selector):
         selecionado = 'Paraíba'
     else:
         selecionado = selector[0]
-    return '---', city_data[selecionado]['confirmados'][-1], city_data[selecionado]['recuperados'][-1], \
+    return (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] - city_data[selecionado]['obitos'][-1]), \
+           city_data[selecionado]['confirmados'][-1], \
+           city_data[selecionado]['recuperados'][-1],\
            city_data[selecionado]['obitos'][-1]
 
 
