@@ -45,7 +45,7 @@ city_data = {
                        'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
                        'obitos':[0,0,0,0,0,0,0,0,0,0,1,1,1,2]},
   
-    'Iguaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1],
+    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1],
                  'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0], 
                  'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
   
@@ -102,7 +102,7 @@ cidades_pb = [
     {'label': 'Patos', 'value': 'Patos'},
     {'label': 'Junco do Seridó', 'value': 'Junco do Seridó'},
     {'label': 'Campina Grande', 'value': 'Campina Grande'},
-    {'label': 'Iguaracy', 'value': 'Iguaracy'},
+    {'label': 'Igaracy', 'value': 'Igaracy'},
     {'label': 'Sousa', 'value': 'Sousa'},
     {'label': 'Serra Branca', 'value': 'Serra Branca'},
     {'label': 'Santa Rita', 'value': 'Santa Rita'},
