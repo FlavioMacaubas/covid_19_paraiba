@@ -447,12 +447,6 @@ app.layout = html.Div(
                     html.Span(" "),
                     html.Span("São Bento", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
-
-                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
                 ]),
             ], className="three columns pretty_container", style={'text-align': 'left', 'height': 520}),
         ]),
