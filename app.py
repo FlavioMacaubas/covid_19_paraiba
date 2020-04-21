@@ -12,92 +12,93 @@ server = app.server
 app.title = "Covid-19 Paraíba"
 
 eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020',
-             '04-04-2020', '07-04-2020','08-04-2020','13-04-2020',
+             '04-04-2020', '07-04-2020', '08-04-2020', '13-04-2020',
              '14-04-2020', '15-04-2020', '16-04-2020', '17-04-2020',
              '18-04-2020', '19-04-2020', '20-04-2020']
 
 city_data = {
-    'Paraíba': {'dias': eixo_dias, 'confirmados': [17, 20, 28,30,34,41,55,136, 152, 165,195,205,236,245, 263],
-                'recuperados':[3,3,3,3,9,11,14,52,52,80,80,90,90,99, 116],
-                'obitos':[0,1,1,1,3,4,7,14,21,24,26,28,29,32,33]},
+    'Paraíba': {'dias': eixo_dias, 'confirmados': [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263],
+                'recuperados': [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116],
+                'obitos': [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33]},
 
-    'João Pessoa': {'dias': eixo_dias, 'confirmados': [12, 14, 22, 24,26,30,40,103,115,124,142,148,163,172,185], 
-                    'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], 
-                    'obitos':[0,0,0,0,1,2,4,9,12,14,14,15,15,17,18]},
-  
-    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,1,4,4,4,6,6,8,8,9], 
-               'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-               'obitos':[0,0,0,0,0,0,0,0,1,1,1,1,1,1,1]},
-  
-    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1,1,2,5,5,6,7,8,9,9,11], 
-                 'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                 'obitos':[0,0,0,0,0,0,1,2,2,2,2,2,2,2,2]},
-  
-    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1,0,1,1,1,4,4,4,5,5,7,8,8], 
-              'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-              'obitos':[0,1,1,1,1,1,1,1,1,1,2,2,2,2,2]},
-  
-    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,1,1,1,3,3,3,3,3,3,3,3], 
-                        'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                        'obitos':[0,0,0,0,1,1,1,1,1,1,1,1,1,1,1]},
-  
-    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2,3,3,3,3,4,8,8,12,12,12], 
-                       'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                       'obitos':[0,0,0,0,0,0,0,0,0,0,1,1,1,2,2]},
-  
-    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1,1],
-                 'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], 
-                 'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1,1,1,1,1,1,1,1,1,1,1,1], 
-              'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-              'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,1,1,1,1,1,1,1,1,1,1,1], 
-                     'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                     'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Santa Rita': {'dias': eixo_dias, 
-                   'confirmados': [0, 0, 0, 0,0,2,4,10,12,14,17,17,21,20,20], 
-                   'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                   'obitos':[0,0,0,0,0,0,0,0,1,1,1,1,2,2,2]},
-  
-    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,1,1,1,1,1,1,2,2,3], 
-             'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-             'obitos':[0,0,0,0,0,0,0,0,0,0,1,1,1,1,1]},
-  
-    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,1,1,1,1,1,1,1,1], 
-                'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                'obitos':[0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1]},
-  
-    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,1,1,1,1,1,1,1], 
-                                 'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                                 'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,1,2,2,2,2], 
-               'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-               'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,0,1,1,1,1], 
-                        'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                        'obitos':[0,0,0,0,0,0,0,0,0,0,0,1,1,1,1]},
-  
-    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,0,1,1,1,1], 
-                  'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                  'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,0,0,1,1,1], 
-              'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-              'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,0,0,1,1,1], 
-                  'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                  'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
-    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,1], 
-                  'recuperados':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                  'obitos':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
-  
+    'João Pessoa': {'dias': eixo_dias,
+                    'confirmados': [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    'obitos': [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20]},
+
+    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]},
+
+    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11],
+                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 'obitos': [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2]},
+
+    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2]},
+
+    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        'obitos': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
+
+    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12],
+                       'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                       'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2]},
+
+    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                     'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                     'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Santa Rita': {'dias': eixo_dias,
+                   'confirmados': [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20],
+                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2]},
+
+    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3],
+             'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+             'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]},
+
+    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]},
+
+    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1],
+                                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]},
+
+    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
 }
 
 cidades_pb = [
@@ -122,6 +123,7 @@ cidades_pb = [
     {'label': 'Queimadas', 'value': 'Queimadas'},
     {'label': 'Bom Jesus', 'value': 'Bom Jesus'}
 ]
+
 
 def build_modal_info_overlay(id, side, content):
     """
@@ -156,18 +158,17 @@ def build_modal_info_overlay(id, side, content):
 
     return div
 
+
 app.layout = html.Div(
     html.Div([
         build_modal_info_overlay('indicator', 'bottom', dedent("""
     A _**Escolha de Cidades**_ é um painel em que você pode selecionar os municípios que você
     deseja ver a evolução do covid-19. Como padrão, mostrará os valores da Paraíba e de 
     João Pessoa.
-
     A primeira opção selecionada indicará qual informação deve ser mostrada nos
      quadros de valores (suspeitos, confirmados, recuperados e óbitos). Dessa forma, caso
      você queira ver os dados do seu município no Panorama e nos quadros de valores, você deve
      deixá-lo como primeira opção.
-
      A filtragem funciona apenas para o gráfico de Série Temporal. Ainda não é possível encontrar dados
      de recuperados por município, caso você tenha essa informação e/ou esse meio, entrar em contato em dos
      emails da nota de roda pé.
@@ -176,7 +177,6 @@ app.layout = html.Div(
         build_modal_info_overlay('map', 'bottom', dedent("""
     O _**Mapa**_ destaca os municípios que tiveram casos confirmados de covid-19 no estado
     da Paraíba. Ao clicar em um território, você pode visualizar informações detalhadas da região. 
-
     Os mapas são organizados pela paleta de vermelho, quanto mais escuro mais casos relativamente ao total
     de casos no estado, quanto mais claro, menos caso relativo a quantidade total de casos do estado.
     """)),
@@ -199,23 +199,22 @@ app.layout = html.Div(
                 'Covid-19 (Paraíba)¹²³',
                 html.A(
                     html.Img(
-                        src="assets/logo_nova.jpg",
+                        src="assets/logo_nova-removebg.png",
                         style={'float': 'right', 'height': '150px'}
                     ),
 
                     href="https://dash.plot.ly/"),
             ], style={'text-align': 'left'}),
-          
+
             html.H6(children=[
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC'
             ], style={'text-align': 'left'}),
-          
+
         ]),
 
         dcc.Markdown(children=
                      ''' > Atualização Covid-19 20/04 às 17h. Para melhor experiência acesse pelo computador.
 
-                         
         '''),
 
         # Containers para mostrar os valores
@@ -254,8 +253,8 @@ app.layout = html.Div(
                             className="dcc_control",
                         ),
                     ],
-                     className ='six columns pretty_container',
-                     id="indicator-div"
+                    className='six columns pretty_container',
+                    id="indicator-div"
                 ),
 
                 html.Div(
@@ -320,7 +319,7 @@ app.layout = html.Div(
             html.Div(
                 children=[
                     html.H4([
-                        "Panorama Confirmado/Recuperados/Óbitos",
+                        "Panorama Confirmados/Recuperados/Óbitos",
                         html.Img(
                             id='show-range-modal',
                             src="assets/question-circle-solid.svg",
@@ -347,14 +346,115 @@ app.layout = html.Div(
                     ),
                 ], className="container_title"),
                 html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%', height='600'),
-            ], className='twelve columns pretty_container',
+            ], className='nine columns pretty_container',
                 style={
-                    'float' : 'left',
+                    'float': 'left',
                     'width': '97%',
                     'margin-right': '0',
                 },
                 id="map-div"
             ),
+
+            html.Div([
+                html.H6(["Total de Casos Confirmados"], style={'text-align': 'center'}),
+                html.H3([city_data['Paraíba']['confirmados'][-1]], id = 'total_casos', style={'text-align': 'center',
+                                                                                              'color':'crimson',
+                                                                                              'margin-top':2}),
+            ], className = "three columns pretty_container"),
+
+            html.Div([
+                html.Ul([
+                    html.Strong([city_data['João Pessoa']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("João Pessoa", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Santa Rita']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Santa Rita", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Campina Grande", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Cabedelo']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Cabedelo", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Bayeux']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Bayeux", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Patos']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Patos", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Sapé']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Sapé", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Junco do Seridó']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Junco do Seridó", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Pombal']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Pombal", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Igaracy']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Igaracy", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Sousa']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Sousa", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Queimadas']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Queimadas", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['Congo']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Congo", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['São Bento']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("São Bento", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+
+                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+                ]),
+            ], className="three columns pretty_container", style={'text-align': 'left', 'height': 520}),
         ]),
 
         # Notas de roda pé
@@ -362,7 +462,7 @@ app.layout = html.Div(
             dcc.Markdown(
                 children='''
            ¹ O Dashboard apresentado trata-se de uma iniciativa do Laboratório da Inteligência Artificial e Macroeconomia Computacional (LABIMEC), 
-             ainda em versão de testes. O propósito é facilitar a visualização do coronavírus no estado da Paraíba e em seus municípios. Futuras funcionalidades
+             ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Futuras funcionalidades
              estão sendo implementadas pela equipe do laboratório, para sugestões entrar em contato nos seguintes emails:
              * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
              * flaviomacaubas@gmail.com - Membro do LABIMEC
@@ -388,14 +488,15 @@ app.layout = html.Div(
 # Adiciona e remove os dados de ajuda
 for id in ['indicator', 'map', 'range', 'created']:
     @app.callback([Output(f"{id}-modal", 'style'), Output(f"{id}-div", 'style')],
-                    [Input(f'show-{id}-modal', 'n_clicks'),
-                    Input(f'close-{id}-modal', 'n_clicks')])
+                  [Input(f'show-{id}-modal', 'n_clicks'),
+                   Input(f'close-{id}-modal', 'n_clicks')])
     def toggle_modal(n_show, n_close):
         ctx = dash.callback_context
         if ctx.triggered and ctx.triggered[0]['prop_id'].startswith('show-'):
             return {"display": "block"}, {'zIndex': 1003}
         else:
             return {"display": "none"}, {'zIndex': 0}
+
 
 # Atualiza gráfico de barras
 @app.callback(
@@ -473,7 +574,6 @@ def update_image_src(selector, situacao):
     }
     return figure
 
-
 @app.callback(
     [
         Output("well_text", "children"),
@@ -488,11 +588,11 @@ def update_text(data, selector):
         selecionado = 'Paraíba'
     else:
         selecionado = selector[0]
-    return (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] - city_data[selecionado]['obitos'][-1]), \
+    return (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] -
+            city_data[selecionado]['obitos'][-1]), \
            city_data[selecionado]['confirmados'][-1], \
-           city_data[selecionado]['recuperados'][-1],\
+           city_data[selecionado]['recuperados'][-1], \
            city_data[selecionado]['obitos'][-1]
-
 
 if __name__ == '__main__':
     app.run_server()
