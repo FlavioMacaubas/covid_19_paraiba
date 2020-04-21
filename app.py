@@ -213,7 +213,7 @@ app.layout = html.Div(
         ]),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 20/04 às 17h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Boletim Epidemiológico 21/04 às 17h. Para melhor experiência acesse pelo computador.
 
         '''),
 
