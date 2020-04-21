@@ -136,11 +136,11 @@ cidades_pb = [
     {'label': 'São Bento', 'value': 'São Bento'},
     {'label': 'Congo', 'value': 'Congo'},
     {'label': 'Queimadas', 'value': 'Queimadas'},
-    {'label': 'Bom Jesus', 'value': 'Bom Jesus'}
-    {'label': 'Cajazeiras', 'value': 'Cajazeiras'}
-    {'label': 'Itabaiana', 'value': 'Itabaiana'}
-    {'label': 'Cruz do Espírito Santo', 'value': 'Cruz do Espírito Santo'}
-    {'label': 'Conde', 'value': 'Conde'}
+    {'label': 'Bom Jesus', 'value': 'Bom Jesus'},
+    {'label': 'Cajazeiras', 'value': 'Cajazeiras'},
+    {'label': 'Itabaiana', 'value': 'Itabaiana'},
+    {'label': 'Cruz do Espírito Santo', 'value': 'Cruz do Espírito Santo'},
+    {'label': 'Conde', 'value': 'Conde'},
 ]
 
 
