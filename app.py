@@ -469,17 +469,17 @@ app.layout = html.Div(
                         html.Span(" "),
                         html.Span("Pombal", style={'font-size': 20}),
                         html.Hr(style={'margin': 0}),
-
-                        html.Strong([city_data['Igaracy']['confirmados'][-1]],
-                                    style={'color': 'crimson', 'font-size': 20}),
-                        html.Span(" "),
-                        html.Span("Igaracy", style={'font-size': 20}),
-                        html.Hr(style={'margin': 0}),
-
+                                              
                         html.Strong([city_data['Sousa']['confirmados'][-1]],
                                     style={'color': 'crimson', 'font-size': 20}),
                         html.Span(" "),
                         html.Span("Sousa", style={'font-size': 20}),
+                        html.Hr(style={'margin': 0}),
+                      
+                        html.Strong([city_data['Igaracy']['confirmados'][-1]],
+                                    style={'color': 'crimson', 'font-size': 20}),
+                        html.Span(" "),
+                        html.Span("Igaracy", style={'font-size': 20}),
                         html.Hr(style={'margin': 0}),
 
                         html.Strong([city_data['Queimadas']['confirmados'][-1]],
