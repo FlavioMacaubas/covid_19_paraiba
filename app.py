@@ -225,11 +225,12 @@ app.layout = html.Div(
                         style={'float': 'right', 'height': '150px'}
                     ),
 
-                    href="https://dash.plot.ly/"),
+                    href="https://www.instagram.com/labimec/"),
             ], style={'text-align': 'left'}),
 
             html.H6(children=[
-                'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC'
+                'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
+              href="https://www.instagram.com/labimec/",
             ], style={'text-align': 'left'}),
 
         ]),
