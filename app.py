@@ -230,7 +230,6 @@ app.layout = html.Div(
 
             html.H6(children=[
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
-              href="https://www.instagram.com/labimec/",
             ], style={'text-align': 'left'}),
 
         ]),
