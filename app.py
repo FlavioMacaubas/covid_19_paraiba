@@ -354,7 +354,7 @@ app.layout = html.Div(
                 ],
                 className='six columns pretty_container', id="range-div"
             ),
-        ], style={"zIndex":-1})),
+        ], style={"zIndex":-1}),
 
         # Mapa
         html.Div(children=[
