@@ -507,6 +507,12 @@ app.layout = html.Div(
                     html.Span(" "),
                     html.Span("São João do Rio do Peixe", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
+                  
+                    html.Strong([city_data['Itapororoca']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Itapororoca", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
 
                     html.Strong([city_data['Igaracy']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
@@ -568,11 +574,6 @@ app.layout = html.Div(
                     html.Span("Conde", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
                   
-                    html.Strong([city_data['Itapororoca']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Itapororoca", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
 
                 ], className="control-tab"),
 
