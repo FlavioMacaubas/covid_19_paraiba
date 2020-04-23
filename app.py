@@ -293,7 +293,7 @@ app.layout = html.Div(
                             className="dcc_control",
                         ),
                     ],
-                    className='five columns pretty_container',
+                    className='six columns pretty_container',
                     id="indicator-div"
                 ),
 
