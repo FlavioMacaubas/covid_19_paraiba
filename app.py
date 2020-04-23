@@ -625,7 +625,10 @@ def update_image_src(selector):
                     family='Helvetica, monospace',
                     size=20,
                     color='#7f7f7f'
-                ))
+                )),
+            'barmode' : 'group',
+            'bargap' : 0.2,  
+            'bargroupgap' : 0.15,  
         }
     }
     return figure
