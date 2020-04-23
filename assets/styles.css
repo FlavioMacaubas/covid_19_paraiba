@@ -127,6 +127,10 @@ body {
   flex: 1;
 }
 
+#mortalidade {
+  flex:1;
+}
+
 #tripleContainer {
   display: flex;
   flex: 3;
