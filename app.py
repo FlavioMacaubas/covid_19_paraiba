@@ -766,6 +766,8 @@ def update_text(data, selector):
 
     novos_confirmados = ( city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['confirmados'][-2] ) * 100 / confirmados_inicial
 
+    novos_recuperados = ( city_data[selecionado]['recuperados'][-1] - city_data[selecionado]['recuperados'][-2] ) * 100 / recuperados_inicial
+
     novos_obitos = ( city_data[selecionado]['obitos'][-1] - city_data[selecionado]['obitos'][-2] ) * 100 / obitos_inicial
 
 
@@ -779,7 +781,7 @@ def update_text(data, selector):
            "{}".format(city_data[selecionado]['obitos'][-1]), \
            formata_saida(novos_obitos), \
            "{:.1f}%".format(mortalidade_atual), \
-           formata_saida(variacao_mortalidade)
+           formata_saida(variacao_mortalidade),
 
 
 @app.callback(
