@@ -694,11 +694,11 @@ def update_text(data, selector):
 
     def formata_saida(valor):
         if valor > 0:
-            return "▲ {:.2f}%".format(valor)
+            return "▲ {:.1f}%".format(valor)
         elif valor == 0:
-            return "{:.2f}%".format(valor)
+            return "{:.1f}%".format(valor)
         else:
-            return "▼ {:.2f}%".format(valor)
+            return "▼ {:.1f}%".format(valor)
 
     if len(selector) == 0:
         selecionado = 'Paraíba'
