@@ -338,13 +338,6 @@ app.layout = html.Div(
                                     id="mortalidade",
                                     className="mini_container",
                                 ),
-                                html.Div(
-                                    [html.H4(id="recuperacaoText", style={'text-align': 'center'}),
-                                     html.P(id="recuperacao_perc", style={'text-align': 'center'}),
-                                     html.P("Recuperação", style={'text-align': 'center'})],
-                                    id="recuperacao",
-                                    className="mini_container",
-                                ),
                             ],
                             id="info-container",
                             className="row container-display",
@@ -702,8 +695,6 @@ def update_image_src(selector, situacao):
         Output("water_perc", "children"),
         Output("mortalidadeText", "children"),
         Output("mortalidade_perc", "children"),
-        Output("recuperacaoText", "children"),
-        Output("recuperacao_perc", "children"),
     ],
     [Input("aggregate_data", "data"), dash.dependencies.Input('Cities', 'value')],
 )
@@ -763,11 +754,6 @@ def update_text(data, selector):
 
     variacao_mortalidade = ( ( mortalidade_atual - mortalidade_passado)* 100 )/ mortalidade_passado
 
-    recuperacao_atual = ( city_data[selecionado]['recuperados'][-1]/confirmados_final ) * 100
-    recuperacao_passado = (city_data[selecionado]['recuperados'][-2]/confirmados_passado) * 100
-
-    variacao_recuperacao = ( ( recuperacao_atual - recuperacao_passado)* 100 )/ recuperacao_passado
-
     # Dados de sáida
 
     ativos = (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] -
@@ -779,8 +765,6 @@ def update_text(data, selector):
 
 
     novos_confirmados = ( city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['confirmados'][-2] ) * 100 / confirmados_inicial
-
-    novos_recuperados = ( city_data[selecionado]['recuperados'][-1] - city_data[selecionado]['recuperados'][-2] ) * 100 / recuperados_inicial
 
     novos_obitos = ( city_data[selecionado]['obitos'][-1] - city_data[selecionado]['obitos'][-2] ) * 100 / obitos_inicial
 
@@ -795,9 +779,7 @@ def update_text(data, selector):
            "{}".format(city_data[selecionado]['obitos'][-1]), \
            formata_saida(novos_obitos), \
            "{:.1f}%".format(mortalidade_atual), \
-           formata_saida(variacao_mortalidade), \
-           "{:.1f}%".format(recuperacao_atual), \
-           formata_saida(variacao_recuperacao)
+           formata_saida(variacao_mortalidade)
 
 
 @app.callback(
@@ -807,7 +789,6 @@ def update_text(data, selector):
         Output('oil_perc', 'style'),
         Output('water_perc', 'style'),
         Output('mortalidade_perc', 'style'),
-        Output('recuperacao_perc', 'style'),
     ],
     [
         Input("well_perc", "children"),
@@ -815,11 +796,10 @@ def update_text(data, selector):
         Input("oil_perc", "children"),
         Input("water_perc", "children"),
         Input("mortalidade_perc", "children"),
-        Input("recuperacao_perc", "children")
     ])
-def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade, valor_recuperacao):
+def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade):
     lista_styles=[]
-    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade, valor_recuperacao]:
+    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade]:
         if "▲" in valores:
             lista_styles.append([{'text-align': 'center', 'color':'green'}])
         elif "▼" in valores:
@@ -827,7 +807,7 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
         else:
             lista_styles.append([{'text-align': 'center', 'color':'black'}])
 
-    return lista_styles[0][0], lista_styles[1][0], lista_styles[2][0], lista_styles[3][0], lista_styles[4][0], lista_styles[5][0]
+    return lista_styles[0][0], lista_styles[1][0], lista_styles[2][0], lista_styles[3][0], lista_styles[4][0]
   
 if __name__ == '__main__':
     app.run_server()
