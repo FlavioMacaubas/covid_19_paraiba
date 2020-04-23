@@ -15,123 +15,128 @@ eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020',
              '04-04-2020', '07-04-2020', '08-04-2020', '13-04-2020',
              '14-04-2020', '15-04-2020', '16-04-2020', '17-04-2020',
              '18-04-2020', '19-04-2020', '20-04-2020', '21-04-2020',
-             '22-04-2020']
+             '22-04-2020', '23-04-2020']
 
 city_data = {
     'Paraíba': {'dias': eixo_dias,
-                'confirmados': [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263, 301, 345],
-                'recuperados': [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116, 116, 116],
-                'obitos': [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33, 39, 40]},
+                'confirmados': [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263, 301, 345,386],
+                'recuperados': [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116, 116, 116,116],
+                'obitos': [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33, 39, 40,44]},
 
     'João Pessoa': {'dias': eixo_dias,
-                    'confirmados': [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185, 205, 230],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                    'obitos': [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20, 25, 25]},
+                    'confirmados': [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185, 205, 230,254],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                    'obitos': [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20, 25, 25,28]},
+  
+    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12, 20, 24,30],
+                       'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                       'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2,2]},
 
     'Santa Rita': {'dias': eixo_dias,
-                   'confirmados': [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20, 24, 25],
-                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3]},
+                   'confirmados': [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20, 24, 25,25],
+                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3,4]},
 
-    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12, 20, 24],
-                       'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                       'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2]},
+    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11, 12, 15,15],
+                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                 'obitos': [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,2]},
 
-    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11, 12, 15],
-                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                 'obitos': [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0]},
+    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9, 9, 10,10],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
+  
+    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 8,10],
+             'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+             'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,1]},
+  
+    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8, 8, 8,8],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+              'obitos': [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2,2]},
+  
+    'Cajazeiras': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2,4],
+                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1]},
+  
+    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2,4],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9, 9, 10],
-               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
+    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,3],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                        'obitos': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
+  
+    'Guarabira': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,3],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8, 8, 8],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              'obitos': [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2]},
+    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
-                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        'obitos': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
 
-    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 8],
-             'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-             'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]},
+    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
+                     'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                     'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
 
-    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+                                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                                 'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-                     'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                     'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
+    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1]},
 
-    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-                                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                                 'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2],
-               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
-                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]},
+    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Itabaiana': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Cruz do Espírito Santo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
+                               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Conde': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Cajazeiras': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2],
-                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]},
+    'Itapororoca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,2],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Itabaiana': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Barra de São Miguel': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
+                            'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                            'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Cruz do Espírito Santo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
-                               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+    'Alagoa Nova': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
 
-    'Conde': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Itapororoca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Barra de São Miguel': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                            'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Alagoa Nova': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Coremas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+    'Coremas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]}
 }
 
 cidades_pb = [
@@ -163,6 +168,7 @@ cidades_pb = [
     {'label': 'Barra de São Miguel', 'value': 'Barra de São Miguel'},
     {'label': 'Alagoa Nova', 'value': 'Alagoa Nova'},
     {'label': 'Coremas', 'value': 'Coremas'},
+    {'label': 'Guarabira', 'value': 'Guarabira'},
 ]
 
 
@@ -430,16 +436,16 @@ app.layout = html.Div(
                     html.Span("João Pessoa", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
+                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
+                               style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Campina Grande", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+                  
                     html.Strong([city_data['Santa Rita']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
                     html.Span("Santa Rita", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-
-                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Campina Grande", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
                     html.Strong([city_data['Cabedelo']['confirmados'][-1]],
@@ -454,28 +460,40 @@ app.layout = html.Div(
                     html.Span("Bayeux", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
+                    html.Strong([city_data['Sapé']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Sapé", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+                  
                     html.Strong([city_data['Patos']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
                     html.Span("Patos", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
-                    html.Strong([city_data['Sapé']['confirmados'][-1]],
+                    html.Strong([city_data['Cajazeiras']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
-                    html.Span("Sapé", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                    html.Span("Cajazeiras", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),                  
 
+                    html.Strong([city_data['Sousa']['confirmados'][-1]],
+                                style={'color': 'crimson', 'font-size': 20}),
+                    html.Span(" "),
+                    html.Span("Sousa", style={'font-size': 20}),
+                    html.Hr(style={'margin': 0}),
+                  
                     html.Strong([city_data['Junco do Seridó']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
                     html.Span("Junco do Seridó", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
-
-                    html.Strong([city_data['Cajazeiras']['confirmados'][-1]],
+                  
+                    html.Strong([city_data['Guarabira']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
-                    html.Span("Cajazeiras", style={'font-size': 20}),
+                    html.Span("Guarabira", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
                     html.Strong([city_data['Pombal']['confirmados'][-1]],
@@ -483,11 +501,11 @@ app.layout = html.Div(
                     html.Span(" "),
                     html.Span("Pombal", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
-
-                    html.Strong([city_data['Sousa']['confirmados'][-1]],
+                                       
+                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
-                    html.Span("Sousa", style={'font-size': 20}),
+                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
                     html.Strong([city_data['Igaracy']['confirmados'][-1]],
@@ -512,12 +530,6 @@ app.layout = html.Div(
                                 style={'color': 'crimson', 'font-size': 20}),
                     html.Span(" "),
                     html.Span("São Bento", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-
-                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
                     html.Hr(style={'margin': 0}),
 
                     html.Strong([city_data['Taperoá']['confirmados'][-1]],
