@@ -567,7 +567,7 @@ app.layout = html.Div(
             dcc.Markdown(
                 children='''
            ¹ O Dashboard apresentado trata-se de uma iniciativa do Laboratório da Inteligência Artificial e Macroeconomia Computacional (LABIMEC), 
-             ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Futuras funcionalidades
+             ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Algumas funcionalidades
              estão sendo implementadas pela equipe do laboratório, para sugestões entrar em contato nos seguintes emails:
              * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
              * flaviomacaubas@gmail.com - Membro do LABIMEC
@@ -576,7 +576,7 @@ app.layout = html.Div(
             dcc.Markdown(
                 children='''
            ² Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
-            da Secretaria de Saúde de Estado da Paraíba. Não há dados de recuperados discriminado por município, por esta razão não é possível gerar 
+            da Secretaria de Saúde de Estado da Paraíba. Não há dados de recuperados discriminados por município, por esta razão não é possível gerar 
             os gráficos de série temporal.
            '''),
 
