@@ -9,134 +9,130 @@ from textwrap import dedent
 
 app = dash.Dash(__name__)
 server = app.server
-app.title = "Covid-19 Paraíba"
+app.title = "Covid-19 PB-BR"
 
+## Preparação Paraíba - Começo ##
 eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020',
              '04-04-2020', '07-04-2020', '08-04-2020', '13-04-2020',
              '14-04-2020', '15-04-2020', '16-04-2020', '17-04-2020',
              '18-04-2020', '19-04-2020', '20-04-2020', '21-04-2020',
-             '22-04-2020', '23-04-2020']
+             '22-04-2020']
 
 city_data = {
     'Paraíba': {'dias': eixo_dias,
-                'confirmados': [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263, 301, 345,386],
-                'recuperados': [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116, 116, 116,116],
-                'obitos': [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33, 39, 40,44]},
+                'confirmados': [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263, 301, 345],
+                'recuperados': [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116, 116, 116],
+                'obitos': [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33, 39, 40]},
 
     'João Pessoa': {'dias': eixo_dias,
-                    'confirmados': [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185, 205, 230,254],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                    'obitos': [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20, 25, 25,28]},
-  
-    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12, 20, 24,30],
-                       'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                       'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2,2]},
+                    'confirmados': [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185, 205, 230],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    'obitos': [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20, 25, 25]},
 
     'Santa Rita': {'dias': eixo_dias,
-                   'confirmados': [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20, 24, 25,25],
-                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3,4]},
+                   'confirmados': [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20, 24, 25],
+                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3]},
 
-    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11, 12, 15,15],
-                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                 'obitos': [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,2]},
+    'Campina Grande': {'dias': eixo_dias, 'confirmados': [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12, 20, 24],
+                       'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                       'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2]},
 
-    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9, 9, 10,10],
-               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-  
-    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 8,10],
-             'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-             'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,1]},
-  
-    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8, 8, 8,8],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos': [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2,2]},
-  
-    'Cajazeiras': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2,4],
-                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1]},
-  
-    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2,4],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Cabedelo': {'dias': eixo_dias, 'confirmados': [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11, 12, 15],
+                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 'obitos': [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]},
 
-    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,3],
-                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                        'obitos': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-  
-    'Guarabira': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,3],
-                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Bayeux': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9, 9, 10],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
 
-    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Patos': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8, 8, 8],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2]},
 
+    'Junco do Seridó': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        'obitos': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
 
-    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                     'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                     'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Sapé': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 8],
+             'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+             'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]},
 
-    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
+    'Igaracy': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
-                                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                                 'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Sousa': {'dias': eixo_dias, 'confirmados': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2],
-               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Serra Branca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                     'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                     'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1],
-                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1]},
+    'Taperoá': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]},
 
-    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                                 'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,1],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Pombal': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2],
+               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Riachão do Poço': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+                        'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]},
 
-    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'São Bento': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Itabaiana': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
-                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Congo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Cruz do Espírito Santo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
-                               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Queimadas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Conde': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,1],
-              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Bom Jesus': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Itapororoca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,2],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Cajazeiras': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2],
+                   'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                   'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]},
 
-    'Barra de São Miguel': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                            'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                            'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Itabaiana': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+                  'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Alagoa Nova': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
+    'Cruz do Espírito Santo': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+                               'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                               'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
 
-    'Coremas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]}
+    'Conde': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+              'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+              'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Itapororoca': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Barra de São Miguel': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                            'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Alagoa Nova': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                    'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
+
+    'Coremas': {'dias': eixo_dias, 'confirmados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+                'recuperados': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                'obitos': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
 }
 
 cidades_pb = [
@@ -168,9 +164,8 @@ cidades_pb = [
     {'label': 'Barra de São Miguel', 'value': 'Barra de São Miguel'},
     {'label': 'Alagoa Nova', 'value': 'Alagoa Nova'},
     {'label': 'Coremas', 'value': 'Coremas'},
-    {'label': 'Guarabira', 'value': 'Guarabira'},
 ]
-
+## Preparação Paraíba - Fim ##
 
 ## Preparação Brasil - Começo ##
 df = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv', error_bad_lines = False)
@@ -267,7 +262,7 @@ app.layout = html.Div(
         #### CABEÇALHO
         html.Div([
             html.H1(children=[
-                'Covid-19 (Paraíba)¹²³',
+                'Covid-19 (Paraíba - Brasil)¹²³',
                 html.A(
                     html.Img(
                         src="assets/logo_nova-removebg.png",
@@ -281,13 +276,10 @@ app.layout = html.Div(
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
             ], style={'text-align': 'left'}),
 
-        ]),
+        ], className = 'banner'),
 
         dcc.Markdown(children=
                      ''' > Atualização Covid-19 22/04 às 20h. Para melhor experiência acesse pelo computador.
-        '''),
-        dcc.Markdown(children=
-                     ''' > Fonte dados do Brasil: https://github.com/wcota/covid19br (dados oficiais do Ministério da Saúde).
         '''),
 
         dcc.Tabs([
@@ -299,22 +291,21 @@ app.layout = html.Div(
                     [
                         html.Div(
                             [
+
+                                html.H4([
+                                            "Escolha a cidade:",
+                                        ]),
+
+                                dcc.Dropdown(
+                                            id='cidades_menu',
+                                            options=cidades_pb,
+                                            value='Paraíba',
+                                            className="dcc_control",
+                                            ),
+
+
                                 html.Div(
                                     [
-                                        html.Div(
-                                            [
-                                                html.H4([
-                                                    "Escolha as cidades que deseja:",
-                                                ]),
-
-                                                dcc.Dropdown(
-                                                    id='cidades_menu',
-                                                    options=cidades_pb,
-                                                    value='Paraíba',
-                                                    className="dcc_control",
-                                                )
-
-                                            ], className='mini_container'),
 
                                         html.Div(
                                             [
@@ -641,21 +632,20 @@ app.layout = html.Div(
                             [
                                 html.Div(
                                     [
-                                        html.Div(
-                                            [
-                                                html.H4([
-                                                    "Escolha o estado:",
-                                                ]),
+                                        html.H4([
+                                            "Escolha o estado:",
+                                        ]),
 
-                                                dcc.Dropdown(
-                                                    id='estados_menu',
-                                                    options=estados_br,
-                                                    value='BR',
-                                                    className="dcc_control",
-                                                )
+                                        dcc.Dropdown(
+                                            id='estados_menu',
+                                            options=estados_br,
+                                            value='BR',
+                                            className="dcc_control",
+                                        )
 
-                                            ], className='mini_container'),
-
+                                    ]),
+                                html.Div(
+                                    [
                                         html.Div(
                                             [
                                                 html.H4(id="well_text_br", style={'text-align': 'center'}),
@@ -672,13 +662,13 @@ app.layout = html.Div(
                                             id="gas_br",
                                             className="mini_container",
                                         ),
-                                        html.Div(
-                                            [html.H4(id="oilText_br", style={'text-align': 'center'}),
-                                             html.P(id="oil_perc_br", style={'text-align': 'center'}),
-                                             html.P("Recuperados*", style={'text-align': 'center'})],
-                                            id="oil_br",
-                                            className="mini_container",
-                                        ),
+                                        # html.Div(
+                                        #     [html.H4(id="oilText_br", style={'text-align': 'center'}),
+                                        #      html.P(id="oil_perc_br", style={'text-align': 'center'}),
+                                        #      html.P("Recuperados*", style={'text-align': 'center'})],
+                                        #     id="oil_br",
+                                        #     className="mini_container",
+                                        # ),
                                         html.Div(
                                             [html.H4(id="waterText_br", style={'text-align': 'center'}),
                                              html.P(id="water_perc_br", style={'text-align': 'center'}),
@@ -694,13 +684,13 @@ app.layout = html.Div(
                                             className="mini_container",
                                         ),
 
-                                        html.Div(
-                                            [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
-                                             html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
-                                             html.P("Recuperação*", style={'text-align': 'center'})],
-                                            id="recuperacao_br",
-                                            className="mini_container",
-                                        ),
+                                        # html.Div(
+                                        #     [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
+                                        #      html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
+                                        #      html.P("Recuperação*", style={'text-align': 'center'})],
+                                        #     id="recuperacao_br",
+                                        #     className="mini_container",
+                                        # ),
 
                                     ],
                                     id="info-container-br",
@@ -959,7 +949,7 @@ app.layout = html.Div(
                     html.Div(
                         children=[
                             html.H4([
-                                "Panorama Confirmados/Recuperados/Óbitos",
+                                "Panorama Confirmados/Óbitos",
                             ], className="container_title"),
 
                             html.P("Selecione seu município"),
@@ -1007,10 +997,13 @@ app.layout = html.Div(
         dcc.Markdown(
             children='''
         * Não há dados de recuperados na base de dados para o Brasil que estamos utilizando.
-        ''')
+        '''),
+
+        dcc.Markdown(children=
+                     ''' > Fonte dados do Brasil: https://github.com/wcota/covid19br (dados oficiais do Ministério da Saúde).
+        '''),
+
         ]),
-
-
     ], id="mainContainer", style={"display": "flex", "flex-direction": "column"}
     )
 )
@@ -1128,12 +1121,12 @@ def update_image_src(selector):
         data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['recuperados'],
                      'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
         data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
-                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'orange'}})
+                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     else:
         data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['confirmados'],
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
         data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
-                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'orange'}})
+                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     figure = {
         'data': data,
         'layout': {
@@ -1266,8 +1259,8 @@ def update_text(data, selector):
     mortalidade_atual = ( city_data[selecionado]['obitos'][-1]/confirmados_final ) * 100
     mortalidade_passado = ( city_data[selecionado]['obitos'][-2]/confirmados_passado ) * 100
 
-    if mortalidade_passado == 1:
-        mortalidade_passado = 0
+    if mortalidade_passado == 0:
+        mortalidade_passado = 1
 
     variacao_mortalidade =  ( mortalidade_atual - (( city_data[selecionado]['obitos'][-2]/confirmados_passado ) * 100))* 100 / mortalidade_passado
 
@@ -1340,6 +1333,9 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
 
+
+
+
 # Menus Brasil
 @app.callback(
     [
@@ -1347,14 +1343,14 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
         Output("well_perc_br", "children"),
         Output("gasText_br", "children"),
         Output("gas_perc_br", "children"),
-        Output("oilText_br", "children"),
-        Output("oil_perc_br", "children"),
+        # Output("oilText_br", "children"),
+        # Output("oil_perc_br", "children"),
         Output("waterText_br", "children"),
         Output("water_perc_br", "children"),
         Output("mortalidadeText_br", "children"),
         Output("mortalidade_perc_br", "children"),
-        Output("recuperacaoText_br", "children"),
-        Output("recuperacao_perc_br", "children"),
+        # Output("recuperacaoText_br", "children"),
+        # Output("recuperacao_perc_br", "children"),
     ],
     [Input("aggregate_data", "data"), dash.dependencies.Input('estados_menu', 'value')],
 )
@@ -1374,16 +1370,16 @@ def update_text(data, selector):
         selecionado = selector
 
     #ATIVOS
-    ativos_inicial = df.loc[df['state'] == selecionado]['totalCases'].values[-2] - \
+    ativos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - \
                      df.loc[df['state'] == selecionado]['deathsMS'].values[-2]
 
-    ativos_final = df.loc[df['state'] == selecionado]['totalCases'].values[-1] - \
+    ativos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - \
                      df.loc[df['state'] == selecionado]['deathsMS'].values[-1]
 
     if ativos_inicial == 0:
         ativos_inicial = 1
 
-    variacao_ativos = (ativos_final - (df.loc[df['state'] == selecionado]['totalCases'].values[-2] - \
+    variacao_ativos = (ativos_final - (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - \
                      df.loc[df['state'] == selecionado]['deathsMS'].values[-2])) * 100 / ativos_inicial
 
     #CONFIRMADOS
@@ -1417,36 +1413,30 @@ def update_text(data, selector):
            formata_saida(variacao_ativos), \
            "{}".format(confirmado_final), \
            formata_saida(variacao_confirmados), \
-           "{}".format(0), \
-           formata_saida(0), \
            "{}".format(obitos_final), \
            formata_saida(variacao_obitos), \
            "{:.1f}%".format(mortalidade_final), \
            formata_saida(variacao_mortalidade), \
-           "{:.1f}%".format(0), \
-            formata_saida(0)
+
 
 
 @app.callback(
     [
         Output('well_perc_br', 'style'),
         Output('gas_perc_br', 'style'),
-        Output('oil_perc_br', 'style'),
         Output('water_perc_br', 'style'),
         Output('mortalidade_perc_br', 'style'),
-        Output('recuperacao_perc_br', 'style'),
     ],
     [
         Input("well_perc_br", "children"),
         Input("gas_perc_br", "children"),
-        Input("oil_perc_br", "children"),
         Input("water_perc_br", "children"),
         Input("mortalidade_perc_br", "children"),
-        Input("recuperacao_perc_br", "children"),
+
     ])
-def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade, valor_recuperacao):
+def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
     lista_styles=[]
-    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade, valor_recuperacao]:
+    for valores in [valor_well,valor_gas,valor_water, valor_mortalidade]:
         if "▲" in valores:
             lista_styles.append({'text-align': 'center', 'color':'green'})
         elif "▼" in valores:
@@ -1454,7 +1444,7 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
         else:
             lista_styles.append({'text-align': 'center', 'color':'black'})
 
-    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
+    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3]
   
 if __name__ == '__main__':
     app.run_server()
