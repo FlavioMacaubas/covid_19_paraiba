@@ -172,6 +172,41 @@ cidades_pb = [
 ]
 
 
+## Preparação Brasil - Começo ##
+df = pd.read_csv('https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv', error_bad_lines = False)
+
+estados_br = [
+    {'label':'Brasil', 'value':'BR'},
+    {'label': 'São Paulo', 'value': 'SP'},
+    {'label': 'Rio de Janeiro', 'value': 'RJ'},
+    {'label': 'Paraíba', 'value': 'PB'},
+    {'label': 'Acre', 'value': 'AC'},
+    {'label': 'Alagoas', 'value': 'AL'},
+    {'label': 'Amapá', 'value': 'AP'},
+    {'label': 'Amazonas', 'value': 'AM'},
+    {'label': 'Bahia', 'value': 'BA'},
+    {'label': 'Ceará', 'value': 'CE'},
+    {'label': 'Distrito Federal', 'value': 'DF'},
+    {'label': 'Espírito Santo', 'value': 'ES'},
+    {'label': 'Goiás', 'value': 'GO'},
+    {'label': 'Maranhão', 'value': 'MA'},
+    {'label': 'Mato Grosso', 'value': 'MT'},
+    {'label': 'Mato Grosso do Sul', 'value': 'MS'},
+    {'label': 'Minas Gerais', 'value': 'MG'},
+    {'label': 'Pará', 'value': 'PA'},
+    {'label': 'Paraná', 'value': 'PR'},
+    {'label': 'Pernambuco', 'value': 'PE'},
+    {'label': 'Piauí', 'value': 'PI'},
+    {'label': 'Rio Grande do Norte', 'value': 'RN'},
+    {'label': 'Rio Grande do Sul', 'value': 'RS'},
+    {'label': 'Rondônia', 'value': 'RO'},
+    {'label': 'Roraima', 'value': 'RR'},
+    {'label': 'Santa Catarina', 'value': 'SC'},
+    {'label': 'Sergipe', 'value': 'SE'},
+    {'label': 'Tocatins', 'value': 'TO'},
+]
+## Preparação Brasil - Fim ##
+
 def build_modal_info_overlay(id, side, content):
     """
     Build div representing the info overlay for a plot panel
@@ -208,18 +243,7 @@ def build_modal_info_overlay(id, side, content):
 
 app.layout = html.Div(
     html.Div([
-        build_modal_info_overlay('indicator', 'bottom', dedent("""
-    A _**Escolha de Cidades**_ é um painel em que você pode selecionar os municípios que você
-    deseja ver a evolução do covid-19. Como padrão, mostrará os valores da Paraíba e de 
-    João Pessoa.
-    A primeira opção selecionada indicará qual informação deve ser mostrada nos
-     quadros de valores (suspeitos, confirmados, recuperados e óbitos). Dessa forma, caso
-     você queira ver os dados do seu município no Panorama e nos quadros de valores, você deve
-     deixá-lo como primeira opção.
-     A filtragem funciona apenas para o gráfico de Série Temporal. Ainda não é possível encontrar dados
-     de recuperados por município, caso você tenha essa informação e/ou esse meio, entrar em contato em dos
-     emails da nota de roda pé.
-    """)),
+
         build_modal_info_overlay('map', 'bottom', dedent("""
     O _**Mapa**_ destaca os municípios que tiveram casos confirmados de covid-19 no estado
     da Paraíba. Ao clicar em um território, você pode visualizar informações detalhadas da região. 
@@ -260,357 +284,739 @@ app.layout = html.Div(
         ]),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 23/04 às 19h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 22/04 às 20h. Para melhor experiência acesse pelo computador.
+        '''),
+        dcc.Markdown(children=
+                     ''' > Fonte dados do Brasil: https://github.com/wcota/covid19br (dados oficiais do Ministério da Saúde).
         '''),
 
-        # Containers para mostrar os valores
-        html.Div(
-            [
-                # Dropdown para selecionar cidade
-                html.Div(
-                    [
-                        html.H4([
-                            "Escolha as cidades que deseja:",
-                            html.Img(
-                                id='show-indicator-modal',
-                                src="assets/question-circle-solid.svg",
-                                className='info-icon',
-                            ),
-                        ], className="container_title"),
+        dcc.Tabs([
+            ###### TAB PARAÍBA COMEÇA AQUI ##############
+            dcc.Tab(label="Paraíba", children=[
 
-                        dcc.Dropdown(
-                            id='Cities',
-                            options=cidades_pb,
-                            value=['Paraíba', 'João Pessoa'],
-                            multi=True,
-                            className="dcc_control",
-                        ),
-
-                        html.P('Filtrar dados por:'),
-                        dcc.RadioItems(
-                            id="situacao",
-                            options=[
-                                {"label": "Confirmados ", "value": "confirmados"},
-                                {"label": "Recuperados", "value": "recuperados"},
-                                {"label": "Óbitos ", "value": "obitos"},
-                            ],
-                            value="confirmados",
-                            labelStyle={"display": "inline-block"},
-                            className="dcc_control",
-                        ),
-                    ],
-                    className='six columns pretty_container',
-                    id="indicator-div"
-                ),
-
+                # Containers para mostrar os valores
                 html.Div(
                     [
                         html.Div(
                             [
                                 html.Div(
                                     [
-                                     html.H4(id="well_text", style={'text-align':'center'}),
-                                     html.P(id="well_perc", style={'text-align':'center'}),
-                                     html.P("Ativos", style={'text-align':'center'})
+                                        html.Div(
+                                            [
+                                                html.H4([
+                                                    "Escolha as cidades que deseja:",
+                                                ]),
+
+                                                dcc.Dropdown(
+                                                    id='cidades_menu',
+                                                    options=cidades_pb,
+                                                    value='Paraíba',
+                                                    className="dcc_control",
+                                                )
+
+                                            ], className='mini_container'),
+
+                                        html.Div(
+                                            [
+                                                html.H4(id="well_text", style={'text-align': 'center'}),
+                                                html.P(id="well_perc", style={'text-align': 'center'}),
+                                                html.P("Ativos", style={'text-align': 'center'})
+                                            ],
+                                            id="wells",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="gasText", style={'text-align': 'center'}),
+                                             html.P(id="gas_perc", style={'text-align': 'center'}),
+                                             html.P("Confirmados", style={'text-align': 'center'})],
+                                            id="gas",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="oilText", style={'text-align': 'center'}),
+                                             html.P(id="oil_perc", style={'text-align': 'center'}),
+                                             html.P("Recuperados", style={'text-align': 'center'})],
+                                            id="oil",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="waterText", style={'text-align': 'center'}),
+                                             html.P(id="water_perc", style={'text-align': 'center'}),
+                                             html.P("Óbitos", style={'text-align': 'center'})],
+                                            id="water",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="mortalidadeText", style={'text-align': 'center'}),
+                                             html.P(id="mortalidade_perc", style={'text-align': 'center'}),
+                                             html.P("Mortalidade", style={'text-align': 'center'})],
+                                            id="mortalidade",
+                                            className="mini_container",
+                                        ),
+
+                                        html.Div(
+                                            [html.H4(id="recuperacaoText", style={'text-align': 'center'}),
+                                             html.P(id="recuperacao_perc", style={'text-align': 'center'}),
+                                             html.P("Recuperação", style={'text-align': 'center'})],
+                                            id="recuperacao",
+                                            className="mini_container",
+                                        ),
+
                                     ],
-                                    id="wells",
-                                    className="mini_container",
+                                    id="info-container",
+                                    className="row container-display",
                                 ),
-                                html.Div(
-                                    [html.H4(id="gasText", style={'text-align':'center'}),
-                                     html.P(id="gas_perc", style={'text-align':'center'}),
-                                     html.P("Confirmados", style={'text-align':'center'})],
-                                    id="gas",
-                                    className="mini_container",
-                                ),
-                                html.Div(
-                                    [html.H4(id="oilText", style={'text-align':'center'}),
-                                     html.P(id="oil_perc", style={'text-align':'center'}),
-                                     html.P("Recuperados", style={'text-align':'center'})],
-                                    id="oil",
-                                    className="mini_container",
-                                ),
-                                html.Div(
-                                    [html.H4(id="waterText", style={'text-align':'center'}),
-                                     html.P(id="water_perc", style={'text-align': 'center'}),
-                                     html.P("Óbitos", style={'text-align':'center'})],
-                                    id="water",
-                                    className="mini_container",
-                                ),
-                                html.Div(
-                                    [html.H4(id="mortalidadeText", style={'text-align': 'center'}),
-                                     html.P(id="mortalidade_perc", style={'text-align': 'center'}),
-                                     html.P("Mortalidade", style={'text-align': 'center'})],
-                                    id="mortalidade",
-                                    className="mini_container",
-                                ),
+
                             ],
-                            id="info-container",
-                            className="row container-display",
+                            id="right-column",
+                            className="twelve columns",
                         ),
-
                     ],
-                    id="right-column",
-                    className="eight columns",
+                    className="twelve columns row flex-display",
+                    style={"zIndex": 1}
                 ),
-            ],
-            className="row flex-display",
-            style={"zIndex": 1}
-        ),
 
-        # Gráficos
-        html.Div([
-            html.Div(
-                children=[
-                    html.H4([
-                        "Série Temporal dos Municípios Selecionados",
-                        html.Img(
-                            id='show-created-modal',
-                            src="assets/question-circle-solid.svg",
-                            className='info-icon',
-                        ),
-                    ], className="container_title"),
+                # Mapa
+                html.Div(children=[
+                    dcc.Tabs([
+                        dcc.Tab(label="Confirmados", children=[
+                            html.Div(children=[
+                                html.H4([
+                                    "Mapa",
+                                    html.Img(
+                                        id='show-map-modal',
+                                        src="assets/question-circle-solid.svg",
+                                        className='info-icon',
+                                    ),
+                                ], className="container_title"),
+                                html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%',
+                                            height=600),
+                            ], className='nine columns pretty_container',
+                                style={
+                                    'float': 'left',
+                                    'width': '97%',
+                                    'height': '100%',
+                                    'margin-right': '0',
+                                },
+                                id="map-div"
+                            ),
 
-                    # Radio items para selecionar status
+                            html.Div([
+                                html.H4(["Total de Casos Confirmados"], style={'text-align': 'center'}),
+                                html.H3([city_data['Paraíba']['confirmados'][-1]], id='total_casos',
+                                        style={'text-align': 'center',
+                                               'color': 'crimson',
+                                               'margin-top': 2,
+                                               'height': "20%"}),
+                            ], className="three columns pretty_container"),
 
-                    dcc.Graph(
-                        id='example-graph-2',
-                    ),
-                ],
-                className='six columns pretty_container', id="created-div"
-            ),
+                            html.Div([
+                                html.Div([
+                                    html.Strong([city_data['João Pessoa']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("João Pessoa", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
 
-            html.Div(
-                children=[
-                    html.H4([
-                        "Panorama Confirmados/Recuperados/Óbitos",
-                        html.Img(
-                            id='show-range-modal',
-                            src="assets/question-circle-solid.svg",
-                            className='info-icon',
-                        ),
-                    ], className="container_title"),
-                    dcc.Graph(
-                        id='example-graph',
-                    ),
-                ],
-                className='six columns pretty_container', id="range-div"
-            ),
-        ]),
+                                    html.Strong([city_data['Santa Rita']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Santa Rita", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
 
-        # Mapa
-        html.Div(children=[
-            html.Div(children=[
-                html.H4([
-                    "Mapa",
-                    html.Img(
-                        id='show-map-modal',
-                        src="assets/question-circle-solid.svg",
-                        className='info-icon',
-                    ),
-                ], className="container_title"),
-                html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%', height=600),
-            ], className='nine columns pretty_container',
-                style={
-                    'float': 'left',
-                    'width': '97%',
-                    'height': '100%',
-                    'margin-right': '0',
-                },
-                id="map-div"
-            ),
+                                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Campina Grande", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
 
-            html.Div([
-                html.H4(["Total de Casos Confirmados"], style={'text-align': 'center'}),
-                html.H3([city_data['Paraíba']['confirmados'][-1]], id='total_casos', style={'text-align': 'center',
-                                                                                            'color': 'crimson',
-                                                                                            'margin-top': 2,
-                                                                                            'height': "20%"}),
-            ], className="three columns pretty_container"),
+                                    html.Strong([city_data['Cabedelo']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Cabedelo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
 
-            html.Div([
+                                    html.Strong([city_data['Bayeux']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Bayeux", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Patos']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Patos", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Sapé']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Sapé", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Junco do Seridó']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Junco do Seridó", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Cajazeiras']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Cajazeiras", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Pombal']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Pombal", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Sousa']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Sousa", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Igaracy']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Igaracy", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Queimadas']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Queimadas", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Congo']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Congo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['São Bento']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("São Bento", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Taperoá']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Taperoá", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Riachão do Poço']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Riachão do Povo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Bom Jesus']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Bom Jesus", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Itabaiana']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Itabaiana", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Cruz do Espírito Santo']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Cruz do Espírito Santo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([city_data['Conde']['confirmados'][-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Conde", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                ], className="control-tab"),
+
+                            ], className="three columns pretty_container",
+                                style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
+                        ]),
+
+                    ], className='custom-tab'),
+
+                ], className='twelve columns pretty_container'),
+
+                # Gráficos
                 html.Div([
-                    html.Strong([city_data['João Pessoa']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("João Pessoa", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                    html.Div(
+                        children=[
+                            html.H4([
+                                "Série Temporal dos Municípios Selecionados",
+                                html.Img(
+                                    id='show-created-modal',
+                                    src="assets/question-circle-solid.svg",
+                                    className='info-icon',
+                                ),
+                            ], className="container_title"),
 
-                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
-                               style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Campina Grande", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
-                    html.Strong([city_data['Santa Rita']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Santa Rita", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            html.H6([
+                                "Escolha as cidades que deseja:",
+                            ]),
 
-                    html.Strong([city_data['Cabedelo']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Cabedelo", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            dcc.Dropdown(
+                                id='Cities',
+                                options=cidades_pb,
+                                value=['Paraíba', 'João Pessoa'],
+                                multi=True,
+                                className="dcc_control",
+                            ),
 
-                    html.Strong([city_data['Bayeux']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Bayeux", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            html.P('Filtrar dados por:'),
+                            dcc.RadioItems(
+                                id="situacao",
+                                options=[
+                                    {"label": "Confirmados ", "value": "confirmados"},
+                                    {"label": "Recuperados", "value": "recuperados"},
+                                    {"label": "Óbitos ", "value": "obitos"},
+                                ],
+                                value="confirmados",
+                                labelStyle={"display": "inline-block"},
+                                className="dcc_control",
+                            ),
 
-                    html.Strong([city_data['Sapé']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Sapé", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
-                    html.Strong([city_data['Patos']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Patos", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            # Radio items para selecionar status
 
-                    html.Strong([city_data['Cajazeiras']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Cajazeiras", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),                  
+                            dcc.Graph(
+                                id='example-graph-2',
+                            ),
+                        ],
+                        className='twelve columns pretty_container', id="created-div"
+                    ),
 
-                    html.Strong([city_data['Sousa']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Sousa", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
-                    html.Strong([city_data['Junco do Seridó']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Junco do Seridó", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
-                    html.Strong([city_data['Guarabira']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Guarabira", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                    html.Div(
+                        children=[
+                            html.H4([
+                                "Panorama Confirmados/Recuperados/Óbitos",
+                                html.Img(
+                                    id='show-range-modal',
+                                    src="assets/question-circle-solid.svg",
+                                    className='info-icon',
+                                ),
+                            ], className="container_title"),
 
-                    html.Strong([city_data['Pombal']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Pombal", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                                       
-                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
-                    html.Strong([city_data['Itapororoca']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Itapororoca", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            html.P("Selecione seu município"),
+                            dcc.Dropdown(
+                                id='cidades',
+                                options=cidades_pb,
+                                value='Paraíba',
+                                multi=False,
+                                className="dcc_control",
+                            ),
 
-                    html.Strong([city_data['Igaracy']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Igaracy", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            dcc.Graph(
+                                id='example-graph',
+                            ),
+                        ],
+                        className='twelve columns pretty_container', id="range-div"
+                    ),
+                ]),
 
-                    html.Strong([city_data['Queimadas']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Queimadas", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+            ]),
+            ###### TAB PARAÍBA ACABA AQUI ###############
 
-                    html.Strong([city_data['Congo']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Congo", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+            ###### TAB BRASIL COMEÇA AQUI ###############
+            dcc.Tab(label='Brasil', children=[
+                # Containers Brasil
+                html.Div(
+                    [
+                        html.Div(
+                            [
+                                html.Div(
+                                    [
+                                        html.Div(
+                                            [
+                                                html.H4([
+                                                    "Escolha o estado:",
+                                                ]),
 
-                    html.Strong([city_data['São Bento']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("São Bento", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                                                dcc.Dropdown(
+                                                    id='estados_menu',
+                                                    options=estados_br,
+                                                    value='BR',
+                                                    className="dcc_control",
+                                                )
 
-                    html.Strong([city_data['Taperoá']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Taperoá", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                                            ], className='mini_container'),
 
-                    html.Strong([city_data['Riachão do Poço']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Riachão do Povo", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                                        html.Div(
+                                            [
+                                                html.H4(id="well_text_br", style={'text-align': 'center'}),
+                                                html.P(id="well_perc_br", style={'text-align': 'center'}),
+                                                html.P("Ativos", style={'text-align': 'center'})
+                                            ],
+                                            id="wells_br",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="gasText_br", style={'text-align': 'center'}),
+                                             html.P(id="gas_perc_br", style={'text-align': 'center'}),
+                                             html.P("Confirmados", style={'text-align': 'center'})],
+                                            id="gas_br",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="oilText_br", style={'text-align': 'center'}),
+                                             html.P(id="oil_perc_br", style={'text-align': 'center'}),
+                                             html.P("Recuperados*", style={'text-align': 'center'})],
+                                            id="oil_br",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="waterText_br", style={'text-align': 'center'}),
+                                             html.P(id="water_perc_br", style={'text-align': 'center'}),
+                                             html.P("Óbitos", style={'text-align': 'center'})],
+                                            id="water_br",
+                                            className="mini_container",
+                                        ),
+                                        html.Div(
+                                            [html.H4(id="mortalidadeText_br", style={'text-align': 'center'}),
+                                             html.P(id="mortalidade_perc_br", style={'text-align': 'center'}),
+                                             html.P("Mortalidade", style={'text-align': 'center'})],
+                                            id="mortalidade_br",
+                                            className="mini_container",
+                                        ),
 
-                    html.Strong([city_data['Bom Jesus']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Bom Jesus", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                                        html.Div(
+                                            [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
+                                             html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
+                                             html.P("Recuperação*", style={'text-align': 'center'})],
+                                            id="recuperacao_br",
+                                            className="mini_container",
+                                        ),
 
-                    html.Strong([city_data['Itabaiana']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Itabaiana", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                                    ],
+                                    id="info-container-br",
+                                    className="row container-display",
+                                ),
 
-                    html.Strong([city_data['Cruz do Espírito Santo']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Cruz do Espírito Santo", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
+                            ],
+                            id="right-column-br",
+                            className="twelve columns",
+                        ),
+                    ],
+                    className="twelve columns row flex-display",
+                    style={"zIndex": 1}
+                ),
 
-                    html.Strong([city_data['Conde']['confirmados'][-1]],
-                                style={'color': 'crimson', 'font-size': 20}),
-                    html.Span(" "),
-                    html.Span("Conde", style={'font-size': 20}),
-                    html.Hr(style={'margin': 0}),
-                  
 
-                ], className="control-tab"),
+                # Mapa Brasil
+                # Mapa
+                html.Div(children=[
+                    dcc.Tabs([
+                        dcc.Tab(label="Confirmados", children=[
+                            html.Div(children=[
+                                html.H4([
+                                    "Mapa",
+                                ], className="container_title"),
+                                html.Iframe(id='map_br', srcDoc=open("MAPA_COVID19_BR.html", 'r').read(), width='100%',
+                                            height=600),
+                            ], className='nine columns pretty_container',
+                                style={
+                                    'float': 'left',
+                                    'width': '75%',
+                                    'height': '100%',
+                                    'margin-right': '0',
+                                },
+                                id="map-div-br"
+                            ),
 
-            ], className="three columns pretty_container",
-                style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
-        ]),
+                            html.Div([
+                                html.H4(["Total de Casos Confirmados"], style={'text-align': 'center'}),
+                                html.H3([df.loc[df['state'] == 'TOTAL']['totalCasesMS'].values[-1]], id='total_casos_br',
+                                        style={'text-align': 'center',
+                                               'color': 'crimson',
+                                               'margin-top': 2,
+                                               'height': "20%"}),
+                            ], className="three columns pretty_container"),
+
+                            html.Div([
+                                html.Div([
+                                    html.Strong([df.loc[df['state'] == 'SP']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("São Paulo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'RJ']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Rio de Janeiro", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'CE']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Ceará", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PE']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Pernambuco", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'BA']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Bahia", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'MA']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Maranhão", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'ES']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Espírito Santo", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'MG']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Minas Gerais", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PA']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Pará", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'SC']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Santa Catarina", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PR']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Paraná", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'RS']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Rio Grande do Sul", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'DF']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Distrito Federal", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'RN']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Rio Grande do Norte", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'AP']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Amapá", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'GO']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Goiás", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PB']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Paraíba", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'AL']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Alagoas", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'RR']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Roraima", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'RO']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Rondônia", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'AC']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Acre", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'MT']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Mato Grosso", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PI']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Piauí", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'MS']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Mato Grosso do Sul", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'SE']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Sergipe", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'TO']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Tocantins", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                ], className="control-tab"),
+
+                            ], className="three columns pretty_container",
+                                style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
+                        ]),
+
+                    ], className='custom-tab'),
+
+                ], className='twelve columns pretty_container'),
+
+                # Gráficos
+                html.Div([
+                    html.Div(
+                        children=[
+                            html.H4([
+                                "Série Temporal dos Estados Selecionados",
+                            ], className="container_title"),
+
+                            html.H6([
+                                "Escolha os estados que deseja:",
+                            ]),
+
+                            dcc.Dropdown(
+                                id='Estados',
+                                options=estados_br,
+                                value=['BR','SP','PB'],
+                                multi=True,
+                                className="dcc_control",
+                            ),
+
+                            html.P('Filtrar dados por:'),
+                            dcc.RadioItems(
+                                id="situacao_br",
+                                options=[
+                                    {"label": "Confirmados", "value": "totalCasesMS"},
+                                    {"label": "Óbitos", "value": "deathsMS"},
+                                ],
+                                value="totalCasesMS",
+                                labelStyle={"display": "inline-block"},
+                                className="dcc_control",
+                            ),
+
+                            # Radio items para selecionar status
+
+                            dcc.Graph(
+                                id='brasil-grafico-1',
+                            ),
+                        ],
+                        className='twelve columns pretty_container', id="created-div-2"
+                    ),
+
+                    html.Div(
+                        children=[
+                            html.H4([
+                                "Panorama Confirmados/Recuperados/Óbitos",
+                            ], className="container_title"),
+
+                            html.P("Selecione seu município"),
+                            dcc.Dropdown(
+                                id='estados',
+                                options=estados_br,
+                                value='BR',
+                                multi=False,
+                                className="dcc_control",
+                            ),
+
+                            dcc.Graph(
+                                id='brasil-grafico-2',
+                            ),
+                        ],
+                        className='twelve columns pretty_container', id="range-div-2"
+                    ),
+                ]),
+            ]),
+        ], className = 'twelve columns'),
 
         # Notas de roda pé
-        html.Div([
+    html.Div([
             dcc.Markdown(
                 children='''
-           ¹ O Dashboard apresentado trata-se de uma iniciativa do Laboratório da Inteligência Artificial e Macroeconomia Computacional (LABIMEC), 
-             ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Algumas funcionalidades
-             estão sendo implementadas pela equipe do laboratório, para sugestões entrar em contato nos seguintes emails:
-             * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
-             * flaviomacaubas@gmail.com - Membro do LABIMEC
-             '''),
+    ¹ O Dashboard apresentado trata-se de uma iniciativa do Laboratório da Inteligência Artificial e Macroeconomia Computacional (LABIMEC), 
+     ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Futuras funcionalidades
+     estão sendo implementadas pela equipe do laboratório, para sugestões entrar em contato nos seguintes emails:
+     * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
+     * flaviomacaubas@gmail.com - Membro do LABIMEC
+     '''),
 
             dcc.Markdown(
                 children='''
-           ² Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
-            da Secretaria de Saúde de Estado da Paraíba. Não há dados de recuperados discriminados por município, por esta razão não é possível gerar 
-            os gráficos de série temporal.
-           '''),
+   ² Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
+    da Secretaria de Saúde de Estado da Paraíba. Não há dados de recuperados discriminado por município, por esta razão não é possível gerar 
+    os gráficos de série temporal.
+   '''),
 
             dcc.Markdown(
                 children='''
-          ³ O Dashboard não substitui, sob qualquer hipótese, os dados oficiais do Governo do Estado da Paraíba.
-          ''')
-        ])
+    ³ O Dashboard não substitui, sob qualquer hipótese, os dados oficiais do Governo do Estado da Paraíba.
+    '''),
+
+        dcc.Markdown(
+            children='''
+        * Não há dados de recuperados na base de dados para o Brasil que estamos utilizando.
+        ''')
+        ]),
+
 
     ], id="mainContainer", style={"display": "flex", "flex-direction": "column"}
     )
 )
 
 # Adiciona e remove os dados de ajuda
-for id in ['indicator', 'map', 'range', 'created']:
+for id in ['map', 'range', 'created']:
     @app.callback([Output(f"{id}-modal", 'style'), Output(f"{id}-div", 'style')],
                   [Input(f'show-{id}-modal', 'n_clicks'),
                    Input(f'close-{id}-modal', 'n_clicks')])
@@ -622,30 +1028,116 @@ for id in ['indicator', 'map', 'range', 'created']:
             return {"display": "none"}, {'zIndex': 0}
 
 
-# Atualiza gráfico de barras
+# Atualiza gráfico de barras Brasil
 @app.callback(
-    dash.dependencies.Output('example-graph', 'figure'),
-    [dash.dependencies.Input('Cities', 'value')])
+    dash.dependencies.Output('brasil-grafico-2', 'figure'),
+    [dash.dependencies.Input('estados', 'value')])
 def update_image_src(selector):
     if len(selector) == 0:
-        selector.append('Paraíba')
+        selector = 'SP'
     data = []
-    if selector[0] == "Paraíba":
-        data.append({'x': city_data[selector[0]]['dias'], 'y': city_data[selector[0]]['confirmados'],
-                     'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': city_data[selector[0]]['dias'], 'y': city_data[selector[0]]['recuperados'],
-                     'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
-        data.append({'x': city_data[selector[0]]['dias'], 'y': city_data[selector[0]]['obitos'],
-                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+
+    if selector == 'BR':
+        data.append(
+            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['totalCasesMS'].values,
+             'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
+        data.append(
+            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['deathsMS'].values,
+             'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     else:
-        data.append({'x': city_data[selector[0]]['dias'], 'y': city_data[selector[0]]['confirmados'],
+        data.append({'x': df.loc[df['state']==selector]['date'], 'y': df.loc[df['state']==selector]['totalCasesMS'].values,
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': city_data[selector[0]]['dias'], 'y': city_data[selector[0]]['obitos'],
+        data.append({'x': df.loc[df['state']==selector]['date'], 'y': df.loc[df['state']==selector]['deathsMS'].values,
                      'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+
     figure = {
         'data': data,
         'layout': {
-            'height': 350,
+            'height': 450,
+            'xaxis': dict(
+                title='Dia',
+                titlefont=dict(
+                    family='Courier New, monospace',
+                    size=20,
+                    color='#7f7f7f'
+                )),
+            'yaxis': dict(
+                title='Quantidade',
+                titlefont=dict(
+                    family='Helvetica, monospace',
+                    size=20,
+                    color='#7f7f7f'
+                )),
+            'barmode': 'group',
+            'bargap': 0.2,
+            'bargroupgap': 0.15,
+        }
+    }
+    return figure
+
+# Atualiza gráfico de linha Brasil
+@app.callback(
+    dash.dependencies.Output('brasil-grafico-1', 'figure'),
+    [dash.dependencies.Input('Estados', 'value'), dash.dependencies.Input('situacao_br', 'value')])
+def update_image_src(selector, situacao):
+    if len(selector) == 0:
+        selector.append('SP')
+    data = []
+    for estado in selector:
+        if estado == 'BR':
+            data.append({'x': list(df[df['state'] == 'TOTAL']['date']), 'y': df[df['state'] == 'TOTAL'][situacao].values,
+                     'type': 'line', 'name': estado})
+        else:
+            data.append({'x': list(df[df['state'] == estado]['date']), 'y': df[df['state'] == estado][situacao].values,
+                     'type': 'line', 'name': estado})
+    figure = {
+        'data': data,
+        'layout': {
+            'height': 450,
+            'xaxis': dict(
+                title='Dia',
+                titlefont=dict(
+                    family='Courier New, monospace',
+                    size=20,
+                    color='#7f7f7f'
+                )),
+            'yaxis': dict(
+                title='Quantidade',
+                titlefont=dict(
+                    family='Helvetica, monospace',
+                    size=20,
+                    color='#7f7f7f'
+                ))
+        }
+    }
+    return figure
+
+
+# Atualiza gráfico de barras Paraíba
+@app.callback(
+    dash.dependencies.Output('example-graph', 'figure'),
+    [dash.dependencies.Input('cidades', 'value')])
+def update_image_src(selector):
+    if len(selector) == 0:
+        selector = 'Paraíba'
+    data = []
+
+    if selector == "Paraíba":
+        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['confirmados'],
+                     'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
+        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['recuperados'],
+                     'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
+        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
+                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'orange'}})
+    else:
+        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['confirmados'],
+                     'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
+        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
+                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'orange'}})
+    figure = {
+        'data': data,
+        'layout': {
+            'height': 450,
             'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
@@ -668,7 +1160,7 @@ def update_image_src(selector):
     return figure
 
 
-# Atualiza gráfico de linha
+# Atualiza gráfico de linha Paraíba
 @app.callback(
     dash.dependencies.Output('example-graph-2', 'figure'),
     [dash.dependencies.Input('Cities', 'value'), dash.dependencies.Input('situacao', 'value')])
@@ -682,7 +1174,7 @@ def update_image_src(selector, situacao):
     figure = {
         'data': data,
         'layout': {
-            'height': 350,
+            'height': 450,
             'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
@@ -702,6 +1194,7 @@ def update_image_src(selector, situacao):
     return figure
 
 
+# Menus Paraiba
 @app.callback(
     [
         Output("well_text", "children"),
@@ -714,8 +1207,10 @@ def update_image_src(selector, situacao):
         Output("water_perc", "children"),
         Output("mortalidadeText", "children"),
         Output("mortalidade_perc", "children"),
+        Output("recuperacaoText", "children"),
+        Output("recuperacao_perc", "children"),
     ],
-    [Input("aggregate_data", "data"), dash.dependencies.Input('Cities', 'value')],
+    [Input("aggregate_data", "data"), dash.dependencies.Input('cidades_menu', 'value')],
 )
 def update_text(data, selector):
 
@@ -730,7 +1225,7 @@ def update_text(data, selector):
     if len(selector) == 0:
         selecionado = 'Paraíba'
     else:
-        selecionado = selector[0]
+        selecionado = selector
 
     # Preparando dados
     #ativos
@@ -769,9 +1264,20 @@ def update_text(data, selector):
         confirmados_passado = 1
 
     mortalidade_atual = ( city_data[selecionado]['obitos'][-1]/confirmados_final ) * 100
-    mortalidade_passado = (city_data[selecionado]['obitos'][-2]/confirmados_passado) * 100
+    mortalidade_passado = ( city_data[selecionado]['obitos'][-2]/confirmados_passado ) * 100
 
-    variacao_mortalidade = ( ( mortalidade_atual - mortalidade_passado)* 100 )/ mortalidade_passado
+    if mortalidade_passado == 1:
+        mortalidade_passado = 0
+
+    variacao_mortalidade =  ( mortalidade_atual - (( city_data[selecionado]['obitos'][-2]/confirmados_passado ) * 100))* 100 / mortalidade_passado
+
+    recuperacao_atual = ( city_data[selecionado]['recuperados'][-1]/confirmados_final ) * 100
+    recuperacao_passado = (city_data[selecionado]['recuperados'][-2]/confirmados_passado) * 100
+
+    if recuperacao_passado == 0:
+        recuperacao_passado = 1
+
+    variacao_recuperacao = (recuperacao_atual - ((city_data[selecionado]['recuperados'][-2]/confirmados_passado) * 100)) * 100     / recuperacao_passado
 
     # Dados de sáida
 
@@ -800,7 +1306,9 @@ def update_text(data, selector):
            "{}".format(city_data[selecionado]['obitos'][-1]), \
            formata_saida(novos_obitos), \
            "{:.1f}%".format(mortalidade_atual), \
-           formata_saida(variacao_mortalidade),
+           formata_saida(variacao_mortalidade), \
+           "{:.1f}%".format(recuperacao_atual), \
+            formata_saida(variacao_recuperacao)
 
 
 @app.callback(
@@ -810,6 +1318,7 @@ def update_text(data, selector):
         Output('oil_perc', 'style'),
         Output('water_perc', 'style'),
         Output('mortalidade_perc', 'style'),
+        Output('recuperacao_perc', 'style'),
     ],
     [
         Input("well_perc", "children"),
@@ -817,18 +1326,135 @@ def update_text(data, selector):
         Input("oil_perc", "children"),
         Input("water_perc", "children"),
         Input("mortalidade_perc", "children"),
+        Input("recuperacao_perc", "children"),
     ])
-def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade):
+def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade, valor_recuperacao):
     lista_styles=[]
-    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade]:
+    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade, valor_recuperacao]:
         if "▲" in valores:
-            lista_styles.append([{'text-align': 'center', 'color':'green'}])
+            lista_styles.append({'text-align': 'center', 'color':'green'})
         elif "▼" in valores:
-            lista_styles.append([{'text-align': 'center', 'color':'red'}])
+            lista_styles.append({'text-align': 'center', 'color':'red'})
         else:
-            lista_styles.append([{'text-align': 'center', 'color':'black'}])
+            lista_styles.append({'text-align': 'center', 'color':'black'})
 
-    return lista_styles[0][0], lista_styles[1][0], lista_styles[2][0], lista_styles[3][0], lista_styles[4][0]
+    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
+
+# Menus Brasil
+@app.callback(
+    [
+        Output("well_text_br", "children"),
+        Output("well_perc_br", "children"),
+        Output("gasText_br", "children"),
+        Output("gas_perc_br", "children"),
+        Output("oilText_br", "children"),
+        Output("oil_perc_br", "children"),
+        Output("waterText_br", "children"),
+        Output("water_perc_br", "children"),
+        Output("mortalidadeText_br", "children"),
+        Output("mortalidade_perc_br", "children"),
+        Output("recuperacaoText_br", "children"),
+        Output("recuperacao_perc_br", "children"),
+    ],
+    [Input("aggregate_data", "data"), dash.dependencies.Input('estados_menu', 'value')],
+)
+def update_text(data, selector):
+
+    def formata_saida(valor):
+        if valor > 0:
+            return "▲ {:.1f}%".format(valor)
+        elif valor == 0:
+            return "{:.1f}%".format(valor)
+        else:
+            return "▼ {:.1f}%".format(valor)
+
+    if len(selector) == 0 or (selector == 'BR'):
+        selecionado = 'TOTAL'
+    else:
+        selecionado = selector
+
+    #ATIVOS
+    ativos_inicial = df.loc[df['state'] == selecionado]['totalCases'].values[-2] - \
+                     df.loc[df['state'] == selecionado]['deathsMS'].values[-2]
+
+    ativos_final = df.loc[df['state'] == selecionado]['totalCases'].values[-1] - \
+                     df.loc[df['state'] == selecionado]['deathsMS'].values[-1]
+
+    if ativos_inicial == 0:
+        ativos_inicial = 1
+
+    variacao_ativos = (ativos_final - (df.loc[df['state'] == selecionado]['totalCases'].values[-2] - \
+                     df.loc[df['state'] == selecionado]['deathsMS'].values[-2])) * 100 / ativos_inicial
+
+    #CONFIRMADOS
+    confirmado_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
+    confirmado_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1]
+
+    if confirmado_inicial == 0:
+        confirmado_inicial = 1
+
+    variacao_confirmados = (confirmado_final - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2])*100/confirmado_inicial
+
+    #OBITOS
+    obitos_inicial = df.loc[df['state'] == selecionado]['deathsMS'].values[-2]
+    obitos_final =  df.loc[df['state'] == selecionado]['deathsMS'].values[-1]
+
+    if obitos_inicial == 0:
+        obitos_final = 1
+
+    variacao_obitos = (obitos_final - df.loc[df['state'] == selecionado]['deathsMS'].values[-2])*100/obitos_inicial
+
+    #MORTALIDADE
+    mortalidade_inicial = obitos_inicial * 100/confirmado_inicial
+    mortalidade_final = obitos_final * 100 / confirmado_final
+
+    if mortalidade_inicial == 0:
+        mortalidade_inicial = 1
+
+    variacao_mortalidade = (mortalidade_final - mortalidade_inicial)*100/mortalidade_inicial
+
+    return "{}".format(ativos_final), \
+           formata_saida(variacao_ativos), \
+           "{}".format(confirmado_final), \
+           formata_saida(variacao_confirmados), \
+           "{}".format(0), \
+           formata_saida(0), \
+           "{}".format(obitos_final), \
+           formata_saida(variacao_obitos), \
+           "{:.1f}%".format(mortalidade_final), \
+           formata_saida(variacao_mortalidade), \
+           "{:.1f}%".format(0), \
+            formata_saida(0)
+
+
+@app.callback(
+    [
+        Output('well_perc_br', 'style'),
+        Output('gas_perc_br', 'style'),
+        Output('oil_perc_br', 'style'),
+        Output('water_perc_br', 'style'),
+        Output('mortalidade_perc_br', 'style'),
+        Output('recuperacao_perc_br', 'style'),
+    ],
+    [
+        Input("well_perc_br", "children"),
+        Input("gas_perc_br", "children"),
+        Input("oil_perc_br", "children"),
+        Input("water_perc_br", "children"),
+        Input("mortalidade_perc_br", "children"),
+        Input("recuperacao_perc_br", "children"),
+    ])
+def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalidade, valor_recuperacao):
+    lista_styles=[]
+    for valores in [valor_well,valor_gas,valor_oil,valor_water, valor_mortalidade, valor_recuperacao]:
+        if "▲" in valores:
+            lista_styles.append({'text-align': 'center', 'color':'green'})
+        elif "▼" in valores:
+            lista_styles.append({'text-align': 'center', 'color':'red'})
+        else:
+            lista_styles.append({'text-align': 'center', 'color':'black'})
+
+    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
   
 if __name__ == '__main__':
     app.run_server()
