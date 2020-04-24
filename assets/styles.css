@@ -35,6 +35,7 @@ body {
   margin: 0;
   padding: 5px;
   width: calc(100%-40px);
+  z-index: 1;
 }
 
 .control_label {
@@ -132,7 +133,59 @@ body {
 }
 
 #recuperacao {
-  flex:1; 
+  flex:1;
+}
+
+#novos_casos {
+  flex:1;
+}
+
+#leitos{
+  flex:1;
+}
+
+#cidade_menu{
+  flex:1;
+}
+
+#wells_br {
+  flex: 1;
+}
+
+#gas_br {
+  flex: 1;
+}
+
+#aggregate_data_br {
+  align-items: center;
+}
+
+#oil_br {
+  flex: 1;
+}
+
+#water_br {
+  flex: 1;
+}
+
+#mortalidade_br {
+  flex:1;
+}
+
+#recuperacao_br {
+  flex:1;
+}
+
+#novos_casos_br {
+  flex:1;
+}
+
+#leitos_br{
+  flex:1;
+}
+
+#estados_menu{
+  flex:1;
 }
 
 #tripleContainer {
@@ -149,3 +202,4 @@ body {
   pointer-events: all;
   transform: translate(30px, 349px);
 }
+
