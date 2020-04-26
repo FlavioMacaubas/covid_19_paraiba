@@ -211,7 +211,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-18,Paraíba,236,29,90,31
 2020-04-19,João Pessoa,172,17,0,9
 2020-04-19,Campina Grande,12,2,0,0
-2020-04-19,Santa Rita,20,2,0,-1
+2020-04-19,Santa Rita,21,2,0,0
 2020-04-19,Sousa,1,0,0,0
 2020-04-19,Igaracy,1,0,0,0
 2020-04-19,Patos,8,2,0,1
@@ -227,10 +227,10 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-19,Riachão do Poço,1,0,0,0
 2020-04-19,Queimadas,1,0,0,0
 2020-04-19,Congo,1,0,0,0
-2020-04-19,Paraíba,245,32,99,9
+2020-04-19,Paraíba,246,32,99,10
 2020-04-20,João Pessoa,185,20,0,13
 2020-04-20,Campina Grande,12,2,0,0
-2020-04-20,Santa Rita,20,2,0,0
+2020-04-20,Santa Rita,21,2,0,0
 2020-04-20,Sousa,1,0,0,0
 2020-04-20,Igaracy,1,0,0,0
 2020-04-20,Patos,8,2,0,0
@@ -247,10 +247,10 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-20,Queimadas,1,0,0,0
 2020-04-20,Congo,1,0,0,0
 2020-04-20,Bom Jesus,1,0,0,0
-2020-04-20,Paraíba,263,33,116,18
+2020-04-20,Paraíba,264,33,116,18
 2020-04-21,João Pessoa,205,25,0,20
 2020-04-21,Campina Grande,20,2,0,8
-2020-04-21,Santa Rita,24,2,0,4
+2020-04-21,Santa Rita,24,2,0,3
 2020-04-21,Sousa,1,0,0,0
 2020-04-21,Igaracy,1,0,0,0
 2020-04-21,Patos,8,2,0,0
@@ -271,7 +271,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-21,Cruz do Espírito Santo,1,0,0,0
 2020-04-21,Itabaiana,1,0,0,0
 2020-04-21,Conde,1,0,0,0
-2020-04-21,Paraíba,301,39,116,38
+2020-04-21,Paraíba,301,39,116,37
 2020-04-22,João Pessoa,230,25,0,25
 2020-04-22,Campina Grande,24,2,0,4
 2020-04-22,Santa Rita,25,3,0,1
