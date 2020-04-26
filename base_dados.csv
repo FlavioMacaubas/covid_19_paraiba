@@ -1,404 +1,404 @@
-data,cidade,confirmados,obitos,recuperados
-2020-03-31,João Pessoa,12,0,0
-2020-03-31,Campina Grande,2,0,0
-2020-03-31,Sousa,1,0,0
-2020-03-31,Igaracy,1,0,0
-2020-03-31,Patos,1,1,0
-2020-03-31,Paraíba,17,1,0
-2020-04-01,João Pessoa,14,0,0
-2020-04-01,Campina Grande,2,0,0
-2020-04-01,Sousa,1,0,0
-2020-04-01,Igaracy,1,0,0
-2020-04-01,Patos,1,1,0
-2020-04-01,Cabedelo,1,0,0
-2020-04-01,Paraíba,20,1,0
-2020-04-02,João Pessoa,22,0,0
-2020-04-02,Campina Grande,2,0,0
-2020-04-02,Sousa,1,0,0
-2020-04-02,Igaracy,1,0,0
-2020-04-02,Patos,1,1,0
-2020-04-02,Cabedelo,1,0,0
-2020-04-02,Paraíba,28,1,0
-2020-04-03,João Pessoa,24,0,0
-2020-04-03,Campina Grande,2,0,0
-2020-04-03,Sousa,1,0,0
-2020-04-03,Igaracy,1,0,0
-2020-04-03,Patos,1,1,0
-2020-04-03,Cabedelo,1,0,0
-2020-04-03,Paraíba,30,1,0
-2020-04-04,João Pessoa,26,1,0
-2020-04-04,Campina Grande,2,0,0
-2020-04-04,Sousa,1,0,0
-2020-04-04,Igaracy,1,0,0
-2020-04-04,Patos,1,1,0
-2020-04-04,Cabedelo,1,0,0
-2020-04-04,Serra Branca,1,0,0
-2020-04-04,Junco do Seridó,1,1,0
-2020-04-04,Paraíba,34,3,9
-2020-04-05,João Pessoa,26,2,0
-2020-04-05,Campina Grande,3,0,0
-2020-04-05,Sousa,1,0,0
-2020-04-05,Igaracy,1,0,0
-2020-04-05,Patos,1,1,0
-2020-04-05,Cabedelo,1,0,0
-2020-04-05,Serra Branca,1,0,0
-2020-04-05,Junco do Seridó,1,1,0
-2020-04-05,Paraíba,35,4,9
-2020-04-06,João Pessoa,27,2,0
-2020-04-06,Campina Grande,3,0,0
-2020-04-06,Sousa,1,0,0
-2020-04-06,Igaracy,1,0,0
-2020-04-06,Patos,1,1,0
-2020-04-06,Cabedelo,1,0,0
-2020-04-06,Serra Branca,1,0,0
-2020-04-06,Junco do Seridó,1,1,0
-2020-04-06,Paraíba,36,4,11
-2020-04-07,João Pessoa,30,2,0
-2020-04-07,Campina Grande,3,0,0
-2020-04-07,Santa Rita,2,0,0
-2020-04-07,Sousa,1,0,0
-2020-04-07,Igaracy,1,0,0
-2020-04-07,Patos,1,1,0
-2020-04-07,Cabedelo,1,0,0
-2020-04-07,Serra Branca,1,0,0
-2020-04-07,Junco do Seridó,1,1,0
-2020-04-07,Paraíba,41,4,11
-2020-04-08,João Pessoa,40,4,0
-2020-04-08,Campina Grande,3,0,0
-2020-04-08,Santa Rita,4,0,0
-2020-04-08,Sousa,1,0,0
-2020-04-08,Igaracy,1,0,0
-2020-04-08,Patos,1,1,0
-2020-04-08,Cabedelo,2,1,0
-2020-04-08,Serra Branca,1,0,0
-2020-04-08,Junco do Seridó,1,1,0
-2020-04-08,Bayeux,1,0,0
-2020-04-08,Paraíba,55,7,14
-2020-04-09,João Pessoa,58,7,0
-2020-04-09,Campina Grande,3,0,0
-2020-04-09,Santa Rita,5,0,0
-2020-04-09,Sousa,1,0,0
-2020-04-09,Igaracy,1,0,0
-2020-04-09,Patos,4,1,0
-2020-04-09,Cabedelo,4,2,0
-2020-04-09,Serra Branca,1,0,0
-2020-04-09,Junco do Seridó,1,1,0
-2020-04-09,Bayeux,1,0,0
-2020-04-09,Paraíba,79,11,22
-2020-04-10,João Pessoa,64,7,0
-2020-04-10,Campina Grande,3,0,0
-2020-04-10,Santa Rita,6,0,0
-2020-04-10,Sousa,1,0,0
-2020-04-10,Igaracy,1,0,0
-2020-04-10,Patos,4,1,0
-2020-04-10,Cabedelo,4,2,0
-2020-04-10,Serra Branca,1,0,0
-2020-04-10,Junco do Seridó,1,1,0
-2020-04-10,Bayeux,1,0,0
-2020-04-10,Paraíba,86,11,30
-2020-04-11,João Pessoa,78,8,0
-2020-04-11,Campina Grande,3,0,0
-2020-04-11,Santa Rita,7,0,0
-2020-04-11,Sousa,1,0,0
-2020-04-11,Igaracy,1,0,0
-2020-04-11,Patos,4,1,0
-2020-04-11,Cabedelo,4,2,0
-2020-04-11,Serra Branca,1,0,0
-2020-04-11,Junco do Seridó,1,1,0
-2020-04-11,Bayeux,1,1,0
-2020-04-11,Paraíba,101,13,43
-2020-04-12,João Pessoa,86,8,0
-2020-04-12,Campina Grande,3,0,0
-2020-04-12,Santa Rita,7,0,0
-2020-04-12,Sousa,1,0,0
-2020-04-12,Igaracy,1,0,0
-2020-04-12,Patos,4,1,0
-2020-04-12,Cabedelo,4,2,0
-2020-04-12,Serra Branca,1,0,0
-2020-04-12,Junco do Seridó,3,1,0
-2020-04-12,Bayeux,1,1,0
-2020-04-12,Paraíba,111,13,43
-2020-04-13,João Pessoa,103,11,0
-2020-04-13,Campina Grande,3,0,0
-2020-04-13,Santa Rita,10,0,0
-2020-04-13,Sousa,1,0,0
-2020-04-13,Igaracy,1,0,0
-2020-04-13,Patos,4,1,0
-2020-04-13,Cabedelo,5,2,0
-2020-04-13,Serra Branca,1,0,0
-2020-04-13,Junco do Seridó,3,1,0
-2020-04-13,Bayeux,4,1,0
-2020-04-13,Sapé,1,0,0
-2020-04-13,Paraíba,136,16,52
-2020-04-14,João Pessoa,115,12,0
-2020-04-14,Campina Grande,3,0,0
-2020-04-14,Santa Rita,12,1,0
-2020-04-14,Sousa,1,0,0
-2020-04-14,Igaracy,1,0,0
-2020-04-14,Patos,4,1,0
-2020-04-14,Cabedelo,5,2,0
-2020-04-14,Serra Branca,1,0,0
-2020-04-14,Junco do Seridó,3,1,0
-2020-04-14,Bayeux,4,1,0
-2020-04-14,São João do Rio do Peixe,1,0,0
-2020-04-14,Taperoá,1,1,0
-2020-04-14,Sapé,1,0,0
-2020-04-14,Paraíba,152,21,52
-2020-04-15,João Pessoa,124,14,0
-2020-04-15,Campina Grande,4,0,0
-2020-04-15,Santa Rita,14,1,0
-2020-04-15,Sousa,1,0,0
-2020-04-15,Igaracy,1,0,0
-2020-04-15,Patos,4,1,0
-2020-04-15,Cabedelo,6,1,0
-2020-04-15,Serra Branca,1,0,0
-2020-04-15,Junco do Seridó,3,1,0
-2020-04-15,Bayeux,4,0,0
-2020-04-15,São João do Rio do Peixe,1,0,0
-2020-04-15,Taperoá,1,1,0
-2020-04-15,Sapé,1,1,0
-2020-04-15,Paraíba,165,24,80
-2020-04-16,João Pessoa,142,14,0
-2020-04-16,Campina Grande,8,1,0
-2020-04-16,Santa Rita,17,1,0
-2020-04-16,Sousa,1,0,0
-2020-04-16,Igaracy,1,0,0
-2020-04-16,Patos,5,2,0
-2020-04-16,Cabedelo,7,1,0
-2020-04-16,Serra Branca,1,0,0
-2020-04-16,Junco do Seridó,3,1,0
-2020-04-16,Bayeux,6,0,0
-2020-04-16,São João do Rio do Peixe,1,0,0
-2020-04-16,Taperoá,1,1,0
-2020-04-16,Sapé,1,1,0
-2020-04-16,Pombal,1,0,0
-2020-04-16,Paraíba,195,26,80
-2020-04-17,João Pessoa,148,15,0
-2020-04-17,Campina Grande,8,1,0
-2020-04-17,Santa Rita,17,1,0
-2020-04-17,Sousa,1,0,0
-2020-04-17,Igaracy,1,0,0
-2020-04-17,Patos,5,2,0
-2020-04-17,Cabedelo,8,1,0
-2020-04-17,Serra Branca,1,0,0
-2020-04-17,Junco do Seridó,3,1,0
-2020-04-17,Bayeux,6,0,0
-2020-04-17,São João do Rio do Peixe,1,0,0
-2020-04-17,Taperoá,1,1,0
-2020-04-17,Sapé,1,1,0
-2020-04-17,Pombal,2,0,0
-2020-04-17,São Bento,1,0,0
-2020-04-17,Riachão do Poço,1,1,0
-2020-04-17,Paraíba,205,28,90
-2020-04-18,João Pessoa,163,15,0
-2020-04-18,Campina Grande,12,1,0
-2020-04-18,Santa Rita,21,2,0
-2020-04-18,Sousa,1,0,0
-2020-04-18,Igaracy,1,0,0
-2020-04-18,Patos,7,2,0
-2020-04-18,Cabedelo,9,1,0
-2020-04-18,Serra Branca,1,0,0
-2020-04-18,Junco do Seridó,3,1,0
-2020-04-18,Bayeux,8,0,0
-2020-04-18,São João do Rio do Peixe,1,0,0
-2020-04-18,Taperoá,1,1,0
-2020-04-18,Sapé,2,1,0
-2020-04-18,Pombal,2,0,0
-2020-04-18,São Bento,1,0,0
-2020-04-18,Riachão do Poço,1,0,0
-2020-04-18,Queimadas,1,0,0
-2020-04-18,Congo,1,0,0
-2020-04-18,Paraíba,236,29,90
-2020-04-19,João Pessoa,172,17,0
-2020-04-19,Campina Grande,12,2,0
-2020-04-19,Santa Rita,20,2,0
-2020-04-19,Sousa,1,0,0
-2020-04-19,Igaracy,1,0,0
-2020-04-19,Patos,8,2,0
-2020-04-19,Cabedelo,9,1,0
-2020-04-19,Serra Branca,1,0,0
-2020-04-19,Junco do Seridó,3,1,0
-2020-04-19,Bayeux,8,0,0
-2020-04-19,São João do Rio do Peixe,1,0,0
-2020-04-19,Taperoá,1,1,0
-2020-04-19,Sapé,2,1,0
-2020-04-19,Pombal,2,0,0
-2020-04-19,São Bento,1,0,0
-2020-04-19,Riachão do Poço,1,0,0
-2020-04-19,Queimadas,1,0,0
-2020-04-19,Congo,1,0,0
-2020-04-19,Paraíba,245,32,99
-2020-04-20,João Pessoa,185,20,0
-2020-04-20,Campina Grande,12,2,0
-2020-04-20,Santa Rita,20,2,0
-2020-04-20,Sousa,1,0,0
-2020-04-20,Igaracy,1,0,0
-2020-04-20,Patos,8,2,0
-2020-04-20,Cabedelo,11,2,0
-2020-04-20,Serra Branca,1,0,0
-2020-04-20,Junco do Seridó,3,1,0
-2020-04-20,Bayeux,9,1,0
-2020-04-20,São João do Rio do Peixe,1,0,0
-2020-04-20,Taperoá,1,1,0
-2020-04-20,Sapé,3,1,0
-2020-04-20,Pombal,2,0,0
-2020-04-20,São Bento,1,0,0
-2020-04-20,Riachão do Poço,1,1,0
-2020-04-20,Queimadas,1,0,0
-2020-04-20,Congo,1,0,0
-2020-04-20,Bom Jesus,1,0,0
-2020-04-20,Paraíba,263,33,116
-2020-04-21,João Pessoa,205,25,0
-2020-04-21,Campina Grande,20,2,0
-2020-04-21,Santa Rita,24,2,0
-2020-04-21,Sousa,1,0,0
-2020-04-21,Igaracy,1,0,0
-2020-04-21,Patos,8,2,0
-2020-04-21,Cabedelo,12,2,0
-2020-04-21,Serra Branca,1,0,0
-2020-04-21,Junco do Seridó,3,1,0
-2020-04-21,Bayeux,9,1,0
-2020-04-21,São João do Rio do Peixe,1,0,0
-2020-04-21,Taperoá,1,1,0
-2020-04-21,Sapé,3,1,0
-2020-04-21,Pombal,2,0,0
-2020-04-21,São Bento,1,0,0
-2020-04-21,Riachão do Poço,1,1,0
-2020-04-21,Queimadas,1,0,0
-2020-04-21,Congo,1,0,0
-2020-04-21,Bom Jesus,1,0,0
-2020-04-21,Cajazeiras,2,1,0
-2020-04-21,Cruz do Espírito Santo,1,0,0
-2020-04-21,Itabaiana,1,0,0
-2020-04-21,Conde,1,0,0
-2020-04-21,Paraíba,301,39,116
-2020-04-22,João Pessoa,230,25,0
-2020-04-22,Campina Grande,24,2,0
-2020-04-22,Santa Rita,25,3,0
-2020-04-22,Sousa,2,0,0
-2020-04-22,Igaracy,1,0,0
-2020-04-22,Patos,8,2,0
-2020-04-22,Cabedelo,15,2,0
-2020-04-22,Serra Branca,1,0,0
-2020-04-22,Junco do Seridó,3,1,0
-2020-04-22,Bayeux,10,1,0
-2020-04-22,São João do Rio do Peixe,1,0,0
-2020-04-22,Taperoá,1,1,0
-2020-04-22,Sapé,8,1,0
-2020-04-22,Pombal,2,0,0
-2020-04-22,São Bento,1,0,0
-2020-04-22,Riachão do Poço,1,1,0
-2020-04-22,Queimadas,1,0,0
-2020-04-22,Congo,1,0,0
-2020-04-22,Bom Jesus,1,0,0
-2020-04-22,Cajazeiras,2,1,0
-2020-04-22,Cruz do Espírito Santo,1,0,0
-2020-04-22,Itabaiana,1,0,0
-2020-04-22,Conde,1,0,0
-2020-04-22,Coremas,1,0,0
-2020-04-22,Alagoa Nova,1,0,0
-2020-04-22,Barra de São Miguel,1,0,0
-2020-04-22,Itapororoca,1,0,0
-2020-04-22,Paraíba,345,40,116
-2020-04-23,João Pessoa,254,28,0
-2020-04-23,Campina Grande,30,2,0
-2020-04-23,Santa Rita,25,4,0
-2020-04-23,Sousa,4,0,0
-2020-04-23,Igaracy,1,0,0
-2020-04-23,Patos,8,2,0
-2020-04-23,Cabedelo,15,2,0
-2020-04-23,Serra Branca,1,0,0
-2020-04-23,Junco do Seridó,3,1,0
-2020-04-23,Bayeux,10,1,0
-2020-04-23,São João do Rio do Peixe,2,0,0
-2020-04-23,Taperoá,1,1,0
-2020-04-23,Sapé,10,1,0
-2020-04-23,Pombal,2,0,0
-2020-04-23,São Bento,1,0,0
-2020-04-23,Riachão do Poço,1,1,0
-2020-04-23,Queimadas,1,0,0
-2020-04-23,Congo,1,0,0
-2020-04-23,Bom Jesus,1,0,0
-2020-04-23,Cajazeiras,4,1,0
-2020-04-23,Cruz do Espírito Santo,1,0,0
-2020-04-23,Itabaiana,1,0,0
-2020-04-23,Conde,1,0,0
-2020-04-23,Coremas,1,0,0
-2020-04-23,Alagoa Nova,1,0,0
-2020-04-23,Barra de São Miguel,1,0,0
-2020-04-23,Itapororoca,2,0,0
-2020-04-23,Guarabira,3,0,0
-2020-04-23,Paraíba,386,44,116
-2020-04-24,João Pessoa,286,28,0
-2020-04-24,Campina Grande,35,2,0
-2020-04-24,Santa Rita,29,5,0
-2020-04-24,Sousa,6,0,0
-2020-04-24,Igaracy,1,0,0
-2020-04-24,Patos,8,2,0
-2020-04-24,Cabedelo,16,2,0
-2020-04-24,Serra Branca,1,0,0
-2020-04-24,Junco do Seridó,3,1,0
-2020-04-24,Bayeux,12,1,0
-2020-04-24,São João do Rio do Peixe,3,0,0
-2020-04-24,Taperoá,1,1,0
-2020-04-24,Sapé,13,1,0
-2020-04-24,Pombal,2,0,0
-2020-04-24,São Bento,1,0,0
-2020-04-24,Riachão do Poço,1,1,0
-2020-04-24,Queimadas,1,0,0
-2020-04-24,Congo,1,0,0
-2020-04-24,Bom Jesus,1,0,0
-2020-04-24,Cajazeiras,4,1,0
-2020-04-24,Cruz do Espírito Santo,1,0,0
-2020-04-24,Itabaiana,2,0,0
-2020-04-24,Conde,4,1,0
-2020-04-24,Coremas,1,0,0
-2020-04-24,Alagoa Nova,1,0,0
-2020-04-24,Barra de São Miguel,1,0,0
-2020-04-24,Itapororoca,2,0,0
-2020-04-24,Guarabira,3,0,0
-2020-04-24,Pedras de Fogo,2,0,0
-2020-04-24,Itaporanga,1,0,0
-2020-04-24,Alagoa Grande,1,0,0
-2020-04-24,Brejo do Cruz,1,0,0
-2020-04-24,Caaporã,1,0,0
-2020-04-24,Coxixola,1,0,0
-2020-04-24,Paraíba,447,46,117
-2020-04-25,João Pessoa,313,28,0
-2020-04-25,Campina Grande,39,2,0
-2020-04-25,Santa Rita,37,6,0
-2020-04-25,Sousa,6,0,0
-2020-04-25,Igaracy,1,0,0
-2020-04-25,Patos,11,2,0
-2020-04-25,Cabedelo,16,2,0
-2020-04-25,Serra Branca,1,0,0
-2020-04-25,Junco do Seridó,3,1,0
-2020-04-25,Bayeux,15,1,0
-2020-04-25,São João do Rio do Peixe,4,0,0
-2020-04-25,Taperoá,1,1,0
-2020-04-25,Sapé,13,1,0
-2020-04-25,Pombal,2,0,0
-2020-04-25,São Bento,1,0,0
-2020-04-25,Riachão do Poço,1,1,0
-2020-04-25,Queimadas,1,0,0
-2020-04-25,Congo,1,0,0
-2020-04-25,Bom Jesus,1,0,0
-2020-04-25,Cajazeiras,4,1,0
-2020-04-25,Cruz do Espírito Santo,2,0,0
-2020-04-25,Itabaiana,2,0,0
-2020-04-25,Conde,5,1,0
-2020-04-25,Coremas,1,0,0
-2020-04-25,Alagoa Nova,1,0,0
-2020-04-25,Barra de São Miguel,1,0,0
-2020-04-25,Itapororoca,3,0,0
-2020-04-25,Guarabira,3,0,0
-2020-04-25,Pedras de Fogo,2,0,0
-2020-04-25,Itaporanga,1,0,0
-2020-04-25,Alagoa Grande,1,0,0
-2020-04-25,Brejo do Cruz,1,1,0
-2020-04-25,Caaporã,1,0,0
-2020-04-25,Coxixola,1,0,0
-2020-04-25,Boqueirão,1,0,0
-2020-04-25,Marizópolis,1,1,0
-2020-04-25,Areia,1,0,0
-2020-04-25,Paraíba,499,49,117
+data,cidade,confirmados,obitos,recuperados,novos_casos
+2020-03-31,João Pessoa,12,0,0,0
+2020-03-31,Campina Grande,2,0,0,0
+2020-03-31,Sousa,1,0,0,0
+2020-03-31,Igaracy,1,0,0,0
+2020-03-31,Patos,1,1,0,0
+2020-03-31,Paraíba,17,1,0,0
+2020-04-01,João Pessoa,14,0,0,2
+2020-04-01,Campina Grande,2,0,0,0
+2020-04-01,Sousa,1,0,0,0
+2020-04-01,Igaracy,1,0,0,0
+2020-04-01,Patos,1,1,0,0
+2020-04-01,Cabedelo,1,0,0,0
+2020-04-01,Paraíba,20,1,0,3
+2020-04-02,João Pessoa,22,0,0,8
+2020-04-02,Campina Grande,2,0,0,0
+2020-04-02,Sousa,1,0,0,0
+2020-04-02,Igaracy,1,0,0,0
+2020-04-02,Patos,1,1,0,0
+2020-04-02,Cabedelo,1,0,0,0
+2020-04-02,Paraíba,28,1,0,8
+2020-04-03,João Pessoa,24,0,0,2
+2020-04-03,Campina Grande,2,0,0,0
+2020-04-03,Sousa,1,0,0,0
+2020-04-03,Igaracy,1,0,0,0
+2020-04-03,Patos,1,1,0,0
+2020-04-03,Cabedelo,1,0,0,0
+2020-04-03,Paraíba,30,1,0,2
+2020-04-04,João Pessoa,26,1,0,2
+2020-04-04,Campina Grande,2,0,0,0
+2020-04-04,Sousa,1,0,0,0
+2020-04-04,Igaracy,1,0,0,0
+2020-04-04,Patos,1,1,0,0
+2020-04-04,Cabedelo,1,0,0,0
+2020-04-04,Serra Branca,1,0,0,0
+2020-04-04,Junco do Seridó,1,1,0,0
+2020-04-04,Paraíba,34,3,9,4
+2020-04-05,João Pessoa,26,2,0,0
+2020-04-05,Campina Grande,3,0,0,1
+2020-04-05,Sousa,1,0,0,0
+2020-04-05,Igaracy,1,0,0,0
+2020-04-05,Patos,1,1,0,0
+2020-04-05,Cabedelo,1,0,0,0
+2020-04-05,Serra Branca,1,0,0,0
+2020-04-05,Junco do Seridó,1,1,0,0
+2020-04-05,Paraíba,35,4,9,1
+2020-04-06,João Pessoa,27,2,0,1
+2020-04-06,Campina Grande,3,0,0,0
+2020-04-06,Sousa,1,0,0,0
+2020-04-06,Igaracy,1,0,0,0
+2020-04-06,Patos,1,1,0,0
+2020-04-06,Cabedelo,1,0,0,0
+2020-04-06,Serra Branca,1,0,0,0
+2020-04-06,Junco do Seridó,1,1,0,0
+2020-04-06,Paraíba,36,4,11,1
+2020-04-07,João Pessoa,30,2,0,3
+2020-04-07,Campina Grande,3,0,0,0
+2020-04-07,Santa Rita,2,0,0,0
+2020-04-07,Sousa,1,0,0,0
+2020-04-07,Igaracy,1,0,0,0
+2020-04-07,Patos,1,1,0,0
+2020-04-07,Cabedelo,1,0,0,0
+2020-04-07,Serra Branca,1,0,0,0
+2020-04-07,Junco do Seridó,1,1,0,0
+2020-04-07,Paraíba,41,4,11,5
+2020-04-08,João Pessoa,40,4,0,10
+2020-04-08,Campina Grande,3,0,0,0
+2020-04-08,Santa Rita,4,0,0,2
+2020-04-08,Sousa,1,0,0,0
+2020-04-08,Igaracy,1,0,0,0
+2020-04-08,Patos,1,1,0,0
+2020-04-08,Cabedelo,2,1,0,1
+2020-04-08,Serra Branca,1,0,0,0
+2020-04-08,Junco do Seridó,1,1,0,0
+2020-04-08,Bayeux,1,0,0,0
+2020-04-08,Paraíba,55,7,14,14
+2020-04-09,João Pessoa,58,7,0,18
+2020-04-09,Campina Grande,3,0,0,0
+2020-04-09,Santa Rita,5,0,0,1
+2020-04-09,Sousa,1,0,0,0
+2020-04-09,Igaracy,1,0,0,0
+2020-04-09,Patos,4,1,0,3
+2020-04-09,Cabedelo,4,2,0,2
+2020-04-09,Serra Branca,1,0,0,0
+2020-04-09,Junco do Seridó,1,1,0,0
+2020-04-09,Bayeux,1,0,0,0
+2020-04-09,Paraíba,79,11,22,24
+2020-04-10,João Pessoa,64,7,0,6
+2020-04-10,Campina Grande,3,0,0,0
+2020-04-10,Santa Rita,6,0,0,1
+2020-04-10,Sousa,1,0,0,0
+2020-04-10,Igaracy,1,0,0,0
+2020-04-10,Patos,4,1,0,0
+2020-04-10,Cabedelo,4,2,0,0
+2020-04-10,Serra Branca,1,0,0,0
+2020-04-10,Junco do Seridó,1,1,0,0
+2020-04-10,Bayeux,1,0,0,0
+2020-04-10,Paraíba,86,11,30,7
+2020-04-11,João Pessoa,78,8,0,14
+2020-04-11,Campina Grande,3,0,0,0
+2020-04-11,Santa Rita,7,0,0,1
+2020-04-11,Sousa,1,0,0,0
+2020-04-11,Igaracy,1,0,0,0
+2020-04-11,Patos,4,1,0,0
+2020-04-11,Cabedelo,4,2,0,0
+2020-04-11,Serra Branca,1,0,0,0
+2020-04-11,Junco do Seridó,1,1,0,0
+2020-04-11,Bayeux,1,1,0,0
+2020-04-11,Paraíba,101,13,43,15
+2020-04-12,João Pessoa,86,8,0,8
+2020-04-12,Campina Grande,3,0,0,0
+2020-04-12,Santa Rita,7,0,0,0
+2020-04-12,Sousa,1,0,0,0
+2020-04-12,Igaracy,1,0,0,0
+2020-04-12,Patos,4,1,0,0
+2020-04-12,Cabedelo,4,2,0,0
+2020-04-12,Serra Branca,1,0,0,0
+2020-04-12,Junco do Seridó,3,1,0,2
+2020-04-12,Bayeux,1,1,0,0
+2020-04-12,Paraíba,111,13,43,10
+2020-04-13,João Pessoa,103,11,0,17
+2020-04-13,Campina Grande,3,0,0,0
+2020-04-13,Santa Rita,10,0,0,3
+2020-04-13,Sousa,1,0,0,0
+2020-04-13,Igaracy,1,0,0,0
+2020-04-13,Patos,4,1,0,0
+2020-04-13,Cabedelo,5,2,0,1
+2020-04-13,Serra Branca,1,0,0,0
+2020-04-13,Junco do Seridó,3,1,0,0
+2020-04-13,Bayeux,4,1,0,3
+2020-04-13,Sapé,1,0,0,0
+2020-04-13,Paraíba,136,16,52,25
+2020-04-14,João Pessoa,115,12,0,12
+2020-04-14,Campina Grande,3,0,0,0
+2020-04-14,Santa Rita,12,1,0,2
+2020-04-14,Sousa,1,0,0,0
+2020-04-14,Igaracy,1,0,0,0
+2020-04-14,Patos,4,1,0,0
+2020-04-14,Cabedelo,5,2,0,0
+2020-04-14,Serra Branca,1,0,0,0
+2020-04-14,Junco do Seridó,3,1,0,0
+2020-04-14,Bayeux,4,1,0,0
+2020-04-14,São João do Rio do Peixe,1,0,0,0
+2020-04-14,Taperoá,1,1,0,0
+2020-04-14,Sapé,1,0,0,0
+2020-04-14,Paraíba,152,21,52,16
+2020-04-15,João Pessoa,124,14,0,9
+2020-04-15,Campina Grande,4,0,0,1
+2020-04-15,Santa Rita,14,1,0,2
+2020-04-15,Sousa,1,0,0,0
+2020-04-15,Igaracy,1,0,0,0
+2020-04-15,Patos,4,1,0,0
+2020-04-15,Cabedelo,6,1,0,1
+2020-04-15,Serra Branca,1,0,0,0
+2020-04-15,Junco do Seridó,3,1,0,0
+2020-04-15,Bayeux,4,0,0,0
+2020-04-15,São João do Rio do Peixe,1,0,0,0
+2020-04-15,Taperoá,1,1,0,0
+2020-04-15,Sapé,1,1,0,0
+2020-04-15,Paraíba,165,24,80,13
+2020-04-16,João Pessoa,142,14,0,18
+2020-04-16,Campina Grande,8,1,0,4
+2020-04-16,Santa Rita,17,1,0,3
+2020-04-16,Sousa,1,0,0,0
+2020-04-16,Igaracy,1,0,0,0
+2020-04-16,Patos,5,2,0,1
+2020-04-16,Cabedelo,7,1,0,1
+2020-04-16,Serra Branca,1,0,0,0
+2020-04-16,Junco do Seridó,3,1,0,0
+2020-04-16,Bayeux,6,0,0,2
+2020-04-16,São João do Rio do Peixe,1,0,0,0
+2020-04-16,Taperoá,1,1,0,0
+2020-04-16,Sapé,1,1,0,0
+2020-04-16,Pombal,1,0,0,0
+2020-04-16,Paraíba,195,26,80,30
+2020-04-17,João Pessoa,148,15,0,6
+2020-04-17,Campina Grande,8,1,0,0
+2020-04-17,Santa Rita,17,1,0,0
+2020-04-17,Sousa,1,0,0,0
+2020-04-17,Igaracy,1,0,0,0
+2020-04-17,Patos,5,2,0,0
+2020-04-17,Cabedelo,8,1,0,1
+2020-04-17,Serra Branca,1,0,0,0
+2020-04-17,Junco do Seridó,3,1,0,0
+2020-04-17,Bayeux,6,0,0,0
+2020-04-17,São João do Rio do Peixe,1,0,0,0
+2020-04-17,Taperoá,1,1,0,0
+2020-04-17,Sapé,1,1,0,0
+2020-04-17,Pombal,2,0,0,1
+2020-04-17,São Bento,1,0,0,0
+2020-04-17,Riachão do Poço,1,1,0,0
+2020-04-17,Paraíba,205,28,90,10
+2020-04-18,João Pessoa,163,15,0,15
+2020-04-18,Campina Grande,12,1,0,4
+2020-04-18,Santa Rita,21,2,0,4
+2020-04-18,Sousa,1,0,0,0
+2020-04-18,Igaracy,1,0,0,0
+2020-04-18,Patos,7,2,0,2
+2020-04-18,Cabedelo,9,1,0,1
+2020-04-18,Serra Branca,1,0,0,0
+2020-04-18,Junco do Seridó,3,1,0,0
+2020-04-18,Bayeux,8,0,0,2
+2020-04-18,São João do Rio do Peixe,1,0,0,0
+2020-04-18,Taperoá,1,1,0,0
+2020-04-18,Sapé,2,1,0,1
+2020-04-18,Pombal,2,0,0,0
+2020-04-18,São Bento,1,0,0,0
+2020-04-18,Riachão do Poço,1,0,0,0
+2020-04-18,Queimadas,1,0,0,0
+2020-04-18,Congo,1,0,0,0
+2020-04-18,Paraíba,236,29,90,31
+2020-04-19,João Pessoa,172,17,0,9
+2020-04-19,Campina Grande,12,2,0,0
+2020-04-19,Santa Rita,20,2,0,-1
+2020-04-19,Sousa,1,0,0,0
+2020-04-19,Igaracy,1,0,0,0
+2020-04-19,Patos,8,2,0,1
+2020-04-19,Cabedelo,9,1,0,0
+2020-04-19,Serra Branca,1,0,0,0
+2020-04-19,Junco do Seridó,3,1,0,0
+2020-04-19,Bayeux,8,0,0,0
+2020-04-19,São João do Rio do Peixe,1,0,0,0
+2020-04-19,Taperoá,1,1,0,0
+2020-04-19,Sapé,2,1,0,0
+2020-04-19,Pombal,2,0,0,0
+2020-04-19,São Bento,1,0,0,0
+2020-04-19,Riachão do Poço,1,0,0,0
+2020-04-19,Queimadas,1,0,0,0
+2020-04-19,Congo,1,0,0,0
+2020-04-19,Paraíba,245,32,99,9
+2020-04-20,João Pessoa,185,20,0,13
+2020-04-20,Campina Grande,12,2,0,0
+2020-04-20,Santa Rita,20,2,0,0
+2020-04-20,Sousa,1,0,0,0
+2020-04-20,Igaracy,1,0,0,0
+2020-04-20,Patos,8,2,0,0
+2020-04-20,Cabedelo,11,2,0,2
+2020-04-20,Serra Branca,1,0,0,0
+2020-04-20,Junco do Seridó,3,1,0,0
+2020-04-20,Bayeux,9,1,0,1
+2020-04-20,São João do Rio do Peixe,1,0,0,0
+2020-04-20,Taperoá,1,1,0,0
+2020-04-20,Sapé,3,1,0,1
+2020-04-20,Pombal,2,0,0,0
+2020-04-20,São Bento,1,0,0,0
+2020-04-20,Riachão do Poço,1,1,0,0
+2020-04-20,Queimadas,1,0,0,0
+2020-04-20,Congo,1,0,0,0
+2020-04-20,Bom Jesus,1,0,0,0
+2020-04-20,Paraíba,263,33,116,18
+2020-04-21,João Pessoa,205,25,0,20
+2020-04-21,Campina Grande,20,2,0,8
+2020-04-21,Santa Rita,24,2,0,4
+2020-04-21,Sousa,1,0,0,0
+2020-04-21,Igaracy,1,0,0,0
+2020-04-21,Patos,8,2,0,0
+2020-04-21,Cabedelo,12,2,0,1
+2020-04-21,Serra Branca,1,0,0,0
+2020-04-21,Junco do Seridó,3,1,0,0
+2020-04-21,Bayeux,9,1,0,0
+2020-04-21,São João do Rio do Peixe,1,0,0,0
+2020-04-21,Taperoá,1,1,0,0
+2020-04-21,Sapé,3,1,0,0
+2020-04-21,Pombal,2,0,0,0
+2020-04-21,São Bento,1,0,0,0
+2020-04-21,Riachão do Poço,1,1,0,0
+2020-04-21,Queimadas,1,0,0,0
+2020-04-21,Congo,1,0,0,0
+2020-04-21,Bom Jesus,1,0,0,0
+2020-04-21,Cajazeiras,2,1,0,0
+2020-04-21,Cruz do Espírito Santo,1,0,0,0
+2020-04-21,Itabaiana,1,0,0,0
+2020-04-21,Conde,1,0,0,0
+2020-04-21,Paraíba,301,39,116,38
+2020-04-22,João Pessoa,230,25,0,25
+2020-04-22,Campina Grande,24,2,0,4
+2020-04-22,Santa Rita,25,3,0,1
+2020-04-22,Sousa,2,0,0,1
+2020-04-22,Igaracy,1,0,0,0
+2020-04-22,Patos,8,2,0,0
+2020-04-22,Cabedelo,15,2,0,3
+2020-04-22,Serra Branca,1,0,0,0
+2020-04-22,Junco do Seridó,3,1,0,0
+2020-04-22,Bayeux,10,1,0,1
+2020-04-22,São João do Rio do Peixe,1,0,0,0
+2020-04-22,Taperoá,1,1,0,0
+2020-04-22,Sapé,8,1,0,5
+2020-04-22,Pombal,2,0,0,0
+2020-04-22,São Bento,1,0,0,0
+2020-04-22,Riachão do Poço,1,1,0,0
+2020-04-22,Queimadas,1,0,0,0
+2020-04-22,Congo,1,0,0,0
+2020-04-22,Bom Jesus,1,0,0,0
+2020-04-22,Cajazeiras,2,1,0,0
+2020-04-22,Cruz do Espírito Santo,1,0,0,0
+2020-04-22,Itabaiana,1,0,0,0
+2020-04-22,Conde,1,0,0,0
+2020-04-22,Coremas,1,0,0,0
+2020-04-22,Alagoa Nova,1,0,0,0
+2020-04-22,Barra de São Miguel,1,0,0,0
+2020-04-22,Itapororoca,1,0,0,0
+2020-04-22,Paraíba,345,40,116,44
+2020-04-23,João Pessoa,254,28,0,24
+2020-04-23,Campina Grande,30,2,0,6
+2020-04-23,Santa Rita,25,4,0,0
+2020-04-23,Sousa,4,0,0,2
+2020-04-23,Igaracy,1,0,0,0
+2020-04-23,Patos,8,2,0,0
+2020-04-23,Cabedelo,15,2,0,0
+2020-04-23,Serra Branca,1,0,0,0
+2020-04-23,Junco do Seridó,3,1,0,0
+2020-04-23,Bayeux,10,1,0,0
+2020-04-23,São João do Rio do Peixe,2,0,0,1
+2020-04-23,Taperoá,1,1,0,0
+2020-04-23,Sapé,10,1,0,2
+2020-04-23,Pombal,2,0,0,0
+2020-04-23,São Bento,1,0,0,0
+2020-04-23,Riachão do Poço,1,1,0,0
+2020-04-23,Queimadas,1,0,0,0
+2020-04-23,Congo,1,0,0,0
+2020-04-23,Bom Jesus,1,0,0,0
+2020-04-23,Cajazeiras,4,1,0,2
+2020-04-23,Cruz do Espírito Santo,1,0,0,0
+2020-04-23,Itabaiana,1,0,0,0
+2020-04-23,Conde,1,0,0,0
+2020-04-23,Coremas,1,0,0,0
+2020-04-23,Alagoa Nova,1,0,0,0
+2020-04-23,Barra de São Miguel,1,0,0,0
+2020-04-23,Itapororoca,2,0,0,1
+2020-04-23,Guarabira,3,0,0,0
+2020-04-23,Paraíba,386,44,116,41
+2020-04-24,João Pessoa,286,28,0,32
+2020-04-24,Campina Grande,35,2,0,5
+2020-04-24,Santa Rita,29,5,0,4
+2020-04-24,Sousa,6,0,0,2
+2020-04-24,Igaracy,1,0,0,0
+2020-04-24,Patos,8,2,0,0
+2020-04-24,Cabedelo,16,2,0,1
+2020-04-24,Serra Branca,1,0,0,0
+2020-04-24,Junco do Seridó,3,1,0,0
+2020-04-24,Bayeux,12,1,0,2
+2020-04-24,São João do Rio do Peixe,3,0,0,1
+2020-04-24,Taperoá,1,1,0,0
+2020-04-24,Sapé,13,1,0,3
+2020-04-24,Pombal,2,0,0,0
+2020-04-24,São Bento,1,0,0,0
+2020-04-24,Riachão do Poço,1,1,0,0
+2020-04-24,Queimadas,1,0,0,0
+2020-04-24,Congo,1,0,0,0
+2020-04-24,Bom Jesus,1,0,0,0
+2020-04-24,Cajazeiras,4,1,0,0
+2020-04-24,Cruz do Espírito Santo,1,0,0,0
+2020-04-24,Itabaiana,2,0,0,1
+2020-04-24,Conde,4,1,0,3
+2020-04-24,Coremas,1,0,0,0
+2020-04-24,Alagoa Nova,1,0,0,0
+2020-04-24,Barra de São Miguel,1,0,0,0
+2020-04-24,Itapororoca,2,0,0,0
+2020-04-24,Guarabira,3,0,0,0
+2020-04-24,Pedras de Fogo,2,0,0,0
+2020-04-24,Itaporanga,1,0,0,0
+2020-04-24,Alagoa Grande,1,0,0,0
+2020-04-24,Brejo do Cruz,1,0,0,0
+2020-04-24,Caaporã,1,0,0,0
+2020-04-24,Coxixola,1,0,0,0
+2020-04-24,Paraíba,447,46,117,61
+2020-04-25,João Pessoa,313,28,0,27
+2020-04-25,Campina Grande,39,2,0,4
+2020-04-25,Santa Rita,37,6,0,8
+2020-04-25,Sousa,6,0,0,0
+2020-04-25,Igaracy,1,0,0,0
+2020-04-25,Patos,11,2,0,3
+2020-04-25,Cabedelo,16,2,0,0
+2020-04-25,Serra Branca,1,0,0,0
+2020-04-25,Junco do Seridó,3,1,0,0
+2020-04-25,Bayeux,15,1,0,3
+2020-04-25,São João do Rio do Peixe,4,0,0,1
+2020-04-25,Taperoá,1,1,0,0
+2020-04-25,Sapé,13,1,0,0
+2020-04-25,Pombal,2,0,0,0
+2020-04-25,São Bento,1,0,0,0
+2020-04-25,Riachão do Poço,1,1,0,0
+2020-04-25,Queimadas,1,0,0,0
+2020-04-25,Congo,1,0,0,0
+2020-04-25,Bom Jesus,1,0,0,0
+2020-04-25,Cajazeiras,4,1,0,0
+2020-04-25,Cruz do Espírito Santo,2,0,0,1
+2020-04-25,Itabaiana,2,0,0,0
+2020-04-25,Conde,5,1,0,1
+2020-04-25,Coremas,1,0,0,0
+2020-04-25,Alagoa Nova,1,0,0,0
+2020-04-25,Barra de São Miguel,1,0,0,0
+2020-04-25,Itapororoca,3,0,0,1
+2020-04-25,Guarabira,3,0,0,0
+2020-04-25,Pedras de Fogo,2,0,0,0
+2020-04-25,Itaporanga,1,0,0,0
+2020-04-25,Alagoa Grande,1,0,0,0
+2020-04-25,Brejo do Cruz,1,1,0,0
+2020-04-25,Caaporã,1,0,0,0
+2020-04-25,Coxixola,1,0,0,0
+2020-04-25,Boqueirão,1,0,0,0
+2020-04-25,Marizópolis,1,1,0,0
+2020-04-25,Areia,1,0,0,0
+2020-04-25,Paraíba,499,49,117,52
