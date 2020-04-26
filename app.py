@@ -12,292 +12,7 @@ server = app.server
 app.title = "Covid-19 PB-BR"
 
 ## Preparação Paraíba - Começo ##
-eixo_dias = ['31-03-2020', '01-04-2020', '02-04-2020', '03-04-2020',
-             '04-04-2020', '07-04-2020', '08-04-2020', '13-04-2020',
-             '14-04-2020', '15-04-2020', '16-04-2020', '17-04-2020',
-             '18-04-2020', '19-04-2020', '20-04-2020', '21-04-2020',
-             '22-04-2020', '23-04-2020', '24-04-2020', '25-05-2020']
-
-city_data = {
-    'Paraíba': {'dias': eixo_dias,
-                'confirmados':
-                    [17, 20, 28, 30, 34, 41, 55, 136, 152, 165, 195, 205, 236, 245, 263, 301, 345, 386, 447,499],
-                'recuperados':
-                    [3, 3, 3, 3, 9, 11, 14, 52, 52, 80, 80, 90, 90, 99, 116, 116, 116, 116, 117,117],
-                'obitos':
-                    [0, 1, 1, 1, 3, 4, 7, 14, 21, 24, 26, 28, 29, 32, 33, 39, 40, 44, 46,49]},
-
-    'João Pessoa': {'dias': eixo_dias,
-                    'confirmados':
-                        [12, 14, 22, 24, 26, 30, 40, 103, 115, 124, 142, 148, 163, 172, 185, 205, 230, 254, 286,313],
-                    'recuperados':
-                        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                    'obitos':
-                        [0, 0, 0, 0, 1, 2, 4, 9, 12, 14, 14, 15, 15, 17, 20, 25, 25, 28, 28,28]},
-
-    'Campina Grande': {'dias': eixo_dias, 'confirmados':
-                        [2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 8, 8, 12, 12, 12, 20, 24, 30, 35,39],
-                       'recuperados':
-                        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                       'obitos':
-                        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 2, 2,2]},
-
-    'Santa Rita': {'dias': eixo_dias,
-                   'confirmados':
-                       [0, 0, 0, 0, 0, 2, 4, 10, 12, 14, 17, 17, 21, 20, 20, 24, 25, 25, 29,37],
-                   'recuperados':
-                       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                   'obitos':
-                       [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 4, 5,6]},
-
-    'Cabedelo': {'dias': eixo_dias, 'confirmados':
-                     [0, 1, 1, 1, 1, 1, 2, 5, 5, 6, 7, 8, 9, 9, 11, 12, 15, 15, 16,16],
-                 'recuperados':
-                     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                 'obitos':
-                     [0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,2]},
-
-    'Bayeux': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 1, 4, 4, 4, 6, 6, 8, 8, 9, 9, 10, 10, 12,15],
-               'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-               'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-
-    'Sapé': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 8, 10, 13,13],
-             'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-             'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-
-    'Patos': {'dias': eixo_dias, 'confirmados':
-                [1, 1, 1, 0, 1, 1, 1, 4, 4, 4, 5, 5, 7, 8, 8, 8, 8, 8, 8,11],
-              'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos':
-                [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2,2]},
-
-    'Sousa': {'dias': eixo_dias, 'confirmados':
-                [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 4, 6,6],
-              'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-              'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Conde': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 4, 5],
-              'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-              'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1]},
-
-    'Cajazeiras': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 4, 4,4],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1,1]},
-
-    'São João do Rio do Peixe': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3,4],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Junco do Seridó': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,3],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-
-    'Itapororoca': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2,3],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Guarabira': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3,3],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-
-    'Pombal': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2,2],
-               'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-               'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-
-    'Itabaiana': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2,2],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Pedras de Fogo': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,2],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Cruz do Espírito Santo': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Gurinhém': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Itaporanga': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Serra Branca': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Riachão do Poço': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-
-    'São Bento': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Congo': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Queimadas': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Bom Jesus': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Igaracy': {'dias': eixo_dias, 'confirmados':
-                [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Alagoa Grande': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Boqueirão': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Barra de São Miguel': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Alagoa Nova': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Coremas': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Taperoá': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1]},
-
-    'Brejo do Cruz': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                      'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                      'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,1]},
-
-    'Caaporã': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Coxixola': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,1],
-                 'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0],
-                 'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0]},
-
-    'Areia': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-    'Marizópolis': {'dias': eixo_dias, 'confirmados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-                'recuperados':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                'obitos':
-                [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-
-}
+df_pb = pd.read_csv("https://raw.githubusercontent.com/FlavioMacaubas/covid_19_paraiba/master/base_dados.csv",error_bad_lines=False)
 
 cidades_pb = [
     {'label': 'Paraíba', 'value': 'Paraíba'},
@@ -338,6 +53,7 @@ cidades_pb = [
     {'label': 'Boqueirão', 'value': 'Boqueirão'},
     {'label': 'Areia', 'value': 'Areia'},
     {'label': 'Marizópolis', 'value': 'Marizópolis'},
+    {'label': 'Esperança', 'value': 'Esperança'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -455,7 +171,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 25/04 às 19h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 26/04 às 18h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
@@ -569,7 +285,7 @@ app.layout = html.Div(
 
                             html.Div([
                                 html.H4(["Total de Casos Confirmados"], style={'text-align': 'center'}),
-                                html.H3([city_data['Paraíba']['confirmados'][-1]], id='total_casos',
+                                html.H3([df_pb.loc[df_pb['cidade'] == 'Paraíba']['confirmados'].values[-1]], id='total_casos',
                                         style={'text-align': 'center',
                                                'color': 'crimson',
                                                'margin-top': 2,
@@ -578,233 +294,239 @@ app.layout = html.Div(
 
                             html.Div([
                                 html.Div([
-                                    html.Strong([city_data['João Pessoa']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'João Pessoa']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("João Pessoa", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Campina Grande']['confirmados'][-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Campina Grande", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([city_data['Santa Rita']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Santa Rita']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Santa Rita", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Cabedelo']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Campina Grande']['confirmados'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Campina Grande", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cabedelo']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Cabedelo", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Bayeux']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Bayeux']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Bayeux", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Sapé']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Sapé']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Sapé", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Patos']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Patos']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Patos", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Sousa']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Sousa']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Sousa", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Conde']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Conde']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Conde", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Cajazeiras']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cajazeiras']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Cajazeiras", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['São João do Rio do Peixe']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'São João do Rio do Peixe']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("São João do Rio do Peixe", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Guarabira']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Guarabira']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Guarabira", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Junco do Seridó']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Junco do Seridó']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Junco do Seridó", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Itapororoca']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itapororoca']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Itapororoca", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Pombal']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Pombal']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Pombal", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Itabaiana']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itabaiana']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Itabaiana", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Pedras de Fogo']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Pedras de Fogo']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Pedras de Fogo", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Cruz do Espírito Santo']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cruz do Espírito Santo']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Cruz do Espírito Santo", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Gurinhém']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Gurinhém']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Gurinhém", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Itaporanga']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itaporanga']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Itaporanga", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Serra Branca']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Serra Branca']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Serra Branca", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Riachão do Poço']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Riachão do Poço']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
-                                    html.Span("Riachão do Povo", style={'font-size': 20}),
+                                    html.Span("Riachão do Poço", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['São Bento']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'São Bento']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("São Bento", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Congo']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Congo']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Congo", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Queimadas']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Queimadas']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Queimadas", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Bom Jesus']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Bom Jesus']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Bom Jesus", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
 
-                                    html.Strong([city_data['Igaracy']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Igaracy']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Igaracy", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Alagoa Grande']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Alagoa Grande']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Alagoa Grande", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Barra de São Miguel']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Barra de São Miguel']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Barra de São Miguel", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Alagoa Nova']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Alagoa Nova']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Alagoa Nova", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Coremas']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Coremas']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Coremas", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Taperoá']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Taperoá']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Taperoá", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Brejo do Cruz']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Brejo do Cruz']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Brejo do Cruz", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Caaporã']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Caaporã']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Caaporã", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Coxixola']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Coxixola']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Coxixola", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Boqueirão']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Boqueirão']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Boqueirão", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Areia']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Areia']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Areia", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([city_data['Marizópolis']['confirmados'][-1]],
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Marizópolis']['confirmados'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Marizópolis", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Esperança']['confirmados'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Esperança", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
                                 ], className="control-tab"),
@@ -847,8 +569,9 @@ app.layout = html.Div(
                                 id="situacao",
                                 options=[
                                     {"label": "Confirmados ", "value": "confirmados"},
-                                    {"label": "Recuperados", "value": "recuperados"},
+                                    {"label": "Recuperados ", "value": "recuperados"},
                                     {"label": "Óbitos ", "value": "obitos"},
+                                    {"label": "Novos Casos ", "value": "novos_casos"},
                                 ],
                                 value="confirmados",
                                 labelStyle={"display": "inline-block"},
@@ -922,7 +645,7 @@ app.layout = html.Div(
                                             [
                                                 html.H4(id="well_text_br", style={'text-align': 'center'}),
                                                 html.P(id="well_perc_br", style={'text-align': 'center'}),
-                                                html.P("Ativos", style={'text-align': 'center'})
+                                                html.P("Novos Casos", style={'text-align': 'center'})
                                             ],
                                             id="wells_br",
                                             className="mini_container",
@@ -1053,16 +776,16 @@ app.layout = html.Div(
                                     html.Span("Bahia", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([df.loc[df['state'] == 'ES']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Espírito Santo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
                                     html.Strong([df.loc[df['state'] == 'PA']['totalCasesMS'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Pará", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'ES']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Espírito Santo", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
                                     html.Strong([df.loc[df['state'] == 'MG']['totalCasesMS'].values[-1]],
@@ -1077,16 +800,16 @@ app.layout = html.Div(
                                     html.Span("Santa Catarina", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
-                                    html.Strong([df.loc[df['state'] == 'PR']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Paraná", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
                                     html.Strong([df.loc[df['state'] == 'RS']['totalCasesMS'].values[-1]],
                                                 style={'color': 'crimson', 'font-size': 20}),
                                     html.Span(" "),
                                     html.Span("Rio Grande do Sul", style={'font-size': 20}),
+                                    html.Hr(style={'margin': 0}),
+
+                                    html.Strong([df.loc[df['state'] == 'PR']['totalCasesMS'].values[-1]],
+                                                style={'color': 'crimson', 'font-size': 20}),
+                                    html.Span(" "),
+                                    html.Span("Paraná", style={'font-size': 20}),
                                     html.Hr(style={'margin': 0}),
 
                                     html.Strong([df.loc[df['state'] == 'DF']['totalCasesMS'].values[-1]],
@@ -1398,16 +1121,16 @@ def update_image_src(selector):
     data = []
 
     if selector == "Paraíba":
-        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['confirmados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['recuperados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['recuperados'],
                      'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
-        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
                      'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     else:
-        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['confirmados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': city_data[selector]['dias'], 'y': city_data[selector]['obitos'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
                      'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     figure = {
         'data': data,
@@ -1443,9 +1166,10 @@ def update_image_src(selector, situacao):
     if len(selector) == 0:
         selector.append('Paraíba')
     data = []
-    for city in selector:
-        data.append({'x': city_data[city]['dias'], 'y': city_data[city][situacao],
-                     'type': 'line', 'name': city})
+
+    for cidade in selector:
+        data.append({'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
+                     'type': 'line', 'name': cidade})
     figure = {
         'data': data,
         'layout': {
@@ -1502,34 +1226,35 @@ def update_text(data, selector):
         selecionado = selector
 
     # Preparando dados
+    #df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2]
     # ativos
-    ativos_inicial = (city_data[selecionado]['confirmados'][-2] - city_data[selecionado]['recuperados'][-2] -
-                      city_data[selecionado]['obitos'][-2])
+    ativos_inicial = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
+                      df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])
 
     if ativos_inicial <= 0:
         ativos_inicial = 1
 
     # confirmados
-    confirmados_inicial = city_data[selecionado]['confirmados'][-2]
+    confirmados_inicial = df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2]
 
     if confirmados_inicial <= 0:
         confirmados_inicial = 1
 
     # recuperados
-    recuperados_inicial = city_data[selecionado]['recuperados'][-2]
+    recuperados_inicial = df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2]
 
     if recuperados_inicial <= 0:
         recuperados_inicial = 1
 
     # obitos
-    obitos_inicial = city_data[selecionado]['obitos'][-2]
+    obitos_inicial = df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2]
 
     if obitos_inicial <= 0:
         obitos_inicial = 1
 
     # Mortalidade e Recuperacao
-    confirmados_final = city_data[selecionado]['confirmados'][-1]
-    confirmados_passado = city_data[selecionado]['confirmados'][-2]
+    confirmados_final = df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1]
+    confirmados_passado = confirmados_inicial
 
     if confirmados_final == 0:
         confirmados_final = 1
@@ -1537,49 +1262,47 @@ def update_text(data, selector):
     if confirmados_passado == 0:
         confirmados_passado = 1
 
-    mortalidade_atual = (city_data[selecionado]['obitos'][-1] / confirmados_final) * 100
-    mortalidade_passado = (city_data[selecionado]['obitos'][-2] / confirmados_passado) * 100
+    mortalidade_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1] / confirmados_final) * 100
+    mortalidade_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2] / confirmados_passado) * 100
 
     if mortalidade_passado == 0:
         mortalidade_passado = 1
 
     variacao_mortalidade = (mortalidade_atual - (
-                (city_data[selecionado]['obitos'][-2] / confirmados_passado) * 100)) * 100 / mortalidade_passado
+                (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2] / confirmados_passado) * 100)) * 100 / mortalidade_passado
 
-    recuperacao_atual = (city_data[selecionado]['recuperados'][-1] / confirmados_final) * 100
-    recuperacao_passado = (city_data[selecionado]['recuperados'][-2] / confirmados_passado) * 100
+    recuperacao_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] / confirmados_final) * 100
+    recuperacao_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100
 
     if recuperacao_passado == 0:
         recuperacao_passado = 1
 
     variacao_recuperacao = (recuperacao_atual - (
-                (city_data[selecionado]['recuperados'][-2] / confirmados_passado) * 100)) * 100 / recuperacao_passado
+                (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100)) * 100 / recuperacao_passado
 
     # Dados de sáida
 
-    ativos = (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] -
-              city_data[selecionado]['obitos'][-1])
+    ativos = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] -
+              df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1])
 
-    novos_ativos = ((city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['recuperados'][-1] -
-                     city_data[selecionado]['obitos'][-1]) - (
-                                city_data[selecionado]['confirmados'][-2] - city_data[selecionado]['recuperados'][-2] -
-                                city_data[selecionado]['obitos'][-2])) * 100 / ativos_inicial
+    novos_ativos = ((ativos) - (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
+              df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])) * 100 / ativos_inicial
 
-    novos_confirmados = (city_data[selecionado]['confirmados'][-1] - city_data[selecionado]['confirmados'][
-        -2]) * 100 / confirmados_inicial
+    novos_confirmados = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1] -
+                         df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2]) * 100 / confirmados_inicial
 
-    novos_recuperados = (city_data[selecionado]['recuperados'][-1] - city_data[selecionado]['recuperados'][
-        -2]) * 100 / recuperados_inicial
+    novos_recuperados = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] -
+                         df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2]) * 100 / recuperados_inicial
 
-    novos_obitos = (city_data[selecionado]['obitos'][-1] - city_data[selecionado]['obitos'][-2]) * 100 / obitos_inicial
+    novos_obitos = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1] - df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2]) * 100 / obitos_inicial
 
     return "{}".format(ativos), \
            formata_saida(novos_ativos), \
-           "{}".format(city_data[selecionado]['confirmados'][-1]), \
+           "{}".format(df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1]), \
            formata_saida(novos_confirmados), \
-           "{}".format(city_data[selecionado]['recuperados'][-1]), \
+           "{}".format(df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1]), \
            formata_saida(novos_recuperados), \
-           "{}".format(city_data[selecionado]['obitos'][-1]), \
+           "{}".format(df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1]), \
            formata_saida(novos_obitos), \
            "{:.1f}%".format(mortalidade_atual), \
            formata_saida(variacao_mortalidade), \
@@ -1650,18 +1373,16 @@ def update_text(data, selector):
         selecionado = selector
 
     # ATIVOS
-    ativos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - \
-                     df.loc[df['state'] == selecionado]['deathsMS'].values[-2]
+    novos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-3]
 
-    ativos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - \
-                   df.loc[df['state'] == selecionado]['deathsMS'].values[-1]
+    novos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
 
-    if ativos_inicial == 0:
-        ativos_inicial = 1
+    if novos_inicial == 0:
+        novos_inicial = 1
 
-    variacao_ativos = (ativos_final - (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - \
-                                       df.loc[df['state'] == selecionado]['deathsMS'].values[
-                                           -2])) * 100 / ativos_inicial
+    variacao_ativos = (novos_final -
+                       (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-3])) \
+                      * 100 / novos_inicial
 
     # CONFIRMADOS
     confirmado_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
@@ -1691,7 +1412,7 @@ def update_text(data, selector):
 
     variacao_mortalidade = (mortalidade_final - mortalidade_inicial) * 100 / mortalidade_inicial
 
-    return "{}".format(ativos_final), \
+    return "{}".format(novos_final), \
            formata_saida(variacao_ativos), \
            "{}".format(confirmado_final), \
            formata_saida(variacao_confirmados), \
@@ -1726,6 +1447,7 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3]
+
   
 if __name__ == '__main__':
     app.run_server()
