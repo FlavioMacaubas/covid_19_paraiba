@@ -118,6 +118,7 @@ data,cidade,confirmados,obitos,recuperados
 2020-04-12,Junco do Seridó,3,1,0
 2020-04-12,Bayeux,1,1,0
 2020-04-12,Paraíba,111,13,43
+2020-04-13,João Pessoa,103,11,0
 2020-04-13,Campina Grande,3,0,0
 2020-04-13,Santa Rita,10,0,0
 2020-04-13,Sousa,1,0,0
@@ -127,7 +128,8 @@ data,cidade,confirmados,obitos,recuperados
 2020-04-13,Serra Branca,1,0,0
 2020-04-13,Junco do Seridó,3,1,0
 2020-04-13,Bayeux,4,1,0
-2020-04-13,Paraíba,32,18,52
+2020-04-13,Sapé,1,0,0
+2020-04-13,Paraíba,136,16,52
 2020-04-14,João Pessoa,115,12,0
 2020-04-14,Campina Grande,3,0,0
 2020-04-14,Santa Rita,12,1,0
