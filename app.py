@@ -118,10 +118,19 @@ for cidade in base_dados_pb.sort_values('confirmados', ascending=False)['cidade'
     # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
     lista_maiores_pb.extend(div)
 
+base_dados_pb_o = base_dados_pb.loc[base_dados_pb['obitos'] != 0]
+maiores_obitos_pb = []
+for cidade in base_dados_pb_o.sort_values('obitos', ascending=False)['cidade']:
+    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+          html.Span(" "), \
+          html.Span(cidade, style={'font-size': 20}),\
+          html.Hr(style={'margin': 0})
 
+    # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
+    maiores_obitos_pb.extend(div)
 ## Preenchendo os maiores - PB (FIM) ##
 
-## Preenchendo os maiores - BR (COMEÇO) ##
+### Preenchendo os maiores - BR (COMEÇO) ###
 sigla_estados_br = {'SP':'São Paulo',
               'RJ':'Rio de Janeiro',
               'PB':'Paraíba',
@@ -171,6 +180,20 @@ for estado in base_dados_br.sort_values('confirmados', ascending=False)['estado'
     # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
     lista_maiores_br.extend(div)
 
+
+maiores_obitos_br = []
+
+base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
+
+for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+          html.Span(" "), \
+          html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
+          html.Hr(style={'margin': 0})
+
+    # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
+    maiores_obitos_br.extend(div)
+### Preenchendo maiores - BR (FIM) ###
 
 # Menus explicações
 def build_modal_info_overlay(id, side, content):
@@ -339,6 +362,7 @@ app.layout = html.Div(
                 # Mapa
                 html.Div(children=[
                     dcc.Tabs([
+                        # MAPA TAB DE CONFIRMADOS
                         dcc.Tab(label="Confirmados", children=[
                             html.Div(children=[
                                 html.H4([
@@ -350,7 +374,7 @@ app.layout = html.Div(
                                     ),
                                 ], className="container_title"),
                                 html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%',
-                                            height=650),
+                                            height=620),
                             ], className='nine columns pretty_container',
                                 style={
                                     'float': 'left',
@@ -377,6 +401,45 @@ app.layout = html.Div(
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
                         ]),
+
+                        # MAPA TAB DE ÓBITOS
+                        dcc.Tab(label='Óbitos', children = [
+                            html.Div(children=[
+                                html.H4([
+                                    "Mapa",
+                                ], className="container_title"),
+                                html.Iframe(id='map_pb_o', srcDoc=open("MAPA_COVID19_OBITOS.html", 'r').read(), width='100%',
+                                            height=620),
+                            ], className='nine columns pretty_container',
+                                style={
+                                    'float': 'left',
+                                    'width': '75%',
+                                    'height': '100%',
+                                    'margin-right': '0',
+                                },
+                                id="map-div-pb-o"
+                            ),
+
+                            html.Div([
+                                html.H4(["Total de Óbitos Confirmados"], style={'text-align': 'center'}),
+                                html.H3([df_pb.loc[df_pb['cidade'] == 'Paraíba']['obitos'].values[-1]],
+                                        id='total_obitos_pb',
+                                        style={'text-align': 'center',
+                                               'color': '#000000',
+                                               'margin-top': 2,
+                                               'height': "20%"}),
+                                html.P([str(len(base_dados_pb_o)) + " dos 223 municípios " + "({:.1f}%)".format(len(base_dados_pb_o)*100/223)], style = {'text-align': 'center'})
+                            ], className="three columns pretty_container"),
+
+                            html.Div([
+                                html.Div(children = maiores_obitos_pb, className="control-tab"),
+
+                            ], className="three columns pretty_container",
+                                style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
+
+
+                        ]),
+
 
                     ], className='custom-tab'),
 
@@ -577,6 +640,42 @@ app.layout = html.Div(
 
                             html.Div([
                                 html.Div(children = lista_maiores_br, className="control-tab"),
+
+                            ], className="three columns pretty_container",
+                                style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
+                        ]),
+
+                        # Óbitos Brasil
+                        dcc.Tab(label = 'Óbitos', children = [
+                            html.Div(children=[
+                                html.H4([
+                                    "Mapa",
+                                ], className="container_title"),
+                                html.Iframe(id='map_br_o', srcDoc=open("MAPA_COVID19_BR_OBITOS.html", 'r').read(),
+                                            width='100%',
+                                            height=620),
+                            ], className='nine columns pretty_container',
+                                style={
+                                    'float': 'left',
+                                    'width': '75%',
+                                    'height': '100%',
+                                    'margin-right': '0',
+                                },
+                                id="map-div-br-o"
+                            ),
+
+                            html.Div([
+                                html.H4(["Total de Óbitos Confirmados"], style={'text-align': 'center'}),
+                                html.H3([df.loc[df['state'] == 'TOTAL']['deathsMS'].values[-1]],
+                                        id='total_obitos_br',
+                                        style={'text-align': 'center',
+                                               'color': '#000000',
+                                               'margin-top': 2,
+                                               'height': "20%"}),
+                            ], className="three columns pretty_container"),
+
+                            html.Div([
+                                html.Div(children=maiores_obitos_br, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
@@ -1081,9 +1180,6 @@ def update_text(data, selector):
     mortalidade_inicial = obitos_inicial * 100 / confirmado_inicial
     mortalidade_final = obitos_final * 100 / confirmado_final
 
-    if mortalidade_inicial == 0:
-        mortalidade_inicial = 1
-
     variacao_mortalidade = mortalidade_final - mortalidade_inicial
 
     return "{}".format(novos_final), \
@@ -1121,6 +1217,7 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3]
+
   
 if __name__ == '__main__':
     app.run_server()
