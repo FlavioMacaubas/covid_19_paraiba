@@ -947,16 +947,10 @@ def update_text(data, selector):
     mortalidade_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1] / confirmados_final) * 100
     mortalidade_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2] / confirmados_passado) * 100
 
-    if mortalidade_passado == 0:
-        mortalidade_passado = 1
-
     variacao_mortalidade = mortalidade_atual - mortalidade_passado
 
     recuperacao_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] / confirmados_final) * 100
     recuperacao_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100
-
-    if recuperacao_passado == 0:
-        recuperacao_passado = 1
 
     variacao_recuperacao = recuperacao_atual - recuperacao_passado
 
