@@ -150,10 +150,10 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-15,Sousa,1,0,0,0
 2020-04-15,Igaracy,1,0,0,0
 2020-04-15,Patos,4,1,0,0
-2020-04-15,Cabedelo,6,1,0,1
+2020-04-15,Cabedelo,6,2,0,1
 2020-04-15,Serra Branca,1,0,0,0
 2020-04-15,Junco do Seridó,3,1,0,0
-2020-04-15,Bayeux,4,0,0,0
+2020-04-15,Bayeux,4,1,0,0
 2020-04-15,São João do Rio do Peixe,1,0,0,0
 2020-04-15,Taperoá,1,1,0,0
 2020-04-15,Sapé,1,1,0,0
@@ -164,10 +164,10 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-16,Sousa,1,0,0,0
 2020-04-16,Igaracy,1,0,0,0
 2020-04-16,Patos,5,2,0,1
-2020-04-16,Cabedelo,7,1,0,1
+2020-04-16,Cabedelo,7,2,0,1
 2020-04-16,Serra Branca,1,0,0,0
 2020-04-16,Junco do Seridó,3,1,0,0
-2020-04-16,Bayeux,6,0,0,2
+2020-04-16,Bayeux,6,1,0,2
 2020-04-16,São João do Rio do Peixe,1,0,0,0
 2020-04-16,Taperoá,1,1,0,0
 2020-04-16,Sapé,1,1,0,0
@@ -179,10 +179,10 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-17,Sousa,1,0,0,0
 2020-04-17,Igaracy,1,0,0,0
 2020-04-17,Patos,5,2,0,0
-2020-04-17,Cabedelo,8,1,0,1
+2020-04-17,Cabedelo,8,2,0,1
 2020-04-17,Serra Branca,1,0,0,0
 2020-04-17,Junco do Seridó,3,1,0,0
-2020-04-17,Bayeux,6,0,0,0
+2020-04-17,Bayeux,6,1,0,0
 2020-04-17,São João do Rio do Peixe,1,0,0,0
 2020-04-17,Taperoá,1,1,0,0
 2020-04-17,Sapé,1,1,0,0
@@ -196,16 +196,16 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-18,Sousa,1,0,0,0
 2020-04-18,Igaracy,1,0,0,0
 2020-04-18,Patos,7,2,0,2
-2020-04-18,Cabedelo,9,1,0,1
+2020-04-18,Cabedelo,9,2,0,1
 2020-04-18,Serra Branca,1,0,0,0
 2020-04-18,Junco do Seridó,3,1,0,0
-2020-04-18,Bayeux,8,0,0,2
+2020-04-18,Bayeux,8,1,0,2
 2020-04-18,São João do Rio do Peixe,1,0,0,0
 2020-04-18,Taperoá,1,1,0,0
 2020-04-18,Sapé,2,1,0,1
 2020-04-18,Pombal,2,0,0,0
 2020-04-18,São Bento,1,0,0,0
-2020-04-18,Riachão do Poço,1,0,0,0
+2020-04-18,Riachão do Poço,1,1,0,0
 2020-04-18,Queimadas,1,0,0,0
 2020-04-18,Congo,1,0,0,0
 2020-04-18,Paraíba,236,29,90,31
@@ -215,16 +215,16 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-19,Sousa,1,0,0,0
 2020-04-19,Igaracy,1,0,0,0
 2020-04-19,Patos,8,2,0,1
-2020-04-19,Cabedelo,9,1,0,0
+2020-04-19,Cabedelo,9,2,0,0
 2020-04-19,Serra Branca,1,0,0,0
 2020-04-19,Junco do Seridó,3,1,0,0
-2020-04-19,Bayeux,8,0,0,0
+2020-04-19,Bayeux,8,1,0,0
 2020-04-19,São João do Rio do Peixe,1,0,0,0
 2020-04-19,Taperoá,1,1,0,0
 2020-04-19,Sapé,2,1,0,0
 2020-04-19,Pombal,2,0,0,0
 2020-04-19,São Bento,1,0,0,0
-2020-04-19,Riachão do Poço,1,0,0,0
+2020-04-19,Riachão do Poço,1,1,0,0
 2020-04-19,Queimadas,1,0,0,0
 2020-04-19,Congo,1,0,0,0
 2020-04-19,Paraíba,246,32,99,10
@@ -443,3 +443,45 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-26,Gurinhém,1,0,0,0
 2020-04-26,Esperança,1,0,0,0
 2020-04-26,Paraíba,543,50,119,43
+2020-05-27,João Pessoa,410,28,0,61
+2020-05-27,Campina Grande,42,3,0,3
+2020-05-27,Santa Rita,47,8,0,7
+2020-05-27,Sousa,6,0,0,0
+2020-05-27,Igaracy,1,0,0,0
+2020-05-27,Patos,12,2,0,1
+2020-05-27,Cabedelo,22,2,0,3
+2020-05-27,Serra Branca,1,0,0,0
+2020-05-27,Junco do Seridó,3,1,0,0
+2020-05-27,Bayeux,17,1,0,2
+2020-05-27,São João do Rio do Peixe,5,0,0,1
+2020-05-27,Taperoá,1,1,0,0
+2020-05-27,Sapé,18,1,0,5
+2020-05-27,Pombal,2,0,0,0
+2020-05-27,São Bento,4,0,0,3
+2020-05-27,Riachão do Poço,1,1,0,0
+2020-05-27,Queimadas,1,0,0,0
+2020-05-27,Congo,1,0,0,0
+2020-05-27,Bom Jesus,1,0,0,0
+2020-05-27,Cajazeiras,4,1,0,0
+2020-05-27,Cruz do Espírito Santo,3,0,0,1
+2020-05-27,Itabaiana,2,0,0,0
+2020-05-27,Conde,5,1,0,0
+2020-05-27,Coremas,1,0,0,0
+2020-05-27,Alagoa Nova,1,0,0,0
+2020-05-27,Barra de São Miguel,1,0,0,0
+2020-05-27,Itapororoca,3,0,0,0
+2020-05-27,Guarabira,3,0,0,0
+2020-05-27,Pedras de Fogo,3,0,0,1
+2020-05-27,Itaporanga,1,0,0,0
+2020-05-27,Alagoa Grande,1,0,0,0
+2020-05-27,Brejo do Cruz,1,1,0,0
+2020-05-27,Caaporã,1,0,0,0
+2020-05-27,Coxixola,1,0,0,0
+2020-05-27,Boqueirão,1,0,0,0
+2020-05-27,Marizópolis,1,1,0,0
+2020-05-27,Areia,1,0,0,0
+2020-05-27,Gurinhém,1,0,0,0
+2020-05-27,Esperança,2,0,0,1
+2020-05-27,Lagoa Seca,1,0,0,0
+2020-05-27,Mari,1,0,1,0
+2020-05-27,Paraíba,633,52,119,0
