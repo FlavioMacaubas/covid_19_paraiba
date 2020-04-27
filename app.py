@@ -89,12 +89,90 @@ estados_br = [
     {'label': 'Roraima', 'value': 'RR'},
     {'label': 'Santa Catarina', 'value': 'SC'},
     {'label': 'Sergipe', 'value': 'SE'},
-    {'label': 'Tocatins', 'value': 'TO'},
+    {'label': 'Tocantins', 'value': 'TO'},
 ]
 
 
 ## Preparação Brasil - Fim ##
 
+## Preenchendo os maiores - PB (COMEÇO) ##
+total_casos = []
+total_mortes = []
+cidades = []
+
+for cidade in df_pb['cidade'].unique():
+    cidades.append(cidade)
+    total_casos.append(df_pb.loc[df_pb['cidade'] == cidade]['confirmados'].values[-1])
+    total_mortes.append(df_pb.loc[df_pb['cidade'] == cidade]['obitos'].values[-1])
+
+base_dados_pb = pd.DataFrame({'cidade': cidades, 'confirmados' : total_casos, 'obitos' : total_mortes})
+base_dados_pb = base_dados_pb.loc[base_dados_pb['cidade'] != 'Paraíba']
+
+lista_maiores_pb = []
+for cidade in base_dados_pb.sort_values('confirmados', ascending=False)['cidade']:
+    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade][
+                           'confirmados'].values[-1]],
+                      style={'color': 'crimson', 'font-size': 20}), html.Span(" "), html.Span(cidade, style={
+        'font-size': 20}), html.Hr(style={'margin': 0})
+
+    # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
+    lista_maiores_pb.extend(div)
+
+
+## Preenchendo os maiores - PB (FIM) ##
+
+## Preenchendo os maiores - BR (COMEÇO) ##
+sigla_estados_br = {'SP':'São Paulo',
+              'RJ':'Rio de Janeiro',
+              'PB':'Paraíba',
+             'AC':'Acre',
+             'AL':'Alagoas',
+             'AP':'Amapá',
+             'AM':'Amazonas',
+             'BA':'Bahia',
+             'CE':'Ceará',
+             'DF':'Distrito Federal',
+             'ES':'Espírito Santo',
+             'GO':'Goiás',
+             'MA':'Maranhão',
+             'MT':'Mato Grosso',
+             'MS':'Mato Grosso do Sul',
+             'MG':'Minas Gerais',
+             'PA':'Pará',
+             'PR':'Paraná',
+             'PE':'Pernambuco',
+             'PI':'Piauí',
+             'RN':'Rio Grande do Norte',
+             'RS':'Rio Grande do Sul',
+             'RO':'Rondônia',
+             'RR':'Roraima',
+             'SC':'Santa Catarina',
+             'SE':'Sergipe',
+             'TO':'Tocantins'}
+total_casos = []
+total_mortes = []
+estados = []
+
+for estado in df['state'].unique():
+    estados.append(estado)
+    total_casos.append(df.loc[df['state'] == estado]['totalCasesMS'].values[-1])
+    total_mortes.append(df.loc[df['state'] == estado]['deathsMS'].values[-1])
+
+base_dados_br = pd.DataFrame({'estado': estados, 'confirmados' : total_casos, 'obitos' : total_mortes})
+base_dados_br = base_dados_br.loc[base_dados_br['estado'] != 'TOTAL']
+
+lista_maiores_br = []
+for estado in base_dados_br.sort_values('confirmados', ascending=False)['estado']:
+    div = html.Strong([base_dados_br.loc[base_dados_br['estado'] == estado]['confirmados'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
+          html.Span(" "), \
+          html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
+          html.Hr(style={'margin': 0})
+
+    # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
+    lista_maiores_br.extend(div)
+
+
+# Menus explicações
 def build_modal_info_overlay(id, side, content):
     """
     Build div representing the info overlay for a plot panel
@@ -293,243 +371,7 @@ app.layout = html.Div(
                             ], className="three columns pretty_container"),
 
                             html.Div([
-                                html.Div([
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'João Pessoa']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("João Pessoa", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Santa Rita']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Santa Rita", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Campina Grande']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Campina Grande", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cabedelo']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Cabedelo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Bayeux']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Bayeux", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Sapé']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Sapé", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Patos']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Patos", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Sousa']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Sousa", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Conde']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Conde", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cajazeiras']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Cajazeiras", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'São João do Rio do Peixe']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("São João do Rio do Peixe", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Guarabira']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Guarabira", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Junco do Seridó']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Junco do Seridó", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itapororoca']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Itapororoca", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Pombal']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Pombal", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itabaiana']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Itabaiana", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Pedras de Fogo']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Pedras de Fogo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Cruz do Espírito Santo']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Cruz do Espírito Santo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Gurinhém']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Gurinhém", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Itaporanga']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Itaporanga", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Serra Branca']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Serra Branca", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Riachão do Poço']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Riachão do Poço", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'São Bento']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("São Bento", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Congo']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Congo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Queimadas']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Queimadas", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Bom Jesus']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Bom Jesus", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Igaracy']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Igaracy", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Alagoa Grande']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Alagoa Grande", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Barra de São Miguel']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Barra de São Miguel", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Alagoa Nova']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Alagoa Nova", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Coremas']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Coremas", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Taperoá']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Taperoá", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Brejo do Cruz']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Brejo do Cruz", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Caaporã']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Caaporã", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Coxixola']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Coxixola", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Boqueirão']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Boqueirão", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Areia']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Areia", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Marizópolis']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Marizópolis", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df_pb.loc[df_pb['cidade'] == 'Esperança']['confirmados'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Esperança", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                ], className="control-tab"),
+                                html.Div(children = lista_maiores_pb, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
@@ -733,170 +575,7 @@ app.layout = html.Div(
                             ], className="three columns pretty_container"),
 
                             html.Div([
-                                html.Div([
-                                    html.Strong([df.loc[df['state'] == 'SP']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("São Paulo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'RJ']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Rio de Janeiro", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'CE']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Ceará", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'PE']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Pernambuco", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'AM']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Amazonas", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'MA']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Maranhão", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'BA']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Bahia", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'PA']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Pará", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'ES']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Espírito Santo", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'MG']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Minas Gerais", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'SC']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Santa Catarina", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'RS']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Rio Grande do Sul", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'PR']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Paraná", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'DF']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Distrito Federal", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'RN']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Rio Grande do Norte", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'AP']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Amapá", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'GO']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Goiás", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'AL']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Alagoas", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'PB']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Paraíba", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'RR']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Roraima", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'RO']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Rondônia", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'PI']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Piauí", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'AC']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Acre", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'MT']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Mato Grosso", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'MS']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Mato Grosso do Sul", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'SE']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Sergipe", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                    html.Strong([df.loc[df['state'] == 'TO']['totalCasesMS'].values[-1]],
-                                                style={'color': 'crimson', 'font-size': 20}),
-                                    html.Span(" "),
-                                    html.Span("Tocantins", style={'font-size': 20}),
-                                    html.Hr(style={'margin': 0}),
-
-                                ], className="control-tab"),
+                                html.Div(children = lista_maiores_br, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
@@ -932,6 +611,7 @@ app.layout = html.Div(
                                 options=[
                                     {"label": "Confirmados", "value": "totalCasesMS"},
                                     {"label": "Óbitos", "value": "deathsMS"},
+                                    {"label": "Novos Casos", "value": "newCases"},
                                 ],
                                 value="totalCasesMS",
                                 labelStyle={"display": "inline-block"},
@@ -1091,23 +771,24 @@ def update_image_src(selector, situacao):
     figure = {
         'data': data,
         'layout': {
-            'height': 450,
-            'xaxis': dict(
+        'height': 450,
+        'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
                     family='Courier New, monospace',
                     size=20,
                     color='#7f7f7f'
                 )),
-            'yaxis': dict(
+        'yaxis': dict(
                 title='Quantidade',
                 titlefont=dict(
                     family='Helvetica, monospace',
                     size=20,
                     color='#7f7f7f'
-                ))
+                )),
         }
     }
+
     return figure
 
 
@@ -1268,8 +949,7 @@ def update_text(data, selector):
     if mortalidade_passado == 0:
         mortalidade_passado = 1
 
-    variacao_mortalidade = (mortalidade_atual - (
-                (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2] / confirmados_passado) * 100)) * 100 / mortalidade_passado
+    variacao_mortalidade = mortalidade_atual - mortalidade_passado
 
     recuperacao_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] / confirmados_final) * 100
     recuperacao_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100
@@ -1277,8 +957,7 @@ def update_text(data, selector):
     if recuperacao_passado == 0:
         recuperacao_passado = 1
 
-    variacao_recuperacao = (recuperacao_atual - (
-                (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100)) * 100 / recuperacao_passado
+    variacao_recuperacao = recuperacao_atual - recuperacao_passado
 
     # Dados de sáida
 
@@ -1410,7 +1089,7 @@ def update_text(data, selector):
     if mortalidade_inicial == 0:
         mortalidade_inicial = 1
 
-    variacao_mortalidade = (mortalidade_final - mortalidade_inicial) * 100 / mortalidade_inicial
+    variacao_mortalidade = mortalidade_final - mortalidade_inicial
 
     return "{}".format(novos_final), \
            formata_saida(variacao_ativos), \
@@ -1447,7 +1126,6 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3]
-
   
 if __name__ == '__main__':
     app.run_server()
