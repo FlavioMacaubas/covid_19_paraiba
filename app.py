@@ -350,7 +350,7 @@ app.layout = html.Div(
                                     ),
                                 ], className="container_title"),
                                 html.Iframe(id='map', srcDoc=open("MAPA_COVID19.html", 'r').read(), width='100%',
-                                            height=600),
+                                            height='100%'),
                             ], className='nine columns pretty_container',
                                 style={
                                     'float': 'left',
