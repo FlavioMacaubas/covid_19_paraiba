@@ -368,6 +368,7 @@ app.layout = html.Div(
                                                'color': 'crimson',
                                                'margin-top': 2,
                                                'height': "20%"}),
+                                html.P([str(len(base_dados_pb)) + " dos 223 municípios " + "({:.1f}%)".format(len(base_dados_pb)*100/223)], style = {'text-align': 'center'})
                             ], className="three columns pretty_container"),
 
                             html.Div([
