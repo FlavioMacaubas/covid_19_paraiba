@@ -186,7 +186,7 @@ maiores_obitos_br = []
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -645,8 +645,7 @@ app.layout = html.Div(
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
                         ]),
 
-                        # Óbitos Brasil
-                        dcc.Tab(label = 'Óbitos', children = [
+                        dcc.Tab(label='Óbitos', children=[
                             html.Div(children=[
                                 html.H4([
                                     "Mapa",
@@ -994,12 +993,12 @@ def update_image_src(selector, situacao):
 )
 def update_text(data, selector):
     def formata_saida(valor):
-        if valor > 0:
+        if valor >= 0.1:
             return "▲ {:.1f}%".format(valor)
-        elif valor == 0:
-            return "{:.1f}%".format(valor)
-        else:
+        elif valor <= -0.1:
             return "▼ {:.1f}%".format(valor)
+        else:
+            return "{:.1f}%".format(valor)
 
     if len(selector) == 0:
         selecionado = 'Paraíba'
@@ -1133,12 +1132,12 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
 )
 def update_text(data, selector):
     def formata_saida(valor):
-        if valor > 0:
+        if valor >= 0.1:
             return "▲ {:.1f}%".format(valor)
-        elif valor == 0:
-            return "{:.1f}%".format(valor)
-        else:
+        elif valor <= -0.1:
             return "▼ {:.1f}%".format(valor)
+        else:
+            return "{:.1f}%".format(valor)
 
     if len(selector) == 0 or (selector == 'BR'):
         selecionado = 'TOTAL'
