@@ -993,9 +993,9 @@ def update_image_src(selector, situacao):
 )
 def update_text(data, selector):
     def formata_saida(valor):
-        if valor >= 0.1:
+        if valor >= 0.05:
             return "▲ {:.1f}%".format(valor)
-        elif valor <= -0.1:
+        elif valor <= -0.05:
             return "▼ {:.1f}%".format(valor)
         else:
             return "{:.1f}%".format(valor)
@@ -1132,9 +1132,9 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
 )
 def update_text(data, selector):
     def formata_saida(valor):
-        if valor >= 0.1:
+        if valor >= 0.05:
             return "▲ {:.1f}%".format(valor)
-        elif valor <= -0.1:
+        elif valor <= -0.05:
             return "▼ {:.1f}%".format(valor)
         else:
             return "{:.1f}%".format(valor)
