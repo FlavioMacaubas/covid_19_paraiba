@@ -186,7 +186,7 @@ maiores_obitos_br = []
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -272,7 +272,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 26/04 às 18h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 27/04 às 19h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
