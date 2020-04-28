@@ -1,0 +1,54 @@
+data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,comorbidade,tabagismo,profissional_saude,fonte
+2020-03-26,2020-03-31,Patos,homem,36.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-31-03-17h
+2020-03-25,2020-04-04,Junco do Seridó,mulher,86.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-04-20h-1
+2020-03-28,2020-04-02,João Pessoa,homem,43.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-04-20h-1
+2020-02-04,2020-04-04,João Pessoa,mulher,88.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-04-17h
+,2020-03-30,Cabedelo,homem,71.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-04-17h30
+,2020-04-08,João Pessoa,mulher,59.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-04-17h30
+2020-03-23,2020-03-30,João Pessoa,homem,34.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-04-17h30
+,2020-03-24,João Pessoa,mulher,34.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-04-19h
+2020-03-18,2020-04-04,Cabedelo,homem,68.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-04-19h
+,2020-03-31,João Pessoa,homem,84.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-04-19h
+,2020-04-06,João Pessoa,homem,87.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-04-19h
+,2020-04-06,Bayeux,homem,91.0,N,N,N,S,S,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-04-17h
+,2020-04-09,João Pessoa,mulher,90.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-04-17h
+2020-04-05,2020-04-12,João Pessoa,mulher,83.0,S,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-04-19h
+2020-04-03,2020-04-13,João Pessoa,mulher,60.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-04-19h
+,2020-04-13,João Pessoa,homem,68.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-04-19h
+,2020-04-13,Santa Rita,homem,65.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-14-04-16h30
+,2020-04-11,Taperoá,mulher,0.33,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-14-04-16h30
+,2020-04-12,João Pessoa,homem,46.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-14-04-16h30
+,2020-04-10,João Pessoa,homem,88.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-14-04-16h30
+,2020-04-10,João Pessoa,mulher,95.0,N,N,S,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-14-04-16h30
+,2020-04-14,João Pessoa,mulher,85.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
+,2020-04-14,João Pessoa,homem,82.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
+,2020-04-15,Sapé,mulher,84.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
+,2020-04-15,Campina Grande,homem,67.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
+,2020-04-12,Patos,homem,42.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
+,2020-04-16,João Pessoa,mulher,93.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-17-04-17h
+,2020-04-13,Riachão do Poço,homem,57.0,S,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-17-04-17h
+,2020-04-18,Santa Rita,homem,40.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-18-04-17h
+2020-04-10,2020-04-18,Campina Grande,mulher,41.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-04-17h
+2020-04-14,2020-04-18,João Pessoa,mulher,84.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-04-17h
+2020-04-15,2020-04-18,João Pessoa,homem,81.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-04-17h
+2020-04-12,2020-04-19,João Pessoa,mulher,86.0,N,N,S,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-20-04-17h
+,2020-04-17,João Pessoa,mulher,71.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+2020-04-04,2020-04-21,João Pessoa,homem,56.0,N,N,S,S,N,S,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+,2020-04-21,João Pessoa,homem,62.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+2020-04-15,2020-04-21,João Pessoa,mulher,62.0,N,N,N,S,S,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+2020-04-14,2020-04-21,João Pessoa,mulher,95.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+2020-04-10,2020-04-20,Cajazeiras,homem,61.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+,2020-04-21,Santa Rita,homem,71.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-04
+2020-04-16,2020-04-22,João Pessoa,homem,50.0,N,S,S,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-04
+2020-04-09,2020-04-22,João Pessoa,mulher,77.0,S,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-04
+,2020-04-22,João Pessoa,homem,38.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-04
+2020-04-07,2020-04-22,Santa Rita,mulher,44.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-04
+,2020-04-23,Conde,homem,50.0,N,N,N,N,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-04
+,2020-04-24,Santa Rita,homem,71.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-04
+,2020-04-22,Brejo do Cruz,homem,69.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-04
+2020-04-20,2020-04-21,Santa Rita,mulher,77.0,S,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-04
+2020-04-24,2020-04-25,Marizópolis,mulher,69.0,N,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-04
+,2020-04-24,Santa Rita,homem,37.0,S,N,S,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-04
+,2020-04-26,Boqueirão,homem,54.0,N,N,N,S,S,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
+,2020-04-27,Santa Rita,mulher,72.0,S,S,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
+,2020-04-24,Mari,mulher,52.0,N,N,N,S,N,N,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
