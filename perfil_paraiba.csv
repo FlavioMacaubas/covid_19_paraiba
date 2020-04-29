@@ -57,3 +57,8 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,comorbid
 2020-04-22,2020-04-26,Bayeux,homem,63.0,Não,Sim,Não,Sim,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
 2020-04-22,2020-04-25,Brejo do Cruz,homem,69.0,Não,Sim,Não,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
 2020-04-25,2020-04-25,Santa Rita,homem,79.0,Sim,Sim,Sim,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
+,2020-04-28,João Pessoa,mulher,20.0,Não,Não,Não,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
+2020-04-20,2020-04-29,Bayeux,homem,41.0,Não,Sim,Não,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
+,2020-04-28,João Pessoa,mulher,94.0,Não,Não,Não,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
+,2020-04-27,Santa Rita,homem,54.0,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
+2020-04-16,2020-04-26,João Pessoa,homem,90.0,Não,Não,Sim,Sim,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
