@@ -441,7 +441,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-26,Marizópolis,1,1,0,0
 2020-04-26,Areia,1,0,0,0
 2020-04-26,Gurinhém,1,0,0,0
-2020-04-26,Esperança,1,0,0,0
+2020-04-26,Esperança,1,0,0,1
 2020-04-26,Paraíba,543,50,119,43
 2020-04-27,João Pessoa,410,28,0,61
 2020-04-27,Campina Grande,42,3,0,3
@@ -482,8 +482,8 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-27,Areia,1,0,0,0
 2020-04-27,Gurinhém,1,0,0,0
 2020-04-27,Esperança,2,0,0,1
-2020-04-27,Lagoa Seca,1,0,0,0
-2020-04-27,Mari,1,1,0,0
+2020-04-27,Lagoa Seca,1,0,0,1
+2020-04-27,Mari,1,1,0,1
 2020-04-27,Paraíba,633,53,119,90
 2020-04-28,João Pessoa,436,29,0,26
 2020-04-28,Campina Grande,45,3,0,3
@@ -526,8 +526,59 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-28,Esperança,2,0,0,0
 2020-04-28,Lagoa Seca,1,0,0,0
 2020-04-28,Mari,1,1,0,0
-2020-04-28,Lucena,2,0,0,0
-2020-04-28,Catingueira,2,0,0,0
-2020-04-28,Araçagi,1,0,0,0
-2020-04-28,São José do Bonfim,1,0,0,0
-2020-04-28,Paraíba,699,58,149,60
+2020-04-28,Lucena,2,0,0,1
+2020-04-28,Catingueira,2,0,0,1
+2020-04-28,Araçagi,1,0,0,1
+2020-04-28,São José do Bonfim,1,0,0,1
+2020-04-28,Paraíba,699,58,149,64
+2020-04-29,João Pessoa,499,32,0,63
+2020-04-29,Campina Grande,51,3,0,6
+2020-04-29,Santa Rita,72,11,0,11
+2020-04-29,Sousa,12,0,0,3
+2020-04-29,Igaracy,1,0,0,0
+2020-04-29,Patos,17,2,0,4
+2020-04-29,Cabedelo,26,2,0,4
+2020-04-29,Serra Branca,1,0,0,0
+2020-04-29,Junco do Seridó,3,1,0,0
+2020-04-29,Bayeux,30,3,0,11
+2020-04-29,São João do Rio do Peixe,5,0,0,0
+2020-04-29,Taperoá,2,1,0,0
+2020-04-29,Sapé,24,1,0,4
+2020-04-29,Pombal,2,0,0,0
+2020-04-29,São Bento,4,0,0,0
+2020-04-29,Riachão do Poço,1,1,0,0
+2020-04-29,Queimadas,2,0,0,1
+2020-04-29,Congo,1,0,0,0
+2020-04-29,Bom Jesus,1,0,0,0
+2020-04-29,Cajazeiras,5,1,0,0
+2020-04-29,Cruz do Espírito Santo,3,0,0,0
+2020-04-29,Itabaiana,2,0,0,0
+2020-04-29,Conde,8,1,0,0
+2020-04-29,Coremas,1,0,0,0
+2020-04-29,Alagoa Nova,1,0,0,0
+2020-04-29,Barra de São Miguel,1,0,0,0
+2020-04-29,Itapororoca,3,0,0,0
+2020-04-29,Guarabira,4,0,0,0
+2020-04-29,Pedras de Fogo,5,0,0,1
+2020-04-29,Itaporanga,1,0,0,0
+2020-04-29,Alagoa Grande,1,0,0,0
+2020-04-29,Brejo do Cruz,1,2,0,0
+2020-04-29,Caaporã,2,0,0,1
+2020-04-29,Coxixola,1,0,0,0
+2020-04-29,Boqueirão,1,0,0,0
+2020-04-29,Marizópolis,3,1,0,0
+2020-04-29,Areia,1,0,0,0
+2020-04-29,Gurinhém,1,0,0,0
+2020-04-29,Esperança,2,0,0,0
+2020-04-29,Lagoa Seca,2,0,0,1
+2020-04-29,Mari,1,1,0,0
+2020-04-29,Lucena,3,0,0,1
+2020-04-29,Catingueira,2,0,0,0
+2020-04-29,Araçagi,1,0,0,0
+2020-04-29,São José do Bonfim,1,0,0,0
+2020-04-29,Alhandra,1,0,0,1
+2020-04-29,Riacho dos Cavalos,1,0,0,1
+2020-04-29,Santa Helena,1,0,0,1
+2020-04-29,São José de Piranhas,1,0,0,1
+2020-04-29,Umbuzeiro,1,0,0,1
+2020-04-29,Paraíba,814,63,152,116
