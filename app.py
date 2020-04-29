@@ -9,6 +9,7 @@ from textwrap import dedent
 
 app = dash.Dash(__name__)
 server = app.server
+
 app.title = "Covid-19 PB-BR"
 
 ## Preparação Paraíba - Começo ##
@@ -54,6 +55,10 @@ cidades_pb = [
     {'label': 'Areia', 'value': 'Areia'},
     {'label': 'Marizópolis', 'value': 'Marizópolis'},
     {'label': 'Esperança', 'value': 'Esperança'},
+    {'label': 'Lucena', 'value': 'Lucena'},
+    {'label': 'Catingueira', 'value': 'Catingueira'},
+    {'label': 'Araçagi', 'value': 'Araçagi'},
+    {'label': 'São José do Bonfim', 'value': 'São José do Bonfim'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -186,7 +191,7 @@ maiores_obitos_br = []
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -272,7 +277,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 28/04 às 19:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 28/04 às 20h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
@@ -551,7 +556,7 @@ app.layout = html.Div(
                                             [
                                                 html.H4(id="well_text_br", style={'text-align': 'center'}),
                                                 html.P(id="well_perc_br", style={'text-align': 'center'}),
-                                                html.P("Novos Casos", style={'text-align': 'center'})
+                                                html.P("Ativos", style={'text-align': 'center'})
                                             ],
                                             id="wells_br",
                                             className="mini_container",
@@ -563,13 +568,13 @@ app.layout = html.Div(
                                             id="gas_br",
                                             className="mini_container",
                                         ),
-                                        # html.Div(
-                                        #     [html.H4(id="oilText_br", style={'text-align': 'center'}),
-                                        #      html.P(id="oil_perc_br", style={'text-align': 'center'}),
-                                        #      html.P("Recuperados*", style={'text-align': 'center'})],
-                                        #     id="oil_br",
-                                        #     className="mini_container",
-                                        # ),
+                                        html.Div(
+                                            [html.H4(id="oilText_br", style={'text-align': 'center'}),
+                                              html.P(id="oil_perc_br", style={'text-align': 'center'}),
+                                              html.P("Recuperados", style={'text-align': 'center'})],
+                                             id="oil_br",
+                                             className="mini_container",
+                                         ),
                                         html.Div(
                                             [html.H4(id="waterText_br", style={'text-align': 'center'}),
                                              html.P(id="water_perc_br", style={'text-align': 'center'}),
@@ -585,13 +590,13 @@ app.layout = html.Div(
                                             className="mini_container",
                                         ),
 
-                                        # html.Div(
-                                        #     [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
-                                        #      html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
-                                        #      html.P("Recuperação*", style={'text-align': 'center'})],
-                                        #     id="recuperacao_br",
-                                        #     className="mini_container",
-                                        # ),
+                                        html.Div(
+                                             [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
+                                              html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
+                                              html.P("Recuperação", style={'text-align': 'center'})],
+                                             id="recuperacao_br",
+                                             className="mini_container",
+                                         ),
 
                                     ],
                                     id="info-container-br",
@@ -776,7 +781,7 @@ app.layout = html.Div(
 
             dcc.Markdown(
                 children='''
-        * Não há dados de recuperados na base de dados para o Brasil que estamos utilizando.
+        * As informações dos recuperados são coletadas pelas divulgações dos respectivos Estados, apenas Santa Catarina e Mina Gerais não disponibilizaram.
         '''),
 
             dcc.Markdown(children=
@@ -1000,13 +1005,12 @@ def update_text(data, selector):
         else:
             return "{:.1f}%".format(valor)
 
+
     if len(selector) == 0:
         selecionado = 'Paraíba'
     else:
         selecionado = selector
 
-    # Preparando dados
-    #df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2]
     # ativos
     ativos_inicial = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
                       df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])
@@ -1119,14 +1123,14 @@ def atualiza_style(valor_well, valor_gas, valor_oil, valor_water, valor_mortalid
         Output("well_perc_br", "children"),
         Output("gasText_br", "children"),
         Output("gas_perc_br", "children"),
-        # Output("oilText_br", "children"),
-        # Output("oil_perc_br", "children"),
+        Output("oilText_br", "children"),
+        Output("oil_perc_br", "children"),
         Output("waterText_br", "children"),
         Output("water_perc_br", "children"),
         Output("mortalidadeText_br", "children"),
         Output("mortalidade_perc_br", "children"),
-        # Output("recuperacaoText_br", "children"),
-        # Output("recuperacao_perc_br", "children"),
+        Output("recuperacaoText_br", "children"),
+        Output("recuperacao_perc_br", "children"),
     ],
     [Input("aggregate_data", "data"), dash.dependencies.Input('estados_menu', 'value')],
 )
@@ -1145,16 +1149,18 @@ def update_text(data, selector):
         selecionado = selector
 
     # ATIVOS
-    novos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-3]
+    ativos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - df.loc[df['state'] == selecionado]['deathsMS'].values[-1] - df.loc[df['state'] == selecionado]['recovered'].values[-1]
 
-    novos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
+    ativos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] - df.loc[df['state'] == selecionado]['recovered'].values[-2]
 
-    if novos_inicial == 0:
-        novos_inicial = 1
+    if ativos_inicial == 0:
+        ativos_inicial = 1
 
-    variacao_ativos = (novos_final -
-                       (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['totalCasesMS'].values[-3])) \
-                      * 100 / novos_inicial
+    variacao_ativos = (ativos_final -
+                       (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
+                        - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] -
+                        df.loc[df['state'] == selecionado]['recovered'].values[-2])) \
+                      * 100 / ativos_inicial
 
     # CONFIRMADOS
     confirmado_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
@@ -1181,14 +1187,37 @@ def update_text(data, selector):
 
     variacao_mortalidade = mortalidade_final - mortalidade_inicial
 
-    return "{}".format(novos_final), \
+    # RECUPERADOS
+    recuperados_inicial = df.loc[df['state'] == selecionado]['recovered'].values[-2]
+    recuperados_final = df.loc[df['state'] == selecionado]['recovered'].values[-1]
+
+    if recuperados_inicial == 0:
+        recuperados_inicial = 1
+
+    variacao_recuperados = (recuperados_final - df.loc[df['state'] == selecionado]['recovered'].values[
+        -2]) * 100 / recuperados_inicial
+
+    # Recuperação
+
+    recuperacao_inicial = recuperados_inicial * 100 / confirmado_inicial
+    recuperacao_final = recuperados_final * 100 / confirmado_final
+
+    variacao_recuperacao = recuperacao_final - recuperacao_inicial
+
+    return "{:.0f}".format(ativos_final), \
            formata_saida(variacao_ativos), \
            "{}".format(confirmado_final), \
            formata_saida(variacao_confirmados), \
+           "{:.0f}".format(recuperados_final), \
+           formata_saida(variacao_recuperados), \
            "{}".format(obitos_final), \
            formata_saida(variacao_obitos), \
            "{:.1f}%".format(mortalidade_final), \
-           formata_saida(variacao_mortalidade),
+           formata_saida(variacao_mortalidade), \
+           "{:.1f}%".format(recuperacao_final), \
+           formata_saida(variacao_recuperacao)
+
+
 
 @app.callback(
                 [
@@ -1196,18 +1225,22 @@ def update_text(data, selector):
                     Output('gas_perc_br', 'style'),
                     Output('water_perc_br', 'style'),
                     Output('mortalidade_perc_br', 'style'),
+                    Output('oil_perc_br', 'style'),
+                    Output('recuperacao_perc_br', 'style'),
                 ],
                 [
                     Input("well_perc_br", "children"),
                     Input("gas_perc_br", "children"),
                     Input("water_perc_br", "children"),
                     Input("mortalidade_perc_br", "children"),
+                    Input("oil_perc_br", "children"),
+                    Input("recuperacao_perc_br", "children"),
                 ])
 
 
-def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
+def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade, valor_oil, valor_recuperacao):
     lista_styles = []
-    for valores in [valor_well, valor_gas, valor_water, valor_mortalidade]:
+    for valores in [valor_well, valor_gas, valor_water, valor_mortalidade,valor_oil, valor_recuperacao]:
         if "▲" in valores:
             lista_styles.append({'text-align': 'center', 'color': 'green'})
         elif "▼" in valores:
@@ -1215,7 +1248,7 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade):
         else:
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
-    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3]
+    return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
 
   
 if __name__ == '__main__':
