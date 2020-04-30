@@ -573,7 +573,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-29,Lagoa Seca,2,0,0,1
 2020-04-29,Mari,1,1,0,0
 2020-04-29,Lucena,3,0,0,1
-2020-04-29,Catingueira,2,0,0,0
+2020-04-29,Catingueira,1,0,0,-1
 2020-04-29,Araçagi,1,0,0,0
 2020-04-29,São José do Bonfim,1,0,0,0
 2020-04-29,Alhandra,1,0,0,1
@@ -581,4 +581,59 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-04-29,Santa Helena,1,0,0,1
 2020-04-29,São José de Piranhas,1,0,0,1
 2020-04-29,Umbuzeiro,1,0,0,1
-2020-04-29,Paraíba,814,63,152,116
+2020-04-29,Paraíba,814,63,152,115
+2020-04-30,João Pessoa,563,33,0,64
+2020-04-30,Campina Grande,51,3,0,0
+2020-04-30,Santa Rita,85,12,0,13
+2020-04-30,Sousa,12,0,0,0
+2020-04-30,Igaracy,1,0,0,0
+2020-04-30,Patos,19,3,0,2
+2020-04-30,Cabedelo,28,3,0,2
+2020-04-30,Serra Branca,1,0,0,0
+2020-04-30,Junco do Seridó,3,1,0,0
+2020-04-30,Bayeux,34,3,0,4
+2020-04-30,São João do Rio do Peixe,5,0,0,0
+2020-04-30,Taperoá,2,1,0,0
+2020-04-30,Sapé,29,1,0,5
+2020-04-30,Pombal,2,0,0,0
+2020-04-30,São Bento,4,0,0,0
+2020-04-30,Riachão do Poço,1,1,0,0
+2020-04-30,Queimadas,2,0,0,0
+2020-04-30,Congo,1,0,0,0
+2020-04-30,Bom Jesus,1,0,0,0
+2020-04-30,Cajazeiras,8,1,0,3
+2020-04-30,Cruz do Espírito Santo,3,0,0,0
+2020-04-30,Itabaiana,2,0,0,0
+2020-04-30,Conde,13,1,0,5
+2020-04-30,Coremas,1,0,0,0
+2020-04-30,Alagoa Nova,1,0,0,0
+2020-04-30,Barra de São Miguel,1,0,0,0
+2020-04-30,Itapororoca,3,0,0,0
+2020-04-30,Guarabira,7,0,0,3
+2020-04-30,Pedras de Fogo,5,0,0,0
+2020-04-30,Itaporanga,1,0,0,0
+2020-04-30,Alagoa Grande,2,0,0,1
+2020-04-30,Brejo do Cruz,1,2,0,0
+2020-04-30,Caaporã,3,0,0,1
+2020-04-30,Coxixola,1,0,0,0
+2020-04-30,Boqueirão,1,0,0,0
+2020-04-30,Marizópolis,3,1,0,0
+2020-04-30,Areia,1,0,0,0
+2020-04-30,Gurinhém,1,0,0,0
+2020-04-30,Esperança,2,0,0,0
+2020-04-30,Lagoa Seca,2,0,0,0
+2020-04-30,Mari,1,1,0,0
+2020-04-30,Lucena,3,0,0,0
+2020-04-30,Catingueira,1,0,0,0
+2020-04-30,Araçagi,1,0,0,0
+2020-04-30,São José do Bonfim,1,0,0,0
+2020-04-30,Alhandra,2,1,0,1
+2020-04-30,Riacho dos Cavalos,1,0,0,0
+2020-04-30,Santa Helena,1,0,0,0
+2020-04-30,São José de Piranhas,1,0,0,0
+2020-04-30,Umbuzeiro,2,0,0,1
+2020-04-30,Rio Tinto,4,0,0,4
+2020-04-30,Princesa Isabel,1,0,0,1
+2020-04-30,Mamanguape,1,0,0,1
+2020-04-30,Serra Redonda,1,0,0,1
+2020-04-30,Paraíba,926,67,156,112
