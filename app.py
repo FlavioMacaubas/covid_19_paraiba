@@ -59,6 +59,15 @@ cidades_pb = [
     {'label': 'Catingueira', 'value': 'Catingueira'},
     {'label': 'Araçagi', 'value': 'Araçagi'},
     {'label': 'São José do Bonfim', 'value': 'São José do Bonfim'},
+    {'label': 'Alhandra', 'value': 'Alhandra'},
+    {'label': 'Riacho dos Cavalos', 'value': 'Riacho dos Cavalos'},
+    {'label': 'Santa Helena', 'value': 'Santa Helena'},
+    {'label': 'São José de Piranhas', 'value': 'São José de Piranhas'},
+    {'label': 'Umbuzeiro', 'value': 'Umbuzeiro'},
+    {'label': 'Rio Tinto', 'value': 'Rio Tinto'},
+    {'label': 'Princesa Isabel', 'value': 'Princesa Isabel'},
+    {'label': 'Mamanguape', 'value': 'Mamanguape'},
+    {'label': 'Serra Redonda', 'value': 'Serra Redonda'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -191,7 +200,7 @@ maiores_obitos_br = []
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -277,7 +286,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 29/04 às 19:45h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 30/04 às 19:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
