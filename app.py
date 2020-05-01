@@ -68,6 +68,14 @@ cidades_pb = [
     {'label': 'Princesa Isabel', 'value': 'Princesa Isabel'},
     {'label': 'Mamanguape', 'value': 'Mamanguape'},
     {'label': 'Serra Redonda', 'value': 'Serra Redonda'},
+    {'label': 'Casserengue', 'value': 'Casserengue'},
+    {'label': 'Caiçara', 'value': 'Caiçara'},
+    {'label': 'Imaculada', 'value': 'Imaculada'},
+    {'label': 'Monteiro', 'value': 'Monteiro'},
+    {'label': 'Pilar', 'value': 'Pilar'},
+    {'label': 'Pilõezinhos', 'value': 'Pilõezinhos'},
+    {'label': 'Pitimbu', 'value': 'Pitimbu'},
+    {'label': 'São José dos Espinharas', 'value': 'São José dos Espinharas'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -286,7 +294,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 30/04 às 19:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 01/05 às 19h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
