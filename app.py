@@ -1165,10 +1165,7 @@ def update_text(data, selector):
     if ativos_inicial == 0:
         ativos_inicial = 1
 
-    variacao_ativos = (ativos_final -
-                       (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2]
-                        - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] -
-                        df.loc[df['state'] == selecionado]['recovered'].values[-2])) \
+    variacao_ativos = (ativos_final -(df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] - df.loc[df['state'] == selecionado]['recovered'].values[-2])) \
                       * 100 / ativos_inicial
 
     # CONFIRMADOS
@@ -1203,8 +1200,7 @@ def update_text(data, selector):
     if recuperados_inicial == 0:
         recuperados_inicial = 1
 
-    variacao_recuperados = (recuperados_final - df.loc[df['state'] == selecionado]['recovered'].values[
-        -2]) * 100 / recuperados_inicial
+    variacao_recuperados = (recuperados_final - df.loc[df['state'] == selecionado]['recovered'].values[-2]) * 100 / recuperados_inicial
 
     # Recuperação
 
