@@ -647,7 +647,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-01,Serra Branca,1,0,0,0
 2020-05-01,Junco do Seridó,3,1,0,0
 2020-05-01,Bayeux,39,3,0,5
-2020-05-01,São João do Rio do Peixe,15,0,0,10
+2020-05-01,São João do Rio do Peixe,5,0,0,0
 2020-05-01,Taperoá,2,1,0,0
 2020-05-01,Sapé,28,1,0,-1
 2020-05-01,Pombal,2,0,0,0
@@ -699,4 +699,69 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-01,Pilõezinhos,1,0,0,1
 2020-05-01,Pitimbu,1,0,0,1
 2020-05-01,São José de Espinharas,1,0,0,1
-2020-05-01,Paraíba,1034,74,177,107
+2020-05-01,Paraíba,1034,74,177,97
+2020-05-02,João Pessoa,701,37,0,87
+2020-05-02,Campina Grande,61,3,0,8
+2020-05-02,Santa Rita,100,15,0,4
+2020-05-02,Sousa,15,0,0,3
+2020-05-02,Igaracy,1,0,0,0
+2020-05-02,Patos,23,3,0,2
+2020-05-02,Cabedelo,39,3,0,10
+2020-05-02,Serra Branca,1,0,0,0
+2020-05-02,Junco do Seridó,3,1,0,0
+2020-05-02,Bayeux,41,3,0,2
+2020-05-02,São João do Rio do Peixe,6,0,0,1
+2020-05-02,Taperoá,2,1,0,0
+2020-05-02,Sapé,38,1,0,10
+2020-05-02,Pombal,2,0,0,0
+2020-05-02,São Bento,5,1,0,1
+2020-05-02,Riachão do Poço,1,1,0,0
+2020-05-02,Queimadas,2,0,0,0
+2020-05-02,Congo,1,0,0,0
+2020-05-02,Bom Jesus,1,0,0,0
+2020-05-02,Cajazeiras,10,1,0,-3
+2020-05-02,Cruz do Espírito Santo,4,0,0,1
+2020-05-02,Itabaiana,2,0,0,0
+2020-05-02,Conde,17,1,0,1
+2020-05-02,Coremas,1,0,0,0
+2020-05-02,Alagoa Nova,1,0,0,0
+2020-05-02,Barra de São Miguel,1,0,0,0
+2020-05-02,Itapororoca,3,0,0,-1
+2020-05-02,Guarabira,15,0,0,5
+2020-05-02,Pedras de Fogo,9,0,0,3
+2020-05-02,Itaporanga,1,0,0,0
+2020-05-02,Alagoa Grande,2,0,0,0
+2020-05-02,Brejo do Cruz,1,2,0,0
+2020-05-02,Caaporã,3,0,0,0
+2020-05-02,Coxixola,3,0,0,1
+2020-05-02,Boqueirão,1,0,0,0
+2020-05-02,Marizópolis,3,1,0,0
+2020-05-02,Areia,1,0,0,0
+2020-05-02,Gurinhém,1,0,0,0
+2020-05-02,Esperança,2,0,0,0
+2020-05-02,Lagoa Seca,2,0,0,-1
+2020-05-02,Mari,7,1,0,6
+2020-05-02,Lucena,5,0,0,1
+2020-05-02,Catingueira,1,0,0,0
+2020-05-02,Araçagi,1,0,0,0
+2020-05-02,São José do Bonfim,1,0,0,0
+2020-05-02,Alhandra,7,1,0,3
+2020-05-02,Riacho dos Cavalos,1,0,0,0
+2020-05-02,Santa Helena,1,0,0,0
+2020-05-02,São José de Piranhas,1,0,0,0
+2020-05-02,Umbuzeiro,2,1,0,-1
+2020-05-02,Rio Tinto,4,0,0,0
+2020-05-02,Princesa Isabel,1,0,0,0
+2020-05-02,Mamanguape,1,0,0,0
+2020-05-02,Serra Redonda,1,0,0,0
+2020-05-02,Casserengue,1,0,0,0
+2020-05-02,Caiçara,1,0,0,0
+2020-05-02,Imaculada,3,0,0,2
+2020-05-02,Monteiro,1,0,0,0
+2020-05-02,Pilar,1,0,0,0
+2020-05-02,Pilõezinhos,1,0,0,0
+2020-05-02,Pitimbu,1,0,0,0
+2020-05-02,São José de Espinharas,1,0,0,0
+2020-05-02,Piancó,1,0,0,1
+2020-05-02,Serra da Raiz,1,0,0,1
+2020-05-02,Paraíba,1169,76,177,135
