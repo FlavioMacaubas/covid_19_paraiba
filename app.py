@@ -76,6 +76,8 @@ cidades_pb = [
     {'label': 'Pilõezinhos', 'value': 'Pilõezinhos'},
     {'label': 'Pitimbu', 'value': 'Pitimbu'},
     {'label': 'São José dos Espinharas', 'value': 'São José dos Espinharas'},
+    {'label': 'Piancó', 'value': 'Piancó'},
+    {'label': 'Serra da Raiz', 'value': 'Serra da Raiz'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -294,7 +296,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 01/05 às 19h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 02/05 às 18h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
