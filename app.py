@@ -78,6 +78,7 @@ cidades_pb = [
     {'label': 'São José dos Espinharas', 'value': 'São José dos Espinharas'},
     {'label': 'Piancó', 'value': 'Piancó'},
     {'label': 'Serra da Raiz', 'value': 'Serra da Raiz'},
+    {'label': 'Mulungu', 'value': 'Mulungu'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -296,7 +297,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 02/05 às 18h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 03/05 às 18:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
