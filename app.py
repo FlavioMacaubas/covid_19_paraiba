@@ -79,6 +79,11 @@ cidades_pb = [
     {'label': 'Piancó', 'value': 'Piancó'},
     {'label': 'Serra da Raiz', 'value': 'Serra da Raiz'},
     {'label': 'Mulungu', 'value': 'Mulungu'},
+    {'label': 'Alagoinha', 'value': 'Alagoinha'},
+    {'label': 'Mataraca', 'value': 'Mataraca'},
+    {'label': 'Pirpirituba', 'value': 'Pirpirituba'},
+    {'label': 'Nova Floresta', 'value': 'Nova Floresta'},
+    {'label': 'Uiraúna', 'value': 'Uiraúna'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -297,7 +302,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 03/05 às 18:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 04/05 às 20:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
