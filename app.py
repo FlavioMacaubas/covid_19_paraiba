@@ -1023,7 +1023,7 @@ def update_text(data, selector):
         elif valor <= -0.05:
             return "▼ {:.1f}%".format(valor)
         else:
-            return "{:.1f}%".format(valor)
+            return "0%"
 
 
     if len(selector) == 0:
@@ -1161,7 +1161,7 @@ def update_text(data, selector):
         elif valor <= -0.05:
             return "▼ {:.1f}%".format(valor)
         else:
-            return "{:.1f}%".format(valor)
+            return "0%"
 
     if len(selector) == 0 or (selector == 'BR'):
         selecionado = 'TOTAL'
