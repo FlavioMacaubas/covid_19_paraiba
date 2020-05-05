@@ -831,9 +831,9 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-03,Serra da Raiz,1,0,0,0
 2020-05-03,Mulungu,3,0,0,3
 2020-05-03,Paraíba,1219,79,227,50
-2020-05-04,João Pessoa,802,39,0,91
+2020-05-04,João Pessoa,802,40,0,91
 2020-05-04,Campina Grande,67,3,0,5
-2020-05-04,Santa Rita,122,16,0,11
+2020-05-04,Santa Rita,122,17,0,11
 2020-05-04,Sousa,15,0,0,0
 2020-05-04,Igaracy,1,0,0,0
 2020-05-04,Patos,27,3,0,3
@@ -851,7 +851,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-04,Congo,1,0,0,0
 2020-05-04,Bom Jesus,1,0,0,0
 2020-05-04,Cajazeiras,12,1,0,2
-2020-05-04,Cruz do Espírito Santo,6,0,0,2
+2020-05-04,Cruz do Espírito Santo,6,1,0,2
 2020-05-04,Itabaiana,2,0,0,0
 2020-05-04,Conde,17,1,0,0
 2020-05-04,Coremas,3,0,0,2
@@ -859,7 +859,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-04,Barra de São Miguel,1,0,0,0
 2020-05-04,Itapororoca,4,0,0,1
 2020-05-04,Guarabira,24,0,0,3
-2020-05-04,Pedras de Fogo,10,0,0,1
+2020-05-04,Pedras de Fogo,10,1,0,1
 2020-05-04,Itaporanga,1,0,0,0
 2020-05-04,Alagoa Grande,2,0,0,0
 2020-05-04,Brejo do Cruz,1,2,0,0
@@ -870,13 +870,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-04,Areia,1,0,0,0
 2020-05-04,Gurinhém,2,0,0,1
 2020-05-04,Esperança,2,0,0,0
-2020-05-04,Lagoa Seca,2,0,0,0
+2020-05-04,Lagoa Seca,2,1,0,0
 2020-05-04,Mari,8,1,0,0
 2020-05-04,Lucena,5,0,0,0
 2020-05-04,Catingueira,1,0,0,0
 2020-05-04,Araçagi,1,0,0,0
 2020-05-04,São José do Bonfim,1,0,0,0
-2020-05-04,Alhandra,8,1,0,1
+2020-05-04,Alhandra,8,2,0,1
 2020-05-04,Riacho dos Cavalos,1,0,0,0
 2020-05-04,Santa Helena,1,0,0,0
 2020-05-04,São José de Piranhas,1,0,0,0
@@ -902,3 +902,79 @@ data,cidade,confirmados,obitos,recuperados,novos_casos
 2020-05-04,Nova Floresta,1,0,0,1
 2020-05-04,Uiraúna,1,0,0,1
 2020-05-04,Paraíba,1361,85,227,142
+2020-05-05,João Pessoa,865,40,0,63
+2020-05-05,Campina Grande,74,3,0,7
+2020-05-05,Santa Rita,129,17,0,7
+2020-05-05,Sousa,17,0,0,2
+2020-05-05,Igaracy,1,0,0,0
+2020-05-05,Patos,33,3,0,6
+2020-05-05,Cabedelo,51,3,0,7
+2020-05-05,Serra Branca,1,0,0,0
+2020-05-05,Junco do Seridó,3,1,0,0
+2020-05-05,Bayeux,45,3,0,1
+2020-05-05,São João do Rio do Peixe,6,0,0,0
+2020-05-05,Taperoá,9,1,0,4
+2020-05-05,Sapé,54,1,0,6
+2020-05-05,Pombal,2,0,0,0
+2020-05-05,São Bento,5,1,0,0
+2020-05-05,Riachão do Poço,1,1,0,0
+2020-05-05,Queimadas,2,0,0,0
+2020-05-05,Congo,1,0,0,0
+2020-05-05,Bom Jesus,1,0,0,0
+2020-05-05,Cajazeiras,13,1,0,1
+2020-05-05,Cruz do Espírito Santo,7,1,0,1
+2020-05-05,Itabaiana,2,0,0,0
+2020-05-05,Conde,18,1,0,1
+2020-05-05,Coremas,3,0,0,0
+2020-05-05,Alagoa Nova,1,0,0,0
+2020-05-05,Barra de São Miguel,1,0,0,0
+2020-05-05,Itapororoca,4,0,0,0
+2020-05-05,Guarabira,28,0,0,4
+2020-05-05,Pedras de Fogo,15,1,0,5
+2020-05-05,Itaporanga,1,0,0,0
+2020-05-05,Alagoa Grande,3,0,0,1
+2020-05-05,Brejo do Cruz,1,2,0,0
+2020-05-05,Caaporã,5,0,0,1
+2020-05-05,Coxixola,3,0,0,0
+2020-05-05,Boqueirão,1,0,0,0
+2020-05-05,Marizópolis,3,1,0,0
+2020-05-05,Areia,1,0,0,0
+2020-05-05,Gurinhém,2,0,0,0
+2020-05-05,Esperança,2,0,0,0
+2020-05-05,Lagoa Seca,2,1,0,0
+2020-05-05,Mari,9,1,0,1
+2020-05-05,Lucena,6,0,0,1
+2020-05-05,Catingueira,1,0,0,0
+2020-05-05,Araçagi,3,0,0,2
+2020-05-05,São José do Bonfim,1,0,0,0
+2020-05-05,Alhandra,8,2,0,0
+2020-05-05,Riacho dos Cavalos,1,0,0,0
+2020-05-05,Santa Helena,1,0,0,0
+2020-05-05,São José de Piranhas,1,0,0,0
+2020-05-05,Umbuzeiro,2,1,0,0
+2020-05-05,Rio Tinto,5,0,0,1
+2020-05-05,Princesa Isabel,2,0,0,0
+2020-05-05,Mamanguape,4,0,0,1
+2020-05-05,Serra Redonda,1,0,0,0
+2020-05-05,Casserengue,1,0,0,0
+2020-05-05,Caiçara,1,0,0,0
+2020-05-05,Imaculada,3,0,0,0
+2020-05-05,Monteiro,2,0,0,1
+2020-05-05,Pilar,2,0,0,0
+2020-05-05,Pilõezinhos,2,0,0,0
+2020-05-05,Pitimbu,2,0,0,0
+2020-05-05,São José de Espinharas,1,0,0,0
+2020-05-05,Piancó,3,0,0,2
+2020-05-05,Serra da Raiz,1,0,0,0
+2020-05-05,Mulungu,3,0,0,0
+2020-05-05,Alagoinha,1,0,0,0
+2020-05-05,Mataraca,1,0,0,0
+2020-05-05,Pirpirituba,2,0,0,1
+2020-05-05,Nova Floresta,1,0,0,0
+2020-05-05,Uiraúna,1,0,0,0
+2020-05-05,Capim,1,0,0,1
+2020-05-05,Remígio,1,0,0,1
+2020-05-05,São Sebastião da Lagoa de Roça,1,0,0,1
+2020-05-05,Matinhas,1,0,0,1
+2020-05-05,Pilões,1,0,0,1
+2020-05-05,Paraíba,1493,92,310,132
