@@ -84,6 +84,11 @@ cidades_pb = [
     {'label': 'Pirpirituba', 'value': 'Pirpirituba'},
     {'label': 'Nova Floresta', 'value': 'Nova Floresta'},
     {'label': 'Uiraúna', 'value': 'Uiraúna'},
+    {'label': 'Capim', 'value': 'Capim'},
+    {'label': 'Remígio', 'value': 'Remígio'},
+    {'label': 'São Sebastião de Lagoa de Roça', 'value': 'São Sebastião de Lagoa de Roça'},
+    {'label': 'Matinhas', 'value': 'Matinhas'},
+    {'label': 'Pilões', 'value': 'Pilões'},
 ]
 ## Preparação Paraíba - Fim ##
 
