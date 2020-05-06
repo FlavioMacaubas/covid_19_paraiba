@@ -89,6 +89,10 @@ cidades_pb = [
     {'label': 'São Sebastião de Lagoa de Roça', 'value': 'São Sebastião de Lagoa de Roça'},
     {'label': 'Matinhas', 'value': 'Matinhas'},
     {'label': 'Pilões', 'value': 'Pilões'},
+    {'label': 'Condado', 'value': 'Condado'},
+    {'label': 'Juazeirinho', 'value': 'Juazeirinho'},
+    {'label': 'Massaranduba', 'value': 'Massaranduba'},
+    {'label': 'Santa Luzia', 'value': 'Santa Luzia'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -307,7 +311,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 05/05 às 19:00h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 06/05 às 19:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
