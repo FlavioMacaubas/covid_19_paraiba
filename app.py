@@ -92,7 +92,15 @@ cidades_pb = [
     {'label': 'Condado', 'value': 'Condado'},
     {'label': 'Juazeirinho', 'value': 'Juazeirinho'},
     {'label': 'Massaranduba', 'value': 'Massaranduba'},
-    {'label': 'Santa Luzia', 'value': 'Santa Luzia'},
+    {'label': 'Santa Luzia', 'value': 'Santa Luzia'},   
+    {'label': 'Baía da Traição', 'value': 'Baía da Traição'},
+    {'label': 'Juripiranga', 'value': 'Juripiranga'},
+    {'label': 'Cuitegi', 'value': 'Cuitegi'},
+    {'label': 'Borborema', 'value': 'Borborema'},
+    {'label': 'Pocinhos', 'value': 'Pocinhos'},
+    {'label': 'São Miguel de Taipu', 'value': 'São Miguel de Taipu'},
+    {'label': 'Sobrado', 'value': 'Sobrado'},
+    {'label': 'Riachão do Bacamarte', 'value': 'Riachão do Bacamarte'},
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -311,7 +319,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 06/05 às 19:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 07/05 às 20:00h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
