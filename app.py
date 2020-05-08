@@ -100,7 +100,13 @@ cidades_pb = [
     {'label': 'Pocinhos', 'value': 'Pocinhos'},
     {'label': 'São Miguel de Taipu', 'value': 'São Miguel de Taipu'},
     {'label': 'Sobrado', 'value': 'Sobrado'},
-    {'label': 'Riachão do Bacamarte', 'value': 'Riachão do Bacamarte'},
+    {'label': 'Riachão do Bacamarte', 'value': 'Riachão do Bacamarte'}, 
+    {'label': 'Sertãozinho', 'value': 'Sertãozinho'},
+    {'label': 'Cajazeirinhas', 'value': 'Cajazeirinhas'},
+    {'label': 'Bananeiras', 'value': 'Bananeiras'},
+    {'label': 'Teixeira', 'value': 'Teixeira'},
+    {'label': 'Santarém', 'value': 'Santarém'},
+    
 ]
 ## Preparação Paraíba - Fim ##
 
@@ -319,7 +325,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 07/05 às 20:00h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 08/05 às 19:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
