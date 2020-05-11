@@ -15,99 +15,11 @@ app.title = "Covid-19 PB-BR"
 ## Preparação Paraíba - Começo ##
 df_pb = pd.read_csv("https://raw.githubusercontent.com/FlavioMacaubas/covid_19_paraiba/master/base_dados.csv",error_bad_lines=False)
 
-cidades_pb = [
-    {'label': 'Paraíba', 'value': 'Paraíba'},
-    {'label': 'João Pessoa', 'value': 'João Pessoa'},
-    {'label': 'Cabedelo', 'value': 'Cabedelo'},
-    {'label': 'Patos', 'value': 'Patos'},
-    {'label': 'Junco do Seridó', 'value': 'Junco do Seridó'},
-    {'label': 'Campina Grande', 'value': 'Campina Grande'},
-    {'label': 'Igaracy', 'value': 'Igaracy'},
-    {'label': 'Sousa', 'value': 'Sousa'},
-    {'label': 'Serra Branca', 'value': 'Serra Branca'},
-    {'label': 'Santa Rita', 'value': 'Santa Rita'},
-    {'label': 'Bayeux', 'value': 'Bayeux'},
-    {'label': 'Sapé', 'value': 'Sapé'},
-    {'label': 'Taperoá', 'value': 'Taperoá'},
-    {'label': 'São João do Rio do Peixe', 'value': 'São João do Rio do Peixe'},
-    {'label': 'Pombal', 'value': 'Pombal'},
-    {'label': 'Riachão do Poço', 'value': 'Riachão do Poço'},
-    {'label': 'São Bento', 'value': 'São Bento'},
-    {'label': 'Congo', 'value': 'Congo'},
-    {'label': 'Queimadas', 'value': 'Queimadas'},
-    {'label': 'Bom Jesus', 'value': 'Bom Jesus'},
-    {'label': 'Cajazeiras', 'value': 'Cajazeiras'},
-    {'label': 'Itabaiana', 'value': 'Itabaiana'},
-    {'label': 'Cruz do Espírito Santo', 'value': 'Cruz do Espírito Santo'},
-    {'label': 'Conde', 'value': 'Conde'},
-    {'label': 'Itapororoca', 'value': 'Itapororoca'},
-    {'label': 'Barra de São Miguel', 'value': 'Barra de São Miguel'},
-    {'label': 'Alagoa Nova', 'value': 'Alagoa Nova'},
-    {'label': 'Coremas', 'value': 'Coremas'},
-    {'label': 'Pedras de Fogo', 'value': 'Pedras de Fogo'},
-    {'label': 'Itaporanga', 'value': 'Itaporanga'},
-    {'label': 'Alagoa Grande', 'value': 'Alagoa Grande'},
-    {'label': 'Brejo do Cruz', 'value': 'Brejo do Cruz'},
-    {'label': 'Caaporã', 'value': 'Caaporã'},
-    {'label': 'Coxixola', 'value': 'Coxixola'},
-    {'label': 'Gurinhém', 'value': 'Gurinhém'},
-    {'label': 'Boqueirão', 'value': 'Boqueirão'},
-    {'label': 'Areia', 'value': 'Areia'},
-    {'label': 'Marizópolis', 'value': 'Marizópolis'},
-    {'label': 'Esperança', 'value': 'Esperança'},
-    {'label': 'Lucena', 'value': 'Lucena'},
-    {'label': 'Catingueira', 'value': 'Catingueira'},
-    {'label': 'Araçagi', 'value': 'Araçagi'},
-    {'label': 'São José do Bonfim', 'value': 'São José do Bonfim'},
-    {'label': 'Alhandra', 'value': 'Alhandra'},
-    {'label': 'Riacho dos Cavalos', 'value': 'Riacho dos Cavalos'},
-    {'label': 'Santa Helena', 'value': 'Santa Helena'},
-    {'label': 'São José de Piranhas', 'value': 'São José de Piranhas'},
-    {'label': 'Umbuzeiro', 'value': 'Umbuzeiro'},
-    {'label': 'Rio Tinto', 'value': 'Rio Tinto'},
-    {'label': 'Princesa Isabel', 'value': 'Princesa Isabel'},
-    {'label': 'Mamanguape', 'value': 'Mamanguape'},
-    {'label': 'Serra Redonda', 'value': 'Serra Redonda'},
-    {'label': 'Casserengue', 'value': 'Casserengue'},
-    {'label': 'Caiçara', 'value': 'Caiçara'},
-    {'label': 'Imaculada', 'value': 'Imaculada'},
-    {'label': 'Monteiro', 'value': 'Monteiro'},
-    {'label': 'Pilar', 'value': 'Pilar'},
-    {'label': 'Pilõezinhos', 'value': 'Pilõezinhos'},
-    {'label': 'Pitimbu', 'value': 'Pitimbu'},
-    {'label': 'São José dos Espinharas', 'value': 'São José dos Espinharas'},
-    {'label': 'Piancó', 'value': 'Piancó'},
-    {'label': 'Serra da Raiz', 'value': 'Serra da Raiz'},
-    {'label': 'Mulungu', 'value': 'Mulungu'},
-    {'label': 'Alagoinha', 'value': 'Alagoinha'},
-    {'label': 'Mataraca', 'value': 'Mataraca'},
-    {'label': 'Pirpirituba', 'value': 'Pirpirituba'},
-    {'label': 'Nova Floresta', 'value': 'Nova Floresta'},
-    {'label': 'Uiraúna', 'value': 'Uiraúna'},
-    {'label': 'Capim', 'value': 'Capim'},
-    {'label': 'Remígio', 'value': 'Remígio'},
-    {'label': 'São Sebastião de Lagoa de Roça', 'value': 'São Sebastião de Lagoa de Roça'},
-    {'label': 'Matinhas', 'value': 'Matinhas'},
-    {'label': 'Pilões', 'value': 'Pilões'},
-    {'label': 'Condado', 'value': 'Condado'},
-    {'label': 'Juazeirinho', 'value': 'Juazeirinho'},
-    {'label': 'Massaranduba', 'value': 'Massaranduba'},
-    {'label': 'Santa Luzia', 'value': 'Santa Luzia'},   
-    {'label': 'Baía da Traição', 'value': 'Baía da Traição'},
-    {'label': 'Juripiranga', 'value': 'Juripiranga'},
-    {'label': 'Cuitegi', 'value': 'Cuitegi'},
-    {'label': 'Borborema', 'value': 'Borborema'},
-    {'label': 'Pocinhos', 'value': 'Pocinhos'},
-    {'label': 'São Miguel de Taipu', 'value': 'São Miguel de Taipu'},
-    {'label': 'Sobrado', 'value': 'Sobrado'},
-    {'label': 'Riachão do Bacamarte', 'value': 'Riachão do Bacamarte'}, 
-    {'label': 'Sertãozinho', 'value': 'Sertãozinho'},
-    {'label': 'Cajazeirinhas', 'value': 'Cajazeirinhas'},
-    {'label': 'Bananeiras', 'value': 'Bananeiras'},
-    {'label': 'Teixeira', 'value': 'Teixeira'},
-    {'label': 'Santarém', 'value': 'Santarém'},
+cidades_pb = []
+for cidade in df['cidade'].unique():
+    dic_aux = {'label':cidade, 'value':cidade}
+    cidades_pb.append(dic_aux)
     
-]
 ## Preparação Paraíba - Fim ##
 
 ## Preparação Brasil - Começo ##
@@ -174,7 +86,7 @@ for cidade in base_dados_pb.sort_values('confirmados', ascending=False)['cidade'
 base_dados_pb_o = base_dados_pb.loc[base_dados_pb['obitos'] != 0]
 maiores_obitos_pb = []
 for cidade in base_dados_pb_o.sort_values('obitos', ascending=False)['cidade']:
-    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade]['obitos'].values[-1]],style={'color': '#420881', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(cidade, style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -239,7 +151,7 @@ maiores_obitos_br = []
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#000000', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#420881', 'font-size': 20}), \
           html.Span(" "), \
           html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
           html.Hr(style={'margin': 0})
@@ -325,7 +237,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 09/05 às 18:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 10/05 às 23:59h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
