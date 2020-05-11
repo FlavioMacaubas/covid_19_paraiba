@@ -390,7 +390,7 @@ app.layout = html.Div(
                                 html.H3([df_pb.loc[df_pb['cidade'] == 'Paraíba']['obitos'].values[-1]],
                                         id='total_obitos_pb',
                                         style={'text-align': 'center',
-                                               'color': '#000000',
+                                               'color': '#420881',
                                                'margin-top': 2,
                                                'height': "20%"}),
                                 html.P([str(len(base_dados_pb_o)) + " dos 223 municípios " + "({:.1f}%)".format(len(base_dados_pb_o)*100/223)], style = {'text-align': 'center'})
@@ -633,7 +633,7 @@ app.layout = html.Div(
                                 html.H3([df.loc[df['state'] == 'TOTAL']['deathsMS'].values[-1]],
                                         id='total_obitos_br',
                                         style={'text-align': 'center',
-                                               'color': '#000000',
+                                               'color': '#420881',
                                                'margin-top': 2,
                                                'height': "20%"}),
                             ], className="three columns pretty_container"),
