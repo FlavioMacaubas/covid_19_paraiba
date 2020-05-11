@@ -16,7 +16,7 @@ app.title = "Covid-19 PB-BR"
 df_pb = pd.read_csv("https://raw.githubusercontent.com/FlavioMacaubas/covid_19_paraiba/master/base_dados.csv",error_bad_lines=False)
 
 cidades_pb = []
-for cidade in df['cidade'].unique():
+for cidade in df_pb['cidade'].unique():
     dic_aux = {'label':cidade, 'value':cidade}
     cidades_pb.append(dic_aux)
     
