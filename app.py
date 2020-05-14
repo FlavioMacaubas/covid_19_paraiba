@@ -246,7 +246,10 @@ app.layout = html.Div(
 
             html.H6(children=[
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
+
+
             ], style={'text-align': 'left'}),
+
         ], className='banner'),
 
 
@@ -459,7 +462,8 @@ app.layout = html.Div(
                                 options=[
                                     {"label": "Confirmados ", "value": "confirmados"},
                                     {"label": "Recuperados ", "value": "recuperados"},
-                                    {"label": "Óbitos ", "value": "obitos"},
+                                    {"label": "Óbitos", "value": "obitos"},
+                                    {"label": "Ativos", "value": "ativos"},
                                     {"label": "Novos Casos ", "value": "novos_casos"},
                                 ],
                                 value="confirmados",
@@ -956,10 +960,18 @@ def update_image_src(selector, situacao):
         selector.append('Paraíba')
     data = []
 
-    for cidade in selector:
-        data.append(
-            {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
-             'type': 'line', 'name': cidade})
+    if situacao == 'ativos':
+        for cidade in selector:
+            data.append(
+                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade]['confirmados'] -
+                                                                         df_pb.loc[df_pb['cidade'] == cidade]['obitos'] -
+                                                                         df_pb.loc[df_pb['cidade'] == cidade]['recuperados'],
+                 'type': 'line', 'name': cidade})
+    else:
+        for cidade in selector:
+            data.append(
+                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
+                 'type': 'line', 'name': cidade})
     figure = {
         'data': data,
         'layout': {
