@@ -13,13 +13,14 @@ server = app.server
 app.title = "Covid-19 PB-BR"
 
 ## Preparação Paraíba - Começo ##
-df_pb = pd.read_csv("https://raw.githubusercontent.com/FlavioMacaubas/covid_19_paraiba/master/base_dados.csv",error_bad_lines=False)
+df_pb = pd.read_csv("https://raw.githubusercontent.com/FlavioMacaubas/covid_19_paraiba/master/base_dados.csv",
+                    error_bad_lines=False)
 
 cidades_pb = []
 for cidade in df_pb['cidade'].unique():
-    dic_aux = {'label':cidade, 'value':cidade}
+    dic_aux = {'label': cidade, 'value': cidade}
     cidades_pb.append(dic_aux)
-    
+
 ## Preparação Paraíba - Fim ##
 
 ## Preparação Brasil - Começo ##
@@ -57,7 +58,6 @@ estados_br = [
     {'label': 'Tocantins', 'value': 'TO'},
 ]
 
-
 ## Preparação Brasil - Fim ##
 
 ## Preenchendo os maiores - PB (COMEÇO) ##
@@ -70,7 +70,7 @@ for cidade in df_pb['cidade'].unique():
     total_casos.append(df_pb.loc[df_pb['cidade'] == cidade]['confirmados'].values[-1])
     total_mortes.append(df_pb.loc[df_pb['cidade'] == cidade]['obitos'].values[-1])
 
-base_dados_pb = pd.DataFrame({'cidade': cidades, 'confirmados' : total_casos, 'obitos' : total_mortes})
+base_dados_pb = pd.DataFrame({'cidade': cidades, 'confirmados': total_casos, 'obitos': total_mortes})
 base_dados_pb = base_dados_pb.loc[base_dados_pb['cidade'] != 'Paraíba']
 
 lista_maiores_pb = []
@@ -86,9 +86,10 @@ for cidade in base_dados_pb.sort_values('confirmados', ascending=False)['cidade'
 base_dados_pb_o = base_dados_pb.loc[base_dados_pb['obitos'] != 0]
 maiores_obitos_pb = []
 for cidade in base_dados_pb_o.sort_values('obitos', ascending=False)['cidade']:
-    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade]['obitos'].values[-1]],style={'color': '#420881', 'font-size': 20}), \
+    div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade]['obitos'].values[-1]],
+                      style={'color': '#420881', 'font-size': 20}), \
           html.Span(" "), \
-          html.Span(cidade, style={'font-size': 20}),\
+          html.Span(cidade, style={'font-size': 20}), \
           html.Hr(style={'margin': 0})
 
     # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
@@ -96,33 +97,33 @@ for cidade in base_dados_pb_o.sort_values('obitos', ascending=False)['cidade']:
 ## Preenchendo os maiores - PB (FIM) ##
 
 ### Preenchendo os maiores - BR (COMEÇO) ###
-sigla_estados_br = {'SP':'São Paulo',
-              'RJ':'Rio de Janeiro',
-              'PB':'Paraíba',
-             'AC':'Acre',
-             'AL':'Alagoas',
-             'AP':'Amapá',
-             'AM':'Amazonas',
-             'BA':'Bahia',
-             'CE':'Ceará',
-             'DF':'Distrito Federal',
-             'ES':'Espírito Santo',
-             'GO':'Goiás',
-             'MA':'Maranhão',
-             'MT':'Mato Grosso',
-             'MS':'Mato Grosso do Sul',
-             'MG':'Minas Gerais',
-             'PA':'Pará',
-             'PR':'Paraná',
-             'PE':'Pernambuco',
-             'PI':'Piauí',
-             'RN':'Rio Grande do Norte',
-             'RS':'Rio Grande do Sul',
-             'RO':'Rondônia',
-             'RR':'Roraima',
-             'SC':'Santa Catarina',
-             'SE':'Sergipe',
-             'TO':'Tocantins'}
+sigla_estados_br = {'SP': 'São Paulo',
+                    'RJ': 'Rio de Janeiro',
+                    'PB': 'Paraíba',
+                    'AC': 'Acre',
+                    'AL': 'Alagoas',
+                    'AP': 'Amapá',
+                    'AM': 'Amazonas',
+                    'BA': 'Bahia',
+                    'CE': 'Ceará',
+                    'DF': 'Distrito Federal',
+                    'ES': 'Espírito Santo',
+                    'GO': 'Goiás',
+                    'MA': 'Maranhão',
+                    'MT': 'Mato Grosso',
+                    'MS': 'Mato Grosso do Sul',
+                    'MG': 'Minas Gerais',
+                    'PA': 'Pará',
+                    'PR': 'Paraná',
+                    'PE': 'Pernambuco',
+                    'PI': 'Piauí',
+                    'RN': 'Rio Grande do Norte',
+                    'RS': 'Rio Grande do Sul',
+                    'RO': 'Rondônia',
+                    'RR': 'Roraima',
+                    'SC': 'Santa Catarina',
+                    'SE': 'Sergipe',
+                    'TO': 'Tocantins'}
 total_casos = []
 total_mortes = []
 estados = []
@@ -132,32 +133,35 @@ for estado in df['state'].unique():
     total_casos.append(df.loc[df['state'] == estado]['totalCasesMS'].values[-1])
     total_mortes.append(df.loc[df['state'] == estado]['deathsMS'].values[-1])
 
-base_dados_br = pd.DataFrame({'estado': estados, 'confirmados' : total_casos, 'obitos' : total_mortes})
+base_dados_br = pd.DataFrame({'estado': estados, 'confirmados': total_casos, 'obitos': total_mortes})
 base_dados_br = base_dados_br.loc[base_dados_br['estado'] != 'TOTAL']
 
 lista_maiores_br = []
 for estado in base_dados_br.sort_values('confirmados', ascending=False)['estado']:
-    div = html.Strong([base_dados_br.loc[base_dados_br['estado'] == estado]['confirmados'].values[-1]],style={'color': 'crimson', 'font-size': 20}), \
+    div = html.Strong([base_dados_br.loc[base_dados_br['estado'] == estado]['confirmados'].values[-1]],
+                      style={'color': 'crimson', 'font-size': 20}), \
           html.Span(" "), \
-          html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
+          html.Span(sigla_estados_br[estado], style={'font-size': 20}), \
           html.Hr(style={'margin': 0})
 
     # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
     lista_maiores_br.extend(div)
-
 
 maiores_obitos_br = []
 
 base_dados_br_o = base_dados_br.loc[base_dados_br['obitos'] != 0]
 
 for estado in base_dados_br_o.sort_values('obitos', ascending=False)['estado']:
-    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],style={'color': '#420881', 'font-size': 20}), \
+    div = html.Strong([base_dados_br_o.loc[base_dados_br_o['estado'] == estado]['obitos'].values[-1]],
+                      style={'color': '#420881', 'font-size': 20}), \
           html.Span(" "), \
-          html.Span(sigla_estados_br[estado], style={'font-size': 20}),\
+          html.Span(sigla_estados_br[estado], style={'font-size': 20}), \
           html.Hr(style={'margin': 0})
 
     # É muito importante usar extend nesse contexto, porque append irá criar uma lista de listas.
     maiores_obitos_br.extend(div)
+
+
 ### Preenchendo maiores - BR (FIM) ###
 
 # Menus explicações
@@ -228,13 +232,25 @@ app.layout = html.Div(
                     ),
 
                     href="https://www.instagram.com/labimec/"),
+
+                html.A(
+                    html.Img(
+                        src="assets/fapesq_logo.png",
+                        style={'float': 'right', 'height': '150px'}
+                    ),
+
+                    href="http://fapesq.rpp.br/"),
+
             ], style={'text-align': 'left'}),
+
 
             html.H6(children=[
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
             ], style={'text-align': 'left'}),
-
         ], className='banner'),
+
+
+
 
         dcc.Markdown(children=
                      ''' > Atualização Covid-19 13/05 às 19:30h. Para melhor experiência acesse pelo computador.
@@ -352,28 +368,31 @@ app.layout = html.Div(
 
                             html.Div([
                                 html.H4(["Total de Casos Confirmados"], style={'text-align': 'center'}),
-                                html.H3([df_pb.loc[df_pb['cidade'] == 'Paraíba']['confirmados'].values[-1]], id='total_casos',
+                                html.H3([df_pb.loc[df_pb['cidade'] == 'Paraíba']['confirmados'].values[-1]],
+                                        id='total_casos',
                                         style={'text-align': 'center',
                                                'color': 'crimson',
                                                'margin-top': 2,
                                                'height': "20%"}),
-                                html.P([str(len(base_dados_pb)) + " dos 223 municípios " + "({:.1f}%)".format(len(base_dados_pb)*100/223)], style = {'text-align': 'center'})
+                                html.P([str(len(base_dados_pb)) + " dos 223 municípios " + "({:.1f}%)".format(
+                                    len(base_dados_pb) * 100 / 223)], style={'text-align': 'center'})
                             ], className="three columns pretty_container"),
 
                             html.Div([
-                                html.Div(children = lista_maiores_pb, className="control-tab"),
+                                html.Div(children=lista_maiores_pb, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
                         ]),
 
                         # MAPA TAB DE ÓBITOS
-                        dcc.Tab(label='Óbitos', children = [
+                        dcc.Tab(label='Óbitos', children=[
                             html.Div(children=[
                                 html.H4([
                                     "Mapa",
                                 ], className="container_title"),
-                                html.Iframe(id='map_pb_o', srcDoc=open("MAPA_COVID19_OBITOS.html", 'r').read(), width='100%',
+                                html.Iframe(id='map_pb_o', srcDoc=open("MAPA_COVID19_OBITOS.html", 'r').read(),
+                                            width='100%',
                                             height=620),
                             ], className='nine columns pretty_container',
                                 style={
@@ -393,18 +412,17 @@ app.layout = html.Div(
                                                'color': '#420881',
                                                'margin-top': 2,
                                                'height': "20%"}),
-                                html.P([str(len(base_dados_pb_o)) + " dos 223 municípios " + "({:.1f}%)".format(len(base_dados_pb_o)*100/223)], style = {'text-align': 'center'})
+                                html.P([str(len(base_dados_pb_o)) + " dos 223 municípios " + "({:.1f}%)".format(
+                                    len(base_dados_pb_o) * 100 / 223)], style={'text-align': 'center'})
                             ], className="three columns pretty_container"),
 
                             html.Div([
-                                html.Div(children = maiores_obitos_pb, className="control-tab"),
+                                html.Div(children=maiores_obitos_pb, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
 
-
                         ]),
-
 
                     ], className='custom-tab'),
 
@@ -530,11 +548,11 @@ app.layout = html.Div(
                                         ),
                                         html.Div(
                                             [html.H4(id="oilText_br", style={'text-align': 'center'}),
-                                              html.P(id="oil_perc_br", style={'text-align': 'center'}),
-                                              html.P("Recuperados", style={'text-align': 'center'})],
-                                             id="oil_br",
-                                             className="mini_container",
-                                         ),
+                                             html.P(id="oil_perc_br", style={'text-align': 'center'}),
+                                             html.P("Recuperados", style={'text-align': 'center'})],
+                                            id="oil_br",
+                                            className="mini_container",
+                                        ),
                                         html.Div(
                                             [html.H4(id="waterText_br", style={'text-align': 'center'}),
                                              html.P(id="water_perc_br", style={'text-align': 'center'}),
@@ -551,12 +569,12 @@ app.layout = html.Div(
                                         ),
 
                                         html.Div(
-                                             [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
-                                              html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
-                                              html.P("Recuperação", style={'text-align': 'center'})],
-                                             id="recuperacao_br",
-                                             className="mini_container",
-                                         ),
+                                            [html.H4(id="recuperacaoText_br", style={'text-align': 'center'}),
+                                             html.P(id="recuperacao_perc_br", style={'text-align': 'center'}),
+                                             html.P("Recuperação", style={'text-align': 'center'})],
+                                            id="recuperacao_br",
+                                            className="mini_container",
+                                        ),
 
                                     ],
                                     id="info-container-br",
@@ -604,7 +622,7 @@ app.layout = html.Div(
                             ], className="three columns pretty_container"),
 
                             html.Div([
-                                html.Div(children = lista_maiores_br, className="control-tab"),
+                                html.Div(children=lista_maiores_br, className="control-tab"),
 
                             ], className="three columns pretty_container",
                                 style={"overflowX": "scroll", 'text-align': 'left', 'height': 500}),
@@ -716,37 +734,58 @@ app.layout = html.Div(
             ]),
         ], className='twelve columns'),
 
-        # Notas de roda pé
+        html.Hr(),
+
+        # Começo do Perguntas Frequentes -
+
         html.Div([
             dcc.Markdown(
-                children='''
-    ¹ O Dashboard apresentado trata-se de uma iniciativa do Laboratório da Inteligência Artificial e Macroeconomia Computacional (LABIMEC), 
-     ainda em versão de testes. O propósito é facilitar a visualização dos casos de coronavírus no estado da Paraíba e em seus municípios. Futuras funcionalidades
-     estão sendo implementadas pela equipe do laboratório, para sugestões entrar em contato nos seguintes emails:
-     * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
-     * flaviomacaubas@gmail.com - Membro do LABIMEC
-     '''),
+                children=['''
+                # Perguntas Frequentes
+                
+                ### O que é o LABIMEC?
+                
+                O Laboratório de Inteligência Artificial e Macroeconomia Computacional (LABIMEC), da Universidade Federal da Paraíba (UFPB), 
+                foi fundado no ano de 2018 e, desde então, vem realizando pesquisas voltadas para a análise de políticas macroeconômicas. 
+                
+                ### Como um laboratório de economia passou a monitorar um vírus?
+                
+                As transformações que acontecem no mundo acadêmico e na sociedade exige cada vez mais versatilidade dos pesquisadores e profissionais. 
+                Os trabalhos desenvovidos no LABIMEC são fortemente vinculados a métodos quantitativos e análises de dados, apesar do Covid-19 não pertencer a
+                esfera dos fenômenos econômicos diretamente, os efeitos do vírus na economia já podem ser constatados. Com esse propósito, decidimos somar nossos
+                esforços e habilidades aos demais setores da sociedade.
+                
+                ### Onde podemos saber mais sobre o LABIMEC?
+                
+                * O nosso portal pode ser acessado pelo seguinte link: [Site](https://www.ufpb.br/labimec)
+                * O nosso instagram pode ser acessado pelo seguinte link: [Instragram](https://www.instagram.com/labimec/)
+                * O email do nosso coordenador: cassiodanobrega@yahoo.com.br
+                
+                ### De onde são os dados do Dashboard?
+                
+                * Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
+                da Secretaria de Saúde de Estado da Paraíba.
+                
+                * Em relação ao Brasil, utilizamos os dados do Ministério da Saúde, coletados através do [repositório](https://github.com/wcota/covid19br) de Wesley Cota.
+                
+                ### Com quem entrar em contato caso encontre algum problema ou sugestão no Dash?
+                
+                Para sugestões e relatos de problemas, pode-se entrar em contato com os seguintes emails:
+                
+                * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
+                * flaviomacaubas@gmail.com - Membro do LABIMEC
+                
+                
+                ### O que é Fapesq?
+                
+                A [Fapesq](http://fapesq.rpp.br/) é a Fundação de Apoio à Pesquisa - Fapesq, órgão vínculada à Secretaria de Estado da Educação e da Ciência e Tecnologia - SEECT, 
+                está situada na Rua Emiliano Rosendo Silva, S/N, no bairro de Bodocongó, na cidade de Campina Grande - Paraíba, CEP 58.429690, 
+                Telefone (83) 99921 4203, E-mail fapesq@fapesq.rpp.br.
+            
+                
+                ''']),
 
-            dcc.Markdown(
-                children='''
-   ² Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
-    da Secretaria de Saúde de Estado da Paraíba. Não há dados de recuperados discriminado por município, por esta razão não é possível gerar 
-    os gráficos de série temporal.
-   '''),
 
-            dcc.Markdown(
-                children='''
-    ³ O Dashboard não substitui, sob qualquer hipótese, os dados oficiais do Governo do Estado da Paraíba.
-    '''),
-
-            dcc.Markdown(
-                children='''
-        * As informações dos recuperados são coletadas pelas divulgações dos respectivos Estados, apenas Santa Catarina e Mina Gerais não disponibilizaram.
-        '''),
-
-            dcc.Markdown(children=
-                         ''' > Fonte dados do Brasil: https://github.com/wcota/covid19br (dados oficiais do Ministério da Saúde).
-            '''),
 
         ]),
     ], id="mainContainer", style={"display": "flex", "flex-direction": "column"}
@@ -835,15 +874,15 @@ def update_image_src(selector, situacao):
     figure = {
         'data': data,
         'layout': {
-        'height': 450,
-        'xaxis': dict(
+            'height': 450,
+            'xaxis': dict(
                 title='Dia',
                 titlefont=dict(
                     family='Courier New, monospace',
                     size=20,
                     color='#7f7f7f'
                 )),
-        'yaxis': dict(
+            'yaxis': dict(
                 title='Quantidade',
                 titlefont=dict(
                     family='Helvetica, monospace',
@@ -866,17 +905,22 @@ def update_image_src(selector):
     data = []
 
     if selector == "Paraíba":
-        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'],
+                     'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['recuperados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'],
+                     'y': df_pb.loc[df_pb['cidade'] == selector]['recuperados'],
                      'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
-        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
-                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+        data.append(
+            {'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
+             'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     else:
-        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
+        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'],
+                     'y': df_pb.loc[df_pb['cidade'] == selector]['confirmados'],
                      'type': 'bar', 'name': 'Confirmados', 'marker': {"color": 'crimson'}})
-        data.append({'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
-                     'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+        data.append(
+            {'x': df_pb.loc[df_pb['cidade'] == selector]['data'], 'y': df_pb.loc[df_pb['cidade'] == selector]['obitos'],
+             'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
     figure = {
         'data': data,
         'layout': {
@@ -913,8 +957,9 @@ def update_image_src(selector, situacao):
     data = []
 
     for cidade in selector:
-        data.append({'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
-                     'type': 'line', 'name': cidade})
+        data.append(
+            {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
+             'type': 'line', 'name': cidade})
     figure = {
         'data': data,
         'layout': {
@@ -965,14 +1010,14 @@ def update_text(data, selector):
         else:
             return "0%"
 
-
     if len(selector) == 0:
         selecionado = 'Paraíba'
     else:
         selecionado = selector
 
     # ativos
-    ativos_inicial = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
+    ativos_inicial = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] -
+                      df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
                       df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])
 
     if ativos_inicial <= 0:
@@ -1012,25 +1057,31 @@ def update_text(data, selector):
     variacao_mortalidade = mortalidade_atual - mortalidade_passado
 
     recuperacao_atual = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] / confirmados_final) * 100
-    recuperacao_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] / confirmados_passado) * 100
+    recuperacao_passado = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[
+                               -2] / confirmados_passado) * 100
 
     variacao_recuperacao = recuperacao_atual - recuperacao_passado
 
     # Dados de sáida
 
-    ativos = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] -
+    ativos = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1] -
+              df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] -
               df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1])
 
-    novos_ativos = ((ativos) - (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] - df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
-              df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])) * 100 / ativos_inicial
+    novos_ativos = ((ativos) - (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2] -
+                                df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2] -
+                                df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2])) * 100 / ativos_inicial
 
     novos_confirmados = (df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-1] -
-                         df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[-2]) * 100 / confirmados_inicial
+                         df_pb.loc[df_pb['cidade'] == selecionado]['confirmados'].values[
+                             -2]) * 100 / confirmados_inicial
 
     novos_recuperados = (df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-1] -
-                         df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[-2]) * 100 / recuperados_inicial
+                         df_pb.loc[df_pb['cidade'] == selecionado]['recuperados'].values[
+                             -2]) * 100 / recuperados_inicial
 
-    novos_obitos = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1] - df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2]) * 100 / obitos_inicial
+    novos_obitos = (df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-1] -
+                    df_pb.loc[df_pb['cidade'] == selecionado]['obitos'].values[-2]) * 100 / obitos_inicial
 
     return "{}".format(ativos), \
            formata_saida(novos_ativos), \
@@ -1109,14 +1160,20 @@ def update_text(data, selector):
         selecionado = selector
 
     # ATIVOS
-    ativos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] - df.loc[df['state'] == selecionado]['recovered'].values[-2]
+    ativos_inicial = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - \
+                     df.loc[df['state'] == selecionado]['deathsMS'].values[-2] - \
+                     df.loc[df['state'] == selecionado]['recovered'].values[-2]
 
-    ativos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - df.loc[df['state'] == selecionado]['deathsMS'].values[-1] - df.loc[df['state'] == selecionado]['recovered'].values[-1]
+    ativos_final = df.loc[df['state'] == selecionado]['totalCasesMS'].values[-1] - \
+                   df.loc[df['state'] == selecionado]['deathsMS'].values[-1] - \
+                   df.loc[df['state'] == selecionado]['recovered'].values[-1]
 
     if ativos_inicial == 0:
         ativos_inicial = 1
 
-    variacao_ativos = (ativos_final -(df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] - df.loc[df['state'] == selecionado]['deathsMS'].values[-2] - df.loc[df['state'] == selecionado]['recovered'].values[-2])) \
+    variacao_ativos = (ativos_final - (df.loc[df['state'] == selecionado]['totalCasesMS'].values[-2] -
+                                       df.loc[df['state'] == selecionado]['deathsMS'].values[-2] -
+                                       df.loc[df['state'] == selecionado]['recovered'].values[-2])) \
                       * 100 / ativos_inicial
 
     # CONFIRMADOS
@@ -1151,7 +1208,8 @@ def update_text(data, selector):
     if recuperados_inicial == 0:
         recuperados_inicial = 1
 
-    variacao_recuperados = (recuperados_final - df.loc[df['state'] == selecionado]['recovered'].values[-2]) * 100 / recuperados_inicial
+    variacao_recuperados = (recuperados_final - df.loc[df['state'] == selecionado]['recovered'].values[
+        -2]) * 100 / recuperados_inicial
 
     # Recuperação
 
@@ -1174,29 +1232,26 @@ def update_text(data, selector):
            formata_saida(variacao_recuperacao)
 
 
-
 @app.callback(
-                [
-                    Output('well_perc_br', 'style'),
-                    Output('gas_perc_br', 'style'),
-                    Output('water_perc_br', 'style'),
-                    Output('mortalidade_perc_br', 'style'),
-                    Output('oil_perc_br', 'style'),
-                    Output('recuperacao_perc_br', 'style'),
-                ],
-                [
-                    Input("well_perc_br", "children"),
-                    Input("gas_perc_br", "children"),
-                    Input("water_perc_br", "children"),
-                    Input("mortalidade_perc_br", "children"),
-                    Input("oil_perc_br", "children"),
-                    Input("recuperacao_perc_br", "children"),
-                ])
-
-
+    [
+        Output('well_perc_br', 'style'),
+        Output('gas_perc_br', 'style'),
+        Output('water_perc_br', 'style'),
+        Output('mortalidade_perc_br', 'style'),
+        Output('oil_perc_br', 'style'),
+        Output('recuperacao_perc_br', 'style'),
+    ],
+    [
+        Input("well_perc_br", "children"),
+        Input("gas_perc_br", "children"),
+        Input("water_perc_br", "children"),
+        Input("mortalidade_perc_br", "children"),
+        Input("oil_perc_br", "children"),
+        Input("recuperacao_perc_br", "children"),
+    ])
 def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade, valor_oil, valor_recuperacao):
     lista_styles = []
-    for valores in [valor_well, valor_gas, valor_water, valor_mortalidade,valor_oil, valor_recuperacao]:
+    for valores in [valor_well, valor_gas, valor_water, valor_mortalidade, valor_oil, valor_recuperacao]:
         if "▲" in valores:
             lista_styles.append({'text-align': 'center', 'color': 'green'})
         elif "▼" in valores:
@@ -1205,7 +1260,6 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade, valor_
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
-
   
 if __name__ == '__main__':
     app.run_server()
