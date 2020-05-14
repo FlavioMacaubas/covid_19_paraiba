@@ -228,7 +228,7 @@ app.layout = html.Div(
                 html.A(
                     html.Img(
                         src="assets/logo_nova-removebg.png",
-                        style={'float': 'right', 'height': '150px'}
+                        style={'float': 'right', 'height': '120px', 'display':'inline'}
                     ),
 
                     href="https://www.instagram.com/labimec/"),
@@ -236,7 +236,7 @@ app.layout = html.Div(
                 html.A(
                     html.Img(
                         src="assets/fapesq_logo.png",
-                        style={'float': 'right', 'height': '150px'}
+                        style={'float': 'right', 'height': '120px', 'display':'inline'}
                     ),
 
                     href="http://fapesq.rpp.br/"),
