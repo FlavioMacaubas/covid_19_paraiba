@@ -23,8 +23,8 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 ,2020-04-14,João Pessoa,mulher,85.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
 ,2020-04-14,João Pessoa,homem,82.0,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
 ,2020-04-15,Sapé,mulher,84.0,Sim,Sim,Não,Não,Sim,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-15-04-17h00
-,2020-04-15,Campina Grande,homem,67.0,Não,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
-,2020-04-12,Patos,homem,42.0,Não,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
+,2020-04-15,Campina Grande,homem,67.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
+,2020-04-12,Patos,homem,42.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-04-17h00
 ,2020-04-16,João Pessoa,mulher,93.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-17-04-17h
 ,2020-04-13,Riachão do Poço,homem,57.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-17-04-17h
 ,2020-04-18,Santa Rita,homem,40.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-18-04-17h
@@ -32,9 +32,9 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-04-14,2020-04-18,João Pessoa,mulher,84.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-04-17h
 2020-04-15,2020-04-18,João Pessoa,homem,81.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-04-17h
 2020-04-12,2020-04-19,João Pessoa,mulher,86.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-20-04-17h
-,2020-04-17,João Pessoa,mulher,71.0,Sim,Não,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+,2020-04-17,João Pessoa,mulher,71.0,Sim,Não,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
 2020-04-04,2020-04-21,João Pessoa,homem,56.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Sim,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
-,2020-04-21,João Pessoa,homem,62.0,Não,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
+,2020-04-21,João Pessoa,homem,62.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
 2020-04-15,2020-04-21,João Pessoa,mulher,67.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
 2020-04-14,2020-04-21,João Pessoa,mulher,95.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
 2020-04-10,2020-04-20,Cajazeiras,homem,61.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-04
@@ -51,7 +51,7 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 ,2020-04-24,Santa Rita,homem,37.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-04
 ,2020-04-26,Boqueirão,homem,54.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
 ,2020-04-27,Santa Rita,mulher,72.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
-,2020-04-24,Mari,mulher,52.0,Não,Não,Não,Não,Sim,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
+,2020-04-24,Mari,mulher,52.0,Não,Não,Não,Não,Sim,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-04
 ,2020-04-16,Santa Rita,homem,76.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
 ,2020-04-26,João Pessoa,homem,71.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
 2020-04-22,2020-04-26,Bayeux,homem,63.0,Não,Sim,Não,Não,Não,Não,Sim,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-04
@@ -63,8 +63,8 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 ,2020-04-27,Santa Rita,homem,54.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
 2020-04-16,2020-04-26,João Pessoa,homem,90.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-04
 ,2020-04-29,João Pessoa,homem,51.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
-,2020-04-28,Patos,mulher,40.0,Sim,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
-,2020-04-29,Santa Rita,homem,49.0,Não,Não,Não,Não,Sim,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
+,2020-04-28,Patos,mulher,40.0,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
+,2020-04-29,Santa Rita,homem,49.0,Não,Não,Não,Não,Sim,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
 ,2020-04-28,Alhandra,mulher,61.0,Não,Não,Sim,Não,Sim,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
 ,2020-04-28,Cabedelo,homem,55.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-30-04
 2020-04-21,2020-04-29,Santa Rita,homem,71.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-01-05
@@ -75,7 +75,7 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-04-19,2020-04-30,João Pessoa,homem,39.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-01-05
 2020-04-19,2020-05-01,São Bento,homem,80.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-01-05
 2020-04-08,2020-05-01,João Pessoa,homem,73.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-05
-2020-04-19,2020-05-01,Santa Rita,homem,56.0,Não,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-05
+2020-04-19,2020-05-01,Santa Rita,homem,56.0,Não,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-05
 2020-04-26,2020-05-02,Santa Rita,homem,69.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-05
 2020-04-09,2020-05-03,João Pessoa,homem,61.0,Não,Sim,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-05
 2020-04-26,2020-05-02,João Pessoa,homem,51.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-05
@@ -83,12 +83,12 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-04-25,2020-04-30,Cruz do Espírito Santo,homem,68.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
 2020-04-03,2020-05-03,Santa Rita,homem,40.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
 2020-04-27,2020-05-01,João Pessoa,mulher,63.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
-2020-04-26,2020-05-04,Pedras de Fogo,mulher,83.0,Sim,Sim,Sim,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
-2020-04-27,2020-05-04,Alhandra,homem,64.0,Sim,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
-2020-04-24,2020-05-01,Santa Rita,mulher,80.0,Não,Não,Sim,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
+2020-04-26,2020-05-04,Pedras de Fogo,mulher,83.0,Sim,Sim,Sim,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
+2020-04-27,2020-05-04,Alhandra,homem,64.0,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-05
+2020-04-24,2020-05-01,Santa Rita,mulher,80.0,Não,Não,Sim,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
 2020-04-24,2020-05-04,Santa Rita,homem,69.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
 2020-04-19,2020-05-04,João Pessoa,mulher,38.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
-2020-04-27,2020-05-04,João Pessoa,mulher,51.0,Não,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
+2020-04-27,2020-05-04,João Pessoa,mulher,51.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
 2020-04-25,2020-05-05,João Pessoa,homem,35.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
 2020-04-28,2020-05-03,Cabedelo,mulher,76.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
 2020-04-18,2020-05-04,João Pessoa,homem,45.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-05-05
@@ -108,13 +108,13 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-04-24,2020-05-06,João Pessoa,homem,62.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Sim,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
 2020-04-06,2020-05-06,João Pessoa,homem,61.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
 2020-04-24,2020-05-06,Santa Rita,mulher,37.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
-2020-04-23,2020-05-07,João Pessoa,homem,84.0,Não,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
+2020-04-23,2020-05-07,João Pessoa,homem,84.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
 2020-04-26,2020-05-04,Santa Rita,homem,80.0,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
-2020-04-26,2020-05-07,São Bento,homem,69.0,Sim,Não,Não,sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
+2020-04-26,2020-05-07,São Bento,homem,69.0,Sim,Não,Não,Sim,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-07-05-1
 2020-04-27,2020-05-07,João Pessoa,homem,78.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-05
 2020-04-24,2020-05-08,Cabedelo,mulher,64.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-05
 2020-04-27,2020-05-07,Santa Rita,homem,66.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-05
-2020-04-26,2020-05-08,Bayeux,mulher,56.0,Não,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-05-2
+2020-04-26,2020-05-08,Bayeux,mulher,56.0,Não,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-05-2
 2020-04-29,2020-05-09,Patos,mulher,84.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-05-2
 2020-04-16,2020-05-08,João Pessoa,homem,79.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-05-2
 2020-05-01,2020-05-08,João Pessoa,mulher,85.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-05-2
@@ -133,13 +133,13 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-04-26,2020-05-09,João Pessoa,homem,76.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
 2020-04-25,2020-05-10,Cruz do Espírito Santo,homem,48.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
 2020-04-28,2020-05-09,João Pessoa,homem,75.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
-2020-04-29,2020-05-05,Patos,mulher,41.0,Não,Não,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
+2020-04-29,2020-05-05,Patos,mulher,41.0,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
 2020-04-28,2020-05-09,Santa Rita,mulher,75.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-10-05
-2020-05-01,2020-05-10,Mari,mulher,54.0,Não,Não,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-05
+2020-05-01,2020-05-10,Mari,mulher,54.0,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-05
 2020-04-29,2020-05-11,Sousa,mulher,67.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-05
 2020-04-25,2020-05-07,João Pessoa,mulher,69.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-05
 2020-04-30,2020-05-09,Patos,homem,74.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-11-05
-2020-05-06,2020-05-11,Bayeux,mulher,83.0,Não,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
+2020-05-06,2020-05-11,Bayeux,mulher,83.0,Não,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-05-02,2020-05-11,João Pessoa,homem,47.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-04-22,2020-05-11,Santa Rita,mulher,43.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-04-17,2020-05-10,Bayeux,homem,86.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
@@ -147,7 +147,7 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-05,2020-05-09,João Pessoa,homem,72.0,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-05-04,2020-05-11,João Pessoa,mulher,77.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-04-10,2020-05-11,Mogeiro,homem,43.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
-2020-04-02,2020-05-11,Sobrado,mulher,49.0,Sim,Sim,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
+2020-04-02,2020-05-11,Sobrado,mulher,49.0,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-04-06,2020-05-03,Santa Rita,homem,46.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-05-01,2020-05-12,Sapé,homem,82.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
 2020-04-28,2020-05-12,Sapé,mulher,58.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-05
@@ -181,5 +181,5 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-03,2020-05-12,Patos,homem,50.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
 2020-05-09,2020-05-14,Gado Bravo,homem,56.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
 2020-05-01,2020-05-13,João Pessoa,mulher,59.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
-2020-05-04,2020-05-11,Campina Grande,homem,45.0,Não,Não,Não,Não,Não,sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
+2020-05-04,2020-05-11,Campina Grande,homem,45.0,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
 2020-05-03,2020-05-06,João Pessoa,homem,5.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-16-05
