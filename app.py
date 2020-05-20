@@ -256,7 +256,7 @@ app.layout = html.Div(
 
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 19/05 às 20:30h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 20/05 às 20:20h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
