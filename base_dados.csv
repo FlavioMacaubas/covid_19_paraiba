@@ -2,7 +2,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-03-31,João Pessoa,12,0,0,0,0
 2020-03-31,Campina Grande,2,0,0,0,0
 2020-03-31,Sousa,1,0,0,1,0
-2020-03-31,Igaracy,1,0,0,0,0
+2020-03-31,Igaracy,1,0,0,1,0
 2020-03-31,Patos,1,1,0,0,1
 2020-03-31,Paraíba,17,1,0,0,1
 2020-04-01,João Pessoa,14,0,0,2,0
@@ -187,7 +187,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-17,Taperoá,1,1,0,0,0
 2020-04-17,Sapé,1,1,0,0,0
 2020-04-17,Pombal,2,0,0,1,0
-2020-04-17,São Bento,1,0,0,0,0
+2020-04-17,São Bento,1,0,0,1,0
 2020-04-17,Riachão do Poço,1,1,0,0,1
 2020-04-17,Paraíba,205,28,90,10,2
 2020-04-18,João Pessoa,163,15,0,15,0
@@ -268,9 +268,9 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-21,Congo,1,0,0,0,0
 2020-04-21,Bom Jesus,1,0,0,0,0
 2020-04-21,Cajazeiras,2,1,0,2,1
-2020-04-21,Cruz do Espírito Santo,1,0,0,0,0
+2020-04-21,Cruz do Espírito Santo,1,0,0,1,0
 2020-04-21,Itabaiana,1,0,0,0,0
-2020-04-21,Conde,1,0,0,0,0
+2020-04-21,Conde,1,0,0,1,0
 2020-04-21,Paraíba,301,39,116,37,6
 2020-04-22,João Pessoa,230,25,0,25,0
 2020-04-22,Campina Grande,24,2,0,4,0
@@ -358,7 +358,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-24,Itapororoca,2,0,0,0,0
 2020-04-24,Guarabira,3,0,0,0,0
 2020-04-24,Pedras de Fogo,2,0,0,0,0
-2020-04-24,Itaporanga,1,0,0,0,0
+2020-04-24,Itaporanga,1,0,0,1,0
 2020-04-24,Alagoa Grande,1,0,0,0,0
 2020-04-24,Brejo do Cruz,1,0,0,1,0
 2020-04-24,Caaporã,1,0,0,0,0
@@ -399,7 +399,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-25,Caaporã,1,0,0,0,0
 2020-04-25,Coxixola,1,0,0,0,0
 2020-04-25,Boqueirão,1,0,0,0,0
-2020-04-25,Marizópolis,1,1,0,0,1
+2020-04-25,Marizópolis,1,1,0,1,1
 2020-04-25,Areia,1,0,0,1,0
 2020-04-25,Gurinhém,1,0,0,1,0
 2020-04-25,Paraíba,500,49,117,53,3
@@ -1615,7 +1615,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-12,Uiraúna,1,0,0,0,0
 2020-05-12,Capim,4,0,0,0,0
 2020-05-12,Remígio,9,0,0,3,0
-2020-05-12,São Sebastião de Lagoa de Roça,5,1,0,2,1
+2020-05-12,São Sebastião de Lagoa de Roça,4,1,0,1,1
 2020-05-12,Matinhas,1,0,0,0,0
 2020-05-12,Pilões,1,0,0,0,0
 2020-05-12,Condado,14,0,0,3,0
@@ -1729,7 +1729,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-13,Uiraúna,2,0,0,1,0
 2020-05-13,Capim,4,0,0,0,0
 2020-05-13,Remígio,10,0,0,1,0
-2020-05-13,São Sebastião de Lagoa de Roça,5,1,0,0,0
+2020-05-13,São Sebastião de Lagoa de Roça,4,1,0,0,0
 2020-05-13,Matinhas,1,0,0,0,0
 2020-05-13,Pilões,1,0,0,0,0
 2020-05-13,Condado,14,0,0,0,0
@@ -1813,7 +1813,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-14,Caaporã,85,1,0,10,1
 2020-05-14,Coxixola,3,0,0,0,0
 2020-05-14,Boqueirão,2,0,0,0,0
-2020-05-14,Marizópolis,4,1,0,1,0
+2020-05-14,Marizópolis,3,1,0,0,0
 2020-05-14,Areia,8,0,0,2,0
 2020-05-14,Gurinhém,6,0,0,0,0
 2020-05-14,Esperança,6,0,0,0,0
@@ -1850,7 +1850,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-14,Uiraúna,2,0,0,0,0
 2020-05-14,Capim,4,0,0,0,0
 2020-05-14,Remígio,11,0,0,1,0
-2020-05-14,São Sebastião de Lagoa de Roça,7,1,0,2,0
+2020-05-14,São Sebastião de Lagoa de Roça,4,1,0,0,0
 2020-05-14,Matinhas,1,0,0,0,0
 2020-05-14,Pilões,1,0,0,0,0
 2020-05-14,Condado,14,0,0,0,0
@@ -1939,7 +1939,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-15,Caaporã,104,1,0,19,0
 2020-05-15,Coxixola,3,0,0,0,0
 2020-05-15,Boqueirão,2,0,0,0,0
-2020-05-15,Marizópolis,4,1,0,0,0
+2020-05-15,Marizópolis,3,1,0,0,0
 2020-05-15,Areia,13,0,0,5,0
 2020-05-15,Gurinhém,7,0,0,1,0
 2020-05-15,Esperança,9,0,0,3,0
@@ -1976,7 +1976,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-15,Uiraúna,2,0,0,0,0
 2020-05-15,Capim,7,0,0,3,0
 2020-05-15,Remígio,15,0,0,4,0
-2020-05-15,São Sebastião de Lagoa de Roça,7,2,0,0,1
+2020-05-15,São Sebastião de Lagoa de Roça,4,2,0,0,1
 2020-05-15,Matinhas,1,0,0,0,0
 2020-05-15,Pilões,1,0,0,0,0
 2020-05-15,Condado,20,0,0,6,0
@@ -2068,7 +2068,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-16,Caaporã,117,1,0,13,0
 2020-05-16,Coxixola,3,0,0,0,0
 2020-05-16,Boqueirão,2,0,0,0,0
-2020-05-16,Marizópolis,4,1,0,0,0
+2020-05-16,Marizópolis,3,1,0,0,0
 2020-05-16,Areia,13,0,0,0,0
 2020-05-16,Gurinhém,7,0,0,0,0
 2020-05-16,Esperança,11,0,0,2,0
@@ -2105,7 +2105,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-16,Uiraúna,2,0,0,0,0
 2020-05-16,Capim,7,0,0,0,0
 2020-05-16,Remígio,16,0,0,1,0
-2020-05-16,São Sebastião de Lagoa de Roça,7,2,0,0,0
+2020-05-16,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-16,Matinhas,1,0,0,0,0
 2020-05-16,Pilões,1,0,0,0,0
 2020-05-16,Condado,20,0,0,0,0
@@ -2197,13 +2197,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-17,Itapororoca,18,1,0,0,0
 2020-05-17,Guarabira,166,1,0,21,1
 2020-05-17,Pedras de Fogo,68,3,0,3,1
-2020-05-17,Itaporanga,4,1,0,1,0
+2020-05-17,Itaporanga,3,1,0,0,0
 2020-05-17,Alagoa Grande,21,0,0,0,0
 2020-05-17,Brejo do Cruz,1,2,0,0,0
 2020-05-17,Caaporã,129,2,0,12,1
 2020-05-17,Coxixola,3,0,0,0,0
 2020-05-17,Boqueirão,2,0,0,0,0
-2020-05-17,Marizópolis,4,1,0,0,0
+2020-05-17,Marizópolis,3,1,0,0,0
 2020-05-17,Areia,13,0,0,0,0
 2020-05-17,Gurinhém,7,0,0,0,0
 2020-05-17,Esperança,11,0,0,0,0
@@ -2240,7 +2240,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-17,Uiraúna,2,0,0,0,0
 2020-05-17,Capim,7,0,0,0,0
 2020-05-17,Remígio,16,0,0,0,0
-2020-05-17,São Sebastião de Lagoa de Roça,7,2,0,0,0
+2020-05-17,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-17,Matinhas,1,0,0,0,0
 2020-05-17,Pilões,1,0,0,0,0
 2020-05-17,Condado,20,0,0,0,0
@@ -2334,13 +2334,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Itapororoca,18,1,0,0,0
 2020-05-18,Guarabira,184,2,0,18,0
 2020-05-18,Pedras de Fogo,68,3,0,0,0
-2020-05-18,Itaporanga,4,1,0,0,0
+2020-05-18,Itaporanga,3,1,0,0,0
 2020-05-18,Alagoa Grande,21,0,0,0,0
 2020-05-18,Brejo do Cruz,1,2,0,0,0
 2020-05-18,Caaporã,144,2,0,15,0
 2020-05-18,Coxixola,3,0,0,0,0
 2020-05-18,Boqueirão,2,0,0,0,0
-2020-05-18,Marizópolis,4,1,0,0,0
+2020-05-18,Marizópolis,3,1,0,0,0
 2020-05-18,Areia,18,0,0,5,0
 2020-05-18,Gurinhém,11,0,0,4,0
 2020-05-18,Esperança,13,0,0,2,0
@@ -2348,7 +2348,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Mari,45,2,0,0,0
 2020-05-18,Lucena,29,0,0,0,0
 2020-05-18,Catingueira,1,0,0,0,0
-2020-05-18,Araçagi,28,0,0,15,0
+2020-05-18,Araçagi,24,0,0,11,0
 2020-05-18,São José do Bonfim,5,0,0,3,0
 2020-05-18,Alhandra,56,3,0,0,0
 2020-05-18,Riacho dos Cavalos,2,0,0,0,0
@@ -2377,7 +2377,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Uiraúna,2,0,0,0,0
 2020-05-18,Capim,7,0,0,0,0
 2020-05-18,Remígio,17,0,0,1,0
-2020-05-18,São Sebastião de Lagoa de Roça,7,2,0,0,0
+2020-05-18,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-18,Matinhas,1,0,0,0,0
 2020-05-18,Pilões,5,0,0,4,0
 2020-05-18,Condado,22,0,0,2,0
@@ -2419,7 +2419,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Mogeiro,1,1,0,0,0
 2020-05-18,Cuité,1,0,0,0,0
 2020-05-18,Solânea,10,0,0,0,0
-2020-05-18,Quixabá,5,0,0,4,0
+2020-05-18,Quixabá,4,0,0,3,0
 2020-05-18,Nova Olinda,1,0,0,0,0
 2020-05-18,Serraria,1,0,0,0,0
 2020-05-18,Vista Serrana,1,0,0,0,0
@@ -2476,13 +2476,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Itapororoca,18,1,0,0,0
 2020-05-19,Guarabira,205,3,0,21,1
 2020-05-19,Pedras de Fogo,75,3,0,7,0
-2020-05-19,Itaporanga,4,1,0,0,0
+2020-05-19,Itaporanga,3,1,0,0,0
 2020-05-19,Alagoa Grande,22,1,0,1,1
 2020-05-19,Brejo do Cruz,3,2,0,2,0
 2020-05-19,Caaporã,144,2,0,0,0
 2020-05-19,Coxixola,3,0,0,0,0
 2020-05-19,Boqueirão,4,0,0,2,0
-2020-05-19,Marizópolis,4,1,0,0,0
+2020-05-19,Marizópolis,3,1,0,0,0
 2020-05-19,Areia,21,0,0,3,0
 2020-05-19,Gurinhém,11,0,0,0,0
 2020-05-19,Esperança,13,0,0,0,0
@@ -2490,7 +2490,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Mari,50,2,0,5,0
 2020-05-19,Lucena,29,0,0,0,0
 2020-05-19,Catingueira,1,0,0,0,0
-2020-05-19,Araçagi,29,0,0,1,0
+2020-05-19,Araçagi,24,0,0,0,0
 2020-05-19,São José do Bonfim,5,0,0,0,0
 2020-05-19,Alhandra,62,3,0,6,0
 2020-05-19,Riacho dos Cavalos,2,0,0,0,0
@@ -2519,7 +2519,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Uiraúna,2,0,0,0,0
 2020-05-19,Capim,7,0,0,0,0
 2020-05-19,Remígio,20,0,0,3,0
-2020-05-19,São Sebastião de Lagoa de Roça,7,2,0,0,0
+2020-05-19,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-19,Matinhas,3,0,0,2,0
 2020-05-19,Pilões,5,0,0,0,0
 2020-05-19,Condado,27,0,0,5,0
@@ -2561,7 +2561,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Mogeiro,1,1,0,0,0
 2020-05-19,Cuité,1,0,0,0,0
 2020-05-19,Solânea,12,0,0,2,0
-2020-05-19,Quixabá,5,0,0,0,0
+2020-05-19,Quixabá,4,0,0,0,0
 2020-05-19,Nova Olinda,1,0,0,0,0
 2020-05-19,Serraria,1,0,0,0,0
 2020-05-19,Vista Serrana,1,0,0,0,0
@@ -2625,13 +2625,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Itapororoca,18,1,0,0,0
 2020-05-20,Guarabira,215,3,0,10,0
 2020-05-20,Pedras de Fogo,95,3,0,20,0
-2020-05-20,Itaporanga,4,1,0,0,0
+2020-05-20,Itaporanga,3,1,0,0,0
 2020-05-20,Alagoa Grande,22,1,0,0,0
 2020-05-20,Brejo do Cruz,4,2,0,1,0
 2020-05-20,Caaporã,160,2,0,16,0
 2020-05-20,Coxixola,3,0,0,0,0
 2020-05-20,Boqueirão,4,0,0,0,0
-2020-05-20,Marizópolis,4,1,0,0,0
+2020-05-20,Marizópolis,3,1,0,0,0
 2020-05-20,Areia,26,0,0,5,0
 2020-05-20,Gurinhém,16,0,0,5,0
 2020-05-20,Esperança,18,0,0,5,0
@@ -2639,7 +2639,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Mari,59,2,0,9,0
 2020-05-20,Lucena,40,0,0,11,0
 2020-05-20,Catingueira,2,0,0,1,0
-2020-05-20,Araçagi,29,0,0,0,0
+2020-05-20,Araçagi,24,0,0,0,0
 2020-05-20,São José do Bonfim,5,0,0,0,0
 2020-05-20,Alhandra,69,3,0,7,0
 2020-05-20,Riacho dos Cavalos,2,0,0,0,0
@@ -2668,7 +2668,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Uiraúna,4,1,0,2,1
 2020-05-20,Capim,19,1,0,12,1
 2020-05-20,Remígio,24,0,0,4,0
-2020-05-20,São Sebastião de Lagoa de Roça,9,2,0,2,0
+2020-05-20,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-20,Matinhas,3,0,0,0,0
 2020-05-20,Pilões,5,0,0,0,0
 2020-05-20,Condado,27,0,0,0,0
@@ -2710,7 +2710,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Mogeiro,1,1,0,0,0
 2020-05-20,Cuité,1,0,0,0,0
 2020-05-20,Solânea,12,0,0,0,0
-2020-05-20,Quixabá,5,0,0,0,0
+2020-05-20,Quixabá,4,0,0,0,0
 2020-05-20,Nova Olinda,1,0,0,0,0
 2020-05-20,Serraria,2,0,0,1,0
 2020-05-20,Vista Serrana,1,0,0,0,0
@@ -2783,13 +2783,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Itapororoca,18,1,0,0,0
 2020-05-21,Guarabira,238,3,0,23,0
 2020-05-21,Pedras de Fogo,98,3,0,3,0
-2020-05-21,Itaporanga,4,1,0,0,0
+2020-05-21,Itaporanga,3,1,0,0,0
 2020-05-21,Alagoa Grande,24,1,0,2,0
 2020-05-21,Brejo do Cruz,4,2,0,0,0
 2020-05-21,Caaporã,172,2,0,12,0
 2020-05-21,Coxixola,3,0,0,0,0
 2020-05-21,Boqueirão,5,0,0,1,0
-2020-05-21,Marizópolis,4,1,0,0,0
+2020-05-21,Marizópolis,3,1,0,0,0
 2020-05-21,Areia,30,0,0,4,0
 2020-05-21,Gurinhém,16,0,0,0,0
 2020-05-21,Esperança,18,0,0,0,0
@@ -2797,13 +2797,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Mari,60,2,0,1,0
 2020-05-21,Lucena,40,0,0,0,0
 2020-05-21,Catingueira,2,0,0,0,0
-2020-05-21,Araçagi,29,0,0,0,0
+2020-05-21,Araçagi,24,0,0,0,0
 2020-05-21,São José do Bonfim,5,0,0,0,0
 2020-05-21,Alhandra,69,4,0,0,1
 2020-05-21,Riacho dos Cavalos,2,0,0,0,0
 2020-05-21,Santa Helena,1,0,0,0,0
 2020-05-21,São José de Piranhas,4,1,0,0,0
-2020-05-21,Umbuzeiro,17,1,0,8,0
+2020-05-21,Umbuzeiro,16,1,0,7,0
 2020-05-21,Rio Tinto,19,1,0,0,0
 2020-05-21,Princesa Isabel,5,0,0,0,0
 2020-05-21,Mamanguape,28,0,0,0,0
@@ -2826,7 +2826,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Uiraúna,4,1,0,0,0
 2020-05-21,Capim,19,1,0,0,0
 2020-05-21,Remígio,24,0,0,0,0
-2020-05-21,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-21,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-21,Matinhas,3,0,0,0,0
 2020-05-21,Pilões,5,0,0,0,0
 2020-05-21,Condado,27,0,0,0,0
@@ -2868,7 +2868,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Mogeiro,1,1,0,0,0
 2020-05-21,Cuité,1,0,0,0,0
 2020-05-21,Solânea,12,0,0,0,0
-2020-05-21,Quixabá,5,0,0,0,0
+2020-05-21,Quixabá,4,0,0,0,0
 2020-05-21,Nova Olinda,1,0,0,0,0
 2020-05-21,Serraria,2,0,0,0,0
 2020-05-21,Vista Serrana,1,0,0,0,0
@@ -2920,7 +2920,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Campina Grande,590,11,0,169,1
 2020-05-22,Santa Rita,401,48,0,26,0
 2020-05-22,Sousa,100,1,0,0,0
-2020-05-22,Igaracy,4,0,0,2,0
+2020-05-22,Igaracy,2,0,0,0,0
 2020-05-22,Patos,374,15,0,0,0
 2020-05-22,Cabedelo,288,6,0,0,0
 2020-05-22,Serra Branca,2,0,0,0,0
@@ -2945,13 +2945,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Itapororoca,20,1,0,2,0
 2020-05-22,Guarabira,354,3,0,116,0
 2020-05-22,Pedras de Fogo,121,3,0,23,0
-2020-05-22,Itaporanga,4,1,0,0,0
+2020-05-22,Itaporanga,3,1,0,0,0
 2020-05-22,Alagoa Grande,35,1,0,11,0
 2020-05-22,Brejo do Cruz,4,2,0,0,0
 2020-05-22,Caaporã,172,2,0,0,0
 2020-05-22,Coxixola,4,0,0,1,0
 2020-05-22,Boqueirão,5,0,0,0,0
-2020-05-22,Marizópolis,4,1,0,0,0
+2020-05-22,Marizópolis,3,1,0,0,0
 2020-05-22,Areia,36,0,0,6,0
 2020-05-22,Gurinhém,22,0,0,6,0
 2020-05-22,Esperança,29,0,0,11,0
@@ -2959,13 +2959,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Mari,60,2,0,0,0
 2020-05-22,Lucena,40,0,0,0,0
 2020-05-22,Catingueira,2,0,0,0,0
-2020-05-22,Araçagi,29,0,0,0,0
+2020-05-22,Araçagi,24,0,0,0,0
 2020-05-22,São José do Bonfim,6,0,0,1,0
 2020-05-22,Alhandra,69,4,0,0,0
 2020-05-22,Riacho dos Cavalos,2,0,0,0,0
 2020-05-22,Santa Helena,1,0,0,0,0
 2020-05-22,São José de Piranhas,4,1,0,0,0
-2020-05-22,Umbuzeiro,17,1,0,0,0
+2020-05-22,Umbuzeiro,16,1,0,0,0
 2020-05-22,Rio Tinto,26,1,0,7,0
 2020-05-22,Princesa Isabel,5,0,0,0,0
 2020-05-22,Mamanguape,32,0,0,4,0
@@ -2988,7 +2988,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Uiraúna,4,1,0,0,0
 2020-05-22,Capim,20,1,0,1,0
 2020-05-22,Remígio,24,0,0,0,0
-2020-05-22,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-22,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-22,Matinhas,4,0,0,1,0
 2020-05-22,Pilões,5,0,0,0,0
 2020-05-22,Condado,30,0,0,3,0
@@ -3030,7 +3030,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Mogeiro,1,1,0,0,0
 2020-05-22,Cuité,1,0,0,0,0
 2020-05-22,Solânea,23,0,0,11,0
-2020-05-22,Quixabá,5,0,0,0,0
+2020-05-22,Quixabá,4,0,0,0,0
 2020-05-22,Nova Olinda,1,0,0,0,0
 2020-05-22,Serraria,2,1,0,0,1
 2020-05-22,Vista Serrana,1,0,0,0,0
@@ -3080,7 +3080,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Riacho de Santo Antônio,3,0,0,3,0
 2020-05-22,São Bentinho,2,0,0,2,0
 2020-05-22,Desterro,2,0,0,2,0
-2020-05-22,Cabaceiras,2,0,0,2,0
+2020-05-22,Cabaceiras,1,0,0,1,0
 2020-05-22,Cacimbas,2,0,0,2,0
 2020-05-22,Mãe d'Água,2,0,0,2,0
 2020-05-22,Carrapateira,1,0,0,1,0
@@ -3095,7 +3095,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Campina Grande,713,11,0,123,0
 2020-05-23,Santa Rita,424,48,0,23,0
 2020-05-23,Sousa,100,1,0,0,0
-2020-05-23,Igaracy,4,0,0,0,0
+2020-05-23,Igaracy,2,0,0,0,0
 2020-05-23,Patos,374,16,0,0,1
 2020-05-23,Cabedelo,288,6,0,0,0
 2020-05-23,Serra Branca,2,0,0,0,0
@@ -3120,13 +3120,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Itapororoca,21,1,0,1,0
 2020-05-23,Guarabira,360,3,0,6,0
 2020-05-23,Pedras de Fogo,124,3,0,3,0
-2020-05-23,Itaporanga,4,1,0,0,0
+2020-05-23,Itaporanga,3,1,0,0,0
 2020-05-23,Alagoa Grande,37,1,0,2,0
 2020-05-23,Brejo do Cruz,4,2,0,0,0
 2020-05-23,Caaporã,209,3,0,37,1
 2020-05-23,Coxixola,4,0,0,0,0
 2020-05-23,Boqueirão,6,0,0,1,0
-2020-05-23,Marizópolis,4,1,0,0,0
+2020-05-23,Marizópolis,3,1,0,0,0
 2020-05-23,Areia,36,1,0,0,1
 2020-05-23,Gurinhém,22,0,0,0,0
 2020-05-23,Esperança,40,0,0,11,0
@@ -3134,13 +3134,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Mari,64,2,0,4,0
 2020-05-23,Lucena,40,0,0,0,0
 2020-05-23,Catingueira,2,0,0,0,0
-2020-05-23,Araçagi,29,0,0,0,0
+2020-05-23,Araçagi,24,0,0,0,0
 2020-05-23,São José do Bonfim,6,0,0,0,0
 2020-05-23,Alhandra,69,4,0,0,0
 2020-05-23,Riacho dos Cavalos,2,0,0,0,0
 2020-05-23,Santa Helena,1,0,0,0,0
 2020-05-23,São José de Piranhas,4,1,0,0,0
-2020-05-23,Umbuzeiro,17,1,0,0,0
+2020-05-23,Umbuzeiro,16,1,0,0,0
 2020-05-23,Rio Tinto,26,1,0,0,0
 2020-05-23,Princesa Isabel,5,0,0,0,0
 2020-05-23,Mamanguape,42,0,0,10,0
@@ -3163,7 +3163,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Uiraúna,4,1,0,0,0
 2020-05-23,Capim,22,1,0,2,0
 2020-05-23,Remígio,28,0,0,4,0
-2020-05-23,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-23,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-23,Matinhas,5,0,0,1,0
 2020-05-23,Pilões,5,0,0,0,0
 2020-05-23,Condado,31,0,0,1,0
@@ -3197,7 +3197,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Malta,7,0,0,1,0
 2020-05-23,Santa Teresinha,5,0,0,1,0
 2020-05-23,Juarez Távora,12,0,0,3,0
-2020-05-23,Natuba,7,0,0,2,0
+2020-05-23,Natuba,6,0,0,1,0
 2020-05-23,Cuité de Mamanguape,3,0,0,0,0
 2020-05-23,Maturéia,7,0,0,0,0
 2020-05-23,Itatuba,25,1,0,0,0
@@ -3205,7 +3205,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Mogeiro,1,1,0,0,0
 2020-05-23,Cuité,8,0,0,7,0
 2020-05-23,Solânea,23,0,0,0,0
-2020-05-23,Quixabá,5,0,0,0,0
+2020-05-23,Quixabá,4,0,0,0,0
 2020-05-23,Nova Olinda,1,0,0,0,0
 2020-05-23,Serraria,5,1,0,3,0
 2020-05-23,Vista Serrana,1,0,0,0,0
@@ -3255,7 +3255,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Riacho de Santo Antônio,3,0,0,0,0
 2020-05-23,São Bentinho,3,0,0,1,0
 2020-05-23,Desterro,2,0,0,0,0
-2020-05-23,Cabaceiras,2,0,0,0,0
+2020-05-23,Cabaceiras,1,0,0,0,0
 2020-05-23,Cacimbas,2,0,0,0,0
 2020-05-23,Mãe d'Água,2,0,0,0,0
 2020-05-23,Carrapateira,1,0,0,0,0
@@ -3273,7 +3273,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Campina Grande,817,11,0,104,0
 2020-05-24,Santa Rita,430,51,0,6,3
 2020-05-24,Sousa,100,1,0,0,0
-2020-05-24,Igaracy,4,0,0,0,0
+2020-05-24,Igaracy,2,0,0,0,0
 2020-05-24,Patos,374,17,0,0,1
 2020-05-24,Cabedelo,288,6,0,0,0
 2020-05-24,Serra Branca,2,0,0,0,0
@@ -3298,13 +3298,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Itapororoca,22,1,0,1,0
 2020-05-24,Guarabira,360,3,0,0,0
 2020-05-24,Pedras de Fogo,128,4,0,4,1
-2020-05-24,Itaporanga,4,1,0,0,0
+2020-05-24,Itaporanga,3,1,0,0,0
 2020-05-24,Alagoa Grande,37,1,0,0,0
 2020-05-24,Brejo do Cruz,4,2,0,0,0
 2020-05-24,Caaporã,219,4,0,10,1
 2020-05-24,Coxixola,4,0,0,0,0
 2020-05-24,Boqueirão,6,0,0,0,0
-2020-05-24,Marizópolis,4,1,0,0,0
+2020-05-24,Marizópolis,3,1,0,0,0
 2020-05-24,Areia,36,1,0,0,0
 2020-05-24,Gurinhém,22,0,0,0,0
 2020-05-24,Esperança,40,0,0,0,0
@@ -3312,13 +3312,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Mari,65,2,0,1,0
 2020-05-24,Lucena,40,0,0,0,0
 2020-05-24,Catingueira,2,0,0,0,0
-2020-05-24,Araçagi,29,0,0,0,0
+2020-05-24,Araçagi,24,0,0,0,0
 2020-05-24,São José do Bonfim,6,0,0,0,0
 2020-05-24,Alhandra,78,4,0,9,0
 2020-05-24,Riacho dos Cavalos,2,0,0,0,0
 2020-05-24,Santa Helena,1,0,0,0,0
 2020-05-24,São José de Piranhas,4,1,0,0,0
-2020-05-24,Umbuzeiro,17,1,0,0,0
+2020-05-24,Umbuzeiro,16,1,0,0,0
 2020-05-24,Rio Tinto,26,1,0,0,0
 2020-05-24,Princesa Isabel,5,0,0,0,0
 2020-05-24,Mamanguape,48,0,0,6,0
@@ -3341,7 +3341,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Uiraúna,4,1,0,0,0
 2020-05-24,Capim,22,1,0,0,0
 2020-05-24,Remígio,28,0,0,0,0
-2020-05-24,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-24,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-24,Matinhas,5,0,0,0,0
 2020-05-24,Pilões,5,0,0,0,0
 2020-05-24,Condado,31,0,0,0,0
@@ -3350,7 +3350,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Santa Luzia,26,2,0,2,0
 2020-05-24,Baía da Traição,29,1,0,0,1
 2020-05-24,Juripiranga,46,0,0,0,0
-2020-05-24,Cuitegi,44,1,0,12,0
+2020-05-24,Cuitegi,43,1,0,11,0
 2020-05-24,Borborema,1,0,0,0,0
 2020-05-24,Pocinhos,3,0,0,0,0
 2020-05-24,Sobrado,9,1,0,1,0
@@ -3375,7 +3375,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Malta,7,0,0,0,0
 2020-05-24,Santa Teresinha,5,0,0,0,0
 2020-05-24,Juarez Távora,12,0,0,0,0
-2020-05-24,Natuba,7,0,0,0,0
+2020-05-24,Natuba,6,0,0,0,0
 2020-05-24,Cuité de Mamanguape,3,0,0,0,0
 2020-05-24,Maturéia,7,0,0,0,0
 2020-05-24,Itatuba,27,1,0,2,0
@@ -3383,7 +3383,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Mogeiro,1,1,0,0,0
 2020-05-24,Cuité,8,0,0,0,0
 2020-05-24,Solânea,26,0,0,3,0
-2020-05-24,Quixabá,5,0,0,0,0
+2020-05-24,Quixabá,4,0,0,0,0
 2020-05-24,Nova Olinda,1,0,0,0,0
 2020-05-24,Serraria,5,1,0,0,0
 2020-05-24,Vista Serrana,1,0,0,0,0
@@ -3433,7 +3433,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Riacho de Santo Antônio,3,0,0,0,0
 2020-05-24,São Bentinho,4,0,0,1,0
 2020-05-24,Desterro,2,0,0,0,0
-2020-05-24,Cabaceiras,2,0,0,0,0
+2020-05-24,Cabaceiras,1,0,0,0,0
 2020-05-24,Cacimbas,2,0,0,0,0
 2020-05-24,Mãe d'Água,2,0,0,0,0
 2020-05-24,Carrapateira,1,0,0,0,0
@@ -3452,7 +3452,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Campina Grande,870,12,0,53,1
 2020-05-25,Santa Rita,434,52,0,4,1
 2020-05-25,Sousa,100,1,0,0,0
-2020-05-25,Igaracy,4,0,0,0,0
+2020-05-25,Igaracy,2,0,0,0,0
 2020-05-25,Patos,374,17,0,0,0
 2020-05-25,Cabedelo,288,6,0,0,0
 2020-05-25,Serra Branca,2,0,0,0,0
@@ -3477,13 +3477,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Itapororoca,22,1,0,0,0
 2020-05-25,Guarabira,364,3,0,4,0
 2020-05-25,Pedras de Fogo,128,4,0,0,0
-2020-05-25,Itaporanga,4,1,0,0,0
+2020-05-25,Itaporanga,3,1,0,0,0
 2020-05-25,Alagoa Grande,37,1,0,0,0
 2020-05-25,Brejo do Cruz,4,2,0,0,0
 2020-05-25,Caaporã,220,4,0,1,0
 2020-05-25,Coxixola,4,0,0,0,0
 2020-05-25,Boqueirão,6,0,0,0,0
-2020-05-25,Marizópolis,4,1,0,0,0
+2020-05-25,Marizópolis,3,1,0,0,0
 2020-05-25,Areia,36,1,0,0,0
 2020-05-25,Gurinhém,22,0,0,0,0
 2020-05-25,Esperança,40,0,0,0,0
@@ -3491,13 +3491,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Mari,66,2,0,1,0
 2020-05-25,Lucena,50,0,0,10,0
 2020-05-25,Catingueira,2,0,0,0,0
-2020-05-25,Araçagi,29,0,0,0,0
+2020-05-25,Araçagi,24,0,0,0,0
 2020-05-25,São José do Bonfim,7,0,0,1,0
 2020-05-25,Alhandra,78,4,0,0,0
 2020-05-25,Riacho dos Cavalos,2,0,0,0,0
 2020-05-25,Santa Helena,1,0,0,0,0
 2020-05-25,São José de Piranhas,4,1,0,0,0
-2020-05-25,Umbuzeiro,17,1,0,0,0
+2020-05-25,Umbuzeiro,16,1,0,0,0
 2020-05-25,Rio Tinto,26,1,0,0,0
 2020-05-25,Princesa Isabel,5,0,0,0,0
 2020-05-25,Mamanguape,49,1,0,1,1
@@ -3520,7 +3520,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Uiraúna,4,1,0,0,0
 2020-05-25,Capim,22,1,0,0,0
 2020-05-25,Remígio,28,0,0,0,0
-2020-05-25,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-25,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-25,Matinhas,5,0,0,0,0
 2020-05-25,Pilões,5,0,0,0,0
 2020-05-25,Condado,31,0,0,0,0
@@ -3529,7 +3529,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Santa Luzia,26,2,0,0,0
 2020-05-25,Baía da Traição,29,1,0,0,0
 2020-05-25,Juripiranga,46,0,0,0,0
-2020-05-25,Cuitegi,46,1,0,2,0
+2020-05-25,Cuitegi,43,1,0,0,0
 2020-05-25,Borborema,1,0,0,0,0
 2020-05-25,Pocinhos,3,0,0,0,0
 2020-05-25,Sobrado,9,1,0,0,0
@@ -3554,7 +3554,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Malta,7,0,0,0,0
 2020-05-25,Santa Teresinha,6,0,0,1,0
 2020-05-25,Juarez Távora,12,0,0,0,0
-2020-05-25,Natuba,7,0,0,0,0
+2020-05-25,Natuba,6,0,0,0,0
 2020-05-25,Cuité de Mamanguape,3,0,0,0,0
 2020-05-25,Maturéia,7,0,0,0,0
 2020-05-25,Itatuba,27,1,0,0,0
@@ -3562,7 +3562,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Mogeiro,1,1,0,0,0
 2020-05-25,Cuité,8,0,0,0,0
 2020-05-25,Solânea,28,0,0,2,0
-2020-05-25,Quixabá,5,0,0,0,0
+2020-05-25,Quixabá,4,0,0,0,0
 2020-05-25,Nova Olinda,1,0,0,0,0
 2020-05-25,Serraria,5,1,0,0,0
 2020-05-25,Vista Serrana,1,0,0,0,0
@@ -3612,7 +3612,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Riacho de Santo Antônio,3,0,0,0,0
 2020-05-25,São Bentinho,4,0,0,0,0
 2020-05-25,Desterro,2,0,0,0,0
-2020-05-25,Cabaceiras,2,0,0,0,0
+2020-05-25,Cabaceiras,1,0,0,0,0
 2020-05-25,Cacimbas,2,0,0,0,0
 2020-05-25,Mãe d'Água,2,0,0,0,0
 2020-05-25,Carrapateira,1,0,0,0,0
@@ -3633,7 +3633,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Campina Grande,936,11,0,66,-1
 2020-05-26,Santa Rita,463,53,0,29,1
 2020-05-26,Sousa,100,1,0,0,0
-2020-05-26,Igaracy,4,0,0,0,0
+2020-05-26,Igaracy,2,0,0,0,0
 2020-05-26,Patos,403,18,0,29,1
 2020-05-26,Cabedelo,301,7,0,13,1
 2020-05-26,Serra Branca,2,0,0,0,0
@@ -3651,20 +3651,20 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Cajazeiras,52,5,0,8,0
 2020-05-26,Cruz do Espírito Santo,93,6,0,7,0
 2020-05-26,Itabaiana,107,1,0,29,0
-2020-05-26,Conde,85,2,0,22,0
+2020-05-26,Conde,79,2,0,16,0
 2020-05-26,Coremas,13,0,0,0,0
 2020-05-26,Alagoa Nova,12,1,0,2,0
 2020-05-26,Barra de São Miguel,2,0,0,1,0
 2020-05-26,Itapororoca,26,1,0,4,0
 2020-05-26,Guarabira,409,3,0,45,0
 2020-05-26,Pedras de Fogo,137,4,0,9,0
-2020-05-26,Itaporanga,4,1,0,0,0
+2020-05-26,Itaporanga,3,1,0,0,0
 2020-05-26,Alagoa Grande,41,1,0,4,0
 2020-05-26,Brejo do Cruz,4,2,0,0,0
 2020-05-26,Caaporã,255,4,0,35,0
 2020-05-26,Coxixola,4,0,0,0,0
 2020-05-26,Boqueirão,9,0,0,3,0
-2020-05-26,Marizópolis,4,1,0,0,0
+2020-05-26,Marizópolis,3,1,0,0,0
 2020-05-26,Areia,40,1,0,4,0
 2020-05-26,Gurinhém,24,0,0,2,0
 2020-05-26,Esperança,46,0,0,6,0
@@ -3672,13 +3672,13 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Mari,68,3,0,2,1
 2020-05-26,Lucena,51,0,0,1,0
 2020-05-26,Catingueira,2,0,0,0,0
-2020-05-26,Araçagi,29,0,0,0,0
+2020-05-26,Araçagi,24,0,0,0,0
 2020-05-26,São José do Bonfim,10,0,0,3,0
 2020-05-26,Alhandra,97,4,0,19,0
 2020-05-26,Riacho dos Cavalos,2,0,0,0,0
 2020-05-26,Santa Helena,1,0,0,0,0
 2020-05-26,São José de Piranhas,4,1,0,0,0
-2020-05-26,Umbuzeiro,17,1,0,0,0
+2020-05-26,Umbuzeiro,16,1,0,0,0
 2020-05-26,Rio Tinto,36,1,0,10,0
 2020-05-26,Princesa Isabel,5,0,0,0,0
 2020-05-26,Mamanguape,81,1,0,32,0
@@ -3691,7 +3691,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Pilõezinhos,36,0,0,9,0
 2020-05-26,Pitimbu,67,2,0,0,0
 2020-05-26,São José de Espinharas,2,0,0,0,0
-2020-05-26,Piancó,15,2,0,2,0
+2020-05-26,Piancó,14,2,0,1,0
 2020-05-26,Serra da Raiz,6,0,0,0,0
 2020-05-26,Mulungu,14,0,0,1,0
 2020-05-26,Alagoinha,71,0,0,11,0
@@ -3701,7 +3701,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Uiraúna,4,1,0,0,0
 2020-05-26,Capim,23,1,0,1,0
 2020-05-26,Remígio,30,0,0,2,0
-2020-05-26,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-26,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-26,Matinhas,5,0,0,0,0
 2020-05-26,Pilões,6,0,0,1,0
 2020-05-26,Condado,32,0,0,1,0
@@ -3710,7 +3710,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Santa Luzia,30,2,0,4,0
 2020-05-26,Baía da Traição,35,1,0,6,0
 2020-05-26,Juripiranga,46,0,0,0,0
-2020-05-26,Cuitegi,49,1,0,3,0
+2020-05-26,Cuitegi,43,1,0,0,0
 2020-05-26,Borborema,1,0,0,0,0
 2020-05-26,Pocinhos,4,0,0,1,0
 2020-05-26,Sobrado,12,1,0,3,0
@@ -3735,7 +3735,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Malta,7,0,0,0,0
 2020-05-26,Santa Teresinha,6,0,0,0,0
 2020-05-26,Juarez Távora,15,0,0,3,0
-2020-05-26,Natuba,7,0,0,0,0
+2020-05-26,Natuba,6,0,0,0,0
 2020-05-26,Cuité de Mamanguape,3,0,0,0,0
 2020-05-26,Maturéia,7,0,0,0,0
 2020-05-26,Itatuba,32,1,0,5,0
@@ -3743,7 +3743,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Mogeiro,1,1,0,0,0
 2020-05-26,Cuité,9,0,0,1,0
 2020-05-26,Solânea,30,0,0,2,0
-2020-05-26,Quixabá,5,0,0,0,0
+2020-05-26,Quixabá,4,0,0,0,0
 2020-05-26,Nova Olinda,1,0,0,0,0
 2020-05-26,Serraria,6,1,0,1,0
 2020-05-26,Vista Serrana,1,0,0,0,0
@@ -3786,14 +3786,14 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,São João do Tigre,1,0,0,0,0
 2020-05-26,Aparecida,2,0,0,0,0
 2020-05-26,Sumé,7,0,0,1,0
-2020-05-26,Barra de Santa Rosa,4,0,0,3,0
+2020-05-26,Barra de Santa Rosa,3,0,0,2,0
 2020-05-26,Água Branca,1,0,0,0,0
 2020-05-26,Tavares,6,0,0,1,0
 2020-05-26,Várzea,1,0,0,0,0
 2020-05-26,Riacho de Santo Antônio,3,0,0,0,0
 2020-05-26,São Bentinho,7,0,0,3,0
 2020-05-26,Desterro,2,0,0,0,0
-2020-05-26,Cabaceiras,3,0,0,1,0
+2020-05-26,Cabaceiras,1,0,0,0,0
 2020-05-26,Cacimbas,2,0,0,0,0
 2020-05-26,Mãe d'Água,2,0,0,0,0
 2020-05-26,Carrapateira,1,0,0,0,0
@@ -3815,52 +3815,52 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Campina Grande,1025,11,0,89,0
 2020-05-27,Santa Rita,552,54,0,89,1
 2020-05-27,Sousa,100,1,0,0,0
-2020-05-27,Igaracy,6,0,0,2,0
+2020-05-27,Igaracy,2,0,0,0,0
 2020-05-27,Patos,469,18,0,66,0
 2020-05-27,Cabedelo,517,7,0,216,0
 2020-05-27,Serra Branca,2,0,0,0,0
 2020-05-27,Junco do Seridó,6,1,0,1,0
 2020-05-27,Bayeux,196,18,0,5,1
 2020-05-27,São João do Rio do Peixe,7,0,0,0,0
-2020-05-27,Taperoá,36,1,0,9,0
+2020-05-27,Taperoá,34,1,0,7,0
 2020-05-27,Sapé,163,4,0,1,0
 2020-05-27,Pombal,30,0,0,5,0
-2020-05-27,São Bento,92,4,0,13,1
+2020-05-27,São Bento,88,4,0,9,1
 2020-05-27,Riachão do Poço,1,1,0,0,0
 2020-05-27,Queimadas,54,0,0,9,0
 2020-05-27,Congo,11,1,0,0,0
 2020-05-27,Bom Jesus,1,0,0,0,0
 2020-05-27,Cajazeiras,60,5,0,8,0
-2020-05-27,Cruz do Espírito Santo,101,6,0,8,0
+2020-05-27,Cruz do Espírito Santo,96,6,0,3,0
 2020-05-27,Itabaiana,122,1,0,15,0
-2020-05-27,Conde,92,2,0,7,0
+2020-05-27,Conde,79,2,0,0,0
 2020-05-27,Coremas,13,0,0,0,0
 2020-05-27,Alagoa Nova,16,1,0,4,0
 2020-05-27,Barra de São Miguel,2,1,0,0,1
-2020-05-27,Itapororoca,31,1,0,5,0
+2020-05-27,Itapororoca,28,1,0,2,0
 2020-05-27,Guarabira,466,3,0,57,0
 2020-05-27,Pedras de Fogo,171,4,0,34,0
-2020-05-27,Itaporanga,4,1,0,0,0
+2020-05-27,Itaporanga,3,1,0,0,0
 2020-05-27,Alagoa Grande,48,1,0,7,0
 2020-05-27,Brejo do Cruz,4,2,0,0,0
 2020-05-27,Caaporã,278,4,0,23,0
 2020-05-27,Coxixola,4,0,0,0,0
 2020-05-27,Boqueirão,10,0,0,1,0
-2020-05-27,Marizópolis,4,1,0,0,0
+2020-05-27,Marizópolis,3,1,0,0,0
 2020-05-27,Areia,43,1,0,3,0
 2020-05-27,Gurinhém,25,0,0,1,0
 2020-05-27,Esperança,46,0,0,0,0
 2020-05-27,Lagoa Seca,32,2,0,4,0
 2020-05-27,Mari,81,3,0,13,0
 2020-05-27,Lucena,52,1,0,1,1
-2020-05-27,Catingueira,5,0,0,3,0
-2020-05-27,Araçagi,29,0,0,0,0
+2020-05-27,Catingueira,3,0,0,1,0
+2020-05-27,Araçagi,24,0,0,0,0
 2020-05-27,São José do Bonfim,10,0,0,0,0
-2020-05-27,Alhandra,124,4,0,27,0
+2020-05-27,Alhandra,113,4,0,16,0
 2020-05-27,Riacho dos Cavalos,2,0,0,0,0
 2020-05-27,Santa Helena,1,0,0,0,0
 2020-05-27,São José de Piranhas,4,1,0,0,0
-2020-05-27,Umbuzeiro,18,1,0,1,0
+2020-05-27,Umbuzeiro,16,1,0,0,0
 2020-05-27,Rio Tinto,42,1,0,6,0
 2020-05-27,Princesa Isabel,5,0,0,0,0
 2020-05-27,Mamanguape,84,2,0,3,1
@@ -3868,31 +3868,31 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Casserengue,4,0,0,2,0
 2020-05-27,Caiçara,19,1,0,0,0
 2020-05-27,Imaculada,5,0,0,0,0
-2020-05-27,Monteiro,27,0,0,8,0
-2020-05-27,Pilar,39,0,0,4,0
+2020-05-27,Monteiro,19,0,0,0,0
+2020-05-27,Pilar,37,0,0,2,0
 2020-05-27,Pilõezinhos,43,0,0,7,0
 2020-05-27,Pitimbu,67,2,0,0,0
 2020-05-27,São José de Espinharas,3,0,0,1,0
-2020-05-27,Piancó,15,2,0,0,0
+2020-05-27,Piancó,14,2,0,0,0
 2020-05-27,Serra da Raiz,6,0,0,0,0
 2020-05-27,Mulungu,14,0,0,0,0
-2020-05-27,Alagoinha,92,0,0,21,0
-2020-05-27,Mataraca,24,0,0,4,0
+2020-05-27,Alagoinha,89,0,0,18,0
+2020-05-27,Mataraca,23,0,0,3,0
 2020-05-27,Pirpirituba,14,0,0,0,0
 2020-05-27,Nova Floresta,1,0,0,0,0
 2020-05-27,Uiraúna,4,1,0,0,0
 2020-05-27,Capim,33,1,0,10,0
 2020-05-27,Remígio,32,1,0,2,1
-2020-05-27,São Sebastião de Lagoa de Roça,9,2,0,0,0
+2020-05-27,São Sebastião de Lagoa de Roça,4,2,0,0,0
 2020-05-27,Matinhas,8,0,0,3,0
 2020-05-27,Pilões,6,0,0,0,0
-2020-05-27,Condado,39,0,0,7,0
-2020-05-27,Juazeirinho,50,0,0,8,0
+2020-05-27,Condado,37,0,0,5,0
+2020-05-27,Juazeirinho,46,0,0,4,0
 2020-05-27,Massaranduba,16,0,0,1,0
-2020-05-27,Santa Luzia,45,2,0,15,0
-2020-05-27,Baía da Traição,43,1,0,8,0
+2020-05-27,Santa Luzia,37,2,0,7,0
+2020-05-27,Baía da Traição,42,1,0,7,0
 2020-05-27,Juripiranga,61,0,0,15,0
-2020-05-27,Cuitegi,50,1,0,1,0
+2020-05-27,Cuitegi,43,1,0,0,0
 2020-05-27,Borborema,1,0,0,0,0
 2020-05-27,Pocinhos,4,0,0,0,0
 2020-05-27,Sobrado,12,1,0,0,0
@@ -3908,56 +3908,56 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,São José dos Ramos,5,0,0,0,0
 2020-05-27,Soledade,6,0,0,2,0
 2020-05-27,Ingá,31,0,0,2,0
-2020-05-27,Gado Bravo,22,1,0,8,0
+2020-05-27,Gado Bravo,21,1,0,7,0
 2020-05-27,Puxinanã,18,0,0,3,0
 2020-05-27,Aroeiras,16,0,0,1,0
-2020-05-27,São José do Sabugi,54,0,0,5,0
+2020-05-27,São José do Sabugi,53,0,0,4,0
 2020-05-27,Duas Estradas,15,0,0,1,0
 2020-05-27,Lagoa de Dentro,6,0,0,1,0
 2020-05-27,Malta,9,0,0,2,0
 2020-05-27,Santa Teresinha,10,0,0,4,0
 2020-05-27,Juarez Távora,15,0,0,0,0
-2020-05-27,Natuba,7,0,0,0,0
+2020-05-27,Natuba,6,0,0,0,0
 2020-05-27,Cuité de Mamanguape,3,0,0,0,0
 2020-05-27,Maturéia,7,0,0,0,0
 2020-05-27,Itatuba,39,1,0,7,0
-2020-05-27,Belém,27,0,0,12,0
+2020-05-27,Belém,25,0,0,10,0
 2020-05-27,Mogeiro,1,1,0,0,0
 2020-05-27,Cuité,9,0,0,0,0
 2020-05-27,Solânea,31,0,0,1,0
-2020-05-27,Quixabá,5,0,0,0,0
-2020-05-27,Nova Olinda,3,0,0,2,0
+2020-05-27,Quixabá,4,0,0,0,0
+2020-05-27,Nova Olinda,2,0,0,1,0
 2020-05-27,Serraria,8,2,0,2,1
 2020-05-27,Vista Serrana,1,0,0,0,0
 2020-05-27,Areial,8,0,0,0,0
-2020-05-27,Picuí,10,0,0,3,0
+2020-05-27,Picuí,8,0,0,1,0
 2020-05-27,Jacaraú,7,0,0,0,0
 2020-05-27,Salgado de São Félix,23,0,0,0,0
 2020-05-27,Conceição,4,0,0,0,0
 2020-05-27,Curral de Cima,7,0,0,2,0
 2020-05-27,Olho d'Água,6,0,0,3,0
-2020-05-27,Amparo,15,0,0,4,0
-2020-05-27,Seridó,16,0,0,8,0
+2020-05-27,Amparo,11,0,0,0,0
+2020-05-27,Seridó,11,0,0,3,0
 2020-05-27,Arara,8,0,0,0,0
 2020-05-27,Logradouro,8,0,0,0,0
 2020-05-27,Cacimba de Dentro,14,0,0,0,0
 2020-05-27,Boa Vista,20,0,0,3,0
 2020-05-27,Passagem,4,0,0,1,0
 2020-05-27,Lastro,1,0,0,0,0
-2020-05-27,Caturité,12,0,0,2,0
-2020-05-27,São José de Caiana,22,0,0,13,0
+2020-05-27,Caturité,11,0,0,1,0
+2020-05-27,São José de Caiana,10,0,0,1,0
 2020-05-27,Catolé do Rocha,31,2,0,8,2
 2020-05-27,São José da Lagoa Tapada,13,0,0,0,0
 2020-05-27,São Mamede,11,0,0,2,0
-2020-05-27,Paulista,15,0,0,7,0
+2020-05-27,Paulista,14,0,0,6,0
 2020-05-27,Caldas Brandão,11,0,0,0,0
 2020-05-27,Belém do Brejo do Cruz,1,0,0,0,0
 2020-05-27,Cachoeira dos Índios,3,1,0,0,0
-2020-05-27,Ibiara,9,0,0,6,0
+2020-05-27,Ibiara,4,0,0,1,0
 2020-05-27,Jericó,1,0,0,0,0
 2020-05-27,Montadas,4,0,0,0,0
-2020-05-27,Juru,8,0,0,6,0
-2020-05-27,São José dos Cordeiros,4,0,0,1,0
+2020-05-27,Juru,4,0,0,2,0
+2020-05-27,São José dos Cordeiros,3,0,0,0,0
 2020-05-27,Aguiar,1,0,0,0,0
 2020-05-27,Mato Grosso,3,0,0,0,0
 2020-05-27,Gurjão,3,0,0,0,0
@@ -3968,14 +3968,14 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,São João do Tigre,1,0,0,0,0
 2020-05-27,Aparecida,2,0,0,0,0
 2020-05-27,Sumé,10,0,0,3,0
-2020-05-27,Barra de Santa Rosa,4,0,0,0,0
+2020-05-27,Barra de Santa Rosa,3,0,0,0,0
 2020-05-27,Água Branca,2,0,0,1,0
 2020-05-27,Tavares,6,0,0,0,0
 2020-05-27,Várzea,1,0,0,0,0
 2020-05-27,Riacho de Santo Antônio,3,0,0,0,0
 2020-05-27,São Bentinho,8,0,0,1,0
 2020-05-27,Desterro,4,0,0,2,0
-2020-05-27,Cabaceiras,4,0,0,1,0
+2020-05-27,Cabaceiras,1,0,0,0,0
 2020-05-27,Cacimbas,2,0,0,0,0
 2020-05-27,Mãe d'Água,2,0,0,0,0
 2020-05-27,Carrapateira,1,0,0,0,0
@@ -3986,7 +3986,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,São João do Cariri,1,0,0,0,0
 2020-05-27,Santa Cecília,3,0,0,0,0
 2020-05-27,Damião,1,0,0,0,0
-2020-05-27,Salgadinho,7,0,0,6,0
+2020-05-27,Salgadinho,5,0,0,4,0
 2020-05-27,São Francisco,2,0,0,0,0
 2020-05-27,Santana dos Garrotes,1,0,0,0,0
 2020-05-27,Tenório,1,0,0,0,0
@@ -3997,3 +3997,193 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Olivedos,1,0,0,1,0
 2020-05-27,Pedro Régis,1,0,0,1,0
 2020-05-27,Paraíba,10209,298,2232,1290,12
+2020-05-28,João Pessoa,3472,103,0,240,0
+2020-05-28,Campina Grande,1180,11,0,155,0
+2020-05-28,Santa Rita,581,54,0,29,0
+2020-05-28,Sousa,152,1,0,52,0
+2020-05-28,Igaracy,2,0,0,0,0
+2020-05-28,Patos,478,18,0,9,0
+2020-05-28,Cabedelo,644,7,0,127,0
+2020-05-28,Serra Branca,2,0,0,0,0
+2020-05-28,Junco do Seridó,8,1,0,2,0
+2020-05-28,Bayeux,263,18,0,67,0
+2020-05-28,São João do Rio do Peixe,7,0,0,0,0
+2020-05-28,Taperoá,34,1,0,0,0
+2020-05-28,Sapé,184,4,0,21,0
+2020-05-28,Pombal,39,0,0,9,0
+2020-05-28,São Bento,88,4,0,0,0
+2020-05-28,Riachão do Poço,1,1,0,0,0
+2020-05-28,Queimadas,64,0,0,10,0
+2020-05-28,Congo,11,1,0,0,0
+2020-05-28,Bom Jesus,1,0,0,0,0
+2020-05-28,Cajazeiras,72,5,0,12,0
+2020-05-28,Cruz do Espírito Santo,96,6,0,0,0
+2020-05-28,Itabaiana,143,1,0,21,0
+2020-05-28,Conde,79,2,0,0,0
+2020-05-28,Coremas,13,0,0,0,0
+2020-05-28,Alagoa Nova,19,1,0,3,0
+2020-05-28,Barra de São Miguel,2,1,0,0,0
+2020-05-28,Itapororoca,28,1,0,0,0
+2020-05-28,Guarabira,493,3,0,27,0
+2020-05-28,Pedras de Fogo,189,4,0,18,0
+2020-05-28,Itaporanga,3,1,0,0,0
+2020-05-28,Alagoa Grande,68,1,0,20,0
+2020-05-28,Brejo do Cruz,4,2,0,0,0
+2020-05-28,Caaporã,296,4,0,18,0
+2020-05-28,Coxixola,4,0,0,0,0
+2020-05-28,Boqueirão,12,0,0,2,0
+2020-05-28,Marizópolis,3,1,0,0,0
+2020-05-28,Areia,44,1,0,1,0
+2020-05-28,Gurinhém,31,0,0,6,0
+2020-05-28,Esperança,50,0,0,4,0
+2020-05-28,Lagoa Seca,52,2,0,20,0
+2020-05-28,Mari,91,3,0,10,0
+2020-05-28,Lucena,54,1,0,2,0
+2020-05-28,Catingueira,3,0,0,0,0
+2020-05-28,Araçagi,24,0,0,0,0
+2020-05-28,São José do Bonfim,10,0,0,0,0
+2020-05-28,Alhandra,113,4,0,0,0
+2020-05-28,Riacho dos Cavalos,2,0,0,0,0
+2020-05-28,Santa Helena,1,0,0,0,0
+2020-05-28,São José de Piranhas,4,1,0,0,0
+2020-05-28,Umbuzeiro,16,1,0,0,0
+2020-05-28,Rio Tinto,43,1,0,1,0
+2020-05-28,Princesa Isabel,7,0,0,2,0
+2020-05-28,Mamanguape,108,2,0,24,0
+2020-05-28,Serra Redonda,26,0,0,3,0
+2020-05-28,Casserengue,7,0,0,3,0
+2020-05-28,Caiçara,21,1,0,2,0
+2020-05-28,Imaculada,5,0,0,0,0
+2020-05-28,Monteiro,19,0,0,0,0
+2020-05-28,Pilar,37,0,0,0,0
+2020-05-28,Pilõezinhos,51,0,0,8,0
+2020-05-28,Pitimbu,68,2,0,1,0
+2020-05-28,São José de Espinharas,3,0,0,0,0
+2020-05-28,Piancó,14,2,0,0,0
+2020-05-28,Serra da Raiz,9,0,0,3,0
+2020-05-28,Mulungu,15,0,0,1,0
+2020-05-28,Alagoinha,89,0,0,0,0
+2020-05-28,Mataraca,23,0,0,0,0
+2020-05-28,Pirpirituba,16,0,0,2,0
+2020-05-28,Nova Floresta,1,0,0,0,0
+2020-05-28,Uiraúna,4,1,0,0,0
+2020-05-28,Capim,34,1,0,1,0
+2020-05-28,Remígio,39,1,0,7,0
+2020-05-28,São Sebastião de Lagoa de Roça,4,2,0,0,0
+2020-05-28,Matinhas,11,0,0,3,0
+2020-05-28,Pilões,8,0,0,2,0
+2020-05-28,Condado,37,0,0,0,0
+2020-05-28,Juazeirinho,46,0,0,0,0
+2020-05-28,Massaranduba,17,0,0,1,0
+2020-05-28,Santa Luzia,37,2,0,0,0
+2020-05-28,Baía da Traição,42,1,0,0,0
+2020-05-28,Juripiranga,74,0,0,13,0
+2020-05-28,Cuitegi,43,1,0,0,0
+2020-05-28,Borborema,1,0,0,0,0
+2020-05-28,Pocinhos,6,0,0,2,0
+2020-05-28,Sobrado,17,1,0,5,0
+2020-05-28,Riachão do Bacamarte,64,0,0,11,0
+2020-05-28,São Miguel de Taipu,17,1,0,1,0
+2020-05-28,Sertãozinho,9,0,0,1,0
+2020-05-28,Cajazeirinhas,1,0,0,0,0
+2020-05-28,Bananeiras,16,0,0,0,0
+2020-05-28,Teixeira,13,0,0,0,0
+2020-05-28,Santarém,1,0,0,0,0
+2020-05-28,Campo de Santana,9,1,0,0,0
+2020-05-28,Barra de Santana,13,0,0,1,0
+2020-05-28,São José dos Ramos,9,0,0,4,0
+2020-05-28,Soledade,7,0,0,1,0
+2020-05-28,Ingá,32,0,0,1,0
+2020-05-28,Gado Bravo,21,1,0,0,0
+2020-05-28,Puxinanã,24,0,0,6,0
+2020-05-28,Aroeiras,20,0,0,4,0
+2020-05-28,São José do Sabugi,53,0,0,0,0
+2020-05-28,Duas Estradas,15,0,0,0,0
+2020-05-28,Lagoa de Dentro,7,0,0,1,0
+2020-05-28,Malta,9,0,0,0,0
+2020-05-28,Santa Teresinha,12,0,0,2,0
+2020-05-28,Juarez Távora,17,0,0,2,0
+2020-05-28,Natuba,6,0,0,0,0
+2020-05-28,Cuité de Mamanguape,3,0,0,0,0
+2020-05-28,Maturéia,10,0,0,3,0
+2020-05-28,Itatuba,43,1,0,4,0
+2020-05-28,Belém,25,0,0,0,0
+2020-05-28,Mogeiro,3,1,0,2,0
+2020-05-28,Cuité,10,0,0,1,0
+2020-05-28,Solânea,49,0,0,18,0
+2020-05-28,Quixabá,4,0,0,0,0
+2020-05-28,Nova Olinda,2,0,0,0,0
+2020-05-28,Serraria,10,2,0,2,0
+2020-05-28,Vista Serrana,1,0,0,0,0
+2020-05-28,Areial,8,0,0,0,0
+2020-05-28,Picuí,8,0,0,0,0
+2020-05-28,Jacaraú,7,0,0,0,0
+2020-05-28,Salgado de São Félix,25,0,0,2,0
+2020-05-28,Conceição,4,0,0,0,0
+2020-05-28,Curral de Cima,7,0,0,0,0
+2020-05-28,Olho d'Água,7,0,0,1,0
+2020-05-28,Amparo,11,0,0,0,0
+2020-05-28,Seridó,11,0,0,0,0
+2020-05-28,Arara,8,0,0,0,0
+2020-05-28,Logradouro,10,0,0,2,0
+2020-05-28,Cacimba de Dentro,23,0,0,9,0
+2020-05-28,Boa Vista,23,0,0,3,0
+2020-05-28,Passagem,4,0,0,0,0
+2020-05-28,Lastro,1,0,0,0,0
+2020-05-28,Caturité,11,0,0,0,0
+2020-05-28,São José de Caiana,10,0,0,0,0
+2020-05-28,Catolé do Rocha,32,2,0,1,0
+2020-05-28,São José da Lagoa Tapada,13,0,0,0,0
+2020-05-28,São Mamede,12,0,0,1,0
+2020-05-28,Paulista,14,0,0,0,0
+2020-05-28,Caldas Brandão,14,0,0,3,0
+2020-05-28,Belém do Brejo do Cruz,1,0,0,0,0
+2020-05-28,Cachoeira dos Índios,4,1,0,1,0
+2020-05-28,Ibiara,4,0,0,0,0
+2020-05-28,Jericó,1,0,0,0,0
+2020-05-28,Montadas,4,0,0,0,0
+2020-05-28,Juru,4,0,0,0,0
+2020-05-28,São José dos Cordeiros,3,0,0,0,0
+2020-05-28,Aguiar,1,0,0,0,0
+2020-05-28,Mato Grosso,3,0,0,0,0
+2020-05-28,Gurjão,3,0,0,0,0
+2020-05-28,Lagoa,3,0,0,0,0
+2020-05-28,Vieirópolis,2,0,0,0,0
+2020-05-28,Fagundes,6,0,0,1,0
+2020-05-28,Manaíra,2,0,0,0,0
+2020-05-28,São João do Tigre,1,0,0,0,0
+2020-05-28,Aparecida,4,0,0,2,0
+2020-05-28,Sumé,10,0,0,0,0
+2020-05-28,Barra de Santa Rosa,3,0,0,0,0
+2020-05-28,Água Branca,2,0,0,0,0
+2020-05-28,Tavares,6,0,0,0,0
+2020-05-28,Várzea,1,0,0,0,0
+2020-05-28,Riacho de Santo Antônio,3,0,0,0,0
+2020-05-28,São Bentinho,9,0,0,1,0
+2020-05-28,Desterro,4,0,0,0,0
+2020-05-28,Cabaceiras,1,0,0,0,0
+2020-05-28,Cacimbas,2,0,0,0,0
+2020-05-28,Mãe d'Água,2,0,0,0,0
+2020-05-28,Carrapateira,1,0,0,0,0
+2020-05-28,Dona Inês,2,0,0,0,0
+2020-05-28,Emas,1,0,0,0,0
+2020-05-28,Araruna,2,0,0,0,0
+2020-05-28,Ouro Velho,1,0,0,0,0
+2020-05-28,São João do Cariri,1,0,0,0,0
+2020-05-28,Santa Cecília,3,0,0,0,0
+2020-05-28,Damião,1,0,0,0,0
+2020-05-28,Salgadinho,5,0,0,0,0
+2020-05-28,São Francisco,2,0,0,0,0
+2020-05-28,Santana dos Garrotes,1,0,0,0,0
+2020-05-28,Tenório,1,0,0,0,0
+2020-05-28,Assunção,3,0,0,1,0
+2020-05-28,Areia de Baraúnas,1,0,0,0,0
+2020-05-28,Alcantil,1,0,0,0,0
+2020-05-28,Boa Ventura,1,0,0,0,0
+2020-05-28,Olivedos,1,0,0,0,0
+2020-05-28,Pedro Régis,1,0,0,0,0
+2020-05-28,São Sebastião do Umbuzeiro,1,0,0,1,0
+2020-05-28,Santa Inês,1,0,0,1,0
+2020-05-28,Marcação,1,0,0,1,0
+2020-05-28,Livramento,1,0,0,1,0
+2020-05-28,Paraíba,11132,318,2430,923,20
