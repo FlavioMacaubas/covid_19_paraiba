@@ -3997,19 +3997,19 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Olivedos,1,0,0,1,0
 2020-05-27,Pedro Régis,1,0,0,1,0
 2020-05-27,Paraíba,10209,298,2232,1290,12
-2020-05-28,João Pessoa,3472,103,0,240,0
-2020-05-28,Campina Grande,1180,11,0,155,0
-2020-05-28,Santa Rita,581,54,0,29,0
+2020-05-28,João Pessoa,3472,110,0,240,7
+2020-05-28,Campina Grande,1180,15,0,155,4
+2020-05-28,Santa Rita,581,56,0,29,2
 2020-05-28,Sousa,152,1,0,52,0
 2020-05-28,Igaracy,2,0,0,0,0
-2020-05-28,Patos,478,18,0,9,0
+2020-05-28,Patos,478,20,0,9,2
 2020-05-28,Cabedelo,644,7,0,127,0
 2020-05-28,Serra Branca,2,0,0,0,0
 2020-05-28,Junco do Seridó,8,1,0,2,0
-2020-05-28,Bayeux,263,18,0,67,0
+2020-05-28,Bayeux,263,19,0,67,1
 2020-05-28,São João do Rio do Peixe,7,0,0,0,0
 2020-05-28,Taperoá,34,1,0,0,0
-2020-05-28,Sapé,184,4,0,21,0
+2020-05-28,Sapé,184,5,0,21,1
 2020-05-28,Pombal,39,0,0,9,0
 2020-05-28,São Bento,88,4,0,0,0
 2020-05-28,Riachão do Poço,1,1,0,0,0
@@ -4018,7 +4018,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Bom Jesus,1,0,0,0,0
 2020-05-28,Cajazeiras,72,5,0,12,0
 2020-05-28,Cruz do Espírito Santo,96,6,0,0,0
-2020-05-28,Itabaiana,143,1,0,21,0
+2020-05-28,Itabaiana,143,2,0,21,1
 2020-05-28,Conde,79,2,0,0,0
 2020-05-28,Coremas,13,0,0,0,0
 2020-05-28,Alagoa Nova,19,1,0,3,0
@@ -4057,7 +4057,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Monteiro,19,0,0,0,0
 2020-05-28,Pilar,37,0,0,0,0
 2020-05-28,Pilõezinhos,51,0,0,8,0
-2020-05-28,Pitimbu,68,2,0,1,0
+2020-05-28,Pitimbu,68,3,0,1,1
 2020-05-28,São José de Espinharas,3,0,0,0,0
 2020-05-28,Piancó,14,2,0,0,0
 2020-05-28,Serra da Raiz,9,0,0,3,0
@@ -4077,7 +4077,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Massaranduba,17,0,0,1,0
 2020-05-28,Santa Luzia,37,2,0,0,0
 2020-05-28,Baía da Traição,42,1,0,0,0
-2020-05-28,Juripiranga,74,0,0,13,0
+2020-05-28,Juripiranga,74,1,0,13,1
 2020-05-28,Cuitegi,43,1,0,0,0
 2020-05-28,Borborema,1,0,0,0,0
 2020-05-28,Pocinhos,6,0,0,2,0
