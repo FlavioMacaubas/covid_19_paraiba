@@ -4,28 +4,28 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-03-31,Sousa,1,0,0,1,0
 2020-03-31,Igaracy,1,0,0,1,0
 2020-03-31,Patos,1,1,0,0,1
-2020-03-31,Paraíba,17,0,0,0,0
+2020-03-31,Paraíba,17,1,0,0,1
 2020-04-01,João Pessoa,14,0,0,2,0
 2020-04-01,Campina Grande,2,0,0,0,0
 2020-04-01,Sousa,1,0,0,0,0
 2020-04-01,Igaracy,1,0,0,0,0
 2020-04-01,Patos,1,1,0,0,0
 2020-04-01,Cabedelo,1,0,0,0,0
-2020-04-01,Paraíba,20,0,0,3,0
+2020-04-01,Paraíba,20,1,0,3,0
 2020-04-02,João Pessoa,22,0,0,8,0
 2020-04-02,Campina Grande,2,0,0,0,0
 2020-04-02,Sousa,1,0,0,0,0
 2020-04-02,Igaracy,1,0,0,0,0
 2020-04-02,Patos,1,1,0,0,0
 2020-04-02,Cabedelo,1,0,0,0,0
-2020-04-02,Paraíba,28,0,0,8,0
+2020-04-02,Paraíba,28,1,0,8,1
 2020-04-03,João Pessoa,24,1,0,2,1
 2020-04-03,Campina Grande,2,0,0,0,0
 2020-04-03,Sousa,1,0,0,0,0
 2020-04-03,Igaracy,1,0,0,0,0
 2020-04-03,Patos,1,1,0,0,0
 2020-04-03,Cabedelo,1,0,0,0,0
-2020-04-03,Paraíba,30,0,0,2,0
+2020-04-03,Paraíba,30,1,0,2,0
 2020-04-04,João Pessoa,26,1,0,2,0
 2020-04-04,Campina Grande,2,0,0,0,0
 2020-04-04,Sousa,1,0,0,0,0
@@ -34,7 +34,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-04,Cabedelo,1,0,0,0,0
 2020-04-04,Serra Branca,1,0,0,0,0
 2020-04-04,Junco do Seridó,1,0,0,0,0
-2020-04-04,Paraíba,34,0,9,4,0
+2020-04-04,Paraíba,34,3,9,4,2
 2020-04-05,João Pessoa,26,2,0,0,1
 2020-04-05,Campina Grande,3,0,0,1,0
 2020-04-05,Sousa,1,0,0,0,0
@@ -43,7 +43,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-05,Cabedelo,1,0,0,0,0
 2020-04-05,Serra Branca,1,0,0,0,0
 2020-04-05,Junco do Seridó,1,0,0,0,0
-2020-04-05,Paraíba,35,0,9,1,0
+2020-04-05,Paraíba,35,4,9,1,1
 2020-04-06,João Pessoa,27,2,0,1,0
 2020-04-06,Campina Grande,3,0,0,0,0
 2020-04-06,Sousa,1,0,0,0,0
@@ -52,7 +52,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-06,Cabedelo,1,0,0,0,0
 2020-04-06,Serra Branca,1,0,0,0,0
 2020-04-06,Junco do Seridó,1,0,0,0,0
-2020-04-06,Paraíba,36,0,11,1,0
+2020-04-06,Paraíba,36,4,11,1,0
 2020-04-07,João Pessoa,30,2,0,3,0
 2020-04-07,Campina Grande,3,0,0,0,0
 2020-04-07,Santa Rita,2,0,0,2,0
@@ -62,7 +62,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-07,Cabedelo,1,0,0,0,0
 2020-04-07,Serra Branca,1,0,0,0,0
 2020-04-07,Junco do Seridó,1,0,0,0,0
-2020-04-07,Paraíba,41,0,11,5,0
+2020-04-07,Paraíba,41,4,11,5,0
 2020-04-08,João Pessoa,40,4,0,10,2
 2020-04-08,Campina Grande,3,0,0,0,0
 2020-04-08,Santa Rita,4,0,0,2,0
@@ -73,7 +73,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-08,Serra Branca,1,0,0,0,0
 2020-04-08,Junco do Seridó,1,0,0,0,0
 2020-04-08,Bayeux,1,0,0,0,0
-2020-04-08,Paraíba,55,0,14,14,0
+2020-04-08,Paraíba,55,7,14,14,3
 2020-04-09,João Pessoa,58,7,0,18,3
 2020-04-09,Campina Grande,3,0,0,0,0
 2020-04-09,Santa Rita,5,0,0,1,0
@@ -84,7 +84,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-09,Serra Branca,1,0,0,0,0
 2020-04-09,Junco do Seridó,1,0,0,0,0
 2020-04-09,Bayeux,1,0,0,0,0
-2020-04-09,Paraíba,79,0,22,24,0
+2020-04-09,Paraíba,79,11,22,24,4
 2020-04-10,João Pessoa,64,7,0,6,0
 2020-04-10,Campina Grande,3,0,0,0,0
 2020-04-10,Santa Rita,6,0,0,1,0
@@ -95,7 +95,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-10,Serra Branca,1,0,0,0,0
 2020-04-10,Junco do Seridó,1,0,0,0,0
 2020-04-10,Bayeux,1,0,0,0,0
-2020-04-10,Paraíba,86,0,30,7,0
+2020-04-10,Paraíba,86,11,30,7,0
 2020-04-11,João Pessoa,78,8,0,14,1
 2020-04-11,Campina Grande,3,0,0,0,0
 2020-04-11,Santa Rita,7,0,0,1,0
@@ -106,7 +106,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-11,Serra Branca,1,0,0,0,0
 2020-04-11,Junco do Seridó,1,0,0,0,0
 2020-04-11,Bayeux,1,1,0,0,1
-2020-04-11,Paraíba,101,0,43,15,0
+2020-04-11,Paraíba,101,13,43,15,2
 2020-04-12,João Pessoa,86,8,0,8,0
 2020-04-12,Campina Grande,3,0,0,0,0
 2020-04-12,Santa Rita,7,0,0,0,0
@@ -117,7 +117,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-12,Serra Branca,1,0,0,0,0
 2020-04-12,Junco do Seridó,3,0,0,2,0
 2020-04-12,Bayeux,1,1,0,0,0
-2020-04-12,Paraíba,111,0,43,10,0
+2020-04-12,Paraíba,111,13,43,10,0
 2020-04-13,João Pessoa,103,11,0,17,3
 2020-04-13,Campina Grande,3,0,0,0,0
 2020-04-13,Santa Rita,10,0,0,3,0
@@ -129,7 +129,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-13,Junco do Seridó,3,0,0,0,0
 2020-04-13,Bayeux,4,1,0,3,0
 2020-04-13,Sapé,1,0,0,1,0
-2020-04-13,Paraíba,136,0,52,25,0
+2020-04-13,Paraíba,136,16,52,25,3
 2020-04-14,João Pessoa,115,14,0,12,3
 2020-04-14,Campina Grande,3,0,0,0,0
 2020-04-14,Santa Rita,12,1,0,2,1
@@ -143,7 +143,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-14,São João do Rio do Peixe,1,0,0,1,0
 2020-04-14,Taperoá,1,1,0,1,1
 2020-04-14,Sapé,1,0,0,0,0
-2020-04-14,Paraíba,152,0,52,16,0
+2020-04-14,Paraíba,152,21,52,16,5
 2020-04-15,João Pessoa,124,16,0,9,2
 2020-04-15,Campina Grande,4,0,0,1,0
 2020-04-15,Santa Rita,14,1,0,2,0
@@ -157,7 +157,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-15,São João do Rio do Peixe,1,0,0,0,0
 2020-04-15,Taperoá,1,1,0,0,0
 2020-04-15,Sapé,1,1,0,0,1
-2020-04-15,Paraíba,165,0,80,13,0
+2020-04-15,Paraíba,165,24,80,13,3
 2020-04-16,João Pessoa,142,16,0,18,0
 2020-04-16,Campina Grande,8,1,0,4,1
 2020-04-16,Santa Rita,17,1,0,3,0
@@ -172,7 +172,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-16,Taperoá,1,1,0,0,0
 2020-04-16,Sapé,1,1,0,0,0
 2020-04-16,Pombal,1,0,0,1,0
-2020-04-16,Paraíba,195,0,80,30,0
+2020-04-16,Paraíba,195,26,80,30,2
 2020-04-17,João Pessoa,148,17,0,6,1
 2020-04-17,Campina Grande,8,1,0,0,0
 2020-04-17,Santa Rita,17,1,0,0,0
@@ -189,7 +189,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-17,Pombal,2,0,0,1,0
 2020-04-17,São Bento,1,0,0,1,0
 2020-04-17,Riachão do Poço,1,1,0,0,1
-2020-04-17,Paraíba,205,0,90,10,0
+2020-04-17,Paraíba,205,28,90,10,2
 2020-04-18,João Pessoa,163,17,0,15,0
 2020-04-18,Campina Grande,12,1,0,4,0
 2020-04-18,Santa Rita,21,2,0,4,1
@@ -208,7 +208,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-18,Riachão do Poço,1,1,0,0,0
 2020-04-18,Queimadas,1,0,0,0,0
 2020-04-18,Congo,1,0,0,1,0
-2020-04-18,Paraíba,236,0,90,31,0
+2020-04-18,Paraíba,236,29,90,31,1
 2020-04-19,João Pessoa,172,19,0,9,2
 2020-04-19,Campina Grande,12,2,0,0,1
 2020-04-19,Santa Rita,21,2,0,0,0
@@ -227,7 +227,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-19,Riachão do Poço,1,1,0,0,0
 2020-04-19,Queimadas,1,0,0,0,0
 2020-04-19,Congo,1,0,0,0,0
-2020-04-19,Paraíba,246,0,99,10,0
+2020-04-19,Paraíba,246,32,99,10,3
 2020-04-20,João Pessoa,185,20,0,13,1
 2020-04-20,Campina Grande,12,2,0,0,0
 2020-04-20,Santa Rita,21,2,0,0,0
@@ -247,7 +247,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-20,Queimadas,1,0,0,0,0
 2020-04-20,Congo,1,0,0,0,0
 2020-04-20,Bom Jesus,1,0,0,0,0
-2020-04-20,Paraíba,264,0,116,18,0
+2020-04-20,Paraíba,264,33,116,18,1
 2020-04-21,João Pessoa,205,25,0,20,5
 2020-04-21,Campina Grande,20,2,0,8,0
 2020-04-21,Santa Rita,24,2,0,3,0
@@ -271,7 +271,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-21,Cruz do Espírito Santo,1,0,0,1,0
 2020-04-21,Itabaiana,1,0,0,0,0
 2020-04-21,Conde,1,0,0,1,0
-2020-04-21,Paraíba,301,0,116,37,0
+2020-04-21,Paraíba,301,39,116,37,6
 2020-04-22,João Pessoa,230,25,0,25,0
 2020-04-22,Campina Grande,24,2,0,4,0
 2020-04-22,Santa Rita,25,3,0,1,1
@@ -299,7 +299,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-22,Alagoa Nova,1,0,0,0,0
 2020-04-22,Barra de São Miguel,1,0,0,0,0
 2020-04-22,Itapororoca,1,0,0,1,0
-2020-04-22,Paraíba,345,0,116,44,0
+2020-04-22,Paraíba,345,40,116,44,1
 2020-04-23,João Pessoa,254,28,0,24,3
 2020-04-23,Campina Grande,30,2,0,6,0
 2020-04-23,Santa Rita,25,4,0,0,1
@@ -328,7 +328,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-23,Barra de São Miguel,1,0,0,0,0
 2020-04-23,Itapororoca,2,0,0,1,0
 2020-04-23,Guarabira,3,0,0,3,0
-2020-04-23,Paraíba,386,0,116,41,0
+2020-04-23,Paraíba,386,44,116,41,4
 2020-04-24,João Pessoa,286,28,0,32,0
 2020-04-24,Campina Grande,35,2,0,5,0
 2020-04-24,Santa Rita,29,5,0,4,1
@@ -363,7 +363,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-24,Brejo do Cruz,1,0,0,1,0
 2020-04-24,Caaporã,1,0,0,0,0
 2020-04-24,Coxixola,1,0,0,0,0
-2020-04-24,Paraíba,447,0,117,61,0
+2020-04-24,Paraíba,447,46,117,61,2
 2020-04-25,João Pessoa,313,28,0,27,0
 2020-04-25,Campina Grande,39,2,0,4,0
 2020-04-25,Santa Rita,37,6,0,8,1
@@ -402,7 +402,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-25,Marizópolis,1,1,0,1,1
 2020-04-25,Areia,1,0,0,1,0
 2020-04-25,Gurinhém,1,0,0,1,0
-2020-04-25,Paraíba,500,0,117,53,0
+2020-04-25,Paraíba,500,49,117,53,3
 2020-04-26,João Pessoa,349,28,0,36,0
 2020-04-26,Campina Grande,39,2,0,0,0
 2020-04-26,Santa Rita,40,7,0,3,1
@@ -442,7 +442,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-26,Areia,1,0,0,0,0
 2020-04-26,Gurinhém,1,0,0,0,0
 2020-04-26,Esperança,1,0,0,1,0
-2020-04-26,Paraíba,543,0,119,43,0
+2020-04-26,Paraíba,543,50,119,43,1
 2020-04-27,João Pessoa,410,28,0,61,0
 2020-04-27,Campina Grande,42,2,0,3,0
 2020-04-27,Santa Rita,47,8,0,7,1
@@ -484,7 +484,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-27,Esperança,2,0,0,1,0
 2020-04-27,Lagoa Seca,1,0,0,1,0
 2020-04-27,Mari,1,1,0,1,1
-2020-04-27,Paraíba,633,0,119,90,0
+2020-04-27,Paraíba,633,53,119,90,3
 2020-04-28,João Pessoa,436,29,0,26,1
 2020-04-28,Campina Grande,45,2,0,3,0
 2020-04-28,Santa Rita,61,10,0,14,2
@@ -530,7 +530,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-28,Catingueira,1,0,0,1,0
 2020-04-28,Araçagi,1,0,0,1,0
 2020-04-28,São José do Bonfim,1,0,0,1,0
-2020-04-28,Paraíba,699,0,149,64,0
+2020-04-28,Paraíba,699,58,149,64,5
 2020-04-29,João Pessoa,499,32,0,63,3
 2020-04-29,Campina Grande,51,2,0,6,0
 2020-04-29,Santa Rita,72,11,0,11,1
@@ -581,7 +581,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-29,Santa Helena,1,0,0,1,0
 2020-04-29,São José de Piranhas,1,0,0,1,0
 2020-04-29,Umbuzeiro,1,0,0,1,0
-2020-04-29,Paraíba,814,0,152,115,0
+2020-04-29,Paraíba,814,63,152,115,5
 2020-04-30,João Pessoa,563,33,0,64,1
 2020-04-30,Campina Grande,51,2,0,0,0
 2020-04-30,Santa Rita,85,12,0,13,1
@@ -636,7 +636,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-30,Princesa Isabel,1,0,0,1,0
 2020-04-30,Mamanguape,1,0,0,1,0
 2020-04-30,Serra Redonda,1,0,0,1,0
-2020-04-30,Paraíba,926,0,156,112,0
+2020-04-30,Paraíba,926,67,156,112,4
 2020-05-01,João Pessoa,614,36,0,51,3
 2020-05-01,Campina Grande,53,2,0,2,0
 2020-05-01,Santa Rita,96,14,0,11,2
@@ -699,7 +699,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-01,Pilõezinhos,1,0,0,1,0
 2020-05-01,Pitimbu,1,0,0,1,0
 2020-05-01,São José de Espinharas,1,0,0,1,0
-2020-05-01,Paraíba,1034,0,177,97,0
+2020-05-01,Paraíba,1034,74,177,97,7
 2020-05-02,João Pessoa,701,37,0,87,1
 2020-05-02,Campina Grande,61,2,0,8,0
 2020-05-02,Santa Rita,100,15,0,4,1
@@ -764,7 +764,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-02,São José de Espinharas,1,0,0,0,0
 2020-05-02,Piancó,1,0,0,1,0
 2020-05-02,Serra da Raiz,1,0,0,1,0
-2020-05-02,Paraíba,1169,0,177,135,0
+2020-05-02,Paraíba,1169,76,177,135,2
 2020-05-03,João Pessoa,711,39,0,10,2
 2020-05-03,Campina Grande,62,2,0,1,0
 2020-05-03,Santa Rita,111,16,0,11,1
@@ -830,7 +830,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-03,Piancó,1,0,0,0,0
 2020-05-03,Serra da Raiz,1,0,0,0,0
 2020-05-03,Mulungu,3,0,0,3,0
-2020-05-03,Paraíba,1219,0,227,50,0
+2020-05-03,Paraíba,1219,79,227,50,3
 2020-05-04,João Pessoa,802,40,0,91,1
 2020-05-04,Campina Grande,67,2,0,5,0
 2020-05-04,Santa Rita,122,17,0,11,1
@@ -901,7 +901,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-04,Pirpirituba,1,0,0,1,0
 2020-05-04,Nova Floresta,1,0,0,1,0
 2020-05-04,Uiraúna,1,0,0,1,0
-2020-05-04,Paraíba,1361,0,227,142,0
+2020-05-04,Paraíba,1361,85,227,142,6
 2020-05-05,João Pessoa,865,44,0,63,4
 2020-05-05,Campina Grande,74,2,0,7,0
 2020-05-05,Santa Rita,129,19,0,7,2
@@ -977,7 +977,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-05,São Sebastião de Lagoa de Roça,1,0,0,1,0
 2020-05-05,Matinhas,1,0,0,1,0
 2020-05-05,Pilões,1,0,0,1,0
-2020-05-05,Paraíba,1493,0,310,132,0
+2020-05-05,Paraíba,1493,92,310,132,7
 2020-05-06,João Pessoa,907,47,0,42,3
 2020-05-06,Campina Grande,78,2,0,4,0
 2020-05-06,Santa Rita,162,20,0,33,1
@@ -1057,7 +1057,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-06,Juazeirinho,1,0,0,1,0
 2020-05-06,Massaranduba,1,0,0,1,0
 2020-05-06,Santa Luzia,1,0,0,1,0
-2020-05-06,Paraíba,1657,0,320,164,0
+2020-05-06,Paraíba,1657,101,320,164,9
 2020-05-07,João Pessoa,982,52,0,75,5
 2020-05-07,Campina Grande,89,2,0,11,0
 2020-05-07,Santa Rita,162,23,0,0,3
@@ -1145,7 +1145,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-07,Sobrado,1,0,0,1,0
 2020-05-07,Riachão do Bacamarte,1,0,0,1,0
 2020-05-07,São Miguel de Taipu,1,0,0,1,0
-2020-05-07,Paraíba,1849,0,490,192,0
+2020-05-07,Paraíba,1849,111,490,192,10
 2020-05-08,João Pessoa,1062,53,0,80,1
 2020-05-08,Campina Grande,89,2,0,0,0
 2020-05-08,Santa Rita,169,24,0,7,1
@@ -1238,7 +1238,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-08,Bananeiras,1,0,0,1,0
 2020-05-08,Teixeira,1,0,0,1,0
 2020-05-08,Santarém,1,0,0,1,0
-2020-05-08,Paraíba,2030,0,490,181,0
+2020-05-08,Paraíba,2030,114,490,181,3
 2020-05-09,João Pessoa,1114,55,0,52,2
 2020-05-09,Campina Grande,100,3,0,11,1
 2020-05-09,Santa Rita,178,27,0,9,3
@@ -1331,7 +1331,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-09,Bananeiras,1,0,0,0,0
 2020-05-09,Teixeira,1,0,0,0,0
 2020-05-09,Santarém,1,0,0,0,0
-2020-05-09,Paraíba,2156,0,490,126,0
+2020-05-09,Paraíba,2156,124,490,126,10
 2020-05-10,João Pessoa,1179,59,0,65,4
 2020-05-10,Campina Grande,108,3,0,8,0
 2020-05-10,Santa Rita,208,30,0,30,3
@@ -1432,7 +1432,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-10,Gado Bravo,1,0,0,1,0
 2020-05-10,Puxinanã,1,0,0,1,0
 2020-05-10,Aroeiras,1,0,0,1,0
-2020-05-10,Paraíba,2341,0,537,185,0
+2020-05-10,Paraíba,2341,135,537,185,11
 2020-05-11,João Pessoa,1230,60,0,51,1
 2020-05-11,Campina Grande,125,3,0,17,0
 2020-05-11,Santa Rita,217,30,0,9,0
@@ -1542,7 +1542,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-11,Natuba,1,0,0,1,0
 2020-05-11,Cuité de Mamanguape,1,0,0,1,0
 2020-05-11,Maturéia,1,0,0,1,0
-2020-05-11,Paraíba,2525,0,537,184,0
+2020-05-11,Paraíba,2525,139,537,184,4
 2020-05-12,João Pessoa,1316,63,0,86,3
 2020-05-12,Campina Grande,134,4,0,9,1
 2020-05-12,Santa Rita,223,33,0,6,3
@@ -1656,7 +1656,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-12,Belém,1,0,0,1,0
 2020-05-12,Mogeiro,1,1,0,1,1
 2020-05-12,Cuité,1,0,0,1,0
-2020-05-12,Paraíba,2777,0,601,252,0
+2020-05-12,Paraíba,2777,154,601,252,15
 2020-05-13,João Pessoa,1368,64,0,52,1
 2020-05-13,Campina Grande,155,4,0,21,0
 2020-05-13,Santa Rita,250,35,0,27,2
@@ -1777,7 +1777,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-13,Vista Serrana,1,0,0,1,0
 2020-05-13,Areial,1,0,0,1,0
 2020-05-13,Picuí,1,0,0,1,0
-2020-05-13,Paraíba,3045,0,630,268,0
+2020-05-13,Paraíba,3045,157,630,268,3
 2020-05-14,João Pessoa,1451,65,0,83,1
 2020-05-14,Campina Grande,160,4,0,5,0
 2020-05-14,Santa Rita,271,36,0,21,1
@@ -1903,7 +1903,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-14,Conceição,1,0,0,1,0
 2020-05-14,Curral de Cima,1,0,0,1,0
 2020-05-14,Olho d'Água,1,0,0,1,0
-2020-05-14,Paraíba,3361,0,731,316,0
+2020-05-14,Paraíba,3361,160,731,316,3
 2020-05-15,João Pessoa,1478,69,0,27,4
 2020-05-15,Campina Grande,261,4,0,101,0
 2020-05-15,Santa Rita,288,37,0,17,1
@@ -2032,7 +2032,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-15,Amparo,1,0,0,1,0
 2020-05-15,Seridó,1,0,0,1,0
 2020-05-15,Arara,1,0,0,1,0
-2020-05-15,Paraíba,3739,0,1069,378,0
+2020-05-15,Paraíba,3739,170,1069,378,10
 2020-05-16,João Pessoa,1540,73,0,62,4
 2020-05-16,Campina Grande,280,5,0,19,1
 2020-05-16,Santa Rita,303,38,0,15,1
@@ -2167,7 +2167,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-16,Passagem,1,0,0,1,0
 2020-05-16,Lastro,1,0,0,1,0
 2020-05-16,Caturité,1,0,0,1,0
-2020-05-16,Paraíba,4063,0,1087,324,0
+2020-05-16,Paraíba,4063,183,1087,324,13
 2020-05-17,João Pessoa,1697,76,0,157,3
 2020-05-17,Campina Grande,290,5,0,10,0
 2020-05-17,Santa Rita,306,40,0,3,2
@@ -2304,7 +2304,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-17,Caturité,1,0,0,0,0
 2020-05-17,São José de Caiana,3,0,0,3,0
 2020-05-17,Catolé do Rocha,3,0,0,3,0
-2020-05-17,Paraíba,4347,0,1171,284,0
+2020-05-17,Paraíba,4347,194,1171,284,11
 2020-05-18,João Pessoa,1799,79,0,102,3
 2020-05-18,Campina Grande,299,7,0,9,2
 2020-05-18,Santa Rita,319,42,0,13,2
@@ -2446,7 +2446,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Paulista,2,0,0,2,0
 2020-05-18,Caldas Brandão,1,0,0,1,0
 2020-05-18,Belém do Brejo do Cruz,1,0,0,0,0
-2020-05-18,Paraíba,4786,0,1462,439,0
+2020-05-18,Paraíba,4786,207,1462,439,13
 2020-05-19,João Pessoa,1889,82,0,90,3
 2020-05-19,Campina Grande,326,7,0,27,0
 2020-05-19,Santa Rita,343,45,0,24,3
@@ -2595,7 +2595,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Juru,1,0,0,1,0
 2020-05-19,São José dos Cordeiros,1,0,0,1,0
 2020-05-19,Aguiar,1,0,0,1,0
-2020-05-19,Paraíba,5300,0,1747,514,0
+2020-05-19,Paraíba,5300,219,1747,514,12
 2020-05-20,João Pessoa,2088,84,0,199,2
 2020-05-20,Campina Grande,335,7,0,9,0
 2020-05-20,Santa Rita,366,47,0,23,2
@@ -2753,7 +2753,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,São João do Tigre,1,0,0,1,0
 2020-05-20,Aparecida,1,0,0,1,0
 2020-05-20,Sumé,1,0,0,1,0
-2020-05-20,Paraíba,5838,0,1847,538,0
+2020-05-20,Paraíba,5838,230,1847,538,11
 2020-05-21,João Pessoa,2226,90,0,138,6
 2020-05-21,Campina Grande,421,9,0,86,2
 2020-05-21,Santa Rita,375,48,0,9,1
@@ -2915,7 +2915,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Água Branca,1,0,0,1,0
 2020-05-21,Tavares,1,0,0,1,0
 2020-05-21,Várzea,1,0,0,1,0
-2020-05-21,Paraíba,6238,0,1997,400,0
+2020-05-21,Paraíba,6238,245,1997,400,15
 2020-05-22,João Pessoa,2226,90,0,0,0
 2020-05-22,Campina Grande,590,10,0,169,1
 2020-05-22,Santa Rita,401,48,0,26,0
@@ -3090,7 +3090,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Ouro Velho,1,0,0,1,0
 2020-05-22,São João do Cariri,1,0,0,1,0
 2020-05-22,Santa Cecília,1,0,0,1,0
-2020-05-22,Paraíba,6882,0,2003,644,0
+2020-05-22,Paraíba,6882,248,2003,644,3
 2020-05-23,João Pessoa,2454,92,0,228,2
 2020-05-23,Campina Grande,713,10,0,123,0
 2020-05-23,Santa Rita,424,48,0,23,0
@@ -3268,7 +3268,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Damião,1,0,0,1,0
 2020-05-23,Salgadinho,1,0,0,1,0
 2020-05-23,São Francisco,1,0,0,1,0
-2020-05-23,Paraíba,7508,0,2203,626,0
+2020-05-23,Paraíba,7508,258,2203,626,10
 2020-05-24,João Pessoa,2612,97,0,158,5
 2020-05-24,Campina Grande,817,10,0,104,0
 2020-05-24,Santa Rita,430,51,0,6,3
@@ -3447,7 +3447,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Salgadinho,1,0,0,0,0
 2020-05-24,São Francisco,2,0,0,1,0
 2020-05-24,Santana dos Garrotes,1,0,0,1,0
-2020-05-24,Paraíba,7823,0,2208,315,0
+2020-05-24,Paraíba,7823,272,2208,315,14
 2020-05-25,João Pessoa,2687,99,0,75,2
 2020-05-25,Campina Grande,870,11,0,53,1
 2020-05-25,Santa Rita,434,52,0,4,1
@@ -3628,7 +3628,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Santana dos Garrotes,1,0,0,0,0
 2020-05-25,Tenório,1,0,0,1,0
 2020-05-25,Assunção,1,0,0,1,0
-2020-05-25,Paraíba,8016,0,2218,193,0
+2020-05-25,Paraíba,8016,279,2218,193,7
 2020-05-26,João Pessoa,2945,101,0,258,2
 2020-05-26,Campina Grande,936,11,0,66,0
 2020-05-26,Santa Rita,463,53,0,29,1
@@ -3810,7 +3810,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Tenório,1,0,0,0,0
 2020-05-26,Assunção,1,0,0,0,0
 2020-05-26,Areia de Baraúnas,1,0,0,1,0
-2020-05-26,Paraíba,8919,0,2225,903,0
+2020-05-26,Paraíba,8919,286,2225,903,7
 2020-05-27,João Pessoa,3232,103,0,287,2
 2020-05-27,Campina Grande,1025,11,0,89,0
 2020-05-27,Santa Rita,552,54,0,89,1
@@ -3996,7 +3996,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Boa Ventura,1,0,0,1,0
 2020-05-27,Olivedos,1,0,0,1,0
 2020-05-27,Pedro Régis,1,0,0,1,0
-2020-05-27,Paraíba,10209,0,2232,1290,0
+2020-05-27,Paraíba,10209,298,2232,1290,12
 2020-05-28,João Pessoa,3472,110,0,240,7
 2020-05-28,Campina Grande,1180,15,0,155,4
 2020-05-28,Santa Rita,553,56,0,1,2
@@ -4186,7 +4186,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Santa Inês,1,0,0,1,0
 2020-05-28,Marcação,1,0,0,1,0
 2020-05-28,Livramento,1,0,0,1,0
-2020-05-28,Paraíba,11132,0,2430,923,0
+2020-05-28,Paraíba,11132,318,2430,923,20
 2020-05-29,João Pessoa,3685,115,0,213,5
 2020-05-29,Campina Grande,1288,15,0,108,0
 2020-05-29,Santa Rita,553,57,0,0,1
@@ -4379,4 +4379,4 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-29,Baraúna,7,0,0,7,0
 2020-05-29,Cacimba de Areia,1,0,0,1,0
 2020-05-29,Cubati,1,0,0,1,0
-2020-05-29,Paraíba,12011,0,2435,879,0
+2020-05-29,Paraíba,12011,327,2435,879,9
