@@ -224,7 +224,7 @@ app.layout = html.Div(
         #### CABEÇALHO
         html.Div([
             html.H1(children=[
-                'Covid-19 (Paraíba - Brasil)',
+                'Covid-19 (PB - BR)',
                 html.A(
                     html.Img(
                         src="assets/logo_nova-removebg.png",
