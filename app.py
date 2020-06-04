@@ -228,7 +228,7 @@ app.layout = html.Div(
                 html.A(
                     html.Img(
                         src="assets/logo_nova-removebg.png",
-                        style={'float': 'right', 'height': '120px', 'display':'inline'}
+                        style={'float': 'right', 'height': '120px', 'display': 'inline'}
                     ),
 
                     href="https://www.instagram.com/labimec/"),
@@ -236,24 +236,27 @@ app.layout = html.Div(
                 html.A(
                     html.Img(
                         src="assets/fapesq_logo.png",
-                        style={'float': 'right', 'height': '120px', 'display':'inline'}
+                        style={'float': 'right', 'height': '120px', 'display': 'inline'}
                     ),
 
                     href="http://fapesq.rpp.br/"),
 
-            ], style={'text-align': 'left'}),
+                html.A(
+                    html.Img(
+                        src="assets/selo_DPE.png",
+                        style={'float': 'right', 'height': '100px', 'display': 'inline', 'margin-top': 20}
+                    ),
 
+                    href="https://defensoria.pb.def.br/noticias.php?idcat=1&id=2342"),
+
+            ], style={'text-align': 'left'}),
 
             html.H6(children=[
                 'Laboratório de Inteligência Artificial e Macroeconomia Computacional - LABIMEC',
 
-
             ], style={'text-align': 'left'}),
 
         ], className='banner'),
-
-
-
 
         dcc.Markdown(children=
                      ''' > Atualização Covid-19 04/06 às 19:00h. Para melhor experiência acesse pelo computador.
@@ -697,7 +700,9 @@ app.layout = html.Div(
                                 options=[
                                     {"label": "Confirmados", "value": "totalCasesMS"},
                                     {"label": "Óbitos", "value": "deathsMS"},
+                                    {"label": "Recuperados", "value": "recovered"},
                                     {"label": "Novos Casos", "value": "newCases"},
+                                    {"label": "Ativos", "value": "ativos"},
                                 ],
                                 value="totalCasesMS",
                                 labelStyle={"display": "inline-block"},
@@ -746,50 +751,48 @@ app.layout = html.Div(
             dcc.Markdown(
                 children=['''
                 # Perguntas Frequentes
-                
+
                 ### O que é o LABIMEC?
-                
+
                 O Laboratório de Inteligência Artificial e Macroeconomia Computacional (LABIMEC), da Universidade Federal da Paraíba (UFPB), 
                 foi fundado no ano de 2018 e, desde então, vem realizando pesquisas voltadas para a análise de políticas macroeconômicas. 
-                
+
                 ### Como um laboratório de economia passou a monitorar um vírus?
-                
+
                 As transformações que acontecem no mundo acadêmico e na sociedade exige cada vez mais versatilidade dos pesquisadores e profissionais. 
                 Os trabalhos desenvovidos no LABIMEC são fortemente vinculados a métodos quantitativos e análises de dados, apesar do Covid-19 não pertencer a
                 esfera dos fenômenos econômicos diretamente, os efeitos do vírus na economia já podem ser constatados. Com esse propósito, decidimos somar nossos
                 esforços e habilidades aos demais setores da sociedade.
-                
+
                 ### Onde podemos saber mais sobre o LABIMEC?
-                
+
                 * O nosso portal pode ser acessado pelo seguinte link: [Site](https://www.ufpb.br/labimec)
                 * O nosso instagram pode ser acessado pelo seguinte link: [Instragram](https://www.instagram.com/labimec/)
                 * O email do nosso coordenador: cassiodanobrega@yahoo.com.br
-                
+
                 ### De onde são os dados do Dashboard?
-                
+
                 * Os dados disponibilizados são provenientes dos [Boletins Epidemiológicos Coronavírus / Covid-19](https://paraiba.pb.gov.br/diretas/saude/consultas/vigilancia-em-saude-1/boletins-epidemiologicos)
                 da Secretaria de Saúde de Estado da Paraíba.
-                
+
                 * Em relação ao Brasil, utilizamos os dados do Ministério da Saúde, coletados através do [repositório](https://github.com/wcota/covid19br) de Wesley Cota.
-                
+
                 ### Com quem entrar em contato caso encontre algum problema ou sugestão no Dash?
-                
+
                 Para sugestões e relatos de problemas, pode-se entrar em contato com os seguintes emails:
-                
+
                 * cassiodanobrega@yahoo.com.br - Coordenador do LABIMEC
                 * flaviomacaubas@gmail.com - Membro do LABIMEC
-                
-                
+
+
                 ### O que é Fapesq?
-                
+
                 A [Fapesq](http://fapesq.rpp.br/) é a Fundação de Apoio à Pesquisa - Fapesq, órgão vínculada à Secretaria de Estado da Educação e da Ciência e Tecnologia - SEECT, 
                 está situada na Rua Emiliano Rosendo Silva, S/N, no bairro de Bodocongó, na cidade de Campina Grande - Paraíba, CEP 58.429690, 
                 Telefone (83) 99921 4203, E-mail fapesq@fapesq.rpp.br.
-            
-                
+
+
                 ''']),
-
-
 
         ]),
     ], id="mainContainer", style={"display": "flex", "flex-direction": "column"}
@@ -825,6 +828,9 @@ def update_image_src(selector):
         data.append(
             {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['deathsMS'].values,
              'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+        data.append(
+            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['recovered'].values,
+             'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
     else:
         data.append(
             {'x': df.loc[df['state'] == selector]['date'], 'y': df.loc[df['state'] == selector]['totalCasesMS'].values,
@@ -832,6 +838,9 @@ def update_image_src(selector):
         data.append(
             {'x': df.loc[df['state'] == selector]['date'], 'y': df.loc[df['state'] == selector]['deathsMS'].values,
              'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
+        data.append(
+            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['recovered'].values,
+             'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
 
     figure = {
         'data': data,
@@ -867,14 +876,31 @@ def update_image_src(selector, situacao):
     if len(selector) == 0:
         selector.append('SP')
     data = []
-    for estado in selector:
-        if estado == 'BR':
-            data.append(
-                {'x': list(df[df['state'] == 'TOTAL']['date']), 'y': df[df['state'] == 'TOTAL'][situacao].values,
-                 'type': 'line', 'name': estado})
-        else:
-            data.append({'x': list(df[df['state'] == estado]['date']), 'y': df[df['state'] == estado][situacao].values,
-                         'type': 'line', 'name': estado})
+
+    if situacao == 'ativos':
+        for estado in selector:
+            if estado == 'BR':
+                data.append(
+                    {'x': list(df[df['state'] == 'TOTAL']['date']),
+                     'y': df[df['state'] == 'TOTAL']['totalCasesMS'].values
+                          - df[df['state'] == 'TOTAL']['deathsMS'].values
+                          - df[df['state'] == 'TOTAL']['recovered'].values,
+                     'type': 'line', 'name': estado})
+            else:
+                data.append({'x': list(df[df['state'] == estado]['date']),
+                             'y': df[df['state'] == estado]['totalCasesMS'].values
+                                  - df[df['state'] == estado]['deathsMS'].values
+                                  - df[df['state'] == estado]['recovered'].values,
+                             'type': 'line', 'name': estado})
+    else:
+        for estado in selector:
+            if estado == 'BR':
+                data.append(
+                    {'x': list(df[df['state'] == 'TOTAL']['date']), 'y': df[df['state'] == 'TOTAL'][situacao].values,
+                     'type': 'line', 'name': estado})
+            else:
+                data.append({'x': list(df[df['state'] == estado]['date']), 'y': df[df['state'] == estado][situacao].values,
+                             'type': 'line', 'name': estado})
     figure = {
         'data': data,
         'layout': {
@@ -963,9 +989,10 @@ def update_image_src(selector, situacao):
     if situacao == 'ativos':
         for cidade in selector:
             data.append(
-                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade]['confirmados'] -
-                                                                         df_pb.loc[df_pb['cidade'] == cidade]['obitos'] -
-                                                                         df_pb.loc[df_pb['cidade'] == cidade]['recuperados'],
+                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'],
+                 'y': df_pb.loc[df_pb['cidade'] == cidade]['confirmados'] -
+                      df_pb.loc[df_pb['cidade'] == cidade]['obitos'] -
+                      df_pb.loc[df_pb['cidade'] == cidade]['recuperados'],
                  'type': 'line', 'name': cidade})
     else:
         for cidade in selector:
@@ -1272,6 +1299,6 @@ def atualiza_style(valor_well, valor_gas, valor_water, valor_mortalidade, valor_
             lista_styles.append({'text-align': 'center', 'color': 'black'})
 
     return lista_styles[0], lista_styles[1], lista_styles[2], lista_styles[3], lista_styles[4], lista_styles[5]
-  
+
 if __name__ == '__main__':
     app.run_server()
