@@ -839,7 +839,7 @@ def update_image_src(selector):
             {'x': df.loc[df['state'] == selector]['date'], 'y': df.loc[df['state'] == selector]['deathsMS'].values,
              'type': 'bar', 'name': 'Óbitos', 'marker': {"color": 'black'}})
         data.append(
-            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == 'TOTAL']['recovered'].values,
+            {'x': df.loc[df['state'] == 'TOTAL']['date'], 'y': df.loc[df['state'] == selector]['recovered'].values,
              'type': 'bar', 'name': 'Recuperados', 'marker': {"color": 'blue'}})
 
     figure = {
