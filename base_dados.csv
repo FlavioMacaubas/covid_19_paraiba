@@ -3087,7 +3087,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Dona Inês,1,0,0,1,0
 2020-05-22,Emas,1,0,0,1,0
 2020-05-22,Araruna,1,0,0,1,0
-2020-05-22,Ouro Velho,1,0,0,1,0
+2020-05-22,Ouro Velho,0,0,0,0,0
 2020-05-22,São João do Cariri,1,0,0,1,0
 2020-05-22,Santa Cecília,1,0,0,1,0
 2020-05-22,Paraíba,6882,248,2003,644,3
@@ -3262,7 +3262,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Dona Inês,1,0,0,0,0
 2020-05-23,Emas,1,0,0,0,0
 2020-05-23,Araruna,2,0,0,1,0
-2020-05-23,Ouro Velho,1,0,0,0,0
+2020-05-23,Ouro Velho,0,0,0,0,0
 2020-05-23,São João do Cariri,1,0,0,0,0
 2020-05-23,Santa Cecília,1,0,0,0,0
 2020-05-23,Damião,1,0,0,1,0
@@ -3440,7 +3440,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Dona Inês,1,0,0,0,0
 2020-05-24,Emas,1,0,0,0,0
 2020-05-24,Araruna,2,0,0,0,0
-2020-05-24,Ouro Velho,1,0,0,0,0
+2020-05-24,Ouro Velho,0,0,0,0,0
 2020-05-24,São João do Cariri,1,0,0,0,0
 2020-05-24,Santa Cecília,1,0,0,0,0
 2020-05-24,Damião,1,0,0,0,0
@@ -3619,7 +3619,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Dona Inês,1,0,0,0,0
 2020-05-25,Emas,1,0,0,0,0
 2020-05-25,Araruna,2,0,0,0,0
-2020-05-25,Ouro Velho,1,0,0,0,0
+2020-05-25,Ouro Velho,0,0,0,0,0
 2020-05-25,São João do Cariri,1,0,0,0,0
 2020-05-25,Santa Cecília,1,0,0,0,0
 2020-05-25,Damião,1,0,0,0,0
@@ -3800,7 +3800,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Dona Inês,2,0,0,1,0
 2020-05-26,Emas,1,0,0,0,0
 2020-05-26,Araruna,2,0,0,0,0
-2020-05-26,Ouro Velho,1,0,0,0,0
+2020-05-26,Ouro Velho,0,0,0,0,0
 2020-05-26,São João do Cariri,1,0,0,0,0
 2020-05-26,Santa Cecília,3,0,0,2,0
 2020-05-26,Damião,1,0,0,0,0
@@ -3982,7 +3982,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Dona Inês,2,0,0,0,0
 2020-05-27,Emas,1,0,0,0,0
 2020-05-27,Araruna,2,0,0,0,0
-2020-05-27,Ouro Velho,1,0,0,0,0
+2020-05-27,Ouro Velho,0,0,0,0,0
 2020-05-27,São João do Cariri,1,0,0,0,0
 2020-05-27,Santa Cecília,3,0,0,0,0
 2020-05-27,Damião,1,0,0,0,0
@@ -4168,7 +4168,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Dona Inês,2,0,0,0,0
 2020-05-28,Emas,1,0,0,0,0
 2020-05-28,Araruna,2,0,0,0,0
-2020-05-28,Ouro Velho,1,0,0,0,0
+2020-05-28,Ouro Velho,0,0,0,0,0
 2020-05-28,São João do Cariri,1,0,0,0,0
 2020-05-28,Santa Cecília,3,0,0,0,0
 2020-05-28,Damião,1,0,0,0,0
@@ -4358,7 +4358,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-29,Dona Inês,2,0,0,0,0
 2020-05-29,Emas,1,0,0,0,0
 2020-05-29,Araruna,2,0,0,0,0
-2020-05-29,Ouro Velho,1,0,0,0,0
+2020-05-29,Ouro Velho,0,0,0,0,0
 2020-05-29,São João do Cariri,1,0,0,0,0
 2020-05-29,Santa Cecília,3,0,0,0,0
 2020-05-29,Damião,1,0,0,0,0
@@ -4551,7 +4551,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-30,Dona Inês,2,0,0,0,0
 2020-05-30,Emas,1,0,0,0,0
 2020-05-30,Araruna,2,0,0,0,0
-2020-05-30,Ouro Velho,1,0,0,0,0
+2020-05-30,Ouro Velho,0,0,0,0,0
 2020-05-30,São João do Cariri,1,0,0,0,0
 2020-05-30,Santa Cecília,3,0,0,0,0
 2020-05-30,Damião,1,0,0,0,0
@@ -4746,7 +4746,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-31,Dona Inês,2,0,0,0,0
 2020-05-31,Emas,1,0,0,0,0
 2020-05-31,Araruna,2,0,0,0,0
-2020-05-31,Ouro Velho,1,0,0,0,0
+2020-05-31,Ouro Velho,0,0,0,0,0
 2020-05-31,São João do Cariri,1,0,0,0,0
 2020-05-31,Santa Cecília,3,0,0,0,0
 2020-05-31,Damião,1,0,0,0,0
@@ -4942,7 +4942,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-01,Dona Inês,3,0,0,1,0
 2020-06-01,Emas,1,0,0,0,0
 2020-06-01,Araruna,2,0,0,0,0
-2020-06-01,Ouro Velho,1,0,0,0,0
+2020-06-01,Ouro Velho,0,0,0,0,0
 2020-06-01,São João do Cariri,1,0,0,0,0
 2020-06-01,Santa Cecília,3,0,0,0,0
 2020-06-01,Damião,1,0,0,0,0
@@ -5138,7 +5138,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-02,Dona Inês,3,0,0,0,0
 2020-06-02,Emas,1,0,0,0,0
 2020-06-02,Araruna,3,0,0,1,0
-2020-06-02,Ouro Velho,1,0,0,0,0
+2020-06-02,Ouro Velho,0,0,0,0,0
 2020-06-02,São João do Cariri,9,0,0,8,0
 2020-06-02,Santa Cecília,4,0,0,1,0
 2020-06-02,Damião,1,0,0,0,0
@@ -5337,7 +5337,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-03,Dona Inês,3,0,0,0,0
 2020-06-03,Emas,1,0,0,0,0
 2020-06-03,Araruna,3,0,0,0,0
-2020-06-03,Ouro Velho,1,0,0,0,0
+2020-06-03,Ouro Velho,0,0,0,0,0
 2020-06-03,São João do Cariri,10,0,0,1,0
 2020-06-03,Santa Cecília,5,0,0,1,0
 2020-06-03,Damião,2,0,0,1,0
@@ -5538,7 +5538,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-04,Dona Inês,3,0,0,0,0
 2020-06-04,Emas,1,0,0,0,0
 2020-06-04,Araruna,4,0,0,1,0
-2020-06-04,Ouro Velho,1,0,0,0,0
+2020-06-04,Ouro Velho,0,0,0,0,0
 2020-06-04,São João do Cariri,10,0,0,0,0
 2020-06-04,Santa Cecília,5,0,0,0,0
 2020-06-04,Damião,2,0,0,0,0
@@ -5743,7 +5743,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-05,Dona Inês,3,0,0,0,0
 2020-06-05,Emas,1,0,0,0,0
 2020-06-05,Araruna,5,0,0,1,0
-2020-06-05,Ouro Velho,1,0,0,0,0
+2020-06-05,Ouro Velho,0,0,0,0,0
 2020-06-05,São João do Cariri,10,0,0,0,0
 2020-06-05,Santa Cecília,7,0,0,2,0
 2020-06-05,Damião,2,0,0,0,0
@@ -5950,7 +5950,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-06,Dona Inês,3,0,0,0,0
 2020-06-06,Emas,1,0,0,0,0
 2020-06-06,Araruna,5,0,0,0,0
-2020-06-06,Ouro Velho,1,0,0,0,0
+2020-06-06,Ouro Velho,0,0,0,0,0
 2020-06-06,São João do Cariri,10,0,0,0,0
 2020-06-06,Santa Cecília,8,0,0,1,0
 2020-06-06,Damião,2,0,0,0,0
@@ -6158,7 +6158,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-07,Dona Inês,3,0,0,0,0
 2020-06-07,Emas,1,0,0,0,0
 2020-06-07,Araruna,5,0,0,0,0
-2020-06-07,Ouro Velho,1,0,0,0,0
+2020-06-07,Ouro Velho,0,0,0,0,0
 2020-06-07,São João do Cariri,10,0,0,0,0
 2020-06-07,Santa Cecília,8,0,0,0,0
 2020-06-07,Damião,2,0,0,0,0
@@ -6366,7 +6366,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-08,Dona Inês,3,0,0,0,0
 2020-06-08,Emas,1,0,0,0,0
 2020-06-08,Araruna,5,0,0,0,0
-2020-06-08,Ouro Velho,1,0,0,0,0
+2020-06-08,Ouro Velho,0,0,0,0,0
 2020-06-08,São João do Cariri,10,0,0,0,0
 2020-06-08,Santa Cecília,8,0,0,0,0
 2020-06-08,Damião,2,0,0,0,0
@@ -6460,7 +6460,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-09,Casserengue,31,0,0,7,0
 2020-06-09,Caiçara,33,1,0,4,0
 2020-06-09,Imaculada,9,0,0,0,0
-2020-06-09,Monteiro,38,0,0,3,0
+2020-06-09,Monteiro,37,0,0,2,0
 2020-06-09,Pilar,59,1,0,5,0
 2020-06-09,Pilõezinhos,77,0,0,8,0
 2020-06-09,Pitimbu,171,3,0,31,0
@@ -6574,7 +6574,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-09,Dona Inês,5,0,0,2,0
 2020-06-09,Emas,1,0,0,0,0
 2020-06-09,Araruna,6,0,0,1,0
-2020-06-09,Ouro Velho,1,0,0,0,0
+2020-06-09,Ouro Velho,0,0,0,0,0
 2020-06-09,São João do Cariri,10,0,0,0,0
 2020-06-09,Santa Cecília,8,0,0,0,0
 2020-06-09,Damião,2,0,0,0,0
@@ -6668,7 +6668,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Casserengue,41,0,0,10,0
 2020-06-10,Caiçara,34,1,0,1,0
 2020-06-10,Imaculada,10,0,0,1,0
-2020-06-10,Monteiro,38,0,0,0,0
+2020-06-10,Monteiro,37,0,0,0,0
 2020-06-10,Pilar,60,1,0,1,0
 2020-06-10,Pilõezinhos,82,0,0,5,0
 2020-06-10,Pitimbu,171,3,0,0,0
@@ -6715,7 +6715,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Duas Estradas,34,0,0,1,0
 2020-06-10,Lagoa de Dentro,9,0,0,0,0
 2020-06-10,Malta,18,0,0,0,0
-2020-06-10,Santa Teresinha,20,0,0,1,0
+2020-06-10,Santa Teresinha,19,0,0,0,0
 2020-06-10,Juarez Távora,53,0,0,3,0
 2020-06-10,Natuba,13,0,0,1,0
 2020-06-10,Cuité de Mamanguape,18,0,0,1,0
@@ -6782,7 +6782,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Dona Inês,5,0,0,0,0
 2020-06-10,Emas,1,0,0,0,0
 2020-06-10,Araruna,6,0,0,0,0
-2020-06-10,Ouro Velho,1,0,0,0,0
+2020-06-10,Ouro Velho,0,0,0,0,0
 2020-06-10,São João do Cariri,11,0,0,1,0
 2020-06-10,Santa Cecília,8,0,0,0,0
 2020-06-10,Damião,2,0,0,0,0
@@ -6821,3 +6821,213 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Parari,1,0,0,1,0
 2020-06-10,Sossêgo,1,0,0,1,0
 2020-06-10,Paraíba,24032,559,5090,1580,25
+2020-06-11,João Pessoa,7133,199,0,228,2
+2020-06-11,Campina Grande,3504,44,0,283,0
+2020-06-11,Santa Rita,858,80,0,36,0
+2020-06-11,Sousa,350,1,0,15,0
+2020-06-11,Igaracy,2,0,0,0,0
+2020-06-11,Patos,866,33,0,16,3
+2020-06-11,Cabedelo,1351,12,0,19,0
+2020-06-11,Serra Branca,9,0,0,0,0
+2020-06-11,Junco do Seridó,12,0,0,0,0
+2020-06-11,Bayeux,538,39,0,13,1
+2020-06-11,São João do Rio do Peixe,23,0,0,0,0
+2020-06-11,Taperoá,37,1,0,2,0
+2020-06-11,Sapé,302,10,0,1,0
+2020-06-11,Pombal,89,0,0,1,0
+2020-06-11,São Bento,357,5,0,6,0
+2020-06-11,Riachão do Poço,14,1,0,0,0
+2020-06-11,Queimadas,206,0,0,18,0
+2020-06-11,Congo,11,1,0,0,0
+2020-06-11,Bom Jesus,2,0,0,0,0
+2020-06-11,Cajazeiras,202,6,0,10,0
+2020-06-11,Cruz do Espírito Santo,142,9,0,0,0
+2020-06-11,Itabaiana,371,4,0,18,0
+2020-06-11,Conde,164,2,0,9,0
+2020-06-11,Coremas,20,0,0,0,0
+2020-06-11,Alagoa Nova,81,3,0,9,0
+2020-06-11,Barra de São Miguel,4,1,0,0,0
+2020-06-11,Itapororoca,46,2,0,1,0
+2020-06-11,Guarabira,1098,11,0,68,2
+2020-06-11,Pedras de Fogo,551,5,0,64,0
+2020-06-11,Itaporanga,7,1,0,2,0
+2020-06-11,Alagoa Grande,177,2,0,22,0
+2020-06-11,Brejo do Cruz,21,2,0,0,0
+2020-06-11,Caaporã,551,8,0,28,0
+2020-06-11,Coxixola,8,0,0,0,0
+2020-06-11,Boqueirão,60,1,0,9,0
+2020-06-11,Marizópolis,4,1,0,0,0
+2020-06-11,Areia,94,1,0,8,0
+2020-06-11,Gurinhém,80,0,0,3,0
+2020-06-11,Esperança,130,0,0,8,0
+2020-06-11,Lagoa Seca,196,3,0,3,0
+2020-06-11,Mari,184,6,0,11,0
+2020-06-11,Lucena,97,1,0,0,0
+2020-06-11,Catingueira,6,1,0,0,0
+2020-06-11,Araçagi,100,0,0,11,0
+2020-06-11,São José do Bonfim,28,0,0,8,0
+2020-06-11,Alhandra,221,7,0,12,0
+2020-06-11,Riacho dos Cavalos,2,0,0,0,0
+2020-06-11,Santa Helena,2,0,0,0,0
+2020-06-11,São José de Piranhas,13,0,0,1,0
+2020-06-11,Umbuzeiro,18,1,0,1,0
+2020-06-11,Rio Tinto,161,4,0,28,1
+2020-06-11,Princesa Isabel,19,0,0,1,0
+2020-06-11,Mamanguape,453,9,0,61,0
+2020-06-11,Serra Redonda,77,0,0,4,0
+2020-06-11,Casserengue,46,0,0,5,0
+2020-06-11,Caiçara,45,1,0,11,0
+2020-06-11,Imaculada,10,0,0,0,0
+2020-06-11,Monteiro,37,0,0,0,0
+2020-06-11,Pilar,62,1,0,2,0
+2020-06-11,Pilõezinhos,87,0,0,5,0
+2020-06-11,Pitimbu,237,3,0,66,0
+2020-06-11,São José de Espinharas,5,0,0,0,0
+2020-06-11,Piancó,25,2,0,0,0
+2020-06-11,Serra da Raiz,12,0,0,0,0
+2020-06-11,Mulungu,64,1,0,8,1
+2020-06-11,Alagoinha,203,1,0,6,0
+2020-06-11,Mataraca,42,1,0,4,0
+2020-06-11,Pirpirituba,33,0,0,0,0
+2020-06-11,Nova Floresta,6,0,0,1,0
+2020-06-11,Uiraúna,8,1,0,0,0
+2020-06-11,Capim,63,1,0,0,0
+2020-06-11,Remígio,103,2,0,3,0
+2020-06-11,São Sebastião de Lagoa de Roça,62,0,0,0,0
+2020-06-11,Matinhas,27,0,0,0,0
+2020-06-11,Pilões,25,0,0,4,0
+2020-06-11,Condado,49,0,0,2,0
+2020-06-11,Juazeirinho,72,0,0,4,0
+2020-06-11,Massaranduba,73,0,0,6,0
+2020-06-11,Santa Luzia,111,3,0,8,0
+2020-06-11,Baía da Traição,82,1,0,7,0
+2020-06-11,Juripiranga,185,1,0,7,0
+2020-06-11,Cuitegi,62,1,0,3,0
+2020-06-11,Borborema,2,0,0,0,0
+2020-06-11,Pocinhos,15,0,0,1,0
+2020-06-11,Sobrado,42,1,0,11,0
+2020-06-11,Riachão do Bacamarte,136,0,0,0,0
+2020-06-11,São Miguel de Taipu,51,1,0,0,0
+2020-06-11,Sertãozinho,24,0,0,0,0
+2020-06-11,Cajazeirinhas,1,0,0,0,0
+2020-06-11,Bananeiras,47,0,0,3,0
+2020-06-11,Teixeira,32,0,0,4,0
+2020-06-11,Santarém,1,0,0,0,0
+2020-06-11,Campo de Santana,33,1,0,1,0
+2020-06-11,Barra de Santana,29,0,0,1,0
+2020-06-11,São José dos Ramos,28,0,0,0,0
+2020-06-11,Soledade,31,0,0,4,0
+2020-06-11,Ingá,151,0,0,23,0
+2020-06-11,Gado Bravo,48,1,0,0,0
+2020-06-11,Puxinanã,82,0,0,11,0
+2020-06-11,Aroeiras,48,0,0,2,0
+2020-06-11,São José do Sabugi,87,1,0,1,0
+2020-06-11,Duas Estradas,35,0,0,1,0
+2020-06-11,Lagoa de Dentro,9,0,0,0,0
+2020-06-11,Malta,18,0,0,0,0
+2020-06-11,Santa Teresinha,19,0,0,0,0
+2020-06-11,Juarez Távora,54,0,0,1,0
+2020-06-11,Natuba,13,0,0,0,0
+2020-06-11,Cuité de Mamanguape,22,0,0,4,0
+2020-06-11,Maturéia,14,0,0,0,0
+2020-06-11,Itatuba,77,1,0,6,0
+2020-06-11,Belém,93,1,0,5,1
+2020-06-11,Mogeiro,26,1,0,5,0
+2020-06-11,Cuité,18,1,0,3,0
+2020-06-11,Solânea,105,0,0,3,0
+2020-06-11,Quixabá,17,0,0,2,0
+2020-06-11,Nova Olinda,4,0,0,0,0
+2020-06-11,Serraria,21,2,0,1,0
+2020-06-11,Vista Serrana,1,0,0,0,0
+2020-06-11,Areial,17,1,0,1,0
+2020-06-11,Picuí,38,0,0,2,0
+2020-06-11,Jacaraú,34,2,0,3,0
+2020-06-11,Salgado de São Félix,43,0,0,3,0
+2020-06-11,Conceição,4,0,0,0,0
+2020-06-11,Curral de Cima,11,0,0,1,0
+2020-06-11,Olho d'Água,25,0,0,2,0
+2020-06-11,Amparo,12,0,0,0,0
+2020-06-11,Seridó,18,0,0,0,0
+2020-06-11,Arara,33,0,0,0,0
+2020-06-11,Logradouro,19,0,0,3,0
+2020-06-11,Cacimba de Dentro,34,0,0,0,0
+2020-06-11,Boa Vista,45,0,0,1,0
+2020-06-11,Passagem,13,0,0,0,0
+2020-06-11,Lastro,3,0,0,2,0
+2020-06-11,Caturité,25,0,0,0,0
+2020-06-11,São José de Caiana,22,0,0,2,0
+2020-06-11,Catolé do Rocha,72,4,0,1,0
+2020-06-11,São José da Lagoa Tapada,16,0,0,1,0
+2020-06-11,São Mamede,20,1,0,1,0
+2020-06-11,Paulista,35,1,0,0,0
+2020-06-11,Caldas Brandão,28,0,0,1,0
+2020-06-11,Belém do Brejo do Cruz,5,0,0,0,0
+2020-06-11,Cachoeira dos Índios,22,1,0,8,0
+2020-06-11,Ibiara,5,0,0,0,0
+2020-06-11,Jericó,3,0,0,0,0
+2020-06-11,Montadas,18,0,0,3,0
+2020-06-11,Juru,5,0,0,0,0
+2020-06-11,São José dos Cordeiros,3,0,0,0,0
+2020-06-11,Aguiar,1,0,0,0,0
+2020-06-11,Mato Grosso,7,0,0,0,0
+2020-06-11,Gurjão,16,1,0,0,0
+2020-06-11,Lagoa,3,0,0,0,0
+2020-06-11,Vieirópolis,3,0,0,0,0
+2020-06-11,Fagundes,15,0,0,1,0
+2020-06-11,Manaíra,2,0,0,0,0
+2020-06-11,São João do Tigre,1,0,0,0,0
+2020-06-11,Aparecida,10,0,0,1,0
+2020-06-11,Sumé,25,0,0,0,0
+2020-06-11,Barra de Santa Rosa,12,0,0,0,0
+2020-06-11,Água Branca,10,1,0,0,0
+2020-06-11,Tavares,10,0,0,2,0
+2020-06-11,Várzea,2,0,0,1,0
+2020-06-11,Riacho de Santo Antônio,5,0,0,0,0
+2020-06-11,São Bentinho,14,0,0,1,0
+2020-06-11,Desterro,13,0,0,0,0
+2020-06-11,Cabaceiras,2,0,0,0,0
+2020-06-11,Cacimbas,24,0,0,4,0
+2020-06-11,Mãe d'Água,10,0,0,2,0
+2020-06-11,Carrapateira,1,0,0,0,0
+2020-06-11,Dona Inês,5,0,0,0,0
+2020-06-11,Emas,1,0,0,0,0
+2020-06-11,Araruna,12,0,0,6,0
+2020-06-11,Ouro Velho,0,0,0,0,0
+2020-06-11,São João do Cariri,11,0,0,0,0
+2020-06-11,Santa Cecília,9,0,0,1,0
+2020-06-11,Damião,2,0,0,0,0
+2020-06-11,Salgadinho,8,0,0,0,0
+2020-06-11,São Francisco,6,0,0,0,0
+2020-06-11,Santana dos Garrotes,2,0,0,0,0
+2020-06-11,Tenório,2,0,0,0,0
+2020-06-11,Assunção,20,0,0,0,0
+2020-06-11,Areia de Baraúnas,1,0,0,0,0
+2020-06-11,Alcantil,4,0,0,0,0
+2020-06-11,Boa Ventura,1,0,0,0,0
+2020-06-11,Olivedos,8,0,0,0,0
+2020-06-11,Pedro Régis,2,0,0,0,0
+2020-06-11,São Sebastião do Umbuzeiro,4,0,0,0,0
+2020-06-11,Santa Inês,4,0,0,0,0
+2020-06-11,Marcação,9,0,0,0,0
+2020-06-11,Livramento,0,0,0,0,0
+2020-06-11,Baraúna,60,0,0,1,0
+2020-06-11,Cacimba de Areia,5,0,0,0,0
+2020-06-11,Cubati,6,0,0,0,0
+2020-06-11,Nova Palmeira,12,0,0,0,0
+2020-06-11,Bonito de Santa Fé,1,0,0,0,0
+2020-06-11,Serra Grande,1,0,0,0,0
+2020-06-11,Curral Velho,1,0,0,0,0
+2020-06-11,Pedra Lavrada,15,0,0,1,0
+2020-06-11,Nazarezinho,2,0,0,1,0
+2020-06-11,Caraúbas,2,0,0,0,0
+2020-06-11,Bernardino Batista,2,0,0,0,0
+2020-06-11,Diamante,2,0,0,0,0
+2020-06-11,Santo André,1,0,0,0,0
+2020-06-11,Prata,0,0,0,0,0
+2020-06-11,Riachão,3,0,0,1,0
+2020-06-11,Bom Sucesso,5,0,0,0,0
+2020-06-11,Brejo dos Santos,1,0,0,0,0
+2020-06-11,Santa Cruz,2,0,0,0,0
+2020-06-11,Parari,1,0,0,0,0
+2020-06-11,Sossêgo,1,0,0,0,0
+2020-06-11,Paraíba,25370,570,5620,1338,11
