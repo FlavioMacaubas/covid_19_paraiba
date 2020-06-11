@@ -319,7 +319,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [html.H4(id="mortalidadeText", style={'text-align': 'center'}),
                                              html.P(id="mortalidade_perc", style={'text-align': 'center'}),
-                                             html.P("Fatalidade", style={'text-align': 'center'})],
+                                             html.P("Letalidade", style={'text-align': 'center'})],
                                             id="mortalidade",
                                             className="mini_container",
                                         ),
@@ -570,7 +570,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [html.H4(id="mortalidadeText_br", style={'text-align': 'center'}),
                                              html.P(id="mortalidade_perc_br", style={'text-align': 'center'}),
-                                             html.P("Fatalidade", style={'text-align': 'center'})],
+                                             html.P("Letalidade", style={'text-align': 'center'})],
                                             id="mortalidade_br",
                                             className="mini_container",
                                         ),
