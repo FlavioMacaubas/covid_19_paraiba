@@ -5115,7 +5115,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-02,Juru,4,0,0,0,0
 2020-06-02,São José dos Cordeiros,3,0,0,0,0
 2020-06-02,Aguiar,1,0,0,0,0
-2020-06-02,Mato Grosso,7,0,0,3,0
+2020-06-02,Mato Grosso,6,0,0,2,0
 2020-06-02,Gurjão,15,1,0,0,0
 2020-06-02,Lagoa,3,0,0,0,0
 2020-06-02,Vieirópolis,3,0,0,1,0
@@ -5314,7 +5314,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-03,Juru,5,0,0,1,0
 2020-06-03,São José dos Cordeiros,3,0,0,0,0
 2020-06-03,Aguiar,1,0,0,0,0
-2020-06-03,Mato Grosso,7,0,0,0,0
+2020-06-03,Mato Grosso,6,0,0,0,0
 2020-06-03,Gurjão,15,1,0,0,0
 2020-06-03,Lagoa,3,0,0,0,0
 2020-06-03,Vieirópolis,3,0,0,0,0
@@ -5515,7 +5515,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-04,Juru,5,0,0,0,0
 2020-06-04,São José dos Cordeiros,3,0,0,0,0
 2020-06-04,Aguiar,1,0,0,0,0
-2020-06-04,Mato Grosso,7,0,0,0,0
+2020-06-04,Mato Grosso,6,0,0,0,0
 2020-06-04,Gurjão,15,1,0,0,0
 2020-06-04,Lagoa,3,0,0,0,0
 2020-06-04,Vieirópolis,3,0,0,0,0
@@ -5720,7 +5720,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-05,Juru,5,0,0,0,0
 2020-06-05,São José dos Cordeiros,3,0,0,0,0
 2020-06-05,Aguiar,1,0,0,0,0
-2020-06-05,Mato Grosso,7,0,0,0,0
+2020-06-05,Mato Grosso,6,0,0,0,0
 2020-06-05,Gurjão,15,1,0,0,0
 2020-06-05,Lagoa,3,0,0,0,0
 2020-06-05,Vieirópolis,3,0,0,0,0
@@ -5927,7 +5927,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-06,Juru,5,0,0,0,0
 2020-06-06,São José dos Cordeiros,3,0,0,0,0
 2020-06-06,Aguiar,1,0,0,0,0
-2020-06-06,Mato Grosso,7,0,0,0,0
+2020-06-06,Mato Grosso,6,0,0,0,0
 2020-06-06,Gurjão,15,1,0,0,0
 2020-06-06,Lagoa,3,0,0,0,0
 2020-06-06,Vieirópolis,3,0,0,0,0
@@ -6135,7 +6135,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-07,Juru,5,0,0,0,0
 2020-06-07,São José dos Cordeiros,3,0,0,0,0
 2020-06-07,Aguiar,1,0,0,0,0
-2020-06-07,Mato Grosso,7,0,0,0,0
+2020-06-07,Mato Grosso,6,0,0,0,0
 2020-06-07,Gurjão,15,1,0,0,0
 2020-06-07,Lagoa,3,0,0,0,0
 2020-06-07,Vieirópolis,3,0,0,0,0
@@ -6343,7 +6343,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-08,Juru,5,0,0,0,0
 2020-06-08,São José dos Cordeiros,3,0,0,0,0
 2020-06-08,Aguiar,1,0,0,0,0
-2020-06-08,Mato Grosso,7,0,0,0,0
+2020-06-08,Mato Grosso,6,0,0,0,0
 2020-06-08,Gurjão,15,1,0,0,0
 2020-06-08,Lagoa,3,0,0,0,0
 2020-06-08,Vieirópolis,3,0,0,0,0
@@ -6551,7 +6551,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-09,Juru,5,0,0,0,0
 2020-06-09,São José dos Cordeiros,3,0,0,0,0
 2020-06-09,Aguiar,1,0,0,0,0
-2020-06-09,Mato Grosso,7,0,0,0,0
+2020-06-09,Mato Grosso,6,0,0,0,0
 2020-06-09,Gurjão,15,1,0,0,0
 2020-06-09,Lagoa,3,0,0,0,0
 2020-06-09,Vieirópolis,3,0,0,0,0
@@ -6759,7 +6759,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Juru,5,0,0,0,0
 2020-06-10,São José dos Cordeiros,3,0,0,0,0
 2020-06-10,Aguiar,1,0,0,0,0
-2020-06-10,Mato Grosso,7,0,0,0,0
+2020-06-10,Mato Grosso,6,0,0,0,0
 2020-06-10,Gurjão,16,1,0,1,0
 2020-06-10,Lagoa,3,0,0,0,0
 2020-06-10,Vieirópolis,3,0,0,0,0
@@ -6945,7 +6945,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-11,Salgado de São Félix,43,0,0,3,0
 2020-06-11,Conceição,4,0,0,0,0
 2020-06-11,Curral de Cima,11,0,0,1,0
-2020-06-11,Olho d'Água,25,0,0,2,0
+2020-06-11,Olho d'Água,24,0,0,1,0
 2020-06-11,Amparo,12,0,0,0,0
 2020-06-11,Seridó,18,0,0,0,0
 2020-06-11,Arara,33,0,0,0,0
@@ -6969,7 +6969,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-11,Juru,5,0,0,0,0
 2020-06-11,São José dos Cordeiros,3,0,0,0,0
 2020-06-11,Aguiar,1,0,0,0,0
-2020-06-11,Mato Grosso,7,0,0,0,0
+2020-06-11,Mato Grosso,6,0,0,0,0
 2020-06-11,Gurjão,16,1,0,0,0
 2020-06-11,Lagoa,3,0,0,0,0
 2020-06-11,Vieirópolis,3,0,0,0,0
@@ -7155,7 +7155,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-12,Salgado de São Félix,44,0,0,1,0
 2020-06-12,Conceição,5,0,0,1,0
 2020-06-12,Curral de Cima,11,0,0,0,0
-2020-06-12,Olho d'Água,25,0,0,0,0
+2020-06-12,Olho d'Água,24,0,0,0,0
 2020-06-12,Amparo,12,0,0,0,0
 2020-06-12,Seridó,18,0,0,0,0
 2020-06-12,Arara,36,0,0,3,0
@@ -7179,7 +7179,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-12,Juru,5,0,0,0,0
 2020-06-12,São José dos Cordeiros,3,0,0,0,0
 2020-06-12,Aguiar,1,0,0,0,0
-2020-06-12,Mato Grosso,7,0,0,0,0
+2020-06-12,Mato Grosso,6,0,0,0,0
 2020-06-12,Gurjão,16,1,0,0,0
 2020-06-12,Lagoa,3,0,0,0,0
 2020-06-12,Vieirópolis,3,0,0,0,0
@@ -7366,7 +7366,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-13,Salgado de São Félix,44,0,0,0,0
 2020-06-13,Conceição,5,0,0,0,0
 2020-06-13,Curral de Cima,11,0,0,0,0
-2020-06-13,Olho d'Água,25,0,0,0,0
+2020-06-13,Olho d'Água,24,0,0,0,0
 2020-06-13,Amparo,12,0,0,0,0
 2020-06-13,Seridó,18,0,0,0,0
 2020-06-13,Arara,39,0,0,3,0
@@ -7390,7 +7390,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-13,Juru,8,0,0,3,0
 2020-06-13,São José dos Cordeiros,3,0,0,0,0
 2020-06-13,Aguiar,2,0,0,1,0
-2020-06-13,Mato Grosso,7,0,0,0,0
+2020-06-13,Mato Grosso,6,0,0,0,0
 2020-06-13,Gurjão,16,1,0,0,0
 2020-06-13,Lagoa,3,0,0,0,0
 2020-06-13,Vieirópolis,3,0,0,0,0
@@ -7578,7 +7578,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-14,Salgado de São Félix,44,0,0,0,0
 2020-06-14,Conceição,5,0,0,0,0
 2020-06-14,Curral de Cima,11,0,0,0,0
-2020-06-14,Olho d'Água,25,0,0,0,0
+2020-06-14,Olho d'Água,24,0,0,0,0
 2020-06-14,Amparo,12,0,0,0,0
 2020-06-14,Seridó,18,0,0,0,0
 2020-06-14,Arara,39,0,0,0,0
@@ -7602,7 +7602,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-14,Juru,8,0,0,0,0
 2020-06-14,São José dos Cordeiros,3,0,0,0,0
 2020-06-14,Aguiar,2,0,0,0,0
-2020-06-14,Mato Grosso,7,0,0,0,0
+2020-06-14,Mato Grosso,6,0,0,0,0
 2020-06-14,Gurjão,16,1,0,0,0
 2020-06-14,Lagoa,3,0,0,0,0
 2020-06-14,Vieirópolis,3,0,0,0,0
@@ -7791,7 +7791,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-15,Salgado de São Félix,47,0,0,3,0
 2020-06-15,Conceição,5,0,0,0,0
 2020-06-15,Curral de Cima,11,0,0,0,0
-2020-06-15,Olho d'Água,25,0,0,0,0
+2020-06-15,Olho d'Água,24,0,0,0,0
 2020-06-15,Amparo,12,0,0,0,0
 2020-06-15,Seridó,18,0,0,0,0
 2020-06-15,Arara,40,0,0,1,0
@@ -7815,7 +7815,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-15,Juru,8,0,0,0,0
 2020-06-15,São José dos Cordeiros,3,0,0,0,0
 2020-06-15,Aguiar,2,0,0,0,0
-2020-06-15,Mato Grosso,7,0,0,0,0
+2020-06-15,Mato Grosso,6,0,0,0,0
 2020-06-15,Gurjão,16,1,0,0,0
 2020-06-15,Lagoa,3,0,0,0,0
 2020-06-15,Vieirópolis,3,0,0,0,0
@@ -8005,7 +8005,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-16,Salgado de São Félix,56,0,0,9,0
 2020-06-16,Conceição,5,0,0,0,0
 2020-06-16,Curral de Cima,11,0,0,0,0
-2020-06-16,Olho d'Água,25,0,0,0,0
+2020-06-16,Olho d'Água,24,0,0,0,0
 2020-06-16,Amparo,12,0,0,0,0
 2020-06-16,Seridó,18,0,0,0,0
 2020-06-16,Arara,45,0,0,5,0
@@ -8029,7 +8029,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-16,Juru,9,0,0,1,0
 2020-06-16,São José dos Cordeiros,3,0,0,0,0
 2020-06-16,Aguiar,3,0,0,1,0
-2020-06-16,Mato Grosso,7,0,0,0,0
+2020-06-16,Mato Grosso,6,0,0,0,0
 2020-06-16,Gurjão,17,1,0,1,0
 2020-06-16,Lagoa,3,0,0,0,0
 2020-06-16,Vieirópolis,3,0,0,0,0
@@ -8043,7 +8043,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-16,Tavares,15,0,0,4,0
 2020-06-16,Várzea,2,0,0,0,0
 2020-06-16,Riacho de Santo Antônio,6,0,0,1,0
-2020-06-16,São Bentinho,16,0,0,1,0
+2020-06-16,São Bentinho,15,0,0,0,0
 2020-06-16,Desterro,17,0,0,4,0
 2020-06-16,Cabaceiras,7,0,0,0,0
 2020-06-16,Cacimbas,25,1,0,1,0
@@ -8118,7 +8118,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Congo,15,1,0,2,0
 2020-06-17,Bom Jesus,2,0,0,0,0
 2020-06-17,Cajazeiras,279,7,0,19,0
-2020-06-17,Cruz do Espírito Santo,167,11,0,2,1
+2020-06-17,Cruz do Espírito Santo,166,11,0,1,1
 2020-06-17,Itabaiana,399,5,0,5,0
 2020-06-17,Conde,216,4,0,17,1
 2020-06-17,Coremas,23,0,0,0,0
@@ -8222,7 +8222,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Salgado de São Félix,61,0,0,5,0
 2020-06-17,Conceição,5,0,0,0,0
 2020-06-17,Curral de Cima,13,0,0,2,0
-2020-06-17,Olho d'Água,25,0,0,0,0
+2020-06-17,Olho d'Água,24,0,0,0,0
 2020-06-17,Amparo,12,0,0,0,0
 2020-06-17,Seridó,18,0,0,0,0
 2020-06-17,Arara,46,0,0,1,0
@@ -8246,7 +8246,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Juru,9,0,0,0,0
 2020-06-17,São José dos Cordeiros,3,0,0,0,0
 2020-06-17,Aguiar,3,0,0,0,0
-2020-06-17,Mato Grosso,7,0,0,0,0
+2020-06-17,Mato Grosso,6,0,0,0,0
 2020-06-17,Gurjão,17,1,0,0,0
 2020-06-17,Lagoa,3,0,0,0,0
 2020-06-17,Vieirópolis,3,0,0,0,0
@@ -8260,7 +8260,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Tavares,20,0,0,5,0
 2020-06-17,Várzea,2,0,0,0,0
 2020-06-17,Riacho de Santo Antônio,6,0,0,0,0
-2020-06-17,São Bentinho,16,0,0,0,0
+2020-06-17,São Bentinho,15,0,0,0,0
 2020-06-17,Desterro,17,0,0,0,0
 2020-06-17,Cabaceiras,7,0,0,0,0
 2020-06-17,Cacimbas,28,1,0,3,0
@@ -8335,7 +8335,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Congo,15,1,0,0,0
 2020-06-18,Bom Jesus,2,0,0,0,0
 2020-06-18,Cajazeiras,279,7,0,0,0
-2020-06-18,Cruz do Espírito Santo,167,11,0,0,0
+2020-06-18,Cruz do Espírito Santo,166,11,0,0,0
 2020-06-18,Itabaiana,400,5,0,1,0
 2020-06-18,Conde,218,5,0,2,1
 2020-06-18,Coremas,23,0,0,0,0
@@ -8439,7 +8439,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Salgado de São Félix,61,0,0,0,0
 2020-06-18,Conceição,5,0,0,0,0
 2020-06-18,Curral de Cima,13,0,0,0,0
-2020-06-18,Olho d'Água,25,0,0,0,0
+2020-06-18,Olho d'Água,24,0,0,0,0
 2020-06-18,Amparo,12,0,0,0,0
 2020-06-18,Seridó,18,0,0,0,0
 2020-06-18,Arara,46,0,0,0,0
@@ -8463,7 +8463,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Juru,9,0,0,0,0
 2020-06-18,São José dos Cordeiros,3,0,0,0,0
 2020-06-18,Aguiar,3,0,0,0,0
-2020-06-18,Mato Grosso,7,0,0,0,0
+2020-06-18,Mato Grosso,6,0,0,0,0
 2020-06-18,Gurjão,17,1,0,0,0
 2020-06-18,Lagoa,3,0,0,0,0
 2020-06-18,Vieirópolis,3,0,0,0,0
@@ -8477,7 +8477,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Tavares,20,0,0,0,0
 2020-06-18,Várzea,2,0,0,0,0
 2020-06-18,Riacho de Santo Antônio,6,0,0,0,0
-2020-06-18,São Bentinho,16,0,0,0,0
+2020-06-18,São Bentinho,15,0,0,0,0
 2020-06-18,Desterro,17,0,0,0,0
 2020-06-18,Cabaceiras,7,0,0,0,0
 2020-06-18,Cacimbas,28,1,0,0,0
@@ -8532,3 +8532,221 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Zabelê,1,0,0,0,0
 2020-06-18,São Domingos do Cariri,1,0,0,0,0
 2020-06-18,Paraíba,31760,709,7978,48,13
+2020-06-19,João Pessoa,10065,247,0,1081,0
+2020-06-19,Campina Grande,5254,61,0,471,1
+2020-06-19,Santa Rita,1045,88,0,39,0
+2020-06-19,Sousa,391,2,0,6,0
+2020-06-19,Igaracy,2,0,0,0,0
+2020-06-19,Patos,1020,46,0,70,2
+2020-06-19,Cabedelo,1530,12,0,54,0
+2020-06-19,Serra Branca,20,0,0,7,0
+2020-06-19,Junco do Seridó,16,0,0,2,0
+2020-06-19,Bayeux,678,45,0,47,2
+2020-06-19,São João do Rio do Peixe,30,0,0,2,0
+2020-06-19,Taperoá,40,1,0,3,0
+2020-06-19,Sapé,403,15,0,39,1
+2020-06-19,Pombal,108,0,0,4,0
+2020-06-19,São Bento,466,7,0,26,0
+2020-06-19,Riachão do Poço,18,1,0,1,0
+2020-06-19,Queimadas,322,1,0,29,1
+2020-06-19,Congo,15,1,0,0,0
+2020-06-19,Bom Jesus,2,0,0,0,0
+2020-06-19,Cajazeiras,309,9,0,30,2
+2020-06-19,Cruz do Espírito Santo,166,11,0,0,0
+2020-06-19,Itabaiana,460,5,0,60,0
+2020-06-19,Conde,236,5,0,18,0
+2020-06-19,Coremas,24,0,0,1,0
+2020-06-19,Alagoa Nova,123,3,0,15,0
+2020-06-19,Barra de São Miguel,6,1,0,1,0
+2020-06-19,Itapororoca,97,3,0,4,0
+2020-06-19,Guarabira,1562,15,0,166,1
+2020-06-19,Pedras de Fogo,756,9,0,151,0
+2020-06-19,Itaporanga,15,1,0,7,0
+2020-06-19,Alagoa Grande,255,5,0,5,0
+2020-06-19,Brejo do Cruz,53,2,0,6,0
+2020-06-19,Caaporã,660,10,0,34,0
+2020-06-19,Coxixola,8,0,0,0,0
+2020-06-19,Boqueirão,74,1,0,1,0
+2020-06-19,Marizópolis,5,1,0,0,0
+2020-06-19,Areia,115,1,0,3,0
+2020-06-19,Gurinhém,111,0,0,12,0
+2020-06-19,Esperança,188,0,0,19,0
+2020-06-19,Lagoa Seca,290,3,0,52,0
+2020-06-19,Mari,256,6,0,33,0
+2020-06-19,Lucena,140,1,0,0,0
+2020-06-19,Catingueira,10,1,0,2,0
+2020-06-19,Araçagi,154,0,0,39,0
+2020-06-19,São José do Bonfim,41,1,0,1,1
+2020-06-19,Alhandra,269,7,0,11,0
+2020-06-19,Riacho dos Cavalos,3,0,0,0,0
+2020-06-19,Santa Helena,3,0,0,0,0
+2020-06-19,São José de Piranhas,21,0,0,4,0
+2020-06-19,Umbuzeiro,22,1,0,4,0
+2020-06-19,Rio Tinto,279,7,0,57,0
+2020-06-19,Princesa Isabel,30,1,0,3,0
+2020-06-19,Mamanguape,793,11,0,118,0
+2020-06-19,Serra Redonda,96,0,0,8,0
+2020-06-19,Casserengue,80,0,0,7,0
+2020-06-19,Caiçara,92,1,0,26,0
+2020-06-19,Imaculada,11,0,0,0,0
+2020-06-19,Monteiro,55,1,0,6,0
+2020-06-19,Pilar,92,1,0,12,0
+2020-06-19,Pilõezinhos,110,0,0,11,0
+2020-06-19,Pitimbu,385,3,0,33,0
+2020-06-19,São José de Espinharas,5,0,0,0,0
+2020-06-19,Piancó,34,2,0,4,0
+2020-06-19,Serra da Raiz,12,0,0,0,0
+2020-06-19,Mulungu,102,1,0,10,0
+2020-06-19,Alagoinha,270,1,0,9,0
+2020-06-19,Mataraca,71,2,0,7,0
+2020-06-19,Pirpirituba,49,0,0,4,0
+2020-06-19,Nova Floresta,9,0,0,3,0
+2020-06-19,Uiraúna,15,1,0,0,0
+2020-06-19,Capim,91,2,0,19,0
+2020-06-19,Remígio,123,2,0,9,0
+2020-06-19,São Sebastião de Lagoa de Roça,85,0,0,12,0
+2020-06-19,Matinhas,31,0,0,1,0
+2020-06-19,Pilões,30,0,0,0,0
+2020-06-19,Condado,54,0,0,1,0
+2020-06-19,Juazeirinho,84,0,0,6,0
+2020-06-19,Massaranduba,89,0,0,4,0
+2020-06-19,Santa Luzia,141,4,0,15,0
+2020-06-19,Baía da Traição,120,1,0,8,0
+2020-06-19,Juripiranga,246,3,0,33,0
+2020-06-19,Cuitegi,77,1,0,5,0
+2020-06-19,Borborema,4,0,0,2,0
+2020-06-19,Pocinhos,30,0,0,2,0
+2020-06-19,Sobrado,60,1,0,6,0
+2020-06-19,Riachão do Bacamarte,157,0,0,11,0
+2020-06-19,São Miguel de Taipu,59,1,0,0,0
+2020-06-19,Sertãozinho,29,0,0,2,0
+2020-06-19,Cajazeirinhas,1,0,0,0,0
+2020-06-19,Bananeiras,62,0,0,6,0
+2020-06-19,Teixeira,43,1,0,5,0
+2020-06-19,Santarém,1,0,0,0,0
+2020-06-19,Campo de Santana,42,1,0,0,0
+2020-06-19,Barra de Santana,39,0,0,1,0
+2020-06-19,São José dos Ramos,56,0,0,5,0
+2020-06-19,Soledade,64,0,0,8,0
+2020-06-19,Ingá,224,2,0,46,0
+2020-06-19,Gado Bravo,52,1,0,2,0
+2020-06-19,Puxinanã,114,0,0,15,0
+2020-06-19,Aroeiras,67,0,0,0,0
+2020-06-19,São José do Sabugi,112,1,0,12,0
+2020-06-19,Duas Estradas,37,1,0,0,0
+2020-06-19,Lagoa de Dentro,11,0,0,0,0
+2020-06-19,Malta,19,0,0,0,0
+2020-06-19,Santa Teresinha,25,0,0,1,0
+2020-06-19,Juarez Távora,80,0,0,12,0
+2020-06-19,Natuba,25,0,0,6,0
+2020-06-19,Cuité de Mamanguape,28,0,0,3,0
+2020-06-19,Maturéia,18,0,0,1,0
+2020-06-19,Itatuba,94,1,0,7,0
+2020-06-19,Belém,146,1,0,29,0
+2020-06-19,Mogeiro,49,1,0,17,0
+2020-06-19,Cuité,42,1,0,7,0
+2020-06-19,Solânea,121,0,0,7,0
+2020-06-19,Quixabá,23,0,0,1,0
+2020-06-19,Nova Olinda,5,0,0,0,0
+2020-06-19,Serraria,20,2,0,0,0
+2020-06-19,Vista Serrana,3,0,0,1,0
+2020-06-19,Areial,19,1,0,1,0
+2020-06-19,Picuí,58,0,0,4,0
+2020-06-19,Jacaraú,54,2,0,4,0
+2020-06-19,Salgado de São Félix,68,0,0,7,0
+2020-06-19,Conceição,5,0,0,0,0
+2020-06-19,Curral de Cima,15,0,0,2,0
+2020-06-19,Olho d'Água,24,0,0,0,0
+2020-06-19,Amparo,12,0,0,0,0
+2020-06-19,Seridó,18,0,0,0,0
+2020-06-19,Arara,56,0,0,10,0
+2020-06-19,Logradouro,23,0,0,2,0
+2020-06-19,Cacimba de Dentro,38,0,0,2,0
+2020-06-19,Boa Vista,47,0,0,1,0
+2020-06-19,Passagem,19,0,0,2,0
+2020-06-19,Lastro,10,0,0,1,0
+2020-06-19,Caturité,36,0,0,0,0
+2020-06-19,São José de Caiana,22,0,0,0,0
+2020-06-19,Catolé do Rocha,102,5,0,5,1
+2020-06-19,São José da Lagoa Tapada,17,0,0,0,0
+2020-06-19,São Mamede,23,2,0,1,0
+2020-06-19,Paulista,54,1,0,2,0
+2020-06-19,Caldas Brandão,45,2,0,10,0
+2020-06-19,Belém do Brejo do Cruz,6,0,0,0,0
+2020-06-19,Cachoeira dos Índios,33,3,0,3,2
+2020-06-19,Ibiara,5,0,0,0,0
+2020-06-19,Jericó,3,0,0,0,0
+2020-06-19,Montadas,27,0,0,3,0
+2020-06-19,Juru,9,0,0,0,0
+2020-06-19,São José dos Cordeiros,3,0,0,0,0
+2020-06-19,Aguiar,7,0,0,4,0
+2020-06-19,Mato Grosso,6,0,0,0,0
+2020-06-19,Gurjão,17,1,0,0,0
+2020-06-19,Lagoa,3,0,0,0,0
+2020-06-19,Vieirópolis,4,0,0,1,0
+2020-06-19,Fagundes,26,2,0,3,0
+2020-06-19,Manaíra,2,0,0,0,0
+2020-06-19,São João do Tigre,3,0,0,2,0
+2020-06-19,Aparecida,17,0,0,4,0
+2020-06-19,Sumé,28,0,0,2,0
+2020-06-19,Barra de Santa Rosa,15,0,0,0,0
+2020-06-19,Água Branca,17,2,0,0,0
+2020-06-19,Tavares,24,0,0,4,0
+2020-06-19,Várzea,4,0,0,2,0
+2020-06-19,Riacho de Santo Antônio,6,0,0,0,0
+2020-06-19,São Bentinho,15,0,0,0,0
+2020-06-19,Desterro,25,0,0,8,0
+2020-06-19,Cabaceiras,9,0,0,2,0
+2020-06-19,Cacimbas,28,1,0,0,0
+2020-06-19,Mãe d'Água,11,0,0,1,0
+2020-06-19,Carrapateira,1,0,0,0,0
+2020-06-19,Dona Inês,6,0,0,0,0
+2020-06-19,Emas,1,0,0,0,0
+2020-06-19,Araruna,28,2,0,5,1
+2020-06-19,Ouro Velho,0,0,0,0,0
+2020-06-19,São João do Cariri,21,0,0,0,0
+2020-06-19,Santa Cecília,11,0,0,1,0
+2020-06-19,Damião,2,0,0,0,0
+2020-06-19,Salgadinho,9,0,0,1,0
+2020-06-19,São Francisco,7,0,0,0,0
+2020-06-19,Santana dos Garrotes,2,0,0,0,0
+2020-06-19,Tenório,7,0,0,0,0
+2020-06-19,Assunção,21,0,0,1,0
+2020-06-19,Areia de Baraúnas,1,0,0,0,0
+2020-06-19,Alcantil,6,0,0,0,0
+2020-06-19,Boa Ventura,1,0,0,0,0
+2020-06-19,Olivedos,17,0,0,4,0
+2020-06-19,Pedro Régis,3,0,0,2,0
+2020-06-19,São Sebastião do Umbuzeiro,4,0,0,0,0
+2020-06-19,Santa Inês,5,0,0,0,0
+2020-06-19,Marcação,13,0,0,1,0
+2020-06-19,Livramento,9,0,0,2,0
+2020-06-19,Baraúna,90,0,0,8,0
+2020-06-19,Cacimba de Areia,7,0,0,0,0
+2020-06-19,Cubati,31,0,0,7,0
+2020-06-19,Nova Palmeira,17,0,0,1,0
+2020-06-19,Bonito de Santa Fé,1,0,0,0,0
+2020-06-19,Serra Grande,3,0,0,1,0
+2020-06-19,Curral Velho,1,0,0,0,0
+2020-06-19,Pedra Lavrada,17,0,0,0,0
+2020-06-19,Nazarezinho,4,1,0,0,0
+2020-06-19,Caraúbas,5,0,0,1,0
+2020-06-19,Bernardino Batista,2,0,0,0,0
+2020-06-19,Diamante,2,0,0,0,0
+2020-06-19,Santo André,1,0,0,0,0
+2020-06-19,Prata,0,0,0,0,0
+2020-06-19,Riachão,11,0,0,0,0
+2020-06-19,Bom Sucesso,5,0,0,0,0
+2020-06-19,Brejo dos Santos,3,0,0,0,0
+2020-06-19,Santa Cruz,6,0,0,1,0
+2020-06-19,Parari,2,0,0,0,0
+2020-06-19,Sossêgo,4,0,0,0,0
+2020-06-19,São José de Princesa,0,0,0,0,0
+2020-06-19,Triunfo,1,0,0,0,0
+2020-06-19,Frei Martinho,1,0,0,0,0
+2020-06-19,São José do Brejo do Cruz,1,0,0,0,0
+2020-06-19,Camalaú,1,0,0,0,0
+2020-06-19,Zabelê,1,0,0,0,0
+2020-06-19,São Domingos do Cariri,2,0,0,1,0
+2020-06-19,Algodão de Jandaíra,1,0,0,1,0
+2020-06-19,Paraíba,35093,724,9366,3333,15
