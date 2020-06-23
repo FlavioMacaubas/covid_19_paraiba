@@ -468,6 +468,7 @@ app.layout = html.Div(
                                     {"label": "Óbitos", "value": "obitos"},
                                     {"label": "Ativos", "value": "ativos"},
                                     {"label": "Novos Casos ", "value": "novos_casos"},
+                                    {"label": "Letalidade ", "value": "letalidade"},
                                 ],
                                 value="confirmados",
                                 labelStyle={"display": "inline-block"},
@@ -977,28 +978,39 @@ def update_image_src(selector):
     return figure
 
 
-# Atualiza gráfico de linha Paraíba
+# Atualiza gráfico de linha Brasil
 @app.callback(
-    dash.dependencies.Output('example-graph-2', 'figure'),
-    [dash.dependencies.Input('Cities', 'value'), dash.dependencies.Input('situacao', 'value')])
+    dash.dependencies.Output('brasil-grafico-1', 'figure'),
+    [dash.dependencies.Input('Estados', 'value'), dash.dependencies.Input('situacao_br', 'value')])
 def update_image_src(selector, situacao):
     if len(selector) == 0:
-        selector.append('Paraíba')
+        selector.append('SP')
     data = []
 
     if situacao == 'ativos':
-        for cidade in selector:
-            data.append(
-                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'],
-                 'y': df_pb.loc[df_pb['cidade'] == cidade]['confirmados'] -
-                      df_pb.loc[df_pb['cidade'] == cidade]['obitos'] -
-                      df_pb.loc[df_pb['cidade'] == cidade]['recuperados'],
-                 'type': 'line', 'name': cidade})
+        for estado in selector:
+            if estado == 'BR':
+                data.append(
+                    {'x': list(df[df['state'] == 'TOTAL']['date']),
+                     'y': df[df['state'] == 'TOTAL']['totalCasesMS'].values
+                          - df[df['state'] == 'TOTAL']['deathsMS'].values
+                          - df[df['state'] == 'TOTAL']['recovered'].values,
+                     'type': 'line', 'name': estado})
+            else:
+                data.append({'x': list(df[df['state'] == estado]['date']),
+                             'y': df[df['state'] == estado]['totalCasesMS'].values
+                                  - df[df['state'] == estado]['deathsMS'].values
+                                  - df[df['state'] == estado]['recovered'].values,
+                             'type': 'line', 'name': estado})
     else:
-        for cidade in selector:
-            data.append(
-                {'x': df_pb.loc[df_pb['cidade'] == cidade]['data'], 'y': df_pb.loc[df_pb['cidade'] == cidade][situacao],
-                 'type': 'line', 'name': cidade})
+        for estado in selector:
+            if estado == 'BR':
+                data.append(
+                    {'x': list(df[df['state'] == 'TOTAL']['date']), 'y': df[df['state'] == 'TOTAL'][situacao].values,
+                     'type': 'line', 'name': estado})
+            else:
+                data.append({'x': list(df[df['state'] == estado]['date']), 'y': df[df['state'] == estado][situacao].values,
+                             'type': 'line', 'name': estado})
     figure = {
         'data': data,
         'layout': {
@@ -1016,11 +1028,11 @@ def update_image_src(selector, situacao):
                     family='Helvetica, monospace',
                     size=20,
                     color='#7f7f7f'
-                ))
+                )),
         }
     }
-    return figure
 
+    return figure
 
 # Menus Paraiba
 @app.callback(
