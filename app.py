@@ -72,8 +72,10 @@ for cidade in df_pb['cidade'].unique():
 
 base_dados_pb = pd.DataFrame({'cidade': cidades, 'confirmados': total_casos, 'obitos': total_mortes})
 base_dados_pb = base_dados_pb.loc[base_dados_pb['cidade'] != 'Paraíba']
+base_dados_pb = base_dados_pb.loc[base_dados_pb['confirmados'] > 0]
 
 lista_maiores_pb = []
+
 for cidade in base_dados_pb.sort_values('confirmados', ascending=False)['cidade']:
     div = html.Strong([base_dados_pb.loc[base_dados_pb['cidade'] == cidade][
                            'confirmados'].values[-1]],
@@ -259,7 +261,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 24/06 às 19:00h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 25/06 às 19:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
