@@ -834,3 +834,25 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-02,2020-06-20,Santa Rita,mulher,91.0,Não,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-06-2020
 2020-06-16,2020-06-23,São Bento,mulher,74.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-06-2020
 2020-06-10,2020-06-11,Serra Branca,mulher,79.0,Não,Não,Sim,Não,Não,Sim,Não,Sim,Não,Público,2020-06-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-06-2020
+2020-06-08,2020-06-22,Araruna,homem,84.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-03,2020-06-23,Bayeux,homem,70.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-10,2020-06-25,Cajazeiras,mulher,60.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-04,2020-06-25,Catolé do Rocha,homem,79.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-22,2020-06-04,Dona Inês,mulher,68.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-07,2020-06-24,João Pessoa,mulher,51.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-10,2020-06-23,João Pessoa,homem,95.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-07,2020-06-23,João Pessoa,homem,48.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-14,2020-06-18,João Pessoa,mulher,40.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-03,2020-06-11,João Pessoa,mulher,66.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-25,2020-06-23,João Pessoa,homem,62.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-23,2020-06-22,João Pessoa,homem,70.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-02,2020-06-01,João Pessoa,homem,71.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-14,2020-06-24,Logradouro,homem,75.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-01,2020-06-25,Massaranduba,mulher,68.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-28,2020-06-24,Mataraca,mulher,96.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-26,2020-06-06,Matinhas,homem,86.0,Sim,Não,Sim,Não,Sim,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-06,2020-06-25,Piancó,mulher,71.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-22,2020-06-25,Queimadas,mulher,79.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-31,2020-06-02,Santa Rita,mulher,47.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-05-20,2020-06-04,Santa Rita,homem,77.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
+2020-06-02,2020-06-23,Sousa,mulher,55.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-26-06-2020
