@@ -903,3 +903,23 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-05,2020-06-11,João Pessoa,mulher,84.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-06-2020
 2020-06-19,2020-06-23,Rio Tinto,mulher,77.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,Público,2020-06-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-06-2020
 2020-06-02,2020-06-12,Santa Rita,mulher,74.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Público,2020-06-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-06-2020
+2020-05-29,2020-06-27,Bayeux,homem,69.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-05-28,2020-06-10,Caiçara,mulher,83.0,Sim,Não,Não,Sim,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-06,2020-06-14,Campina Grande,homem,55.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-10,2020-06-14,Campina Grande,homem,67.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-10,2020-06-22,Campina Grande,homem,69.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-05-23,2020-06-05,Campina Grande,mulher,88.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-05-18,2020-05-29,Campina Grande,homem,62.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-15,2020-06-17,Guarabira,homem,79.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Residência,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-19,2020-06-27,Guarabira,homem,60.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Residência,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-17,2020-06-25,Ingá,mulher,63.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-16,2020-05-28,João Pessoa,homem,41.0,Sim,Não,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-10,2020-06-28,João Pessoa,homem,73.0,Sim,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-02,2020-06-28,João Pessoa,homem,74.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-24,2020-06-26,João Pessoa,homem,71.0,Sim,Não,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-24,2020-06-28,João Pessoa,mulher,59.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-25,2020-06-27,João Pessoa,homem,55.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-05-31,2020-06-17,João Pessoa,homem,79.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Privado,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-05-31,2020-06-26,Patos,homem,67.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-10,2020-06-26,Patos,homem,82.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
+2020-06-11,2020-06-28,Teixeira,mulher,90.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-06-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-29-06-2020
