@@ -1054,3 +1054,23 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-06,2020-06-10,Mamanguape,mulher,82.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-07-2020
 2020-06-10,2020-06-13,Mamanguape,mulher,92.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-07-2020
 2020-05-27,2020-06-03,Santa Luzia,mulher,19.0,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,Público,2020-07-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-07-2020
+2020-06-04,2020-06-26,Alagoa Grande,mulher,84.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-05-29,2020-06-18,Alagoa Nova,homem,58.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-19,2020-06-30,Boqueirão,mulher,67.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-26,2020-07-03,Cabedelo,homem,71.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-08,2020-06-25,Campina Grande,homem,68.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-05-30,2020-06-14,Campina Grande,mulher,61.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-05-10,2020-05-20,Campina Grande,homem,81.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-06,2020-07-02,Campina Grande,homem,85.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-05-23,2020-07-01,Catolé do Rocha,homem,73.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-10,2020-07-01,Cuitegi,homem,49.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-13,2020-06-26,Esperança,homem,61.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-25,2020-07-02,João Pessoa,homem,44.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-06,2020-06-13,João Pessoa,homem,57.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-19,2020-06-28,Patos,mulher,78.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-25,2020-07-04,Patos,homem,80.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-07-02,2020-07-03,Picuí,homem,55.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-11,2020-07-01,Pilar,mulher,89.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-19,2020-06-23,Rio Tinto,mulher,77.0,Não,Não,Não,Sim,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-20,2020-07-02,São José do Bonfim,mulher,92.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
+2020-06-19,2020-07-03,São Miguel de Taipu,homem,60.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-04,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-04-07-2020
