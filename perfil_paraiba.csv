@@ -1163,3 +1163,28 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-14,2020-07-06,João Pessoa,mulher,69.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-08,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-07-2020
 2020-06-09,2020-07-08,Cajazeiras,mulher,79.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-08,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-07-2020
 2020-06-24,2020-07-08,Sousa,homem,31.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-08,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-08-07-2020
+2020-06-18,2020-06-26,Arara,homem,69.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-14,2020-07-04,Belém,mulher,86.0,Não,Sim,Não,Não,Sim,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-22,2020-07-05,Belém,mulher,72.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-07-01,2020-07-09,Boa Vista,homem,73.0,Não,Não,Sim,Não,Não,Não,Sim,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-16,2020-07-05,Campina Grande,homem,80.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-21,2020-07-04,Campina Grande,mulher,68.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-06,2020-05-12,Conde,homem,37.0,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-10,2020-07-04,Coremas,mulher,84.0,Não,Não,Sim,Não,Não,Não,Sim,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-27,2020-07-05,Guarabira,mulher,77.0,Sim,Sim,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-27,2020-06-23,Itabaiana,homem,93.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-30,2020-06-15,João Pessoa,homem,89.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Privado,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-08,2020-05-08,João Pessoa,homem,44.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-09,2020-05-25,João Pessoa,homem,46.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-12,2020-06-18,João Pessoa,homem,68.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Privado,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-21,2020-07-08,João Pessoa,mulher,63.0,Não,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-30,2020-06-23,João Pessoa,homem,75.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-15,2020-07-08,João Pessoa,homem,53.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-22,2020-06-04,João Pessoa,mulher,75.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-05-17,2020-05-26,João Pessoa,mulher,73.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Privado,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-27,2020-07-07,Pedras de Fogo,mulher,66.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-01,2020-07-08,Pitimbu,homem,35.0,Sim,Não,Não,Não,Não,Não,Sim,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-13,2020-07-04,Santa Rita,homem,63.0,Sim,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-07-03,2020-07-06,São Bento,mulher,73.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-01,2020-06-22,Sapé,homem,50.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
+2020-06-02,2020-07-08,Sapé,mulher,70.0,Não,Sim,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-07-09,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-09-07-2020
