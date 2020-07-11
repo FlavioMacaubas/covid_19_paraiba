@@ -13149,7 +13149,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-09,Triunfo,13,0,0,2,0
 2020-07-09,Frei Martinho,3,0,0,0,0
 2020-07-09,São José do Brejo do Cruz,5,0,0,0,0
-2020-07-09,Camalaú,2,0,0,1,0
+2020-07-09,Camalaú,1,0,0,0,0
 2020-07-09,Zabelê,6,0,0,2,0
 2020-07-09,São Domingos do Cariri,26,1,0,4,0
 2020-07-09,Algodão de Jandaíra,4,0,0,0,0
@@ -13350,7 +13350,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Cacimba de Areia,7,0,0,0,0
 2020-07-10,Cubati,55,0,0,0,0
 2020-07-10,Nova Palmeira,40,0,0,1,0
-2020-07-10,Bonito de Santa Fé,7,1,0,1,0
+2020-07-10,Bonito de Santa Fé,6,1,0,0,0
 2020-07-10,Serra Grande,8,0,0,0,0
 2020-07-10,Curral Velho,1,0,0,0,0
 2020-07-10,Pedra Lavrada,26,0,0,3,0
@@ -13370,7 +13370,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Triunfo,14,0,0,1,0
 2020-07-10,Frei Martinho,3,0,0,0,0
 2020-07-10,São José do Brejo do Cruz,5,0,0,0,0
-2020-07-10,Camalaú,2,0,0,0,0
+2020-07-10,Camalaú,1,0,0,0,0
 2020-07-10,Zabelê,8,0,0,2,0
 2020-07-10,São Domingos do Cariri,28,1,0,2,0
 2020-07-10,Algodão de Jandaíra,4,0,0,0,0
@@ -13378,3 +13378,224 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Poço Dantas,3,0,0,0,0
 2020-07-10,São Domingos,0,0,0,0,0
 2020-07-10,Paraíba,59118,1229,21481,1504,33
+2020-07-11,João Pessoa,16566,439,0,349,16
+2020-07-11,Campina Grande,8136,146,0,167,0
+2020-07-11,Santa Rita,1490,110,0,22,1
+2020-07-11,Sousa,664,6,0,1,0
+2020-07-11,Igaracy,4,0,0,0,0
+2020-07-11,Patos,1952,57,0,0,0
+2020-07-11,Cabedelo,2015,24,0,19,1
+2020-07-11,Serra Branca,95,1,0,3,0
+2020-07-11,Junco do Seridó,31,0,0,1,0
+2020-07-11,Bayeux,1071,56,0,16,0
+2020-07-11,São João do Rio do Peixe,102,0,0,6,0
+2020-07-11,Taperoá,51,2,0,0,0
+2020-07-11,Sapé,651,22,0,17,0
+2020-07-11,Pombal,186,1,0,13,0
+2020-07-11,São Bento,710,11,0,12,0
+2020-07-11,Riachão do Poço,43,1,0,2,0
+2020-07-11,Queimadas,674,4,0,18,0
+2020-07-11,Congo,41,1,0,1,0
+2020-07-11,Bom Jesus,6,0,0,0,0
+2020-07-11,Cajazeiras,794,23,0,28,2
+2020-07-11,Cruz do Espírito Santo,236,14,0,2,0
+2020-07-11,Itabaiana,813,11,0,20,0
+2020-07-11,Conde,500,7,0,14,0
+2020-07-11,Coremas,47,1,0,3,0
+2020-07-11,Alagoa Nova,204,7,0,4,0
+2020-07-11,Barra de São Miguel,12,1,0,0,0
+2020-07-11,Itapororoca,308,3,0,9,0
+2020-07-11,Guarabira,2679,26,0,48,0
+2020-07-11,Pedras de Fogo,1071,15,0,11,0
+2020-07-11,Itaporanga,59,1,0,2,0
+2020-07-11,Alagoa Grande,547,9,0,3,0
+2020-07-11,Brejo do Cruz,158,2,0,5,0
+2020-07-11,Caaporã,807,10,0,4,0
+2020-07-11,Coxixola,12,0,0,0,0
+2020-07-11,Boqueirão,171,2,0,4,0
+2020-07-11,Marizópolis,8,1,0,0,0
+2020-07-11,Areia,203,1,0,11,0
+2020-07-11,Gurinhém,249,2,0,4,0
+2020-07-11,Esperança,316,3,0,6,0
+2020-07-11,Lagoa Seca,498,6,0,3,0
+2020-07-11,Mari,591,12,0,0,0
+2020-07-11,Lucena,220,2,0,1,0
+2020-07-11,Catingueira,15,2,0,0,0
+2020-07-11,Araçagi,345,2,0,18,0
+2020-07-11,São José do Bonfim,52,2,0,1,0
+2020-07-11,Alhandra,397,13,0,6,0
+2020-07-11,Riacho dos Cavalos,5,0,0,0,0
+2020-07-11,Santa Helena,10,0,0,0,0
+2020-07-11,São José de Piranhas,77,0,0,0,0
+2020-07-11,Umbuzeiro,52,2,0,9,0
+2020-07-11,Rio Tinto,670,10,0,70,0
+2020-07-11,Princesa Isabel,46,2,0,1,0
+2020-07-11,Mamanguape,1638,22,0,33,1
+2020-07-11,Serra Redonda,157,0,0,1,0
+2020-07-11,Casserengue,153,1,0,5,0
+2020-07-11,Caiçara,298,3,0,9,0
+2020-07-11,Imaculada,26,0,0,0,0
+2020-07-11,Monteiro,144,1,0,5,0
+2020-07-11,Pilar,204,3,0,12,0
+2020-07-11,Pilõezinhos,182,0,0,0,0
+2020-07-11,Pitimbu,539,5,0,0,0
+2020-07-11,São José de Espinharas,11,0,0,0,0
+2020-07-11,Piancó,95,3,0,6,0
+2020-07-11,Serra da Raiz,14,0,0,0,0
+2020-07-11,Mulungu,229,4,0,0,0
+2020-07-11,Alagoinha,577,3,0,6,0
+2020-07-11,Mataraca,121,4,0,0,0
+2020-07-11,Pirpirituba,139,2,0,11,0
+2020-07-11,Nova Floresta,26,0,0,1,0
+2020-07-11,Uiraúna,30,1,0,2,0
+2020-07-11,Capim,127,4,0,0,0
+2020-07-11,Remígio,183,3,0,3,0
+2020-07-11,São Sebastião de Lagoa de Roça,140,0,0,0,0
+2020-07-11,Matinhas,51,1,0,0,0
+2020-07-11,Pilões,42,0,0,0,0
+2020-07-11,Condado,92,1,0,4,0
+2020-07-11,Juazeirinho,127,0,0,2,0
+2020-07-11,Massaranduba,222,1,0,1,0
+2020-07-11,Santa Luzia,180,6,0,1,0
+2020-07-11,Baía da Traição,301,3,0,11,0
+2020-07-11,Juripiranga,335,5,0,0,0
+2020-07-11,Cuitegi,189,3,0,14,0
+2020-07-11,Borborema,7,0,0,0,0
+2020-07-11,Pocinhos,69,1,0,1,0
+2020-07-11,Sobrado,102,2,0,0,0
+2020-07-11,Riachão do Bacamarte,193,0,0,1,0
+2020-07-11,São Miguel de Taipu,80,2,0,0,0
+2020-07-11,Sertãozinho,62,0,0,0,0
+2020-07-11,Cajazeirinhas,1,0,0,0,0
+2020-07-11,Bananeiras,97,1,0,0,0
+2020-07-11,Teixeira,88,2,0,0,0
+2020-07-11,Santarém,2,0,0,0,0
+2020-07-11,Campo de Santana,91,1,0,10,0
+2020-07-11,Barra de Santana,70,0,0,2,0
+2020-07-11,São José dos Ramos,136,0,0,14,0
+2020-07-11,Soledade,101,1,0,1,0
+2020-07-11,Ingá,438,3,0,16,0
+2020-07-11,Gado Bravo,78,1,0,1,0
+2020-07-11,Puxinanã,205,1,0,4,0
+2020-07-11,Aroeiras,109,0,0,6,0
+2020-07-11,São José do Sabugi,169,1,0,0,0
+2020-07-11,Duas Estradas,44,1,0,0,0
+2020-07-11,Lagoa de Dentro,60,0,0,10,0
+2020-07-11,Malta,26,1,0,0,0
+2020-07-11,Santa Teresinha,40,0,0,1,0
+2020-07-11,Juarez Távora,212,1,0,6,0
+2020-07-11,Natuba,45,1,0,0,0
+2020-07-11,Cuité de Mamanguape,72,3,0,4,0
+2020-07-11,Maturéia,25,1,0,0,0
+2020-07-11,Itatuba,197,1,0,11,0
+2020-07-11,Belém,490,5,0,20,0
+2020-07-11,Mogeiro,96,1,0,4,0
+2020-07-11,Cuité,125,1,0,2,0
+2020-07-11,Solânea,204,1,0,5,0
+2020-07-11,Quixabá,26,0,0,0,0
+2020-07-11,Nova Olinda,7,0,0,0,0
+2020-07-11,Serraria,45,2,0,1,0
+2020-07-11,Vista Serrana,2,0,0,0,0
+2020-07-11,Areial,34,1,0,1,0
+2020-07-11,Picuí,125,2,0,11,0
+2020-07-11,Jacaraú,171,2,0,6,0
+2020-07-11,Salgado de São Félix,126,2,0,0,0
+2020-07-11,Conceição,122,0,0,7,0
+2020-07-11,Curral de Cima,15,0,0,0,0
+2020-07-11,Olho d'Água,35,0,0,0,0
+2020-07-11,Amparo,12,0,0,0,0
+2020-07-11,Seridó,28,0,0,1,0
+2020-07-11,Arara,130,3,0,7,0
+2020-07-11,Logradouro,92,2,0,8,0
+2020-07-11,Cacimba de Dentro,73,0,0,0,0
+2020-07-11,Boa Vista,61,1,0,1,0
+2020-07-11,Passagem,30,0,0,0,0
+2020-07-11,Lastro,15,0,0,0,0
+2020-07-11,Caturité,63,0,0,0,0
+2020-07-11,São José de Caiana,32,0,0,0,0
+2020-07-11,Catolé do Rocha,183,8,0,4,0
+2020-07-11,São José da Lagoa Tapada,18,0,0,0,0
+2020-07-11,São Mamede,33,3,0,0,0
+2020-07-11,Paulista,70,1,0,2,0
+2020-07-11,Caldas Brandão,111,2,0,1,0
+2020-07-11,Belém do Brejo do Cruz,13,0,0,0,0
+2020-07-11,Cachoeira dos Índios,48,3,0,0,0
+2020-07-11,Ibiara,13,0,0,0,0
+2020-07-11,Jericó,5,0,0,0,0
+2020-07-11,Montadas,35,1,0,0,0
+2020-07-11,Juru,14,0,0,1,0
+2020-07-11,São José dos Cordeiros,5,0,0,0,0
+2020-07-11,Aguiar,19,0,0,0,0
+2020-07-11,Mato Grosso,7,0,0,0,0
+2020-07-11,Gurjão,19,1,0,0,0
+2020-07-11,Lagoa,4,0,0,0,0
+2020-07-11,Vieirópolis,4,0,0,0,0
+2020-07-11,Fagundes,59,2,0,1,0
+2020-07-11,Manaíra,7,0,0,0,0
+2020-07-11,São João do Tigre,4,0,0,0,0
+2020-07-11,Aparecida,37,1,0,1,0
+2020-07-11,Sumé,93,0,0,1,0
+2020-07-11,Barra de Santa Rosa,30,0,0,0,0
+2020-07-11,Água Branca,37,2,0,2,0
+2020-07-11,Tavares,32,0,0,0,0
+2020-07-11,Várzea,8,0,0,0,0
+2020-07-11,Riacho de Santo Antônio,19,0,0,1,0
+2020-07-11,São Bentinho,24,0,0,0,0
+2020-07-11,Desterro,42,1,0,0,0
+2020-07-11,Cabaceiras,19,0,0,3,0
+2020-07-11,Cacimbas,39,1,0,0,0
+2020-07-11,Mãe d'Água,15,0,0,0,0
+2020-07-11,Carrapateira,27,0,0,1,0
+2020-07-11,Dona Inês,42,1,0,0,0
+2020-07-11,Emas,5,0,0,0,0
+2020-07-11,Araruna,149,4,0,0,0
+2020-07-11,Ouro Velho,0,0,0,0,0
+2020-07-11,São João do Cariri,44,0,0,5,0
+2020-07-11,Santa Cecília,45,0,0,14,0
+2020-07-11,Damião,3,0,0,0,0
+2020-07-11,Salgadinho,11,0,0,0,0
+2020-07-11,São Francisco,12,0,0,0,0
+2020-07-11,Santana dos Garrotes,6,0,0,0,0
+2020-07-11,Tenório,13,0,0,2,0
+2020-07-11,Assunção,27,0,0,0,0
+2020-07-11,Areia de Baraúnas,2,0,0,0,0
+2020-07-11,Alcantil,22,0,0,0,0
+2020-07-11,Boa Ventura,2,0,0,0,0
+2020-07-11,Olivedos,44,0,0,0,0
+2020-07-11,Pedro Régis,30,1,0,1,0
+2020-07-11,São Sebastião do Umbuzeiro,5,0,0,1,0
+2020-07-11,Santa Inês,25,0,0,5,0
+2020-07-11,Marcação,111,0,0,16,0
+2020-07-11,Livramento,47,0,0,1,0
+2020-07-11,Baraúna,120,0,0,1,0
+2020-07-11,Cacimba de Areia,7,0,0,0,0
+2020-07-11,Cubati,56,0,0,1,0
+2020-07-11,Nova Palmeira,40,0,0,0,0
+2020-07-11,Bonito de Santa Fé,6,1,0,0,0
+2020-07-11,Serra Grande,8,0,0,0,0
+2020-07-11,Curral Velho,1,0,0,0,0
+2020-07-11,Pedra Lavrada,26,0,0,0,0
+2020-07-11,Nazarezinho,10,1,0,1,0
+2020-07-11,Caraúbas,29,0,0,3,0
+2020-07-11,Bernardino Batista,3,0,0,0,0
+2020-07-11,Diamante,3,0,0,0,0
+2020-07-11,Santo André,5,0,0,0,0
+2020-07-11,Prata,2,0,0,0,0
+2020-07-11,Riachão,35,0,0,3,0
+2020-07-11,Bom Sucesso,7,0,0,0,0
+2020-07-11,Brejo dos Santos,14,0,0,6,0
+2020-07-11,Santa Cruz,14,1,0,1,0
+2020-07-11,Parari,4,0,0,0,0
+2020-07-11,Sossêgo,8,0,0,0,0
+2020-07-11,São José de Princesa,1,0,0,0,0
+2020-07-11,Triunfo,15,0,0,1,0
+2020-07-11,Frei Martinho,4,0,0,1,0
+2020-07-11,São José do Brejo do Cruz,5,0,0,0,0
+2020-07-11,Camalaú,1,0,0,0,0
+2020-07-11,Zabelê,8,0,0,0,0
+2020-07-11,São Domingos do Cariri,29,1,0,1,0
+2020-07-11,Algodão de Jandaíra,4,0,0,0,0
+2020-07-11,Santana de Mangueira,5,0,0,0,0
+2020-07-11,Poço Dantas,3,0,0,0,0
+2020-07-11,São Domingos,0,0,0,0,0
+2020-07-11,Paraíba,60421,1250,22116,1303,21
