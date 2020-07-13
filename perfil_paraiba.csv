@@ -1276,3 +1276,21 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-15,2020-05-26,João Pessoa,homem,31.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Não,Público,2020-07-12,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-07-2020
 2020-05-17,2020-05-24,João Pessoa,homem,71.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-12,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-07-2020
 2020-05-03,2020-05-13,Campina Grande,mulher,65.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-12,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-12-07-2020
+2020-06-12,2020-07-13,Casserengue,mulher,80.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-25,2020-07-12,Bayeux,homem,48.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-04-22,2020-07-12,Cabedelo,homem,50.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-30,2020-07-12,Pedras de Fogo,mulher,38.0,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-13,2020-07-12,Queimadas,homem,93.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-07-02,2020-07-11,João Pessoa,homem,93.0,Sim,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-10,2020-07-11,Lagoa Seca,mulher,72.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-24,2020-07-09,Mamanguape,homem,63.0,Sim,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-07-04,2020-07-08,Cabedelo,homem,54.0,Não,Não,Não,Não,Não,Sim,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-19,2020-07-03,João Pessoa,mulher,84.0,Sim,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-12,2020-06-26,Campina Grande,mulher,96.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-09,2020-06-17,Campina Grande,homem,97.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-06-06,2020-06-15,Campina Grande,homem,86.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-05-20,2020-06-14,João Pessoa,homem,50.0,Sim,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-05-18,2020-06-07,João Pessoa,homem,82.0,Sim,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-05-21,2020-06-02,João Pessoa,mulher,27.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-05-20,2020-05-30,Pedras de Fogo,mulher,77.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
+2020-05-17,2020-05-24,João Pessoa,homem,68.0,Não,Não,Sim,Não,Não,Sim,Não,Sim,Não,Público,2020-07-13,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-13-07-2020
