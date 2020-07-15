@@ -261,7 +261,7 @@ app.layout = html.Div(
         ], className='banner'),
 
         dcc.Markdown(children=
-                     ''' > Atualização Covid-19 14/07 às 19:40h. Para melhor experiência acesse pelo computador.
+                     ''' > Atualização Covid-19 15/07 às 20:30h. Para melhor experiência acesse pelo computador.
         '''),
 
         dcc.Tabs([
