@@ -2539,7 +2539,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Bananeiras,11,0,0,2,0
 2020-05-19,Teixeira,4,0,0,0,0
 2020-05-19,Santarém,1,0,0,0,0
-2020-05-19,Campo de Santana,2,1,0,0,1
+2020-05-19,Campo de Santana,2,0,0,0,0
 2020-05-19,Barra de Santana,4,0,0,0,0
 2020-05-19,São José dos Ramos,4,0,0,0,0
 2020-05-19,Soledade,2,0,0,0,0
@@ -2688,7 +2688,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Bananeiras,14,0,0,3,0
 2020-05-20,Teixeira,4,0,0,0,0
 2020-05-20,Santarém,1,0,0,0,0
-2020-05-20,Campo de Santana,2,1,0,0,0
+2020-05-20,Campo de Santana,2,0,0,0,0
 2020-05-20,Barra de Santana,9,0,0,5,0
 2020-05-20,São José dos Ramos,4,0,0,0,0
 2020-05-20,Soledade,2,0,0,0,0
@@ -2846,7 +2846,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Bananeiras,14,0,0,0,0
 2020-05-21,Teixeira,9,0,0,5,0
 2020-05-21,Santarém,1,0,0,0,0
-2020-05-21,Campo de Santana,3,1,0,1,0
+2020-05-21,Campo de Santana,3,0,0,1,0
 2020-05-21,Barra de Santana,9,0,0,0,0
 2020-05-21,São José dos Ramos,4,0,0,0,0
 2020-05-21,Soledade,2,0,0,0,0
@@ -3008,7 +3008,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Bananeiras,14,0,0,0,0
 2020-05-22,Teixeira,9,0,0,0,0
 2020-05-22,Santarém,1,0,0,0,0
-2020-05-22,Campo de Santana,7,1,0,4,0
+2020-05-22,Campo de Santana,7,0,0,4,0
 2020-05-22,Barra de Santana,9,0,0,0,0
 2020-05-22,São José dos Ramos,4,0,0,0,0
 2020-05-22,Soledade,4,0,0,2,0
@@ -3183,7 +3183,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Bananeiras,15,0,0,1,0
 2020-05-23,Teixeira,12,0,0,3,0
 2020-05-23,Santarém,1,0,0,0,0
-2020-05-23,Campo de Santana,9,1,0,2,0
+2020-05-23,Campo de Santana,9,0,0,2,0
 2020-05-23,Barra de Santana,9,0,0,0,0
 2020-05-23,São José dos Ramos,4,0,0,0,0
 2020-05-23,Soledade,4,0,0,0,0
@@ -3361,7 +3361,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Bananeiras,15,0,0,0,0
 2020-05-24,Teixeira,12,0,0,0,0
 2020-05-24,Santarém,1,0,0,0,0
-2020-05-24,Campo de Santana,9,1,0,0,0
+2020-05-24,Campo de Santana,9,0,0,0,0
 2020-05-24,Barra de Santana,9,0,0,0,0
 2020-05-24,São José dos Ramos,4,0,0,0,0
 2020-05-24,Soledade,4,0,0,0,0
@@ -3540,7 +3540,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Bananeiras,15,0,0,0,0
 2020-05-25,Teixeira,13,0,0,1,0
 2020-05-25,Santarém,1,0,0,0,0
-2020-05-25,Campo de Santana,9,1,0,0,0
+2020-05-25,Campo de Santana,9,0,0,0,0
 2020-05-25,Barra de Santana,12,0,0,3,0
 2020-05-25,São José dos Ramos,4,0,0,0,0
 2020-05-25,Soledade,4,0,0,0,0
@@ -3721,7 +3721,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Bananeiras,16,0,0,1,0
 2020-05-26,Teixeira,13,0,0,0,0
 2020-05-26,Santarém,1,0,0,0,0
-2020-05-26,Campo de Santana,9,1,0,0,0
+2020-05-26,Campo de Santana,9,0,0,0,0
 2020-05-26,Barra de Santana,12,0,0,0,0
 2020-05-26,São José dos Ramos,5,0,0,1,0
 2020-05-26,Soledade,4,0,0,0,0
@@ -3903,7 +3903,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Bananeiras,16,0,0,0,0
 2020-05-27,Teixeira,13,0,0,0,0
 2020-05-27,Santarém,1,0,0,0,0
-2020-05-27,Campo de Santana,9,1,0,0,0
+2020-05-27,Campo de Santana,9,0,0,0,0
 2020-05-27,Barra de Santana,12,0,0,0,0
 2020-05-27,São José dos Ramos,5,0,0,0,0
 2020-05-27,Soledade,6,0,0,2,0
@@ -4089,7 +4089,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Bananeiras,16,0,0,0,0
 2020-05-28,Teixeira,13,0,0,0,0
 2020-05-28,Santarém,1,0,0,0,0
-2020-05-28,Campo de Santana,9,1,0,0,0
+2020-05-28,Campo de Santana,9,0,0,0,0
 2020-05-28,Barra de Santana,13,0,0,1,0
 2020-05-28,São José dos Ramos,9,0,0,4,0
 2020-05-28,Soledade,7,0,0,1,0
@@ -4279,7 +4279,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-29,Bananeiras,17,0,0,1,0
 2020-05-29,Teixeira,15,0,0,2,0
 2020-05-29,Santarém,1,0,0,0,0
-2020-05-29,Campo de Santana,14,1,0,5,0
+2020-05-29,Campo de Santana,14,0,0,5,0
 2020-05-29,Barra de Santana,13,0,0,0,0
 2020-05-29,São José dos Ramos,9,0,0,0,0
 2020-05-29,Soledade,8,0,0,1,0
@@ -4472,7 +4472,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-30,Bananeiras,22,0,0,5,0
 2020-05-30,Teixeira,17,0,0,2,0
 2020-05-30,Santarém,1,0,0,0,0
-2020-05-30,Campo de Santana,14,1,0,0,0
+2020-05-30,Campo de Santana,14,0,0,0,0
 2020-05-30,Barra de Santana,15,0,0,2,0
 2020-05-30,São José dos Ramos,10,0,0,1,0
 2020-05-30,Soledade,9,0,0,1,0
@@ -4667,7 +4667,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-31,Bananeiras,26,0,0,4,0
 2020-05-31,Teixeira,17,0,0,0,0
 2020-05-31,Santarém,1,0,0,0,0
-2020-05-31,Campo de Santana,16,1,0,2,0
+2020-05-31,Campo de Santana,16,0,0,2,0
 2020-05-31,Barra de Santana,15,0,0,0,0
 2020-05-31,São José dos Ramos,10,0,0,0,0
 2020-05-31,Soledade,9,0,0,0,0
@@ -4863,7 +4863,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-01,Bananeiras,26,0,0,0,0
 2020-06-01,Teixeira,17,0,0,0,0
 2020-06-01,Santarém,1,0,0,0,0
-2020-06-01,Campo de Santana,16,1,0,0,0
+2020-06-01,Campo de Santana,16,0,0,0,0
 2020-06-01,Barra de Santana,16,0,0,1,0
 2020-06-01,São José dos Ramos,10,0,0,0,0
 2020-06-01,Soledade,9,0,0,0,0
@@ -5059,7 +5059,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-02,Bananeiras,26,0,0,0,0
 2020-06-02,Teixeira,17,0,0,0,0
 2020-06-02,Santarém,1,0,0,0,0
-2020-06-02,Campo de Santana,16,1,0,0,0
+2020-06-02,Campo de Santana,16,0,0,0,0
 2020-06-02,Barra de Santana,18,0,0,2,0
 2020-06-02,São José dos Ramos,12,0,0,2,0
 2020-06-02,Soledade,12,0,0,3,0
@@ -5258,7 +5258,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-03,Bananeiras,31,0,0,5,0
 2020-06-03,Teixeira,18,0,0,1,0
 2020-06-03,Santarém,1,0,0,0,0
-2020-06-03,Campo de Santana,16,1,0,0,0
+2020-06-03,Campo de Santana,16,0,0,0,0
 2020-06-03,Barra de Santana,18,0,0,0,0
 2020-06-03,São José dos Ramos,17,0,0,5,0
 2020-06-03,Soledade,12,0,0,0,0
@@ -5459,7 +5459,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-04,Bananeiras,36,0,0,5,0
 2020-06-04,Teixeira,25,0,0,7,0
 2020-06-04,Santarém,1,0,0,0,0
-2020-06-04,Campo de Santana,16,1,0,0,0
+2020-06-04,Campo de Santana,16,0,0,0,0
 2020-06-04,Barra de Santana,19,0,0,1,0
 2020-06-04,São José dos Ramos,17,0,0,0,0
 2020-06-04,Soledade,13,0,0,1,0
@@ -5664,7 +5664,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-05,Bananeiras,38,0,0,2,0
 2020-06-05,Teixeira,25,0,0,0,0
 2020-06-05,Santarém,1,0,0,0,0
-2020-06-05,Campo de Santana,28,1,0,12,0
+2020-06-05,Campo de Santana,28,0,0,12,0
 2020-06-05,Barra de Santana,19,0,0,0,0
 2020-06-05,São José dos Ramos,19,0,0,2,0
 2020-06-05,Soledade,16,0,0,3,0
@@ -5871,7 +5871,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-06,Bananeiras,38,0,0,0,0
 2020-06-06,Teixeira,26,0,0,1,0
 2020-06-06,Santarém,1,0,0,0,0
-2020-06-06,Campo de Santana,28,1,0,0,0
+2020-06-06,Campo de Santana,28,0,0,0,0
 2020-06-06,Barra de Santana,23,0,0,4,0
 2020-06-06,São José dos Ramos,21,0,0,2,0
 2020-06-06,Soledade,18,0,0,2,0
@@ -6079,7 +6079,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-07,Bananeiras,39,0,0,1,0
 2020-06-07,Teixeira,28,0,0,2,0
 2020-06-07,Santarém,1,0,0,0,0
-2020-06-07,Campo de Santana,30,1,0,2,0
+2020-06-07,Campo de Santana,30,0,0,2,0
 2020-06-07,Barra de Santana,23,0,0,0,0
 2020-06-07,São José dos Ramos,21,0,0,0,0
 2020-06-07,Soledade,19,0,0,1,0
@@ -6287,7 +6287,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-08,Bananeiras,39,0,0,0,0
 2020-06-08,Teixeira,28,0,0,0,0
 2020-06-08,Santarém,1,0,0,0,0
-2020-06-08,Campo de Santana,32,1,0,2,0
+2020-06-08,Campo de Santana,32,0,0,2,0
 2020-06-08,Barra de Santana,23,0,0,0,0
 2020-06-08,São José dos Ramos,21,0,0,0,0
 2020-06-08,Soledade,19,0,0,0,0
@@ -6495,7 +6495,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-09,Bananeiras,42,0,0,3,0
 2020-06-09,Teixeira,28,0,0,0,0
 2020-06-09,Santarém,1,0,0,0,0
-2020-06-09,Campo de Santana,32,1,0,0,0
+2020-06-09,Campo de Santana,32,0,0,0,0
 2020-06-09,Barra de Santana,28,0,0,5,0
 2020-06-09,São José dos Ramos,28,0,0,7,0
 2020-06-09,Soledade,26,0,0,7,0
@@ -6703,7 +6703,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Bananeiras,44,0,0,2,0
 2020-06-10,Teixeira,28,0,0,0,0
 2020-06-10,Santarém,1,0,0,0,0
-2020-06-10,Campo de Santana,32,1,0,0,0
+2020-06-10,Campo de Santana,32,0,0,0,0
 2020-06-10,Barra de Santana,28,0,0,0,0
 2020-06-10,São José dos Ramos,28,0,0,0,0
 2020-06-10,Soledade,27,0,0,1,0
@@ -6913,7 +6913,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-11,Bananeiras,47,0,0,3,0
 2020-06-11,Teixeira,32,0,0,4,0
 2020-06-11,Santarém,1,0,0,0,0
-2020-06-11,Campo de Santana,33,1,0,1,0
+2020-06-11,Campo de Santana,33,0,0,1,0
 2020-06-11,Barra de Santana,29,0,0,1,0
 2020-06-11,São José dos Ramos,28,0,0,0,0
 2020-06-11,Soledade,31,0,0,4,0
@@ -7123,7 +7123,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-12,Bananeiras,48,0,0,1,0
 2020-06-12,Teixeira,32,0,0,0,0
 2020-06-12,Santarém,1,0,0,0,0
-2020-06-12,Campo de Santana,41,1,0,8,0
+2020-06-12,Campo de Santana,41,0,0,8,0
 2020-06-12,Barra de Santana,31,0,0,2,0
 2020-06-12,São José dos Ramos,31,0,0,3,0
 2020-06-12,Soledade,33,0,0,2,0
@@ -7334,7 +7334,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-13,Bananeiras,48,0,0,0,0
 2020-06-13,Teixeira,34,1,0,2,1
 2020-06-13,Santarém,1,0,0,0,0
-2020-06-13,Campo de Santana,41,1,0,0,0
+2020-06-13,Campo de Santana,41,0,0,0,0
 2020-06-13,Barra de Santana,36,0,0,5,0
 2020-06-13,São José dos Ramos,31,0,0,0,0
 2020-06-13,Soledade,38,0,0,5,0
@@ -7546,7 +7546,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-14,Bananeiras,48,0,0,0,0
 2020-06-14,Teixeira,35,1,0,1,0
 2020-06-14,Santarém,1,0,0,0,0
-2020-06-14,Campo de Santana,41,1,0,0,0
+2020-06-14,Campo de Santana,41,0,0,0,0
 2020-06-14,Barra de Santana,36,0,0,0,0
 2020-06-14,São José dos Ramos,31,0,0,0,0
 2020-06-14,Soledade,45,0,0,7,0
@@ -7759,7 +7759,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-15,Bananeiras,48,0,0,0,0
 2020-06-15,Teixeira,35,1,0,0,0
 2020-06-15,Santarém,1,0,0,0,0
-2020-06-15,Campo de Santana,41,1,0,0,0
+2020-06-15,Campo de Santana,41,0,0,0,0
 2020-06-15,Barra de Santana,36,0,0,0,0
 2020-06-15,São José dos Ramos,33,0,0,2,0
 2020-06-15,Soledade,45,0,0,0,0
@@ -7973,7 +7973,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-16,Bananeiras,52,0,0,4,0
 2020-06-16,Teixeira,35,1,0,0,0
 2020-06-16,Santarém,1,0,0,0,0
-2020-06-16,Campo de Santana,42,1,0,1,0
+2020-06-16,Campo de Santana,42,0,0,1,0
 2020-06-16,Barra de Santana,37,0,0,1,0
 2020-06-16,São José dos Ramos,47,0,0,14,0
 2020-06-16,Soledade,49,0,0,4,0
@@ -8190,7 +8190,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Bananeiras,56,0,0,4,0
 2020-06-17,Teixeira,38,1,0,3,0
 2020-06-17,Santarém,1,0,0,0,0
-2020-06-17,Campo de Santana,42,1,0,0,0
+2020-06-17,Campo de Santana,42,0,0,0,0
 2020-06-17,Barra de Santana,38,0,0,1,0
 2020-06-17,São José dos Ramos,50,0,0,3,0
 2020-06-17,Soledade,56,0,0,7,0
@@ -8407,7 +8407,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Bananeiras,56,0,0,0,0
 2020-06-18,Teixeira,38,1,0,0,0
 2020-06-18,Santarém,1,0,0,0,0
-2020-06-18,Campo de Santana,42,1,0,0,0
+2020-06-18,Campo de Santana,42,0,0,0,0
 2020-06-18,Barra de Santana,38,0,0,0,0
 2020-06-18,São José dos Ramos,51,0,0,1,0
 2020-06-18,Soledade,56,0,0,0,0
@@ -8624,7 +8624,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-19,Bananeiras,62,0,0,6,0
 2020-06-19,Teixeira,43,1,0,5,0
 2020-06-19,Santarém,1,0,0,0,0
-2020-06-19,Campo de Santana,42,1,0,0,0
+2020-06-19,Campo de Santana,42,0,0,0,0
 2020-06-19,Barra de Santana,39,0,0,1,0
 2020-06-19,São José dos Ramos,56,0,0,5,0
 2020-06-19,Soledade,64,0,0,8,0
@@ -8842,7 +8842,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-20,Bananeiras,63,0,0,1,0
 2020-06-20,Teixeira,46,1,0,3,0
 2020-06-20,Santarém,1,0,0,0,0
-2020-06-20,Campo de Santana,42,1,0,0,0
+2020-06-20,Campo de Santana,42,0,0,0,0
 2020-06-20,Barra de Santana,42,0,0,3,0
 2020-06-20,São José dos Ramos,58,0,0,2,0
 2020-06-20,Soledade,68,0,0,4,0
@@ -9061,7 +9061,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-21,Bananeiras,63,0,0,0,0
 2020-06-21,Teixeira,47,1,0,1,0
 2020-06-21,Santarém,1,0,0,0,0
-2020-06-21,Campo de Santana,42,1,0,0,0
+2020-06-21,Campo de Santana,42,0,0,0,0
 2020-06-21,Barra de Santana,42,0,0,0,0
 2020-06-21,São José dos Ramos,58,0,0,0,0
 2020-06-21,Soledade,68,0,0,0,0
@@ -9280,7 +9280,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-22,Bananeiras,66,1,0,3,1
 2020-06-22,Teixeira,47,1,0,0,0
 2020-06-22,Santarém,1,0,0,0,0
-2020-06-22,Campo de Santana,47,1,0,5,0
+2020-06-22,Campo de Santana,47,0,0,5,0
 2020-06-22,Barra de Santana,42,0,0,0,0
 2020-06-22,São José dos Ramos,67,0,0,9,0
 2020-06-22,Soledade,68,0,0,0,0
@@ -9499,7 +9499,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-23,Bananeiras,68,1,0,2,0
 2020-06-23,Teixeira,47,1,0,0,0
 2020-06-23,Santarém,1,0,0,0,0
-2020-06-23,Campo de Santana,51,1,0,4,0
+2020-06-23,Campo de Santana,51,0,0,4,0
 2020-06-23,Barra de Santana,42,0,0,0,0
 2020-06-23,São José dos Ramos,70,0,0,3,0
 2020-06-23,Soledade,71,0,0,3,0
@@ -9677,7 +9677,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-24,Santa Helena,9,0,0,0,0
 2020-06-24,São José de Piranhas,28,0,0,2,0
 2020-06-24,Umbuzeiro,29,1,0,2,0
-2020-06-24,Rio Tinto,348,7,0,8,0
+2020-06-24,Rio Tinto,348,8,0,8,1
 2020-06-24,Princesa Isabel,37,1,0,1,0
 2020-06-24,Mamanguape,1029,12,0,79,0
 2020-06-24,Serra Redonda,114,0,0,5,0
@@ -9719,7 +9719,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-24,Bananeiras,70,1,0,2,0
 2020-06-24,Teixeira,57,1,0,10,0
 2020-06-24,Santarém,1,0,0,0,0
-2020-06-24,Campo de Santana,51,1,0,0,0
+2020-06-24,Campo de Santana,51,0,0,0,0
 2020-06-24,Barra de Santana,44,0,0,2,0
 2020-06-24,São José dos Ramos,70,0,0,0,0
 2020-06-24,Soledade,76,0,0,5,0
@@ -9897,7 +9897,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-25,Santa Helena,9,0,0,0,0
 2020-06-25,São José de Piranhas,28,0,0,0,0
 2020-06-25,Umbuzeiro,30,1,0,1,0
-2020-06-25,Rio Tinto,348,8,0,0,1
+2020-06-25,Rio Tinto,348,9,0,0,1
 2020-06-25,Princesa Isabel,37,1,0,0,0
 2020-06-25,Mamanguape,1029,13,0,0,1
 2020-06-25,Serra Redonda,114,0,0,0,0
@@ -9939,7 +9939,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-25,Bananeiras,71,1,0,1,0
 2020-06-25,Teixeira,57,1,0,0,0
 2020-06-25,Santarém,1,0,0,0,0
-2020-06-25,Campo de Santana,51,1,0,0,0
+2020-06-25,Campo de Santana,51,0,0,0,0
 2020-06-25,Barra de Santana,46,0,0,2,0
 2020-06-25,São José dos Ramos,70,0,0,0,0
 2020-06-25,Soledade,76,0,0,0,0
@@ -10117,7 +10117,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-26,Santa Helena,9,0,0,0,0
 2020-06-26,São José de Piranhas,34,0,0,6,0
 2020-06-26,Umbuzeiro,30,1,0,0,0
-2020-06-26,Rio Tinto,356,8,0,8,0
+2020-06-26,Rio Tinto,356,9,0,8,0
 2020-06-26,Princesa Isabel,38,1,0,1,0
 2020-06-26,Mamanguape,1098,13,0,69,0
 2020-06-26,Serra Redonda,125,0,0,11,0
@@ -10159,7 +10159,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-26,Bananeiras,74,1,0,3,0
 2020-06-26,Teixeira,58,1,0,1,0
 2020-06-26,Santarém,1,0,0,0,0
-2020-06-26,Campo de Santana,51,1,0,0,0
+2020-06-26,Campo de Santana,51,0,0,0,0
 2020-06-26,Barra de Santana,47,0,0,1,0
 2020-06-26,São José dos Ramos,78,0,0,8,0
 2020-06-26,Soledade,81,0,0,5,0
@@ -10337,7 +10337,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-27,Santa Helena,9,0,0,0,0
 2020-06-27,São José de Piranhas,37,0,0,3,0
 2020-06-27,Umbuzeiro,30,2,0,0,1
-2020-06-27,Rio Tinto,369,8,0,13,0
+2020-06-27,Rio Tinto,369,9,0,13,0
 2020-06-27,Princesa Isabel,38,1,0,0,0
 2020-06-27,Mamanguape,1125,14,0,27,1
 2020-06-27,Serra Redonda,125,0,0,0,0
@@ -10379,7 +10379,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-27,Bananeiras,74,1,0,0,0
 2020-06-27,Teixeira,58,1,0,0,0
 2020-06-27,Santarém,1,0,0,0,0
-2020-06-27,Campo de Santana,51,1,0,0,0
+2020-06-27,Campo de Santana,51,0,0,0,0
 2020-06-27,Barra de Santana,49,0,0,2,0
 2020-06-27,São José dos Ramos,78,0,0,0,0
 2020-06-27,Soledade,82,1,0,1,1
@@ -10557,7 +10557,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-28,Santa Helena,10,0,0,1,0
 2020-06-28,São José de Piranhas,38,0,0,1,0
 2020-06-28,Umbuzeiro,30,2,0,0,0
-2020-06-28,Rio Tinto,407,9,0,38,1
+2020-06-28,Rio Tinto,407,10,0,38,1
 2020-06-28,Princesa Isabel,38,1,0,0,0
 2020-06-28,Mamanguape,1126,14,0,1,0
 2020-06-28,Serra Redonda,129,0,0,4,0
@@ -10599,7 +10599,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-28,Bananeiras,74,1,0,0,0
 2020-06-28,Teixeira,58,1,0,0,0
 2020-06-28,Santarém,1,0,0,0,0
-2020-06-28,Campo de Santana,51,1,0,0,0
+2020-06-28,Campo de Santana,51,0,0,0,0
 2020-06-28,Barra de Santana,49,0,0,0,0
 2020-06-28,São José dos Ramos,79,0,0,1,0
 2020-06-28,Soledade,83,1,0,1,0
@@ -10777,7 +10777,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-29,Santa Helena,10,0,0,0,0
 2020-06-29,São José de Piranhas,38,0,0,0,0
 2020-06-29,Umbuzeiro,30,2,0,0,0
-2020-06-29,Rio Tinto,411,9,0,4,0
+2020-06-29,Rio Tinto,411,10,0,4,0
 2020-06-29,Princesa Isabel,38,1,0,0,0
 2020-06-29,Mamanguape,1133,14,0,7,0
 2020-06-29,Serra Redonda,131,0,0,2,0
@@ -10819,7 +10819,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-29,Bananeiras,74,1,0,0,0
 2020-06-29,Teixeira,58,2,0,0,1
 2020-06-29,Santarém,1,0,0,0,0
-2020-06-29,Campo de Santana,51,1,0,0,0
+2020-06-29,Campo de Santana,51,0,0,0,0
 2020-06-29,Barra de Santana,49,0,0,0,0
 2020-06-29,São José dos Ramos,85,0,0,6,0
 2020-06-29,Soledade,83,1,0,0,0
@@ -10997,7 +10997,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-30,Santa Helena,10,0,0,0,0
 2020-06-30,São José de Piranhas,44,0,0,6,0
 2020-06-30,Umbuzeiro,30,2,0,0,0
-2020-06-30,Rio Tinto,411,9,0,0,0
+2020-06-30,Rio Tinto,411,10,0,0,0
 2020-06-30,Princesa Isabel,39,1,0,1,0
 2020-06-30,Mamanguape,1191,16,0,58,2
 2020-06-30,Serra Redonda,131,0,0,0,0
@@ -11039,7 +11039,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-30,Bananeiras,75,1,0,1,0
 2020-06-30,Teixeira,59,2,0,1,0
 2020-06-30,Santarém,1,0,0,0,0
-2020-06-30,Campo de Santana,52,1,0,1,0
+2020-06-30,Campo de Santana,52,0,0,1,0
 2020-06-30,Barra de Santana,54,0,0,5,0
 2020-06-30,São José dos Ramos,85,0,0,0,0
 2020-06-30,Soledade,86,1,0,3,0
@@ -11218,7 +11218,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-01,Santa Helena,10,0,0,0,0
 2020-07-01,São José de Piranhas,53,0,0,9,0
 2020-07-01,Umbuzeiro,33,2,0,3,0
-2020-07-01,Rio Tinto,460,9,0,49,0
+2020-07-01,Rio Tinto,460,10,0,49,0
 2020-07-01,Princesa Isabel,40,1,0,1,0
 2020-07-01,Mamanguape,1248,17,0,57,1
 2020-07-01,Serra Redonda,131,0,0,0,0
@@ -11260,7 +11260,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-01,Bananeiras,78,1,0,3,0
 2020-07-01,Teixeira,67,2,0,8,0
 2020-07-01,Santarém,2,0,0,1,0
-2020-07-01,Campo de Santana,66,1,0,14,0
+2020-07-01,Campo de Santana,66,0,0,14,0
 2020-07-01,Barra de Santana,54,0,0,0,0
 2020-07-01,São José dos Ramos,86,0,0,1,0
 2020-07-01,Soledade,88,1,0,2,0
@@ -11439,7 +11439,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-02,Santa Helena,10,0,0,0,0
 2020-07-02,São José de Piranhas,67,0,0,14,0
 2020-07-02,Umbuzeiro,34,2,0,1,0
-2020-07-02,Rio Tinto,464,9,0,4,0
+2020-07-02,Rio Tinto,464,10,0,4,0
 2020-07-02,Princesa Isabel,40,1,0,0,0
 2020-07-02,Mamanguape,1270,17,0,22,0
 2020-07-02,Serra Redonda,133,0,0,2,0
@@ -11481,7 +11481,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-02,Bananeiras,78,1,0,0,0
 2020-07-02,Teixeira,72,2,0,5,0
 2020-07-02,Santarém,2,0,0,0,0
-2020-07-02,Campo de Santana,66,1,0,0,0
+2020-07-02,Campo de Santana,66,0,0,0,0
 2020-07-02,Barra de Santana,58,0,0,4,0
 2020-07-02,São José dos Ramos,93,0,0,7,0
 2020-07-02,Soledade,89,1,0,1,0
@@ -11660,7 +11660,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-03,Santa Helena,10,0,0,0,0
 2020-07-03,São José de Piranhas,70,0,0,3,0
 2020-07-03,Umbuzeiro,34,2,0,0,0
-2020-07-03,Rio Tinto,529,9,0,65,0
+2020-07-03,Rio Tinto,529,10,0,65,0
 2020-07-03,Princesa Isabel,40,1,0,0,0
 2020-07-03,Mamanguape,1354,20,0,84,3
 2020-07-03,Serra Redonda,142,0,0,9,0
@@ -11702,7 +11702,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-03,Bananeiras,80,1,0,2,0
 2020-07-03,Teixeira,75,2,0,3,0
 2020-07-03,Santarém,2,0,0,0,0
-2020-07-03,Campo de Santana,67,1,0,1,0
+2020-07-03,Campo de Santana,67,0,0,1,0
 2020-07-03,Barra de Santana,59,0,0,1,0
 2020-07-03,São José dos Ramos,93,0,0,0,0
 2020-07-03,Soledade,89,1,0,0,0
@@ -11881,7 +11881,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-04,Santa Helena,10,0,0,0,0
 2020-07-04,São José de Piranhas,70,0,0,0,0
 2020-07-04,Umbuzeiro,43,2,0,9,0
-2020-07-04,Rio Tinto,538,10,0,9,1
+2020-07-04,Rio Tinto,538,11,0,9,1
 2020-07-04,Princesa Isabel,41,1,0,1,0
 2020-07-04,Mamanguape,1382,20,0,28,0
 2020-07-04,Serra Redonda,143,0,0,1,0
@@ -11923,7 +11923,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-04,Bananeiras,83,1,0,3,0
 2020-07-04,Teixeira,78,2,0,3,0
 2020-07-04,Santarém,2,0,0,0,0
-2020-07-04,Campo de Santana,68,1,0,1,0
+2020-07-04,Campo de Santana,68,0,0,1,0
 2020-07-04,Barra de Santana,60,0,0,1,0
 2020-07-04,São José dos Ramos,104,0,0,11,0
 2020-07-04,Soledade,90,1,0,1,0
@@ -12102,7 +12102,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-05,Santa Helena,10,0,0,0,0
 2020-07-05,São José de Piranhas,70,0,0,0,0
 2020-07-05,Umbuzeiro,43,2,0,0,0
-2020-07-05,Rio Tinto,538,10,0,0,0
+2020-07-05,Rio Tinto,538,11,0,0,0
 2020-07-05,Princesa Isabel,41,1,0,0,0
 2020-07-05,Mamanguape,1403,20,0,21,0
 2020-07-05,Serra Redonda,143,0,0,0,0
@@ -12144,7 +12144,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-05,Bananeiras,83,1,0,0,0
 2020-07-05,Teixeira,78,2,0,0,0
 2020-07-05,Santarém,2,0,0,0,0
-2020-07-05,Campo de Santana,68,1,0,0,0
+2020-07-05,Campo de Santana,68,0,0,0,0
 2020-07-05,Barra de Santana,60,0,0,0,0
 2020-07-05,São José dos Ramos,104,0,0,0,0
 2020-07-05,Soledade,90,1,0,0,0
@@ -12323,7 +12323,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-06,Santa Helena,10,0,0,0,0
 2020-07-06,São José de Piranhas,70,0,0,0,0
 2020-07-06,Umbuzeiro,43,2,0,0,0
-2020-07-06,Rio Tinto,538,10,0,0,0
+2020-07-06,Rio Tinto,538,11,0,0,0
 2020-07-06,Princesa Isabel,42,1,0,1,0
 2020-07-06,Mamanguape,1404,20,0,1,0
 2020-07-06,Serra Redonda,143,0,0,0,0
@@ -12365,7 +12365,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-06,Bananeiras,83,1,0,0,0
 2020-07-06,Teixeira,79,2,0,1,0
 2020-07-06,Santarém,2,0,0,0,0
-2020-07-06,Campo de Santana,68,1,0,0,0
+2020-07-06,Campo de Santana,68,0,0,0,0
 2020-07-06,Barra de Santana,64,0,0,4,0
 2020-07-06,São José dos Ramos,104,0,0,0,0
 2020-07-06,Soledade,90,1,0,0,0
@@ -12544,7 +12544,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-07,Santa Helena,10,0,0,0,0
 2020-07-07,São José de Piranhas,70,0,0,0,0
 2020-07-07,Umbuzeiro,43,2,0,0,0
-2020-07-07,Rio Tinto,540,10,0,2,0
+2020-07-07,Rio Tinto,540,11,0,2,0
 2020-07-07,Princesa Isabel,44,2,0,2,1
 2020-07-07,Mamanguape,1428,21,0,24,1
 2020-07-07,Serra Redonda,146,0,0,3,0
@@ -12586,7 +12586,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-07,Bananeiras,91,1,0,8,0
 2020-07-07,Teixeira,79,2,0,0,0
 2020-07-07,Santarém,2,0,0,0,0
-2020-07-07,Campo de Santana,79,1,0,11,0
+2020-07-07,Campo de Santana,79,0,0,11,0
 2020-07-07,Barra de Santana,64,0,0,0,0
 2020-07-07,São José dos Ramos,105,0,0,1,0
 2020-07-07,Soledade,96,1,0,6,0
@@ -12765,7 +12765,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-08,Santa Helena,10,0,0,0,0
 2020-07-08,São José de Piranhas,71,0,0,1,0
 2020-07-08,Umbuzeiro,43,2,0,0,0
-2020-07-08,Rio Tinto,547,10,0,7,0
+2020-07-08,Rio Tinto,547,11,0,7,0
 2020-07-08,Princesa Isabel,45,2,0,1,0
 2020-07-08,Mamanguape,1500,21,0,72,0
 2020-07-08,Serra Redonda,147,0,0,1,0
@@ -12807,7 +12807,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-08,Bananeiras,93,1,0,2,0
 2020-07-08,Teixeira,83,2,0,4,0
 2020-07-08,Santarém,2,0,0,0,0
-2020-07-08,Campo de Santana,81,1,0,2,0
+2020-07-08,Campo de Santana,81,0,0,2,0
 2020-07-08,Barra de Santana,65,0,0,1,0
 2020-07-08,São José dos Ramos,116,0,0,11,0
 2020-07-08,Soledade,99,1,0,3,0
@@ -12986,7 +12986,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-09,Santa Helena,10,0,0,0,0
 2020-07-09,São José de Piranhas,75,0,0,4,0
 2020-07-09,Umbuzeiro,43,2,0,0,0
-2020-07-09,Rio Tinto,593,10,0,46,0
+2020-07-09,Rio Tinto,593,11,0,46,0
 2020-07-09,Princesa Isabel,45,2,0,0,0
 2020-07-09,Mamanguape,1531,21,0,31,0
 2020-07-09,Serra Redonda,153,0,0,6,0
@@ -13028,7 +13028,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-09,Bananeiras,96,1,0,3,0
 2020-07-09,Teixeira,86,2,0,3,0
 2020-07-09,Santarém,2,0,0,0,0
-2020-07-09,Campo de Santana,81,1,0,0,0
+2020-07-09,Campo de Santana,81,0,0,0,0
 2020-07-09,Barra de Santana,67,0,0,2,0
 2020-07-09,São José dos Ramos,116,0,0,0,0
 2020-07-09,Soledade,99,1,0,0,0
@@ -13207,7 +13207,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Santa Helena,10,0,0,0,0
 2020-07-10,São José de Piranhas,77,0,0,2,0
 2020-07-10,Umbuzeiro,43,2,0,0,0
-2020-07-10,Rio Tinto,600,10,0,7,0
+2020-07-10,Rio Tinto,600,11,0,7,0
 2020-07-10,Princesa Isabel,45,2,0,0,0
 2020-07-10,Mamanguape,1605,21,0,74,0
 2020-07-10,Serra Redonda,156,0,0,3,0
@@ -13249,7 +13249,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Bananeiras,97,1,0,1,0
 2020-07-10,Teixeira,88,2,0,2,0
 2020-07-10,Santarém,2,0,0,0,0
-2020-07-10,Campo de Santana,81,1,0,0,0
+2020-07-10,Campo de Santana,81,0,0,0,0
 2020-07-10,Barra de Santana,68,0,0,1,0
 2020-07-10,São José dos Ramos,122,0,0,6,0
 2020-07-10,Soledade,100,1,0,1,0
@@ -13428,7 +13428,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-11,Santa Helena,10,0,0,0,0
 2020-07-11,São José de Piranhas,77,0,0,0,0
 2020-07-11,Umbuzeiro,52,2,0,9,0
-2020-07-11,Rio Tinto,670,10,0,70,0
+2020-07-11,Rio Tinto,670,11,0,70,0
 2020-07-11,Princesa Isabel,46,2,0,1,0
 2020-07-11,Mamanguape,1638,22,0,33,1
 2020-07-11,Serra Redonda,157,0,0,1,0
@@ -13470,7 +13470,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-11,Bananeiras,97,1,0,0,0
 2020-07-11,Teixeira,88,2,0,0,0
 2020-07-11,Santarém,2,0,0,0,0
-2020-07-11,Campo de Santana,91,1,0,10,0
+2020-07-11,Campo de Santana,91,0,0,10,0
 2020-07-11,Barra de Santana,70,0,0,2,0
 2020-07-11,São José dos Ramos,136,0,0,14,0
 2020-07-11,Soledade,101,1,0,1,0
@@ -13649,7 +13649,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-12,Santa Helena,11,0,0,1,0
 2020-07-12,São José de Piranhas,78,0,0,1,0
 2020-07-12,Umbuzeiro,55,2,0,3,0
-2020-07-12,Rio Tinto,670,10,0,0,0
+2020-07-12,Rio Tinto,670,11,0,0,0
 2020-07-12,Princesa Isabel,46,2,0,0,0
 2020-07-12,Mamanguape,1641,22,0,3,0
 2020-07-12,Serra Redonda,157,0,0,0,0
@@ -13691,7 +13691,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-12,Bananeiras,98,1,0,1,0
 2020-07-12,Teixeira,89,2,0,1,0
 2020-07-12,Santarém,2,0,0,0,0
-2020-07-12,Campo de Santana,91,1,0,0,0
+2020-07-12,Campo de Santana,91,0,0,0,0
 2020-07-12,Barra de Santana,70,2,0,0,2
 2020-07-12,São José dos Ramos,138,0,0,2,0
 2020-07-12,Soledade,101,1,0,0,0
@@ -13870,7 +13870,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-13,Santa Helena,11,0,0,0,0
 2020-07-13,São José de Piranhas,78,0,0,0,0
 2020-07-13,Umbuzeiro,55,2,0,0,0
-2020-07-13,Rio Tinto,670,10,0,0,0
+2020-07-13,Rio Tinto,670,11,0,0,0
 2020-07-13,Princesa Isabel,46,2,0,0,0
 2020-07-13,Mamanguape,1644,23,0,3,1
 2020-07-13,Serra Redonda,157,0,0,0,0
@@ -13912,7 +13912,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-13,Bananeiras,98,1,0,0,0
 2020-07-13,Teixeira,89,2,0,0,0
 2020-07-13,Santarém,2,0,0,0,0
-2020-07-13,Campo de Santana,91,1,0,0,0
+2020-07-13,Campo de Santana,91,0,0,0,0
 2020-07-13,Barra de Santana,70,2,0,0,0
 2020-07-13,São José dos Ramos,148,0,0,10,0
 2020-07-13,Soledade,101,1,0,0,0
@@ -14083,7 +14083,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Lagoa Seca,501,7,0,2,0
 2020-07-14,Mari,637,13,0,37,0
 2020-07-14,Lucena,236,2,0,15,0
-2020-07-14,Catingueira,16,2,0,1,0
+2020-07-14,Catingueira,15,2,0,0,0
 2020-07-14,Araçagi,352,2,0,7,0
 2020-07-14,São José do Bonfim,53,2,0,1,0
 2020-07-14,Alhandra,442,13,0,13,0
@@ -14091,7 +14091,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Santa Helena,11,0,0,0,0
 2020-07-14,São José de Piranhas,78,0,0,0,0
 2020-07-14,Umbuzeiro,55,2,0,0,0
-2020-07-14,Rio Tinto,672,12,0,2,2
+2020-07-14,Rio Tinto,672,13,0,2,2
 2020-07-14,Princesa Isabel,47,3,0,1,1
 2020-07-14,Mamanguape,1680,24,0,36,1
 2020-07-14,Serra Redonda,159,0,0,2,0
@@ -14133,7 +14133,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Bananeiras,101,1,0,3,0
 2020-07-14,Teixeira,89,2,0,0,0
 2020-07-14,Santarém,2,0,0,0,0
-2020-07-14,Campo de Santana,91,1,0,0,0
+2020-07-14,Campo de Santana,91,0,0,0,0
 2020-07-14,Barra de Santana,71,2,0,1,0
 2020-07-14,São José dos Ramos,148,0,0,0,0
 2020-07-14,Soledade,104,1,0,3,0
@@ -14261,5 +14261,229 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Santana de Mangueira,5,0,0,0,0
 2020-07-14,Poço Dantas,4,0,0,0,0
 2020-07-14,São Domingos,0,0,0,0,0
-2020-07-14,Monte Horebe,2,0,0,2,0
+2020-07-14,Monte Horebe,1,0,0,1,0
 2020-07-14,Paraíba,62462,1342,23027,1354,40
+2020-07-15,João Pessoa,17223,481,0,293,14
+2020-07-15,Campina Grande,8511,179,0,155,10
+2020-07-15,Santa Rita,1618,112,0,69,0
+2020-07-15,Sousa,773,10,0,63,1
+2020-07-15,Igaracy,4,0,0,0,0
+2020-07-15,Patos,2082,58,0,58,1
+2020-07-15,Cabedelo,2059,26,0,30,0
+2020-07-15,Serra Branca,104,1,0,3,0
+2020-07-15,Junco do Seridó,31,0,0,0,0
+2020-07-15,Bayeux,1122,58,0,18,1
+2020-07-15,São João do Rio do Peixe,113,1,0,9,0
+2020-07-15,Taperoá,53,2,0,1,0
+2020-07-15,Sapé,674,22,0,11,0
+2020-07-15,Pombal,200,1,0,1,0
+2020-07-15,São Bento,820,11,0,60,0
+2020-07-15,Riachão do Poço,49,2,0,2,0
+2020-07-15,Queimadas,694,5,0,11,0
+2020-07-15,Congo,42,1,0,1,0
+2020-07-15,Bom Jesus,6,0,0,0,0
+2020-07-15,Cajazeiras,894,24,0,30,1
+2020-07-15,Cruz do Espírito Santo,243,15,0,1,0
+2020-07-15,Itabaiana,854,13,0,30,0
+2020-07-15,Conde,545,7,0,19,0
+2020-07-15,Coremas,59,1,0,7,0
+2020-07-15,Alagoa Nova,217,7,0,2,0
+2020-07-15,Barra de São Miguel,19,1,0,2,0
+2020-07-15,Itapororoca,362,3,0,4,0
+2020-07-15,Guarabira,2809,28,0,72,2
+2020-07-15,Pedras de Fogo,1110,17,0,17,0
+2020-07-15,Itaporanga,62,1,0,2,0
+2020-07-15,Alagoa Grande,594,10,0,20,0
+2020-07-15,Brejo do Cruz,165,2,0,6,0
+2020-07-15,Caaporã,833,10,0,6,0
+2020-07-15,Coxixola,16,0,0,0,0
+2020-07-15,Boqueirão,200,2,0,8,0
+2020-07-15,Marizópolis,8,1,0,0,0
+2020-07-15,Areia,217,1,0,8,0
+2020-07-15,Gurinhém,271,3,0,18,0
+2020-07-15,Esperança,337,4,0,12,1
+2020-07-15,Lagoa Seca,501,8,0,0,1
+2020-07-15,Mari,660,13,0,23,0
+2020-07-15,Lucena,237,2,0,1,0
+2020-07-15,Catingueira,15,2,0,0,0
+2020-07-15,Araçagi,368,2,0,16,0
+2020-07-15,São José do Bonfim,53,2,0,0,0
+2020-07-15,Alhandra,453,13,0,11,0
+2020-07-15,Riacho dos Cavalos,5,0,0,0,0
+2020-07-15,Santa Helena,11,0,0,0,0
+2020-07-15,São José de Piranhas,83,0,0,5,0
+2020-07-15,Umbuzeiro,57,2,0,2,0
+2020-07-15,Rio Tinto,700,15,0,28,2
+2020-07-15,Princesa Isabel,48,3,0,1,0
+2020-07-15,Mamanguape,1700,24,0,20,0
+2020-07-15,Serra Redonda,163,0,0,4,0
+2020-07-15,Casserengue,161,3,0,0,1
+2020-07-15,Caiçara,313,3,0,1,0
+2020-07-15,Imaculada,26,0,0,0,0
+2020-07-15,Monteiro,157,1,0,3,0
+2020-07-15,Pilar,209,3,0,1,0
+2020-07-15,Pilõezinhos,187,1,0,0,0
+2020-07-15,Pitimbu,540,5,0,0,0
+2020-07-15,São José de Espinharas,12,0,0,1,0
+2020-07-15,Piancó,96,3,0,0,0
+2020-07-15,Serra da Raiz,14,0,0,0,0
+2020-07-15,Mulungu,247,4,0,17,0
+2020-07-15,Alagoinha,605,3,0,9,0
+2020-07-15,Mataraca,125,4,0,0,0
+2020-07-15,Pirpirituba,158,2,0,9,0
+2020-07-15,Nova Floresta,30,0,0,1,0
+2020-07-15,Uiraúna,31,1,0,1,0
+2020-07-15,Capim,130,4,0,0,0
+2020-07-15,Remígio,186,3,0,1,0
+2020-07-15,São Sebastião de Lagoa de Roça,149,0,0,0,0
+2020-07-15,Matinhas,56,1,0,0,0
+2020-07-15,Pilões,46,0,0,4,0
+2020-07-15,Condado,98,1,0,3,0
+2020-07-15,Juazeirinho,129,0,0,1,0
+2020-07-15,Massaranduba,239,3,0,10,1
+2020-07-15,Santa Luzia,185,7,0,4,1
+2020-07-15,Baía da Traição,320,4,0,16,0
+2020-07-15,Juripiranga,340,5,0,4,0
+2020-07-15,Cuitegi,208,3,0,3,0
+2020-07-15,Borborema,7,0,0,0,0
+2020-07-15,Pocinhos,71,1,0,0,0
+2020-07-15,Sobrado,108,2,0,1,0
+2020-07-15,Riachão do Bacamarte,197,0,0,4,0
+2020-07-15,São Miguel de Taipu,90,2,0,1,0
+2020-07-15,Sertãozinho,64,0,0,1,0
+2020-07-15,Cajazeirinhas,4,0,0,3,0
+2020-07-15,Bananeiras,105,1,0,4,0
+2020-07-15,Teixeira,100,2,0,11,0
+2020-07-15,Santarém,2,0,0,0,0
+2020-07-15,Campo de Santana,92,0,0,1,0
+2020-07-15,Barra de Santana,71,2,0,0,0
+2020-07-15,São José dos Ramos,155,0,0,7,0
+2020-07-15,Soledade,105,1,0,1,0
+2020-07-15,Ingá,603,3,0,33,0
+2020-07-15,Gado Bravo,77,1,0,0,0
+2020-07-15,Puxinanã,214,1,0,1,0
+2020-07-15,Aroeiras,125,0,0,15,0
+2020-07-15,São José do Sabugi,175,1,0,4,0
+2020-07-15,Duas Estradas,45,1,0,0,0
+2020-07-15,Lagoa de Dentro,61,0,0,1,0
+2020-07-15,Malta,29,1,0,1,0
+2020-07-15,Santa Teresinha,44,0,0,4,0
+2020-07-15,Juarez Távora,226,1,0,7,0
+2020-07-15,Natuba,47,1,0,1,0
+2020-07-15,Cuité de Mamanguape,77,4,0,2,1
+2020-07-15,Maturéia,25,1,0,0,0
+2020-07-15,Itatuba,217,1,0,13,0
+2020-07-15,Belém,512,6,0,2,1
+2020-07-15,Mogeiro,105,2,0,3,0
+2020-07-15,Cuité,128,1,0,0,0
+2020-07-15,Solânea,222,1,0,13,0
+2020-07-15,Quixabá,26,0,0,0,0
+2020-07-15,Nova Olinda,7,0,0,0,0
+2020-07-15,Serraria,66,2,0,4,0
+2020-07-15,Vista Serrana,3,0,0,1,0
+2020-07-15,Areial,37,2,0,0,0
+2020-07-15,Picuí,134,2,0,0,0
+2020-07-15,Jacaraú,176,2,0,1,0
+2020-07-15,Salgado de São Félix,149,2,0,4,0
+2020-07-15,Conceição,137,1,0,0,0
+2020-07-15,Curral de Cima,16,0,0,1,0
+2020-07-15,Olho d'Água,37,0,0,0,0
+2020-07-15,Amparo,13,0,0,0,0
+2020-07-15,Seridó,34,0,0,1,0
+2020-07-15,Arara,138,3,0,7,0
+2020-07-15,Logradouro,100,2,0,1,0
+2020-07-15,Cacimba de Dentro,83,1,0,3,0
+2020-07-15,Boa Vista,61,1,0,0,0
+2020-07-15,Passagem,30,0,0,0,0
+2020-07-15,Lastro,15,0,0,0,0
+2020-07-15,Caturité,64,1,0,1,0
+2020-07-15,São José de Caiana,32,0,0,0,0
+2020-07-15,Catolé do Rocha,194,8,0,3,0
+2020-07-15,São José da Lagoa Tapada,27,0,0,5,0
+2020-07-15,São Mamede,35,3,0,0,0
+2020-07-15,Paulista,73,1,0,1,0
+2020-07-15,Caldas Brandão,121,2,0,0,0
+2020-07-15,Belém do Brejo do Cruz,14,0,0,1,0
+2020-07-15,Cachoeira dos Índios,53,3,0,2,0
+2020-07-15,Ibiara,17,0,0,2,0
+2020-07-15,Jericó,5,0,0,0,0
+2020-07-15,Montadas,35,1,0,0,0
+2020-07-15,Juru,15,0,0,0,0
+2020-07-15,São José dos Cordeiros,7,0,0,0,0
+2020-07-15,Aguiar,19,0,0,0,0
+2020-07-15,Mato Grosso,7,0,0,0,0
+2020-07-15,Gurjão,19,1,0,0,0
+2020-07-15,Lagoa,4,0,0,0,0
+2020-07-15,Vieirópolis,4,0,0,0,0
+2020-07-15,Fagundes,64,3,0,3,0
+2020-07-15,Manaíra,8,0,0,1,0
+2020-07-15,São João do Tigre,4,0,0,0,0
+2020-07-15,Aparecida,37,1,0,0,0
+2020-07-15,Sumé,112,1,0,4,0
+2020-07-15,Barra de Santa Rosa,32,1,0,1,0
+2020-07-15,Água Branca,38,2,0,0,0
+2020-07-15,Tavares,34,1,0,2,0
+2020-07-15,Várzea,9,0,0,0,0
+2020-07-15,Riacho de Santo Antônio,20,0,0,0,0
+2020-07-15,São Bentinho,24,0,0,0,0
+2020-07-15,Desterro,43,1,0,0,0
+2020-07-15,Cabaceiras,25,0,0,3,0
+2020-07-15,Cacimbas,41,1,0,2,0
+2020-07-15,Mãe d'Água,16,0,0,0,0
+2020-07-15,Carrapateira,28,0,0,0,0
+2020-07-15,Dona Inês,48,1,0,2,0
+2020-07-15,Emas,7,0,0,2,0
+2020-07-15,Araruna,170,5,0,6,1
+2020-07-15,Ouro Velho,0,0,0,0,0
+2020-07-15,São João do Cariri,56,0,0,0,0
+2020-07-15,Santa Cecília,48,0,0,2,0
+2020-07-15,Damião,5,0,0,0,0
+2020-07-15,Salgadinho,12,0,0,1,0
+2020-07-15,São Francisco,19,0,0,0,0
+2020-07-15,Santana dos Garrotes,6,0,0,0,0
+2020-07-15,Tenório,13,0,0,0,0
+2020-07-15,Assunção,30,0,0,2,0
+2020-07-15,Areia de Baraúnas,6,0,0,0,0
+2020-07-15,Alcantil,26,0,0,3,0
+2020-07-15,Boa Ventura,2,0,0,0,0
+2020-07-15,Olivedos,50,1,0,1,0
+2020-07-15,Pedro Régis,33,1,0,2,0
+2020-07-15,São Sebastião do Umbuzeiro,5,0,0,0,0
+2020-07-15,Santa Inês,29,0,0,1,0
+2020-07-15,Marcação,127,0,0,10,0
+2020-07-15,Livramento,52,0,0,0,0
+2020-07-15,Baraúna,120,0,0,0,0
+2020-07-15,Cacimba de Areia,7,0,0,0,0
+2020-07-15,Cubati,61,0,0,0,0
+2020-07-15,Nova Palmeira,40,0,0,0,0
+2020-07-15,Bonito de Santa Fé,9,1,0,2,0
+2020-07-15,Serra Grande,8,0,0,0,0
+2020-07-15,Curral Velho,1,0,0,0,0
+2020-07-15,Pedra Lavrada,27,0,0,0,0
+2020-07-15,Nazarezinho,12,1,0,1,0
+2020-07-15,Caraúbas,30,0,0,3,0
+2020-07-15,Bernardino Batista,3,0,0,0,0
+2020-07-15,Diamante,3,0,0,0,0
+2020-07-15,Santo André,6,0,0,0,0
+2020-07-15,Prata,3,0,0,0,0
+2020-07-15,Riachão,37,0,0,0,0
+2020-07-15,Bom Sucesso,7,0,0,0,0
+2020-07-15,Brejo dos Santos,15,0,0,0,0
+2020-07-15,Santa Cruz,15,1,0,1,0
+2020-07-15,Parari,5,0,0,1,0
+2020-07-15,Sossêgo,8,0,0,0,0
+2020-07-15,São José de Princesa,1,0,0,0,0
+2020-07-15,Triunfo,21,0,0,0,0
+2020-07-15,Frei Martinho,5,0,0,0,0
+2020-07-15,São José do Brejo do Cruz,5,0,0,0,0
+2020-07-15,Camalaú,1,0,0,0,0
+2020-07-15,Zabelê,9,0,0,0,0
+2020-07-15,São Domingos do Cariri,31,1,0,0,0
+2020-07-15,Algodão de Jandaíra,4,0,0,0,0
+2020-07-15,Santana de Mangueira,5,0,0,0,0
+2020-07-15,Poço Dantas,4,0,0,0,0
+2020-07-15,São Domingos,0,0,0,0,0
+2020-07-15,Monte Horebe,1,0,0,0,0
+2020-07-15,Poço de José de Moura,1,0,0,1,0
+2020-07-15,Pedra Branca,1,0,0,1,0
+2020-07-15,Paraíba,63939,1383,23695,1477,41
