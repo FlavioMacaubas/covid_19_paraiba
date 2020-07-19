@@ -1470,3 +1470,12 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-19,2020-05-19,Santa Rita,homem,77.0,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,Público,2020-07-18,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-18-07-2020
 2020-06-22,2020-07-17,Sousa,homem,43.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-18,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-18-07-2020
 2020-07-06,2020-07-17,Sousa,homem,62.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-18,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-18-07-2020
+2020-07-06,2020-07-19,Catolé do Rocha,mulher,88.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-07-13,2020-07-18,Santa Cruz,homem,38.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-05-27,2020-07-17,Bayeux,mulher,55.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-06-21,2020-07-16,Alagoa Grande,homem,84.0,Não,Não,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-06-14,2020-07-15,Alhandra,homem,66.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-07-10,2020-07-13,Ingá,mulher,38.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-06-10,2020-06-22,Caaporã,mulher,55.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-05-18,2020-05-21,Juripiranga,homem,82.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
+2020-05-10,2020-05-18,João Pessoa,homem,64.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-07-19,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-19-07-2020
