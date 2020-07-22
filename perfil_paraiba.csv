@@ -1551,3 +1551,26 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-08,2020-05-26,Gado Bravo,homem,54.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-21,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-07-2020
 2020-05-03,2020-05-19,Cabedelo,homem,79.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-21,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-07-2020
 2020-04-23,2020-05-06,Santa Rita,mulher,70.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-21,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-21-07-2020
+2020-07-01,2020-07-06,Alagoa Grande,mulher,92.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Privado,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-05-13,2020-07-14,Bayeux,mulher,76.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-28,2020-07-07,Belém,mulher,59.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-06,2020-07-09,Campina Grande,homem,79.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-28,2020-07-20,Catolé do Rocha,homem,79.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-04,2020-07-15,Conceição,homem,101.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-15,2020-07-20,Cuitegi,homem,48.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-10,2020-07-21,Guarabira,mulher,79.0,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-29,2020-07-21,Itabaiana,mulher,39.0,Não,Sim,Não,Não,Não,Não,Sim,Não,Sim,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-05,2020-07-18,João Pessoa,homem,58.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-12,2020-07-19,João Pessoa,homem,51.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-24,2020-07-17,João Pessoa,homem,63.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-04,2020-06-19,João Pessoa,homem,68.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-09,2020-07-09,João Pessoa,homem,79.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-05-14,2020-05-31,Itabaiana,mulher,71.0,Sim,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-05-25,2020-06-01,João Pessoa,homem,93.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-05-12,2020-06-28,Itabaiana,mulher,80.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Privado,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-15,2020-07-18,João Pessoa,homem,60.0,Sim,Sim,Não,Não,Não,Sim,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-17,2020-07-22,Lucena,homem,50.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-05-01,2020-07-21,Mamanguape,mulher,86.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-08,2020-07-21,Pedro Régis,homem,68.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-06-26,2020-07-21,Sapé,mulher,63.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
+2020-07-17,2020-07-22,Sapé,homem,72.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-07-2020
