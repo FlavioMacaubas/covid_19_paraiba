@@ -1738,3 +1738,24 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-05-07,2020-05-22,João Pessoa,homem,84.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-07-2020-1
 2020-04-20,2020-05-16,Bayeux,homem,64.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-07-2020-1
 2020-04-30,2020-05-02,Santa Rita,mulher,78.0,Não,Não,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-07-28,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-28-07-2020-1
+2020-07-15,2020-07-29,João Pessoa,homem,76.0,Não,Sim,Sim,Sim,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-21,2020-07-29,Cajazeiras,mulher,86.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-08,2020-07-29,João Pessoa,mulher,57.0,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-07,2020-07-29,João Pessoa,mulher,85.0,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-05,2020-07-28,Patos,mulher,80.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-28,2020-07-28,Bananeiras,homem,38.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-19,2020-07-28,Mamanguape,homem,100.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-24,2020-07-27,João Pessoa,homem,71.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-20,2020-07-26,Cachoeira dos Índios,homem,60.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-28,2020-07-26,Sousa,homem,88.0,Sim,Não,Não,Não,Sim,Não,Não,Não,Sim,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-01,2020-07-22,São Bento,homem,59.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-22,2020-07-14,Araruna,mulher,55.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-19,2020-07-08,Santa Rita,homem,39.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-07-05,2020-07-06,Monteiro,mulher,70.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-18,2020-07-03,João Pessoa,homem,97.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-13,2020-07-03,João Pessoa,homem,50.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Privado,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-17,2020-06-28,João Pessoa,homem,72.0,Não,Não,Sim,Não,Sim,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-06-03,2020-06-08,João Pessoa,mulher,27.0,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-05-20,2020-06-03,João Pessoa,mulher,83.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-04-26,2020-05-16,João Pessoa,homem,54.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
+2020-05-09,2020-05-15,João Pessoa,homem,85.0,Sim,Sim,Não,Não,Sim,Não,Não,Não,Não,Público,2020-07-29,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-29-07-2020
