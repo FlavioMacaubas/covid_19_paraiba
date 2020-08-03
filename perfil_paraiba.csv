@@ -1843,3 +1843,23 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-10,2020-06-12,João Pessoa,homem,65.0,Sim,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-02,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-08-2020
 2020-05-23,2020-06-05,Santa Rita,mulher,89.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-02,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-08-2020
 2020-05-09,2020-05-29,Santa Rita,homem,60.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-02,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-02-08-2020
+2020-07-19,2020-08-03,João Pessoa,mulher,66.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Privado,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-27,2020-08-03,Pilar,homem,72.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-29,2020-08-02,Cacimba de Dentro,homem,53.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-25,2020-08-02,João Pessoa,homem,50.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-20,2020-08-02,Paulista,mulher,56.0,Sim,Sim,Não,Não,Não,Sim,Não,Não,Sim,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-28,2020-08-02,Queimadas,mulher,76.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-23,2020-08-01,Brejo do Cruz,mulher,77.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-08-01,2020-08-01,Itabaiana,mulher,82.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-08-03,2020-08-03,João Pessoa,homem,85.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Privado,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-17,2020-07-17,João Pessoa,mulher,88.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Privado,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-09,2020-07-09,Riachão do Poço,mulher,76.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-06-22,2020-08-01,Solânea,homem,66.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Privado,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-22,2020-08-01,São José de Caiana,mulher,50.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-13,2020-07-30,Queimadas,mulher,96.0,Não,Sim,Não,Não,Sim,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-20,2020-07-28,São João do Cariri,homem,84.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-14,2020-07-27,Lagoa Seca,mulher,78.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-11,2020-07-27,Serra Redonda,mulher,89.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-07-06,2020-07-23,Monteiro,mulher,75.0,Sim,Sim,Não,Não,Não,Não,Sim,Sim,Não,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-05-24,2020-06-25,Cruz do Espírito Santo,homem,22.0,Não,Não,Não,Não,Não,Não,Sim,Sim,Sim,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
+2020-05-20,2020-05-30,Bayeux,mulher,88.0,Não,Não,Não,Não,Não,Não,Sim,Não,Sim,Público,2020-08-03,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-03-08-2020
