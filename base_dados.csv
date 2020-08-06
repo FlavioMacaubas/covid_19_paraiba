@@ -246,7 +246,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-04-20,Riachão do Poço,1,1,0,0,0
 2020-04-20,Queimadas,1,0,0,0,0
 2020-04-20,Congo,1,0,0,0,0
-2020-04-20,Bom Jesus,1,0,0,0,0
+2020-04-20,Bom Jesus,1,0,0,1,0
 2020-04-20,Paraíba,264,33,116,18,1
 2020-04-21,João Pessoa,205,25,0,20,5
 2020-04-21,Campina Grande,20,2,0,8,0
@@ -16264,7 +16264,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-23,Santa Cruz,23,2,0,4,0
 2020-07-23,Parari,5,0,0,0,0
 2020-07-23,Sossêgo,8,0,0,0,0
-2020-07-23,São José de Princesa,2,0,0,1,0
+2020-07-23,São José de Princesa,1,0,0,0,0
 2020-07-23,Triunfo,31,1,0,0,0
 2020-07-23,Frei Martinho,5,0,0,0,0
 2020-07-23,São José do Brejo do Cruz,6,0,0,1,0
@@ -16488,7 +16488,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-24,Santa Cruz,23,2,0,0,0
 2020-07-24,Parari,5,0,0,0,0
 2020-07-24,Sossêgo,8,0,0,0,0
-2020-07-24,São José de Princesa,2,0,0,0,0
+2020-07-24,São José de Princesa,1,0,0,0,0
 2020-07-24,Triunfo,31,1,0,0,0
 2020-07-24,Frei Martinho,5,0,0,0,0
 2020-07-24,São José do Brejo do Cruz,7,0,0,1,0
@@ -16712,7 +16712,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-25,Santa Cruz,34,2,0,11,0
 2020-07-25,Parari,5,0,0,0,0
 2020-07-25,Sossêgo,8,0,0,0,0
-2020-07-25,São José de Princesa,2,0,0,0,0
+2020-07-25,São José de Princesa,1,0,0,0,0
 2020-07-25,Triunfo,31,1,0,0,0
 2020-07-25,Frei Martinho,6,0,0,1,0
 2020-07-25,São José do Brejo do Cruz,7,0,0,0,0
@@ -16936,7 +16936,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-26,Santa Cruz,34,2,0,0,0
 2020-07-26,Parari,5,0,0,0,0
 2020-07-26,Sossêgo,8,0,0,0,0
-2020-07-26,São José de Princesa,2,0,0,0,0
+2020-07-26,São José de Princesa,1,0,0,0,0
 2020-07-26,Triunfo,31,1,0,0,0
 2020-07-26,Frei Martinho,6,0,0,0,0
 2020-07-26,São José do Brejo do Cruz,7,0,0,0,0
@@ -16969,7 +16969,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-27,Riachão do Poço,72,2,0,1,0
 2020-07-27,Queimadas,829,7,0,4,0
 2020-07-27,Congo,48,1,0,0,0
-2020-07-27,Bom Jesus,9,0,0,1,0
+2020-07-27,Bom Jesus,8,0,0,0,0
 2020-07-27,Cajazeiras,1128,29,0,37,1
 2020-07-27,Cruz do Espírito Santo,261,16,0,0,0
 2020-07-27,Itabaiana,965,18,0,0,0
@@ -16998,7 +16998,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-27,São José do Bonfim,56,3,0,0,0
 2020-07-27,Alhandra,514,16,0,2,1
 2020-07-27,Riacho dos Cavalos,9,0,0,0,0
-2020-07-27,Santa Helena,20,0,0,3,0
+2020-07-27,Santa Helena,19,0,0,2,0
 2020-07-27,São José de Piranhas,143,0,0,0,0
 2020-07-27,Umbuzeiro,60,2,0,0,0
 2020-07-27,Rio Tinto,878,18,0,0,1
@@ -17160,7 +17160,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-27,Santa Cruz,38,2,0,4,0
 2020-07-27,Parari,5,0,0,0,0
 2020-07-27,Sossêgo,8,0,0,0,0
-2020-07-27,São José de Princesa,2,0,0,0,0
+2020-07-27,São José de Princesa,1,0,0,0,0
 2020-07-27,Triunfo,32,1,0,1,0
 2020-07-27,Frei Martinho,6,0,0,0,0
 2020-07-27,São José do Brejo do Cruz,7,0,0,0,0
@@ -17193,7 +17193,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-28,Riachão do Poço,76,2,0,4,0
 2020-07-28,Queimadas,842,7,0,13,0
 2020-07-28,Congo,49,1,0,1,0
-2020-07-28,Bom Jesus,9,0,0,0,0
+2020-07-28,Bom Jesus,8,0,0,0,0
 2020-07-28,Cajazeiras,1159,29,0,31,0
 2020-07-28,Cruz do Espírito Santo,263,16,0,2,0
 2020-07-28,Itabaiana,970,18,0,5,0
@@ -17222,7 +17222,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-28,São José do Bonfim,56,3,0,0,0
 2020-07-28,Alhandra,554,16,0,40,0
 2020-07-28,Riacho dos Cavalos,10,0,0,1,0
-2020-07-28,Santa Helena,20,0,0,0,0
+2020-07-28,Santa Helena,19,0,0,0,0
 2020-07-28,São José de Piranhas,146,0,0,3,0
 2020-07-28,Umbuzeiro,68,2,0,8,0
 2020-07-28,Rio Tinto,896,19,0,18,1
@@ -17384,7 +17384,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-28,Santa Cruz,41,2,0,3,0
 2020-07-28,Parari,5,0,0,0,0
 2020-07-28,Sossêgo,8,0,0,0,0
-2020-07-28,São José de Princesa,2,0,0,0,0
+2020-07-28,São José de Princesa,1,0,0,0,0
 2020-07-28,Triunfo,37,2,0,5,1
 2020-07-28,Frei Martinho,6,0,0,0,0
 2020-07-28,São José do Brejo do Cruz,7,0,0,0,0
@@ -17417,7 +17417,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,Riachão do Poço,79,2,0,3,0
 2020-07-29,Queimadas,862,7,0,20,0
 2020-07-29,Congo,60,1,0,11,0
-2020-07-29,Bom Jesus,9,0,0,0,0
+2020-07-29,Bom Jesus,8,0,0,0,0
 2020-07-29,Cajazeiras,1186,30,0,27,1
 2020-07-29,Cruz do Espírito Santo,264,16,0,1,0
 2020-07-29,Itabaiana,973,18,0,3,0
@@ -17446,7 +17446,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,São José do Bonfim,56,3,0,0,0
 2020-07-29,Alhandra,572,16,0,18,0
 2020-07-29,Riacho dos Cavalos,10,0,0,0,0
-2020-07-29,Santa Helena,20,0,0,0,0
+2020-07-29,Santa Helena,19,0,0,0,0
 2020-07-29,São José de Piranhas,148,0,0,2,0
 2020-07-29,Umbuzeiro,70,2,0,2,0
 2020-07-29,Rio Tinto,914,19,0,18,0
@@ -17496,7 +17496,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,São José dos Ramos,211,0,0,9,0
 2020-07-29,Soledade,129,1,0,1,0
 2020-07-29,Ingá,910,8,0,15,0
-2020-07-29,Gado Bravo,92,2,0,5,0
+2020-07-29,Gado Bravo,91,2,0,4,0
 2020-07-29,Puxinanã,240,1,0,1,0
 2020-07-29,Aroeiras,162,0,0,7,0
 2020-07-29,São José do Sabugi,192,1,0,0,0
@@ -17608,7 +17608,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,Santa Cruz,41,2,0,0,0
 2020-07-29,Parari,5,0,0,0,0
 2020-07-29,Sossêgo,8,0,0,0,0
-2020-07-29,São José de Princesa,2,0,0,0,0
+2020-07-29,São José de Princesa,1,0,0,0,0
 2020-07-29,Triunfo,41,2,0,4,0
 2020-07-29,Frei Martinho,6,0,0,0,0
 2020-07-29,São José do Brejo do Cruz,7,0,0,0,0
@@ -17641,7 +17641,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,Riachão do Poço,80,2,0,1,0
 2020-07-30,Queimadas,881,7,0,19,0
 2020-07-30,Congo,64,1,0,4,0
-2020-07-30,Bom Jesus,9,0,0,0,0
+2020-07-30,Bom Jesus,8,0,0,0,0
 2020-07-30,Cajazeiras,1201,30,0,15,0
 2020-07-30,Cruz do Espírito Santo,264,16,0,0,0
 2020-07-30,Itabaiana,976,18,0,3,0
@@ -17670,7 +17670,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,São José do Bonfim,56,3,0,0,0
 2020-07-30,Alhandra,576,16,0,4,0
 2020-07-30,Riacho dos Cavalos,10,0,0,0,0
-2020-07-30,Santa Helena,20,0,0,0,0
+2020-07-30,Santa Helena,19,0,0,0,0
 2020-07-30,São José de Piranhas,148,0,0,0,0
 2020-07-30,Umbuzeiro,70,2,0,0,0
 2020-07-30,Rio Tinto,917,19,0,3,0
@@ -17720,7 +17720,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,São José dos Ramos,214,0,0,3,0
 2020-07-30,Soledade,129,1,0,0,0
 2020-07-30,Ingá,930,8,0,20,0
-2020-07-30,Gado Bravo,92,2,0,0,0
+2020-07-30,Gado Bravo,91,2,0,0,0
 2020-07-30,Puxinanã,245,1,0,5,0
 2020-07-30,Aroeiras,165,0,0,3,0
 2020-07-30,São José do Sabugi,192,1,0,0,0
@@ -17793,7 +17793,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,Carrapateira,35,0,0,1,0
 2020-07-30,Dona Inês,83,2,0,0,0
 2020-07-30,Emas,39,3,0,1,0
-2020-07-30,Araruna,222,6,0,2,0
+2020-07-30,Araruna,221,6,0,1,0
 2020-07-30,Ouro Velho,0,0,0,0,0
 2020-07-30,São João do Cariri,93,0,0,1,0
 2020-07-30,Santa Cecília,58,0,0,0,0
@@ -17832,7 +17832,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,Santa Cruz,41,2,0,0,0
 2020-07-30,Parari,5,0,0,0,0
 2020-07-30,Sossêgo,9,0,0,1,0
-2020-07-30,São José de Princesa,2,0,0,0,0
+2020-07-30,São José de Princesa,1,0,0,0,0
 2020-07-30,Triunfo,41,2,0,0,0
 2020-07-30,Frei Martinho,6,0,0,0,0
 2020-07-30,São José do Brejo do Cruz,8,0,0,1,0
@@ -17865,7 +17865,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Riachão do Poço,84,2,0,4,0
 2020-07-31,Queimadas,926,7,0,45,0
 2020-07-31,Congo,67,1,0,3,0
-2020-07-31,Bom Jesus,9,0,0,0,0
+2020-07-31,Bom Jesus,8,0,0,0,0
 2020-07-31,Cajazeiras,1239,30,0,38,0
 2020-07-31,Cruz do Espírito Santo,264,16,0,0,0
 2020-07-31,Itabaiana,983,18,0,7,0
@@ -17894,7 +17894,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,São José do Bonfim,56,3,0,0,0
 2020-07-31,Alhandra,576,16,0,0,0
 2020-07-31,Riacho dos Cavalos,11,0,0,1,0
-2020-07-31,Santa Helena,20,0,0,0,0
+2020-07-31,Santa Helena,19,0,0,0,0
 2020-07-31,São José de Piranhas,148,0,0,0,0
 2020-07-31,Umbuzeiro,72,2,0,2,0
 2020-07-31,Rio Tinto,943,20,0,26,1
@@ -17944,7 +17944,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,São José dos Ramos,214,0,0,0,0
 2020-07-31,Soledade,133,1,0,4,0
 2020-07-31,Ingá,966,8,0,36,0
-2020-07-31,Gado Bravo,94,2,0,2,0
+2020-07-31,Gado Bravo,91,2,0,0,0
 2020-07-31,Puxinanã,247,1,0,2,0
 2020-07-31,Aroeiras,169,0,0,4,0
 2020-07-31,São José do Sabugi,193,1,0,1,0
@@ -18017,7 +18017,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Carrapateira,38,0,0,3,0
 2020-07-31,Dona Inês,83,2,0,0,0
 2020-07-31,Emas,41,3,0,2,0
-2020-07-31,Araruna,222,6,0,0,0
+2020-07-31,Araruna,221,6,0,0,0
 2020-07-31,Ouro Velho,0,0,0,0,0
 2020-07-31,São João do Cariri,93,0,0,0,0
 2020-07-31,Santa Cecília,59,0,0,1,0
@@ -18056,7 +18056,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Santa Cruz,45,2,0,4,0
 2020-07-31,Parari,5,0,0,0,0
 2020-07-31,Sossêgo,9,0,0,0,0
-2020-07-31,São José de Princesa,2,0,0,0,0
+2020-07-31,São José de Princesa,1,0,0,0,0
 2020-07-31,Triunfo,42,2,0,1,0
 2020-07-31,Frei Martinho,6,0,0,0,0
 2020-07-31,São José do Brejo do Cruz,8,0,0,0,0
@@ -18089,7 +18089,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Riachão do Poço,84,2,0,0,0
 2020-08-01,Queimadas,926,7,0,0,0
 2020-08-01,Congo,67,1,0,0,0
-2020-08-01,Bom Jesus,9,0,0,0,0
+2020-08-01,Bom Jesus,8,0,0,0,0
 2020-08-01,Cajazeiras,1252,30,0,13,0
 2020-08-01,Cruz do Espírito Santo,264,16,0,0,0
 2020-08-01,Itabaiana,984,18,0,1,0
@@ -18118,7 +18118,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,São José do Bonfim,57,3,0,1,0
 2020-08-01,Alhandra,577,16,0,1,0
 2020-08-01,Riacho dos Cavalos,11,0,0,0,0
-2020-08-01,Santa Helena,20,0,0,0,0
+2020-08-01,Santa Helena,19,0,0,0,0
 2020-08-01,São José de Piranhas,148,0,0,0,0
 2020-08-01,Umbuzeiro,72,2,0,0,0
 2020-08-01,Rio Tinto,944,20,0,1,0
@@ -18168,7 +18168,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,São José dos Ramos,214,0,0,0,0
 2020-08-01,Soledade,133,1,0,0,0
 2020-08-01,Ingá,976,8,0,10,0
-2020-08-01,Gado Bravo,94,2,0,0,0
+2020-08-01,Gado Bravo,91,2,0,0,0
 2020-08-01,Puxinanã,249,1,0,2,0
 2020-08-01,Aroeiras,176,0,0,7,0
 2020-08-01,São José do Sabugi,193,1,0,0,0
@@ -18241,7 +18241,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Carrapateira,38,0,0,0,0
 2020-08-01,Dona Inês,83,2,0,0,0
 2020-08-01,Emas,41,3,0,0,0
-2020-08-01,Araruna,222,6,0,0,0
+2020-08-01,Araruna,221,6,0,0,0
 2020-08-01,Ouro Velho,0,0,0,0,0
 2020-08-01,São João do Cariri,94,0,0,1,0
 2020-08-01,Santa Cecília,59,0,0,0,0
@@ -18280,7 +18280,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Santa Cruz,45,2,0,0,0
 2020-08-01,Parari,5,0,0,0,0
 2020-08-01,Sossêgo,9,0,0,0,0
-2020-08-01,São José de Princesa,2,0,0,0,0
+2020-08-01,São José de Princesa,1,0,0,0,0
 2020-08-01,Triunfo,42,2,0,0,0
 2020-08-01,Frei Martinho,6,0,0,0,0
 2020-08-01,São José do Brejo do Cruz,8,0,0,0,0
@@ -18313,7 +18313,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Riachão do Poço,84,2,0,0,0
 2020-08-02,Queimadas,927,7,0,1,0
 2020-08-02,Congo,67,1,0,0,0
-2020-08-02,Bom Jesus,9,0,0,0,0
+2020-08-02,Bom Jesus,8,0,0,0,0
 2020-08-02,Cajazeiras,1263,31,0,11,1
 2020-08-02,Cruz do Espírito Santo,264,16,0,0,0
 2020-08-02,Itabaiana,985,19,0,1,1
@@ -18342,7 +18342,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,São José do Bonfim,57,3,0,0,0
 2020-08-02,Alhandra,579,16,0,2,0
 2020-08-02,Riacho dos Cavalos,11,0,0,0,0
-2020-08-02,Santa Helena,20,0,0,0,0
+2020-08-02,Santa Helena,19,0,0,0,0
 2020-08-02,São José de Piranhas,148,0,0,0,0
 2020-08-02,Umbuzeiro,72,2,0,0,0
 2020-08-02,Rio Tinto,944,20,0,0,0
@@ -18392,7 +18392,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,São José dos Ramos,214,0,0,0,0
 2020-08-02,Soledade,133,1,0,0,0
 2020-08-02,Ingá,996,8,0,20,0
-2020-08-02,Gado Bravo,94,2,0,0,0
+2020-08-02,Gado Bravo,91,2,0,0,0
 2020-08-02,Puxinanã,249,1,0,0,0
 2020-08-02,Aroeiras,176,0,0,0,0
 2020-08-02,São José do Sabugi,193,1,0,0,0
@@ -18465,7 +18465,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Carrapateira,38,0,0,0,0
 2020-08-02,Dona Inês,83,2,0,0,0
 2020-08-02,Emas,41,3,0,0,0
-2020-08-02,Araruna,222,6,0,0,0
+2020-08-02,Araruna,221,6,0,0,0
 2020-08-02,Ouro Velho,0,0,0,0,0
 2020-08-02,São João do Cariri,94,0,0,0,0
 2020-08-02,Santa Cecília,59,0,0,0,0
@@ -18504,7 +18504,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Santa Cruz,46,2,0,1,0
 2020-08-02,Parari,5,0,0,0,0
 2020-08-02,Sossêgo,9,0,0,0,0
-2020-08-02,São José de Princesa,2,0,0,0,0
+2020-08-02,São José de Princesa,1,0,0,0,0
 2020-08-02,Triunfo,42,2,0,0,0
 2020-08-02,Frei Martinho,6,0,0,0,0
 2020-08-02,São José do Brejo do Cruz,9,0,0,1,0
@@ -18537,7 +18537,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Riachão do Poço,84,3,0,0,1
 2020-08-03,Queimadas,928,9,0,1,2
 2020-08-03,Congo,67,1,0,0,0
-2020-08-03,Bom Jesus,9,0,0,0,0
+2020-08-03,Bom Jesus,8,0,0,0,0
 2020-08-03,Cajazeiras,1267,31,0,4,0
 2020-08-03,Cruz do Espírito Santo,265,17,0,1,1
 2020-08-03,Itabaiana,991,20,0,6,1
@@ -18566,7 +18566,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,São José do Bonfim,57,3,0,0,0
 2020-08-03,Alhandra,581,16,0,2,0
 2020-08-03,Riacho dos Cavalos,11,0,0,0,0
-2020-08-03,Santa Helena,20,0,0,0,0
+2020-08-03,Santa Helena,19,0,0,0,0
 2020-08-03,São José de Piranhas,148,0,0,0,0
 2020-08-03,Umbuzeiro,72,2,0,0,0
 2020-08-03,Rio Tinto,944,20,0,0,0
@@ -18616,7 +18616,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,São José dos Ramos,214,0,0,0,0
 2020-08-03,Soledade,133,1,0,0,0
 2020-08-03,Ingá,997,8,0,1,0
-2020-08-03,Gado Bravo,94,2,0,0,0
+2020-08-03,Gado Bravo,91,2,0,0,0
 2020-08-03,Puxinanã,249,1,0,0,0
 2020-08-03,Aroeiras,176,0,0,0,0
 2020-08-03,São José do Sabugi,194,1,0,1,0
@@ -18689,7 +18689,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Carrapateira,38,0,0,0,0
 2020-08-03,Dona Inês,83,2,0,0,0
 2020-08-03,Emas,41,3,0,0,0
-2020-08-03,Araruna,222,6,0,0,0
+2020-08-03,Araruna,221,6,0,0,0
 2020-08-03,Ouro Velho,0,0,0,0,0
 2020-08-03,São João do Cariri,94,1,0,0,1
 2020-08-03,Santa Cecília,59,0,0,0,0
@@ -18728,7 +18728,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Santa Cruz,46,2,0,0,0
 2020-08-03,Parari,5,0,0,0,0
 2020-08-03,Sossêgo,9,0,0,0,0
-2020-08-03,São José de Princesa,2,0,0,0,0
+2020-08-03,São José de Princesa,1,0,0,0,0
 2020-08-03,Triunfo,42,2,0,0,0
 2020-08-03,Frei Martinho,6,0,0,0,0
 2020-08-03,São José do Brejo do Cruz,9,0,0,0,0
@@ -18761,7 +18761,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Riachão do Poço,86,3,0,2,0
 2020-08-04,Queimadas,948,9,0,20,0
 2020-08-04,Congo,67,1,0,0,0
-2020-08-04,Bom Jesus,9,0,0,0,0
+2020-08-04,Bom Jesus,8,0,0,0,0
 2020-08-04,Cajazeiras,1289,32,0,22,1
 2020-08-04,Cruz do Espírito Santo,266,19,0,1,2
 2020-08-04,Itabaiana,994,20,0,3,0
@@ -18790,7 +18790,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,São José do Bonfim,58,3,0,1,0
 2020-08-04,Alhandra,584,16,0,3,0
 2020-08-04,Riacho dos Cavalos,12,0,0,1,0
-2020-08-04,Santa Helena,20,0,0,0,0
+2020-08-04,Santa Helena,19,0,0,0,0
 2020-08-04,São José de Piranhas,150,0,0,2,0
 2020-08-04,Umbuzeiro,73,2,0,1,0
 2020-08-04,Rio Tinto,950,21,0,6,1
@@ -18818,7 +18818,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,São Sebastião de Lagoa de Roça,200,0,0,16,0
 2020-08-04,Matinhas,70,1,0,0,0
 2020-08-04,Pilões,89,1,0,0,0
-2020-08-04,Condado,113,3,0,1,0
+2020-08-04,Condado,112,3,0,0,0
 2020-08-04,Juazeirinho,154,0,0,1,0
 2020-08-04,Massaranduba,304,4,0,1,0
 2020-08-04,Santa Luzia,205,7,0,0,0
@@ -18840,7 +18840,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,São José dos Ramos,220,0,0,6,0
 2020-08-04,Soledade,133,1,0,0,0
 2020-08-04,Ingá,1019,8,0,22,0
-2020-08-04,Gado Bravo,94,2,0,0,0
+2020-08-04,Gado Bravo,91,2,0,0,0
 2020-08-04,Puxinanã,250,1,0,1,0
 2020-08-04,Aroeiras,176,0,0,0,0
 2020-08-04,São José do Sabugi,202,1,0,8,0
@@ -18862,7 +18862,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Serraria,130,2,0,2,0
 2020-08-04,Vista Serrana,5,0,0,2,0
 2020-08-04,Areial,43,2,0,1,0
-2020-08-04,Picuí,181,2,0,4,0
+2020-08-04,Picuí,180,2,0,3,0
 2020-08-04,Jacaraú,284,3,0,21,1
 2020-08-04,Salgado de São Félix,211,2,0,5,0
 2020-08-04,Conceição,406,6,0,42,1
@@ -18876,7 +18876,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Boa Vista,77,1,0,3,0
 2020-08-04,Passagem,30,0,0,0,0
 2020-08-04,Lastro,16,0,0,0,0
-2020-08-04,Caturité,101,1,0,10,0
+2020-08-04,Caturité,97,1,0,6,0
 2020-08-04,São José de Caiana,36,1,0,1,0
 2020-08-04,Catolé do Rocha,262,11,0,9,0
 2020-08-04,São José da Lagoa Tapada,47,0,0,3,0
@@ -18908,12 +18908,12 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,São Bentinho,40,0,0,0,0
 2020-08-04,Desterro,50,1,0,0,0
 2020-08-04,Cabaceiras,55,0,0,0,0
-2020-08-04,Cacimbas,43,1,0,1,0
+2020-08-04,Cacimbas,42,1,0,0,0
 2020-08-04,Mãe d'Água,18,0,0,0,0
 2020-08-04,Carrapateira,42,0,0,4,0
 2020-08-04,Dona Inês,84,2,0,1,0
 2020-08-04,Emas,43,3,0,2,0
-2020-08-04,Araruna,222,7,0,0,1
+2020-08-04,Araruna,221,7,0,0,1
 2020-08-04,Ouro Velho,0,0,0,0,0
 2020-08-04,São João do Cariri,94,1,0,0,0
 2020-08-04,Santa Cecília,63,0,0,4,0
@@ -18952,7 +18952,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Santa Cruz,48,2,0,2,0
 2020-08-04,Parari,5,0,0,0,0
 2020-08-04,Sossêgo,9,0,0,0,0
-2020-08-04,São José de Princesa,2,0,0,0,0
+2020-08-04,São José de Princesa,1,0,0,0,0
 2020-08-04,Triunfo,44,2,0,2,0
 2020-08-04,Frei Martinho,6,0,0,0,0
 2020-08-04,São José do Brejo do Cruz,10,0,0,1,0
@@ -18965,7 +18965,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,São Domingos,0,0,0,0,0
 2020-08-04,Monte Horebe,13,0,0,0,0
 2020-08-04,Poço de José de Moura,17,0,0,2,0
-2020-08-04,Pedra Branca,2,0,0,1,0
+2020-08-04,Pedra Branca,1,0,0,0,0
 2020-08-04,Paraíba,85760,1901,38554,1549,31
 2020-08-05,João Pessoa,22384,662,0,277,5
 2020-08-05,Campina Grande,10982,232,0,34,6
@@ -18985,7 +18985,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Riachão do Poço,87,3,0,1,0
 2020-08-05,Queimadas,966,9,0,18,0
 2020-08-05,Congo,67,1,0,0,0
-2020-08-05,Bom Jesus,9,0,0,0,0
+2020-08-05,Bom Jesus,8,0,0,0,0
 2020-08-05,Cajazeiras,1309,34,0,20,2
 2020-08-05,Cruz do Espírito Santo,269,19,0,3,0
 2020-08-05,Itabaiana,995,20,0,1,0
@@ -18997,7 +18997,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Guarabira,3523,44,0,45,1
 2020-08-05,Pedras de Fogo,1228,22,0,0,0
 2020-08-05,Itaporanga,196,1,0,17,0
-2020-08-05,Alagoa Grande,829,17,0,39,1
+2020-08-05,Alagoa Grande,806,17,0,16,1
 2020-08-05,Brejo do Cruz,295,6,0,27,0
 2020-08-05,Caaporã,904,13,0,0,0
 2020-08-05,Coxixola,29,0,0,0,0
@@ -19014,7 +19014,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,São José do Bonfim,58,3,0,0,0
 2020-08-05,Alhandra,589,16,0,5,0
 2020-08-05,Riacho dos Cavalos,12,0,0,0,0
-2020-08-05,Santa Helena,20,0,0,0,0
+2020-08-05,Santa Helena,19,0,0,0,0
 2020-08-05,São José de Piranhas,151,0,0,1,0
 2020-08-05,Umbuzeiro,73,2,0,0,0
 2020-08-05,Rio Tinto,985,21,0,35,0
@@ -19042,7 +19042,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,São Sebastião de Lagoa de Roça,200,0,0,0,0
 2020-08-05,Matinhas,70,1,0,0,0
 2020-08-05,Pilões,93,1,0,4,0
-2020-08-05,Condado,113,3,0,0,0
+2020-08-05,Condado,112,3,0,0,0
 2020-08-05,Juazeirinho,157,0,0,3,0
 2020-08-05,Massaranduba,309,4,0,5,0
 2020-08-05,Santa Luzia,216,7,0,11,0
@@ -19064,7 +19064,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,São José dos Ramos,224,0,0,4,0
 2020-08-05,Soledade,133,1,0,0,0
 2020-08-05,Ingá,1048,9,0,29,1
-2020-08-05,Gado Bravo,94,2,0,0,0
+2020-08-05,Gado Bravo,91,2,0,0,0
 2020-08-05,Puxinanã,250,1,0,0,0
 2020-08-05,Aroeiras,187,0,0,11,0
 2020-08-05,São José do Sabugi,207,1,0,5,0
@@ -19086,7 +19086,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Serraria,140,2,0,10,0
 2020-08-05,Vista Serrana,5,0,0,0,0
 2020-08-05,Areial,43,2,0,0,0
-2020-08-05,Picuí,181,2,0,0,0
+2020-08-05,Picuí,180,2,0,0,0
 2020-08-05,Jacaraú,288,3,0,4,0
 2020-08-05,Salgado de São Félix,217,2,0,6,0
 2020-08-05,Conceição,429,6,0,23,0
@@ -19100,7 +19100,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Boa Vista,78,1,0,1,0
 2020-08-05,Passagem,30,0,0,0,0
 2020-08-05,Lastro,16,0,0,0,0
-2020-08-05,Caturité,102,1,0,1,0
+2020-08-05,Caturité,97,1,0,0,0
 2020-08-05,São José de Caiana,36,1,0,0,0
 2020-08-05,Catolé do Rocha,272,11,0,10,0
 2020-08-05,São José da Lagoa Tapada,51,0,0,4,0
@@ -19132,12 +19132,12 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,São Bentinho,41,0,0,1,0
 2020-08-05,Desterro,50,1,0,0,0
 2020-08-05,Cabaceiras,59,0,0,4,0
-2020-08-05,Cacimbas,43,1,0,0,0
+2020-08-05,Cacimbas,42,1,0,0,0
 2020-08-05,Mãe d'Água,18,0,0,0,0
 2020-08-05,Carrapateira,43,0,0,1,0
 2020-08-05,Dona Inês,88,2,0,4,0
 2020-08-05,Emas,44,3,0,1,0
-2020-08-05,Araruna,222,7,0,0,0
+2020-08-05,Araruna,221,7,0,0,0
 2020-08-05,Ouro Velho,0,0,0,0,0
 2020-08-05,São João do Cariri,95,1,0,1,0
 2020-08-05,Santa Cecília,65,0,0,2,0
@@ -19176,12 +19176,12 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Santa Cruz,49,2,0,1,0
 2020-08-05,Parari,5,0,0,0,0
 2020-08-05,Sossêgo,9,0,0,0,0
-2020-08-05,São José de Princesa,2,0,0,0,0
+2020-08-05,São José de Princesa,1,0,0,0,0
 2020-08-05,Triunfo,45,2,0,1,0
 2020-08-05,Frei Martinho,6,0,0,0,0
 2020-08-05,São José do Brejo do Cruz,10,0,0,0,0
 2020-08-05,Camalaú,1,0,0,0,0
-2020-08-05,Zabelê,24,0,0,1,0
+2020-08-05,Zabelê,23,0,0,0,0
 2020-08-05,São Domingos do Cariri,45,1,0,0,0
 2020-08-05,Algodão de Jandaíra,6,0,0,0,0
 2020-08-05,Santana de Mangueira,5,0,0,0,0
@@ -19189,5 +19189,229 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,São Domingos,0,0,0,0,0
 2020-08-05,Monte Horebe,14,0,0,1,0
 2020-08-05,Poço de José de Moura,18,0,0,1,0
-2020-08-05,Pedra Branca,2,0,0,0,0
+2020-08-05,Pedra Branca,1,0,0,0,0
 2020-08-05,Paraíba,87071,1922,40094,1311,21
+2020-08-06,João Pessoa,22675,669,0,291,7
+2020-08-06,Campina Grande,11059,233,0,77,1
+2020-08-06,Santa Rita,2493,135,0,48,0
+2020-08-06,Sousa,1338,22,0,34,1
+2020-08-06,Igaracy,8,0,0,0,0
+2020-08-06,Patos,2808,68,0,8,0
+2020-08-06,Cabedelo,2484,49,0,6,1
+2020-08-06,Serra Branca,145,2,0,0,0
+2020-08-06,Junco do Seridó,42,1,0,0,1
+2020-08-06,Bayeux,1516,84,0,5,1
+2020-08-06,São João do Rio do Peixe,218,3,0,3,0
+2020-08-06,Taperoá,67,2,0,0,0
+2020-08-06,Sapé,919,32,0,7,1
+2020-08-06,Pombal,397,3,0,6,0
+2020-08-06,São Bento,1510,17,0,34,0
+2020-08-06,Riachão do Poço,87,3,0,0,0
+2020-08-06,Queimadas,976,9,0,10,0
+2020-08-06,Congo,67,1,0,0,0
+2020-08-06,Bom Jesus,8,0,0,0,0
+2020-08-06,Cajazeiras,1325,34,0,16,0
+2020-08-06,Cruz do Espírito Santo,269,19,0,0,0
+2020-08-06,Itabaiana,1016,21,0,21,1
+2020-08-06,Conde,682,10,0,1,0
+2020-08-06,Coremas,126,2,0,0,0
+2020-08-06,Alagoa Nova,258,8,0,3,0
+2020-08-06,Barra de São Miguel,41,1,0,0,0
+2020-08-06,Itapororoca,662,4,0,15,0
+2020-08-06,Guarabira,3536,46,0,13,2
+2020-08-06,Pedras de Fogo,1230,22,0,2,0
+2020-08-06,Itaporanga,196,1,0,0,0
+2020-08-06,Alagoa Grande,806,17,0,0,0
+2020-08-06,Brejo do Cruz,302,6,0,7,0
+2020-08-06,Caaporã,904,13,0,0,0
+2020-08-06,Coxixola,29,0,0,0,0
+2020-08-06,Boqueirão,319,5,0,4,0
+2020-08-06,Marizópolis,25,1,0,0,0
+2020-08-06,Areia,359,3,0,4,1
+2020-08-06,Gurinhém,407,5,0,2,0
+2020-08-06,Esperança,415,6,0,0,1
+2020-08-06,Lagoa Seca,619,13,0,0,0
+2020-08-06,Mari,1024,16,0,5,0
+2020-08-06,Lucena,347,3,0,0,0
+2020-08-06,Catingueira,17,2,0,0,0
+2020-08-06,Araçagi,472,4,0,0,0
+2020-08-06,São José do Bonfim,58,3,0,0,0
+2020-08-06,Alhandra,589,16,0,0,0
+2020-08-06,Riacho dos Cavalos,12,0,0,0,0
+2020-08-06,Santa Helena,19,0,0,0,0
+2020-08-06,São José de Piranhas,157,0,0,6,0
+2020-08-06,Umbuzeiro,75,2,0,2,0
+2020-08-06,Rio Tinto,986,21,0,1,0
+2020-08-06,Princesa Isabel,69,4,0,2,0
+2020-08-06,Mamanguape,2105,33,0,2,0
+2020-08-06,Serra Redonda,231,2,0,0,0
+2020-08-06,Casserengue,228,4,0,0,0
+2020-08-06,Caiçara,385,5,0,0,0
+2020-08-06,Imaculada,39,0,0,0,0
+2020-08-06,Monteiro,314,3,0,12,0
+2020-08-06,Pilar,284,6,0,4,1
+2020-08-06,Pilõezinhos,228,1,0,0,0
+2020-08-06,Pitimbu,576,6,0,2,0
+2020-08-06,São José de Espinharas,31,0,0,0,0
+2020-08-06,Piancó,143,5,0,1,1
+2020-08-06,Serra da Raiz,18,0,0,0,0
+2020-08-06,Mulungu,311,5,0,3,0
+2020-08-06,Alagoinha,805,7,0,2,0
+2020-08-06,Mataraca,156,4,0,1,0
+2020-08-06,Pirpirituba,264,2,0,0,0
+2020-08-06,Nova Floresta,53,0,0,0,0
+2020-08-06,Uiraúna,71,1,0,1,0
+2020-08-06,Capim,144,4,0,0,0
+2020-08-06,Remígio,230,3,0,0,0
+2020-08-06,São Sebastião de Lagoa de Roça,200,0,0,0,0
+2020-08-06,Matinhas,70,1,0,0,0
+2020-08-06,Pilões,101,1,0,8,0
+2020-08-06,Condado,112,3,0,0,0
+2020-08-06,Juazeirinho,159,0,0,2,0
+2020-08-06,Massaranduba,309,4,0,0,0
+2020-08-06,Santa Luzia,216,7,0,0,0
+2020-08-06,Baía da Traição,500,4,0,4,0
+2020-08-06,Juripiranga,439,9,0,0,2
+2020-08-06,Cuitegi,344,8,0,0,0
+2020-08-06,Borborema,21,0,0,1,0
+2020-08-06,Pocinhos,130,1,0,0,0
+2020-08-06,Sobrado,175,3,0,0,0
+2020-08-06,Riachão do Bacamarte,221,0,0,0,0
+2020-08-06,São Miguel de Taipu,121,4,0,0,0
+2020-08-06,Sertãozinho,147,0,0,9,0
+2020-08-06,Cajazeirinhas,22,0,0,1,0
+2020-08-06,Bananeiras,167,2,0,0,0
+2020-08-06,Teixeira,159,3,0,5,0
+2020-08-06,Santarém,10,0,0,0,0
+2020-08-06,Campo de Santana,123,0,0,0,0
+2020-08-06,Barra de Santana,86,2,0,3,0
+2020-08-06,São José dos Ramos,224,0,0,0,0
+2020-08-06,Soledade,133,1,0,0,0
+2020-08-06,Ingá,1066,9,0,18,0
+2020-08-06,Gado Bravo,91,2,0,0,0
+2020-08-06,Puxinanã,250,1,0,0,0
+2020-08-06,Aroeiras,187,0,0,0,0
+2020-08-06,São José do Sabugi,207,1,0,0,0
+2020-08-06,Duas Estradas,71,1,0,3,0
+2020-08-06,Lagoa de Dentro,116,0,0,0,0
+2020-08-06,Malta,89,2,0,3,0
+2020-08-06,Santa Teresinha,53,0,0,0,0
+2020-08-06,Juarez Távora,271,1,0,0,0
+2020-08-06,Natuba,51,2,0,0,0
+2020-08-06,Cuité de Mamanguape,103,6,0,0,0
+2020-08-06,Maturéia,33,1,0,0,0
+2020-08-06,Itatuba,303,1,0,1,0
+2020-08-06,Belém,844,9,0,14,0
+2020-08-06,Mogeiro,145,2,0,1,0
+2020-08-06,Cuité,159,1,0,0,0
+2020-08-06,Solânea,398,3,0,18,0
+2020-08-06,Quixabá,28,0,0,0,0
+2020-08-06,Nova Olinda,15,0,0,0,0
+2020-08-06,Serraria,140,2,0,0,0
+2020-08-06,Vista Serrana,6,0,0,1,0
+2020-08-06,Areial,43,2,0,0,0
+2020-08-06,Picuí,180,2,0,0,0
+2020-08-06,Jacaraú,288,3,0,0,0
+2020-08-06,Salgado de São Félix,217,2,0,0,0
+2020-08-06,Conceição,440,6,0,11,0
+2020-08-06,Curral de Cima,24,0,0,0,0
+2020-08-06,Olho d'Água,39,0,0,0,0
+2020-08-06,Amparo,17,0,0,0,0
+2020-08-06,Seridó,48,0,0,2,0
+2020-08-06,Arara,178,3,0,0,0
+2020-08-06,Logradouro,122,2,0,0,0
+2020-08-06,Cacimba de Dentro,225,4,0,1,0
+2020-08-06,Boa Vista,78,1,0,0,0
+2020-08-06,Passagem,30,0,0,0,0
+2020-08-06,Lastro,16,0,0,0,0
+2020-08-06,Caturité,97,1,0,0,0
+2020-08-06,São José de Caiana,36,1,0,0,0
+2020-08-06,Catolé do Rocha,285,11,0,13,0
+2020-08-06,São José da Lagoa Tapada,51,0,0,0,0
+2020-08-06,São Mamede,38,3,0,0,0
+2020-08-06,Paulista,170,2,0,7,0
+2020-08-06,Caldas Brandão,195,2,0,1,0
+2020-08-06,Belém do Brejo do Cruz,28,1,0,0,0
+2020-08-06,Cachoeira dos Índios,92,6,0,1,0
+2020-08-06,Ibiara,44,0,0,0,0
+2020-08-06,Jericó,13,1,0,3,0
+2020-08-06,Montadas,39,1,0,0,0
+2020-08-06,Juru,84,0,0,1,0
+2020-08-06,São José dos Cordeiros,32,0,0,0,0
+2020-08-06,Aguiar,23,0,0,0,0
+2020-08-06,Mato Grosso,14,0,0,0,0
+2020-08-06,Gurjão,22,1,0,0,0
+2020-08-06,Lagoa,6,0,0,0,0
+2020-08-06,Vieirópolis,5,0,0,0,0
+2020-08-06,Fagundes,89,4,0,3,0
+2020-08-06,Manaíra,11,1,0,1,0
+2020-08-06,São João do Tigre,11,0,0,1,0
+2020-08-06,Aparecida,66,1,0,1,0
+2020-08-06,Sumé,216,1,0,2,0
+2020-08-06,Barra de Santa Rosa,53,1,0,5,0
+2020-08-06,Água Branca,50,2,0,0,0
+2020-08-06,Tavares,94,2,0,13,0
+2020-08-06,Várzea,15,0,0,1,0
+2020-08-06,Riacho de Santo Antônio,29,0,0,1,0
+2020-08-06,São Bentinho,41,0,0,0,0
+2020-08-06,Desterro,50,1,0,0,0
+2020-08-06,Cabaceiras,59,0,0,0,0
+2020-08-06,Cacimbas,42,1,0,0,0
+2020-08-06,Mãe d'Água,18,0,0,0,0
+2020-08-06,Carrapateira,44,0,0,1,0
+2020-08-06,Dona Inês,88,2,0,0,0
+2020-08-06,Emas,47,3,0,3,0
+2020-08-06,Araruna,221,7,0,0,0
+2020-08-06,Ouro Velho,0,0,0,0,0
+2020-08-06,São João do Cariri,95,1,0,0,0
+2020-08-06,Santa Cecília,65,0,0,0,0
+2020-08-06,Damião,17,1,0,0,0
+2020-08-06,Salgadinho,26,0,0,0,0
+2020-08-06,São Francisco,33,1,0,0,0
+2020-08-06,Santana dos Garrotes,18,0,0,1,0
+2020-08-06,Tenório,14,0,0,0,0
+2020-08-06,Assunção,44,0,0,0,0
+2020-08-06,Areia de Baraúnas,10,0,0,0,0
+2020-08-06,Alcantil,54,0,0,0,0
+2020-08-06,Boa Ventura,4,0,0,0,0
+2020-08-06,Olivedos,75,1,0,0,0
+2020-08-06,Pedro Régis,42,2,0,0,0
+2020-08-06,São Sebastião do Umbuzeiro,11,0,0,3,0
+2020-08-06,Santa Inês,53,0,0,0,0
+2020-08-06,Marcação,279,2,0,5,0
+2020-08-06,Livramento,80,0,0,0,0
+2020-08-06,Baraúna,129,0,0,0,0
+2020-08-06,Cacimba de Areia,8,0,0,0,0
+2020-08-06,Cubati,71,1,0,0,0
+2020-08-06,Nova Palmeira,58,0,0,0,0
+2020-08-06,Bonito de Santa Fé,18,1,0,0,0
+2020-08-06,Serra Grande,9,0,0,0,0
+2020-08-06,Curral Velho,1,0,0,0,0
+2020-08-06,Pedra Lavrada,34,0,0,0,0
+2020-08-06,Nazarezinho,34,1,0,0,0
+2020-08-06,Caraúbas,37,0,0,1,0
+2020-08-06,Bernardino Batista,7,0,0,0,0
+2020-08-06,Diamante,109,1,0,0,1
+2020-08-06,Santo André,14,0,0,0,0
+2020-08-06,Prata,5,0,0,0,0
+2020-08-06,Riachão,68,0,0,1,0
+2020-08-06,Bom Sucesso,18,0,0,0,0
+2020-08-06,Brejo dos Santos,22,0,0,0,0
+2020-08-06,Santa Cruz,49,2,0,0,0
+2020-08-06,Parari,5,0,0,0,0
+2020-08-06,Sossêgo,9,0,0,0,0
+2020-08-06,São José de Princesa,1,0,0,0,0
+2020-08-06,Triunfo,45,2,0,0,0
+2020-08-06,Frei Martinho,6,0,0,0,0
+2020-08-06,São José do Brejo do Cruz,10,0,0,0,0
+2020-08-06,Camalaú,1,0,0,0,0
+2020-08-06,Zabelê,23,0,0,0,0
+2020-08-06,São Domingos do Cariri,45,1,0,0,0
+2020-08-06,Algodão de Jandaíra,6,0,0,0,0
+2020-08-06,Santana de Mangueira,5,0,0,0,0
+2020-08-06,Poço Dantas,5,1,0,0,0
+2020-08-06,São Domingos,0,0,0,0,0
+2020-08-06,Monte Horebe,14,0,0,0,0
+2020-08-06,Poço de José de Moura,18,0,0,0,0
+2020-08-06,Pedra Branca,1,0,0,0,0
+2020-08-06,Paraíba,87867,1945,41746,796,23
