@@ -12499,7 +12499,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-07,Santa Rita,1394,106,0,29,4
 2020-07-07,Sousa,615,4,0,0,0
 2020-07-07,Igaracy,4,0,0,0,0
-2020-07-07,Patos,1832,57,0,83,2
+2020-07-07,Patos,1832,58,0,83,3
 2020-07-07,Cabedelo,1959,23,0,10,0
 2020-07-07,Serra Branca,76,1,0,14,0
 2020-07-07,Junco do Seridó,28,0,0,1,0
@@ -12720,7 +12720,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-08,Santa Rita,1424,106,0,30,0
 2020-07-08,Sousa,630,6,0,15,2
 2020-07-08,Igaracy,4,0,0,0,0
-2020-07-08,Patos,1879,57,0,47,0
+2020-07-08,Patos,1879,58,0,47,0
 2020-07-08,Cabedelo,1969,23,0,10,0
 2020-07-08,Serra Branca,81,1,0,5,0
 2020-07-08,Junco do Seridó,28,0,0,0,0
@@ -12941,7 +12941,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-09,Santa Rita,1441,107,0,17,1
 2020-07-09,Sousa,631,6,0,1,0
 2020-07-09,Igaracy,4,0,0,0,0
-2020-07-09,Patos,1952,57,0,73,0
+2020-07-09,Patos,1952,58,0,73,0
 2020-07-09,Cabedelo,1969,23,0,0,0
 2020-07-09,Serra Branca,85,1,0,4,0
 2020-07-09,Junco do Seridó,28,0,0,0,0
@@ -13162,7 +13162,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Santa Rita,1468,109,0,27,2
 2020-07-10,Sousa,663,6,0,32,0
 2020-07-10,Igaracy,4,0,0,0,0
-2020-07-10,Patos,1952,57,0,0,0
+2020-07-10,Patos,1952,58,0,0,0
 2020-07-10,Cabedelo,1996,23,0,27,0
 2020-07-10,Serra Branca,92,1,0,7,0
 2020-07-10,Junco do Seridó,30,0,0,2,0
@@ -13383,7 +13383,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-11,Santa Rita,1490,110,0,22,1
 2020-07-11,Sousa,664,6,0,1,0
 2020-07-11,Igaracy,4,0,0,0,0
-2020-07-11,Patos,1952,57,0,0,0
+2020-07-11,Patos,1952,58,0,0,0
 2020-07-11,Cabedelo,2015,24,0,19,1
 2020-07-11,Serra Branca,95,1,0,3,0
 2020-07-11,Junco do Seridó,31,0,0,1,0
@@ -13604,7 +13604,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-12,Santa Rita,1514,111,0,24,1
 2020-07-12,Sousa,664,6,0,0,0
 2020-07-12,Igaracy,4,0,0,0,0
-2020-07-12,Patos,1987,57,0,35,0
+2020-07-12,Patos,1987,58,0,35,0
 2020-07-12,Cabedelo,2016,24,0,1,0
 2020-07-12,Serra Branca,95,1,0,0,0
 2020-07-12,Junco do Seridó,31,0,0,0,0
@@ -13825,7 +13825,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-13,Santa Rita,1528,111,0,14,0
 2020-07-13,Sousa,692,6,0,28,0
 2020-07-13,Igaracy,4,0,0,0,0
-2020-07-13,Patos,1989,57,0,2,0
+2020-07-13,Patos,1989,58,0,2,0
 2020-07-13,Cabedelo,2017,26,0,1,2
 2020-07-13,Serra Branca,95,1,0,0,0
 2020-07-13,Junco do Seridó,31,0,0,0,0
@@ -14046,7 +14046,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Santa Rita,1549,112,0,21,1
 2020-07-14,Sousa,710,9,0,18,3
 2020-07-14,Igaracy,4,0,0,0,0
-2020-07-14,Patos,2024,57,0,35,0
+2020-07-14,Patos,2024,58,0,35,0
 2020-07-14,Cabedelo,2029,26,0,12,0
 2020-07-14,Serra Branca,101,1,0,6,0
 2020-07-14,Junco do Seridó,31,0,0,0,0
@@ -14268,7 +14268,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-15,Santa Rita,1618,112,0,69,0
 2020-07-15,Sousa,773,10,0,63,1
 2020-07-15,Igaracy,4,0,0,0,0
-2020-07-15,Patos,2082,58,0,58,1
+2020-07-15,Patos,2082,59,0,58,1
 2020-07-15,Cabedelo,2059,26,0,30,0
 2020-07-15,Serra Branca,104,1,0,3,0
 2020-07-15,Junco do Seridó,31,0,0,0,0
@@ -14492,7 +14492,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-16,Santa Rita,1715,112,0,97,0
 2020-07-16,Sousa,837,10,0,64,0
 2020-07-16,Igaracy,4,0,0,0,0
-2020-07-16,Patos,2109,58,0,27,0
+2020-07-16,Patos,2109,59,0,27,0
 2020-07-16,Cabedelo,2096,27,0,37,1
 2020-07-16,Serra Branca,105,1,0,1,0
 2020-07-16,Junco do Seridó,32,0,0,1,0
@@ -14716,7 +14716,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-17,Santa Rita,1739,112,0,24,0
 2020-07-17,Sousa,876,11,0,39,1
 2020-07-17,Igaracy,4,0,0,0,0
-2020-07-17,Patos,2127,59,0,18,1
+2020-07-17,Patos,2127,60,0,18,1
 2020-07-17,Cabedelo,2117,29,0,21,2
 2020-07-17,Serra Branca,107,1,0,2,0
 2020-07-17,Junco do Seridó,32,0,0,0,0
@@ -14940,7 +14940,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-18,Santa Rita,1747,116,0,8,4
 2020-07-18,Sousa,894,13,0,18,2
 2020-07-18,Igaracy,4,0,0,0,0
-2020-07-18,Patos,2139,59,0,12,0
+2020-07-18,Patos,2139,60,0,12,0
 2020-07-18,Cabedelo,2128,33,0,11,4
 2020-07-18,Serra Branca,107,1,0,0,0
 2020-07-18,Junco do Seridó,32,0,0,0,0
@@ -15164,7 +15164,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-19,Santa Rita,1769,116,0,22,0
 2020-07-19,Sousa,921,13,0,27,0
 2020-07-19,Igaracy,4,0,0,0,0
-2020-07-19,Patos,2140,59,0,1,0
+2020-07-19,Patos,2140,60,0,1,0
 2020-07-19,Cabedelo,2137,33,0,9,0
 2020-07-19,Serra Branca,107,1,0,0,0
 2020-07-19,Junco do Seridó,32,0,0,0,0
@@ -15388,7 +15388,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-20,Santa Rita,1775,118,0,6,2
 2020-07-20,Sousa,925,18,0,4,5
 2020-07-20,Igaracy,4,0,0,0,0
-2020-07-20,Patos,2154,59,0,14,0
+2020-07-20,Patos,2154,60,0,14,0
 2020-07-20,Cabedelo,2145,33,0,8,0
 2020-07-20,Serra Branca,107,1,0,0,0
 2020-07-20,Junco do Seridó,32,0,0,0,0
@@ -15612,7 +15612,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-21,Santa Rita,1800,120,0,25,2
 2020-07-21,Sousa,927,18,0,2,0
 2020-07-21,Igaracy,4,0,0,0,0
-2020-07-21,Patos,2207,59,0,53,0
+2020-07-21,Patos,2207,60,0,53,0
 2020-07-21,Cabedelo,2166,37,0,21,4
 2020-07-21,Serra Branca,107,2,0,0,1
 2020-07-21,Junco do Seridó,32,0,0,0,0
@@ -15836,7 +15836,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-22,Santa Rita,1809,120,0,9,0
 2020-07-22,Sousa,927,18,0,0,0
 2020-07-22,Igaracy,4,0,0,0,0
-2020-07-22,Patos,2263,59,0,56,0
+2020-07-22,Patos,2263,60,0,56,0
 2020-07-22,Cabedelo,2203,37,0,37,0
 2020-07-22,Serra Branca,108,2,0,1,0
 2020-07-22,Junco do Seridó,33,0,0,1,0
@@ -16060,7 +16060,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-23,Santa Rita,1841,121,0,32,1
 2020-07-23,Sousa,927,18,0,0,0
 2020-07-23,Igaracy,4,0,0,0,0
-2020-07-23,Patos,2295,60,0,32,1
+2020-07-23,Patos,2295,61,0,32,1
 2020-07-23,Cabedelo,2233,38,0,30,1
 2020-07-23,Serra Branca,115,2,0,7,0
 2020-07-23,Junco do Seridó,33,0,0,0,0
@@ -16284,7 +16284,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-24,Santa Rita,1888,121,0,47,0
 2020-07-24,Sousa,927,19,0,0,1
 2020-07-24,Igaracy,4,0,0,0,0
-2020-07-24,Patos,2322,61,0,27,1
+2020-07-24,Patos,2322,62,0,27,1
 2020-07-24,Cabedelo,2258,40,0,25,2
 2020-07-24,Serra Branca,124,2,0,9,0
 2020-07-24,Junco do Seridó,34,0,0,1,0
@@ -16508,7 +16508,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-25,Santa Rita,1921,122,0,33,1
 2020-07-25,Sousa,930,19,0,3,0
 2020-07-25,Igaracy,6,0,0,2,0
-2020-07-25,Patos,2330,61,0,8,0
+2020-07-25,Patos,2330,62,0,8,0
 2020-07-25,Cabedelo,2286,42,0,28,2
 2020-07-25,Serra Branca,128,2,0,4,0
 2020-07-25,Junco do Seridó,35,0,0,1,0
@@ -16732,7 +16732,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-26,Santa Rita,1958,122,0,37,0
 2020-07-26,Sousa,930,19,0,0,0
 2020-07-26,Igaracy,6,0,0,0,0
-2020-07-26,Patos,2335,61,0,5,0
+2020-07-26,Patos,2335,62,0,5,0
 2020-07-26,Cabedelo,2292,42,0,6,0
 2020-07-26,Serra Branca,128,2,0,0,0
 2020-07-26,Junco do Seridó,35,0,0,0,0
@@ -16956,7 +16956,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-27,Santa Rita,1978,123,0,20,1
 2020-07-27,Sousa,960,19,0,30,0
 2020-07-27,Igaracy,6,0,0,0,0
-2020-07-27,Patos,2337,62,0,2,1
+2020-07-27,Patos,2337,63,0,2,1
 2020-07-27,Cabedelo,2299,42,0,7,0
 2020-07-27,Serra Branca,128,2,0,0,0
 2020-07-27,Junco do Seridó,35,0,0,0,0
@@ -17180,7 +17180,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-28,Santa Rita,2052,125,0,74,2
 2020-07-28,Sousa,1019,19,0,59,0
 2020-07-28,Igaracy,8,0,0,2,0
-2020-07-28,Patos,2432,63,0,95,1
+2020-07-28,Patos,2432,64,0,95,1
 2020-07-28,Cabedelo,2325,42,0,26,0
 2020-07-28,Serra Branca,130,2,0,2,0
 2020-07-28,Junco do Seridó,35,0,0,0,0
@@ -17404,7 +17404,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,Santa Rita,2166,126,0,114,1
 2020-07-29,Sousa,1101,20,0,82,1
 2020-07-29,Igaracy,8,0,0,0,0
-2020-07-29,Patos,2499,64,0,67,1
+2020-07-29,Patos,2499,65,0,67,1
 2020-07-29,Cabedelo,2339,42,0,14,0
 2020-07-29,Serra Branca,130,2,0,0,0
 2020-07-29,Junco do Seridó,37,0,0,2,0
@@ -17628,7 +17628,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,Santa Rita,2171,127,0,5,1
 2020-07-30,Sousa,1101,20,0,0,0
 2020-07-30,Igaracy,8,0,0,0,0
-2020-07-30,Patos,2517,64,0,18,0
+2020-07-30,Patos,2517,65,0,18,0
 2020-07-30,Cabedelo,2353,43,0,14,1
 2020-07-30,Serra Branca,130,2,0,0,0
 2020-07-30,Junco do Seridó,37,0,0,0,0
@@ -17852,7 +17852,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Santa Rita,2279,130,0,108,3
 2020-07-31,Sousa,1249,21,0,148,1
 2020-07-31,Igaracy,8,0,0,0,0
-2020-07-31,Patos,2536,66,0,19,2
+2020-07-31,Patos,2536,67,0,19,2
 2020-07-31,Cabedelo,2390,44,0,37,1
 2020-07-31,Serra Branca,130,2,0,0,0
 2020-07-31,Junco do Seridó,38,0,0,1,0
@@ -18076,7 +18076,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Santa Rita,2324,130,0,45,0
 2020-08-01,Sousa,1257,21,0,8,0
 2020-08-01,Igaracy,8,0,0,0,0
-2020-08-01,Patos,2548,66,0,12,0
+2020-08-01,Patos,2548,67,0,12,0
 2020-08-01,Cabedelo,2404,45,0,14,1
 2020-08-01,Serra Branca,130,2,0,0,0
 2020-08-01,Junco do Seridó,38,0,0,0,0
@@ -18300,7 +18300,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Santa Rita,2332,133,0,8,3
 2020-08-02,Sousa,1289,21,0,32,0
 2020-08-02,Igaracy,8,0,0,0,0
-2020-08-02,Patos,2588,66,0,40,0
+2020-08-02,Patos,2588,67,0,40,0
 2020-08-02,Cabedelo,2409,45,0,5,0
 2020-08-02,Serra Branca,130,2,0,0,0
 2020-08-02,Junco do Seridó,38,0,0,0,0
@@ -18524,7 +18524,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Santa Rita,2387,133,0,55,0
 2020-08-03,Sousa,1289,21,0,0,0
 2020-08-03,Igaracy,8,0,0,0,0
-2020-08-03,Patos,2619,66,0,31,0
+2020-08-03,Patos,2619,67,0,31,0
 2020-08-03,Cabedelo,2409,45,0,0,0
 2020-08-03,Serra Branca,130,2,0,0,0
 2020-08-03,Junco do Seridó,38,0,0,0,0
@@ -18748,7 +18748,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Santa Rita,2427,134,0,40,1
 2020-08-04,Sousa,1301,21,0,12,0
 2020-08-04,Igaracy,8,0,0,0,0
-2020-08-04,Patos,2699,68,0,80,2
+2020-08-04,Patos,2699,69,0,80,2
 2020-08-04,Cabedelo,2449,46,0,40,1
 2020-08-04,Serra Branca,137,2,0,7,0
 2020-08-04,Junco do Seridó,41,0,0,3,0
@@ -18972,7 +18972,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Santa Rita,2445,135,0,18,1
 2020-08-05,Sousa,1304,21,0,3,0
 2020-08-05,Igaracy,8,0,0,0,0
-2020-08-05,Patos,2800,68,0,101,0
+2020-08-05,Patos,2800,69,0,101,0
 2020-08-05,Cabedelo,2478,48,0,29,2
 2020-08-05,Serra Branca,145,2,0,8,0
 2020-08-05,Junco do Seridó,42,0,0,1,0
@@ -19196,7 +19196,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-06,Santa Rita,2493,135,0,48,0
 2020-08-06,Sousa,1338,22,0,34,1
 2020-08-06,Igaracy,8,0,0,0,0
-2020-08-06,Patos,2808,68,0,8,0
+2020-08-06,Patos,2808,69,0,8,0
 2020-08-06,Cabedelo,2484,49,0,6,1
 2020-08-06,Serra Branca,145,2,0,0,0
 2020-08-06,Junco do Seridó,42,1,0,0,1
@@ -19420,7 +19420,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-07,Santa Rita,2501,136,0,8,1
 2020-08-07,Sousa,1376,22,0,38,0
 2020-08-07,Igaracy,9,0,0,1,0
-2020-08-07,Patos,2913,69,0,105,1
+2020-08-07,Patos,2913,70,0,105,1
 2020-08-07,Cabedelo,2519,49,0,35,0
 2020-08-07,Serra Branca,145,2,0,0,0
 2020-08-07,Junco do Seridó,47,1,0,5,0
@@ -19644,16 +19644,16 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-08,Santa Rita,2580,136,0,79,0
 2020-08-08,Sousa,1419,23,0,43,1
 2020-08-08,Igaracy,9,0,0,0,0
-2020-08-08,Patos,2970,69,0,57,0
+2020-08-08,Patos,2970,70,0,57,0
 2020-08-08,Cabedelo,2531,49,0,12,0
 2020-08-08,Serra Branca,146,2,0,1,0
 2020-08-08,Junco do Seridó,48,1,0,1,0
 2020-08-08,Bayeux,1550,86,0,10,1
 2020-08-08,São João do Rio do Peixe,229,4,0,6,1
 2020-08-08,Taperoá,68,2,0,0,0
-2020-08-08,Sapé,951,34,0,4,1
+2020-08-08,Sapé,950,34,0,3,1
 2020-08-08,Pombal,435,4,0,5,0
-2020-08-08,São Bento,1552,18,0,15,0
+2020-08-08,São Bento,1548,18,0,11,0
 2020-08-08,Riachão do Poço,87,3,0,0,0
 2020-08-08,Queimadas,1003,10,0,7,1
 2020-08-08,Congo,69,1,0,0,0
@@ -19772,7 +19772,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-08,Boa Vista,79,1,0,1,0
 2020-08-08,Passagem,30,0,0,0,0
 2020-08-08,Lastro,18,0,0,2,0
-2020-08-08,Caturité,98,1,0,1,0
+2020-08-08,Caturité,97,1,0,0,0
 2020-08-08,São José de Caiana,40,1,0,2,0
 2020-08-08,Catolé do Rocha,294,11,0,5,0
 2020-08-08,São José da Lagoa Tapada,51,0,0,0,0
@@ -19868,16 +19868,16 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Santa Rita,2594,136,0,14,0
 2020-08-09,Sousa,1420,23,0,1,0
 2020-08-09,Igaracy,9,0,0,0,0
-2020-08-09,Patos,2981,69,0,11,0
+2020-08-09,Patos,2981,70,0,11,0
 2020-08-09,Cabedelo,2533,49,0,2,0
 2020-08-09,Serra Branca,146,2,0,0,0
 2020-08-09,Junco do Seridó,48,1,0,0,0
 2020-08-09,Bayeux,1554,86,0,4,0
 2020-08-09,São João do Rio do Peixe,231,4,0,2,0
 2020-08-09,Taperoá,69,2,0,1,0
-2020-08-09,Sapé,951,34,0,0,0
+2020-08-09,Sapé,950,34,0,0,0
 2020-08-09,Pombal,436,4,0,1,0
-2020-08-09,São Bento,1552,20,0,0,2
+2020-08-09,São Bento,1548,20,0,0,2
 2020-08-09,Riachão do Poço,87,3,0,0,0
 2020-08-09,Queimadas,1005,10,0,2,0
 2020-08-09,Congo,69,1,0,0,0
@@ -19976,7 +19976,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Belém,905,9,0,0,0
 2020-08-09,Mogeiro,148,2,0,1,0
 2020-08-09,Cuité,162,1,0,0,0
-2020-08-09,Solânea,438,3,0,15,0
+2020-08-09,Solânea,437,3,0,14,0
 2020-08-09,Quixabá,27,0,0,0,0
 2020-08-09,Nova Olinda,15,0,0,0,0
 2020-08-09,Serraria,151,2,0,0,0
@@ -19996,7 +19996,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Boa Vista,79,1,0,0,0
 2020-08-09,Passagem,30,0,0,0,0
 2020-08-09,Lastro,18,0,0,0,0
-2020-08-09,Caturité,98,1,0,0,0
+2020-08-09,Caturité,97,1,0,0,0
 2020-08-09,São José de Caiana,40,1,0,0,0
 2020-08-09,Catolé do Rocha,295,11,0,1,0
 2020-08-09,São José da Lagoa Tapada,51,0,0,0,0
@@ -20073,7 +20073,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Parari,5,0,0,0,0
 2020-08-09,Sossêgo,9,0,0,0,0
 2020-08-09,São José de Princesa,1,0,0,0,0
-2020-08-09,Triunfo,53,2,0,1,0
+2020-08-09,Triunfo,52,2,0,0,0
 2020-08-09,Frei Martinho,6,0,0,0,0
 2020-08-09,São José do Brejo do Cruz,11,0,0,1,0
 2020-08-09,Camalaú,2,0,0,0,0
@@ -20087,3 +20087,227 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Poço de José de Moura,18,0,0,0,0
 2020-08-09,Pedra Branca,1,0,0,0,0
 2020-08-09,Paraíba,90082,2000,43916,189,17
+2020-08-10,João Pessoa,23012,705,0,83,12
+2020-08-10,Campina Grande,11222,239,0,10,0
+2020-08-10,Santa Rita,2616,137,0,22,1
+2020-08-10,Sousa,1430,24,0,10,1
+2020-08-10,Igaracy,9,0,0,0,0
+2020-08-10,Patos,3033,70,0,52,0
+2020-08-10,Cabedelo,2536,50,0,3,1
+2020-08-10,Serra Branca,146,2,0,0,0
+2020-08-10,Junco do Seridó,48,1,0,0,0
+2020-08-10,Bayeux,1566,86,0,12,0
+2020-08-10,São João do Rio do Peixe,232,4,0,1,0
+2020-08-10,Taperoá,69,2,0,0,0
+2020-08-10,Sapé,950,34,0,0,0
+2020-08-10,Pombal,437,4,0,1,0
+2020-08-10,São Bento,1548,22,0,0,2
+2020-08-10,Riachão do Poço,88,3,0,1,0
+2020-08-10,Queimadas,1006,10,0,1,0
+2020-08-10,Congo,69,1,0,0,0
+2020-08-10,Bom Jesus,8,0,0,0,0
+2020-08-10,Cajazeiras,1375,35,0,5,0
+2020-08-10,Cruz do Espírito Santo,280,19,0,2,0
+2020-08-10,Itabaiana,1036,21,0,3,0
+2020-08-10,Conde,692,10,0,1,0
+2020-08-10,Coremas,127,2,0,0,0
+2020-08-10,Alagoa Nova,261,8,0,0,0
+2020-08-10,Barra de São Miguel,44,1,0,0,0
+2020-08-10,Itapororoca,722,4,0,1,0
+2020-08-10,Guarabira,3620,49,0,10,2
+2020-08-10,Pedras de Fogo,1253,24,0,3,1
+2020-08-10,Itaporanga,219,1,0,0,0
+2020-08-10,Alagoa Grande,823,17,0,4,0
+2020-08-10,Brejo do Cruz,322,6,0,0,0
+2020-08-10,Caaporã,913,13,0,0,0
+2020-08-10,Coxixola,29,0,0,0,0
+2020-08-10,Boqueirão,326,5,0,0,0
+2020-08-10,Marizópolis,26,1,0,0,0
+2020-08-10,Areia,366,3,0,5,0
+2020-08-10,Gurinhém,417,6,0,0,0
+2020-08-10,Esperança,422,6,0,0,0
+2020-08-10,Lagoa Seca,625,13,0,0,0
+2020-08-10,Mari,1044,16,0,0,0
+2020-08-10,Lucena,353,4,0,1,1
+2020-08-10,Catingueira,17,2,0,0,0
+2020-08-10,Araçagi,478,4,0,0,0
+2020-08-10,São José do Bonfim,58,3,0,0,0
+2020-08-10,Alhandra,596,16,0,1,0
+2020-08-10,Riacho dos Cavalos,12,0,0,0,0
+2020-08-10,Santa Helena,19,0,0,0,0
+2020-08-10,São José de Piranhas,163,0,0,0,0
+2020-08-10,Umbuzeiro,75,2,0,0,0
+2020-08-10,Rio Tinto,999,21,0,0,0
+2020-08-10,Princesa Isabel,75,4,0,1,0
+2020-08-10,Mamanguape,2136,33,0,4,0
+2020-08-10,Serra Redonda,240,2,0,0,0
+2020-08-10,Casserengue,261,4,0,1,0
+2020-08-10,Caiçara,396,5,0,1,0
+2020-08-10,Imaculada,45,0,0,0,0
+2020-08-10,Monteiro,341,4,0,0,0
+2020-08-10,Pilar,292,6,0,2,0
+2020-08-10,Pilõezinhos,238,1,0,10,0
+2020-08-10,Pitimbu,589,6,0,0,0
+2020-08-10,São José de Espinharas,37,0,0,0,0
+2020-08-10,Piancó,149,5,0,1,0
+2020-08-10,Serra da Raiz,19,0,0,0,0
+2020-08-10,Mulungu,319,5,0,0,0
+2020-08-10,Alagoinha,821,7,0,8,0
+2020-08-10,Mataraca,163,4,0,0,0
+2020-08-10,Pirpirituba,281,2,0,0,0
+2020-08-10,Nova Floresta,59,0,0,0,0
+2020-08-10,Uiraúna,89,2,0,1,0
+2020-08-10,Capim,148,5,0,0,0
+2020-08-10,Remígio,230,3,0,0,0
+2020-08-10,São Sebastião de Lagoa de Roça,213,0,0,0,0
+2020-08-10,Matinhas,71,1,0,0,0
+2020-08-10,Pilões,106,1,0,1,0
+2020-08-10,Condado,113,3,0,0,0
+2020-08-10,Juazeirinho,159,0,0,0,0
+2020-08-10,Massaranduba,310,4,0,0,0
+2020-08-10,Santa Luzia,220,7,0,0,0
+2020-08-10,Baía da Traição,517,4,0,1,0
+2020-08-10,Juripiranga,447,10,0,0,0
+2020-08-10,Cuitegi,374,8,0,0,0
+2020-08-10,Borborema,27,0,0,0,0
+2020-08-10,Pocinhos,136,1,0,0,0
+2020-08-10,Sobrado,175,4,0,0,0
+2020-08-10,Riachão do Bacamarte,223,0,0,0,0
+2020-08-10,São Miguel de Taipu,131,4,0,0,0
+2020-08-10,Sertãozinho,177,0,0,1,0
+2020-08-10,Cajazeirinhas,22,0,0,0,0
+2020-08-10,Bananeiras,177,2,0,0,0
+2020-08-10,Teixeira,167,3,0,0,0
+2020-08-10,Santarém,11,0,0,0,0
+2020-08-10,Campo de Santana,123,0,0,0,0
+2020-08-10,Barra de Santana,89,2,0,0,0
+2020-08-10,São José dos Ramos,225,0,0,0,0
+2020-08-10,Soledade,138,1,0,0,0
+2020-08-10,Ingá,1067,9,0,0,0
+2020-08-10,Gado Bravo,92,2,0,0,0
+2020-08-10,Puxinanã,253,1,0,0,0
+2020-08-10,Aroeiras,199,0,0,0,0
+2020-08-10,São José do Sabugi,214,1,0,0,0
+2020-08-10,Duas Estradas,73,1,0,0,0
+2020-08-10,Lagoa de Dentro,117,0,0,0,0
+2020-08-10,Malta,91,2,0,0,0
+2020-08-10,Santa Teresinha,54,1,0,0,0
+2020-08-10,Juarez Távora,283,1,0,0,0
+2020-08-10,Natuba,54,2,0,0,0
+2020-08-10,Cuité de Mamanguape,103,6,0,0,0
+2020-08-10,Maturéia,34,1,0,0,0
+2020-08-10,Itatuba,306,1,0,0,0
+2020-08-10,Belém,913,9,0,8,0
+2020-08-10,Mogeiro,150,2,0,2,0
+2020-08-10,Cuité,162,1,0,0,0
+2020-08-10,Solânea,437,3,0,0,0
+2020-08-10,Quixabá,27,0,0,0,0
+2020-08-10,Nova Olinda,15,0,0,0,0
+2020-08-10,Serraria,155,2,0,4,0
+2020-08-10,Vista Serrana,7,0,0,0,0
+2020-08-10,Areial,43,2,0,0,0
+2020-08-10,Picuí,191,2,0,0,0
+2020-08-10,Jacaraú,292,4,0,0,0
+2020-08-10,Salgado de São Félix,223,2,0,1,0
+2020-08-10,Conceição,473,6,0,3,0
+2020-08-10,Curral de Cima,25,0,0,0,0
+2020-08-10,Olho d'Água,40,0,0,0,0
+2020-08-10,Amparo,17,0,0,0,0
+2020-08-10,Seridó,47,0,0,0,0
+2020-08-10,Arara,190,3,0,0,0
+2020-08-10,Logradouro,126,2,0,0,0
+2020-08-10,Cacimba de Dentro,242,4,0,0,0
+2020-08-10,Boa Vista,79,1,0,0,0
+2020-08-10,Passagem,30,0,0,0,0
+2020-08-10,Lastro,18,0,0,0,0
+2020-08-10,Caturité,97,1,0,0,0
+2020-08-10,São José de Caiana,40,1,0,0,0
+2020-08-10,Catolé do Rocha,296,11,0,1,0
+2020-08-10,São José da Lagoa Tapada,51,0,0,0,0
+2020-08-10,São Mamede,38,3,0,0,0
+2020-08-10,Paulista,179,2,0,0,0
+2020-08-10,Caldas Brandão,213,2,0,1,0
+2020-08-10,Belém do Brejo do Cruz,29,1,0,1,0
+2020-08-10,Cachoeira dos Índios,95,6,0,0,0
+2020-08-10,Ibiara,47,0,0,0,0
+2020-08-10,Jericó,15,1,0,0,0
+2020-08-10,Montadas,39,1,0,0,0
+2020-08-10,Juru,92,0,0,1,0
+2020-08-10,São José dos Cordeiros,36,0,0,0,0
+2020-08-10,Aguiar,23,0,0,0,0
+2020-08-10,Mato Grosso,15,0,0,0,0
+2020-08-10,Gurjão,23,1,0,0,0
+2020-08-10,Lagoa,6,0,0,0,0
+2020-08-10,Vieirópolis,6,0,0,0,0
+2020-08-10,Fagundes,93,4,0,0,0
+2020-08-10,Manaíra,11,1,0,0,0
+2020-08-10,São João do Tigre,11,0,0,0,0
+2020-08-10,Aparecida,69,1,0,0,0
+2020-08-10,Sumé,219,1,0,0,0
+2020-08-10,Barra de Santa Rosa,63,1,0,0,0
+2020-08-10,Água Branca,50,2,0,0,0
+2020-08-10,Tavares,106,2,0,0,0
+2020-08-10,Várzea,15,0,0,0,0
+2020-08-10,Riacho de Santo Antônio,29,0,0,0,0
+2020-08-10,São Bentinho,42,0,0,0,0
+2020-08-10,Desterro,50,1,0,0,0
+2020-08-10,Cabaceiras,60,0,0,0,0
+2020-08-10,Cacimbas,45,1,0,0,0
+2020-08-10,Mãe d'Água,18,0,0,0,0
+2020-08-10,Carrapateira,45,0,0,0,0
+2020-08-10,Dona Inês,88,2,0,0,0
+2020-08-10,Emas,49,3,0,1,0
+2020-08-10,Araruna,222,7,0,0,0
+2020-08-10,Ouro Velho,0,0,0,0,0
+2020-08-10,São João do Cariri,96,1,0,0,0
+2020-08-10,Santa Cecília,65,0,0,0,0
+2020-08-10,Damião,21,1,0,0,0
+2020-08-10,Salgadinho,26,0,0,0,0
+2020-08-10,São Francisco,33,1,0,0,0
+2020-08-10,Santana dos Garrotes,18,0,0,0,0
+2020-08-10,Tenório,16,0,0,0,0
+2020-08-10,Assunção,44,0,0,0,0
+2020-08-10,Areia de Baraúnas,10,0,0,0,0
+2020-08-10,Alcantil,54,0,0,0,0
+2020-08-10,Boa Ventura,4,0,0,0,0
+2020-08-10,Olivedos,75,1,0,0,0
+2020-08-10,Pedro Régis,44,2,0,0,0
+2020-08-10,São Sebastião do Umbuzeiro,13,0,0,0,0
+2020-08-10,Santa Inês,56,0,0,0,0
+2020-08-10,Marcação,293,2,0,0,0
+2020-08-10,Livramento,84,0,0,0,0
+2020-08-10,Baraúna,130,0,0,0,0
+2020-08-10,Cacimba de Areia,8,0,0,0,0
+2020-08-10,Cubati,73,1,0,0,0
+2020-08-10,Nova Palmeira,60,0,0,1,0
+2020-08-10,Bonito de Santa Fé,20,1,0,2,0
+2020-08-10,Serra Grande,9,0,0,0,0
+2020-08-10,Curral Velho,2,0,0,0,0
+2020-08-10,Pedra Lavrada,34,0,0,0,0
+2020-08-10,Nazarezinho,35,1,0,0,0
+2020-08-10,Caraúbas,37,0,0,0,0
+2020-08-10,Bernardino Batista,7,0,0,0,0
+2020-08-10,Diamante,126,3,0,0,1
+2020-08-10,Santo André,14,0,0,0,0
+2020-08-10,Prata,5,0,0,0,0
+2020-08-10,Riachão,71,0,0,0,0
+2020-08-10,Bom Sucesso,18,0,0,0,0
+2020-08-10,Brejo dos Santos,23,0,0,1,0
+2020-08-10,Santa Cruz,53,2,0,0,0
+2020-08-10,Parari,5,0,0,0,0
+2020-08-10,Sossêgo,9,0,0,0,0
+2020-08-10,São José de Princesa,1,0,0,0,0
+2020-08-10,Triunfo,52,2,0,0,0
+2020-08-10,Frei Martinho,6,0,0,0,0
+2020-08-10,São José do Brejo do Cruz,11,0,0,0,0
+2020-08-10,Camalaú,2,0,0,0,0
+2020-08-10,Zabelê,24,0,0,0,0
+2020-08-10,São Domingos do Cariri,45,2,0,0,1
+2020-08-10,Algodão de Jandaíra,6,0,0,0,0
+2020-08-10,Santana de Mangueira,5,0,0,0,0
+2020-08-10,Poço Dantas,6,1,0,0,0
+2020-08-10,São Domingos,0,0,0,0,0
+2020-08-10,Monte Horebe,15,0,0,1,0
+2020-08-10,Poço de José de Moura,18,0,0,0,0
+2020-08-10,Pedra Branca,1,0,0,0,0
+2020-08-10,Paraíba,90366,2023,44155,284,23
