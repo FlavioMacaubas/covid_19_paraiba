@@ -18043,7 +18043,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Bonito de Santa Fé,14,1,0,0,0
 2020-07-31,Serra Grande,9,0,0,0,0
 2020-07-31,Curral Velho,1,0,0,0,0
-2020-07-31,Pedra Lavrada,34,0,0,1,0
+2020-07-31,Pedra Lavrada,33,0,0,0,0
 2020-07-31,Nazarezinho,31,1,0,0,0
 2020-07-31,Caraúbas,32,0,0,0,0
 2020-07-31,Bernardino Batista,6,0,0,0,0
@@ -18267,7 +18267,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Bonito de Santa Fé,15,1,0,1,0
 2020-08-01,Serra Grande,9,0,0,0,0
 2020-08-01,Curral Velho,1,0,0,0,0
-2020-08-01,Pedra Lavrada,34,0,0,0,0
+2020-08-01,Pedra Lavrada,33,0,0,0,0
 2020-08-01,Nazarezinho,31,1,0,0,0
 2020-08-01,Caraúbas,35,0,0,3,0
 2020-08-01,Bernardino Batista,6,0,0,0,0
@@ -18491,7 +18491,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Bonito de Santa Fé,15,1,0,0,0
 2020-08-02,Serra Grande,9,0,0,0,0
 2020-08-02,Curral Velho,1,0,0,0,0
-2020-08-02,Pedra Lavrada,34,0,0,0,0
+2020-08-02,Pedra Lavrada,33,0,0,0,0
 2020-08-02,Nazarezinho,31,1,0,0,0
 2020-08-02,Caraúbas,35,0,0,0,0
 2020-08-02,Bernardino Batista,6,0,0,0,0
@@ -18715,7 +18715,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Bonito de Santa Fé,15,1,0,0,0
 2020-08-03,Serra Grande,9,0,0,0,0
 2020-08-03,Curral Velho,1,0,0,0,0
-2020-08-03,Pedra Lavrada,34,0,0,0,0
+2020-08-03,Pedra Lavrada,33,0,0,0,0
 2020-08-03,Nazarezinho,31,1,0,0,0
 2020-08-03,Caraúbas,35,0,0,0,0
 2020-08-03,Bernardino Batista,6,0,0,0,0
@@ -18939,7 +18939,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Bonito de Santa Fé,18,1,0,3,0
 2020-08-04,Serra Grande,9,0,0,0,0
 2020-08-04,Curral Velho,1,0,0,0,0
-2020-08-04,Pedra Lavrada,34,0,0,0,0
+2020-08-04,Pedra Lavrada,33,0,0,0,0
 2020-08-04,Nazarezinho,34,1,0,3,0
 2020-08-04,Caraúbas,35,0,0,0,0
 2020-08-04,Bernardino Batista,6,0,0,0,0
@@ -19163,7 +19163,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Bonito de Santa Fé,18,1,0,0,0
 2020-08-05,Serra Grande,9,0,0,0,0
 2020-08-05,Curral Velho,1,0,0,0,0
-2020-08-05,Pedra Lavrada,34,0,0,0,0
+2020-08-05,Pedra Lavrada,33,0,0,0,0
 2020-08-05,Nazarezinho,34,1,0,0,0
 2020-08-05,Caraúbas,36,0,0,1,0
 2020-08-05,Bernardino Batista,7,0,0,1,0
@@ -19387,7 +19387,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-06,Bonito de Santa Fé,18,1,0,0,0
 2020-08-06,Serra Grande,9,0,0,0,0
 2020-08-06,Curral Velho,1,0,0,0,0
-2020-08-06,Pedra Lavrada,34,0,0,0,0
+2020-08-06,Pedra Lavrada,33,0,0,0,0
 2020-08-06,Nazarezinho,34,1,0,0,0
 2020-08-06,Caraúbas,37,0,0,1,0
 2020-08-06,Bernardino Batista,7,0,0,0,0
@@ -19611,7 +19611,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-07,Bonito de Santa Fé,18,1,0,0,0
 2020-08-07,Serra Grande,9,0,0,0,0
 2020-08-07,Curral Velho,2,0,0,1,0
-2020-08-07,Pedra Lavrada,34,0,0,0,0
+2020-08-07,Pedra Lavrada,33,0,0,0,0
 2020-08-07,Nazarezinho,35,1,0,1,0
 2020-08-07,Caraúbas,37,0,0,0,0
 2020-08-07,Bernardino Batista,7,0,0,0,0
@@ -19835,7 +19835,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-08,Bonito de Santa Fé,18,1,0,0,0
 2020-08-08,Serra Grande,9,0,0,0,0
 2020-08-08,Curral Velho,2,0,0,0,0
-2020-08-08,Pedra Lavrada,34,0,0,0,0
+2020-08-08,Pedra Lavrada,33,0,0,0,0
 2020-08-08,Nazarezinho,35,1,0,0,0
 2020-08-08,Caraúbas,37,0,0,0,0
 2020-08-08,Bernardino Batista,7,0,0,0,0
@@ -20059,7 +20059,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Bonito de Santa Fé,18,1,0,0,0
 2020-08-09,Serra Grande,9,0,0,0,0
 2020-08-09,Curral Velho,2,0,0,0,0
-2020-08-09,Pedra Lavrada,34,0,0,0,0
+2020-08-09,Pedra Lavrada,33,0,0,0,0
 2020-08-09,Nazarezinho,35,1,0,0,0
 2020-08-09,Caraúbas,37,0,0,0,0
 2020-08-09,Bernardino Batista,7,0,0,0,0
@@ -20283,7 +20283,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-10,Bonito de Santa Fé,20,1,0,2,0
 2020-08-10,Serra Grande,9,0,0,0,0
 2020-08-10,Curral Velho,2,0,0,0,0
-2020-08-10,Pedra Lavrada,34,0,0,0,0
+2020-08-10,Pedra Lavrada,33,0,0,0,0
 2020-08-10,Nazarezinho,35,1,0,0,0
 2020-08-10,Caraúbas,37,0,0,0,0
 2020-08-10,Bernardino Batista,7,0,0,0,0
@@ -20507,7 +20507,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-11,Bonito de Santa Fé,22,1,0,2,0
 2020-08-11,Serra Grande,9,0,0,0,0
 2020-08-11,Curral Velho,2,0,0,0,0
-2020-08-11,Pedra Lavrada,34,0,0,0,0
+2020-08-11,Pedra Lavrada,33,0,0,0,0
 2020-08-11,Nazarezinho,36,1,0,1,0
 2020-08-11,Caraúbas,37,0,0,0,0
 2020-08-11,Bernardino Batista,7,0,0,0,0
@@ -20731,7 +20731,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-12,Bonito de Santa Fé,24,1,0,2,0
 2020-08-12,Serra Grande,9,0,0,0,0
 2020-08-12,Curral Velho,2,0,0,0,0
-2020-08-12,Pedra Lavrada,35,0,0,1,0
+2020-08-12,Pedra Lavrada,33,0,0,0,0
 2020-08-12,Nazarezinho,36,1,0,0,0
 2020-08-12,Caraúbas,37,0,0,0,0
 2020-08-12,Bernardino Batista,7,0,0,0,0
@@ -20955,7 +20955,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-13,Bonito de Santa Fé,24,1,0,0,0
 2020-08-13,Serra Grande,10,0,0,1,0
 2020-08-13,Curral Velho,2,0,0,0,0
-2020-08-13,Pedra Lavrada,35,0,0,0,0
+2020-08-13,Pedra Lavrada,33,0,0,0,0
 2020-08-13,Nazarezinho,36,1,0,0,0
 2020-08-13,Caraúbas,38,0,0,1,0
 2020-08-13,Bernardino Batista,7,0,0,0,0
@@ -21179,7 +21179,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-14,Bonito de Santa Fé,24,1,0,0,0
 2020-08-14,Serra Grande,10,0,0,0,0
 2020-08-14,Curral Velho,2,0,0,0,0
-2020-08-14,Pedra Lavrada,35,0,0,0,0
+2020-08-14,Pedra Lavrada,33,0,0,0,0
 2020-08-14,Nazarezinho,36,1,0,0,0
 2020-08-14,Caraúbas,38,0,0,0,0
 2020-08-14,Bernardino Batista,7,0,0,0,0
@@ -21227,7 +21227,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-15,Congo,76,2,0,4,1
 2020-08-15,Bom Jesus,8,0,0,0,0
 2020-08-15,Cajazeiras,1442,38,0,18,2
-2020-08-15,Cruz do Espírito Santo,280,20,0,13,0
+2020-08-15,Cruz do Espírito Santo,279,20,0,12,0
 2020-08-15,Itabaiana,1043,22,0,0,0
 2020-08-15,Conde,719,10,0,3,0
 2020-08-15,Coremas,130,2,0,0,0
@@ -21403,7 +21403,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-15,Bonito de Santa Fé,24,1,0,0,0
 2020-08-15,Serra Grande,10,0,0,0,0
 2020-08-15,Curral Velho,2,0,0,0,0
-2020-08-15,Pedra Lavrada,35,0,0,0,0
+2020-08-15,Pedra Lavrada,33,0,0,0,0
 2020-08-15,Nazarezinho,37,1,0,1,0
 2020-08-15,Caraúbas,38,0,0,0,0
 2020-08-15,Bernardino Batista,7,0,0,0,0
@@ -21451,14 +21451,14 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-16,Congo,76,2,0,0,0
 2020-08-16,Bom Jesus,8,0,0,0,0
 2020-08-16,Cajazeiras,1460,38,0,18,0
-2020-08-16,Cruz do Espírito Santo,280,20,0,0,0
+2020-08-16,Cruz do Espírito Santo,279,20,0,0,0
 2020-08-16,Itabaiana,1046,22,0,3,0
 2020-08-16,Conde,721,11,0,2,1
 2020-08-16,Coremas,130,2,0,0,0
 2020-08-16,Alagoa Nova,274,8,0,0,0
 2020-08-16,Barra de São Miguel,48,1,0,0,0
 2020-08-16,Itapororoca,756,7,0,11,0
-2020-08-16,Guarabira,3763,52,0,2,0
+2020-08-16,Guarabira,3762,52,0,1,0
 2020-08-16,Pedras de Fogo,1269,26,0,0,0
 2020-08-16,Itaporanga,272,2,0,0,1
 2020-08-16,Alagoa Grande,872,18,0,1,0
@@ -21627,7 +21627,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-16,Bonito de Santa Fé,24,1,0,0,0
 2020-08-16,Serra Grande,10,0,0,0,0
 2020-08-16,Curral Velho,2,0,0,0,0
-2020-08-16,Pedra Lavrada,35,0,0,0,0
+2020-08-16,Pedra Lavrada,33,0,0,0,0
 2020-08-16,Nazarezinho,37,1,0,0,0
 2020-08-16,Caraúbas,40,0,0,2,0
 2020-08-16,Bernardino Batista,7,0,0,0,0
@@ -21655,3 +21655,227 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-16,Poço de José de Moura,27,0,0,0,0
 2020-08-16,Pedra Branca,1,0,0,0,0
 2020-08-16,Paraíba,96033,2162,52891,445,24
+2020-08-17,João Pessoa,24597,756,0,1,6
+2020-08-17,Campina Grande,11776,269,0,17,2
+2020-08-17,Santa Rita,2743,138,0,1,0
+2020-08-17,Sousa,1497,26,0,21,0
+2020-08-17,Igaracy,11,0,0,0,0
+2020-08-17,Patos,3306,72,0,23,0
+2020-08-17,Cabedelo,2622,58,0,1,1
+2020-08-17,Serra Branca,157,3,0,1,0
+2020-08-17,Junco do Seridó,56,2,0,1,1
+2020-08-17,Bayeux,1680,90,0,4,0
+2020-08-17,São João do Rio do Peixe,252,4,0,0,0
+2020-08-17,Taperoá,78,2,0,0,0
+2020-08-17,Sapé,1010,38,0,0,1
+2020-08-17,Pombal,475,5,0,0,0
+2020-08-17,São Bento,1705,24,0,2,0
+2020-08-17,Riachão do Poço,91,3,0,0,0
+2020-08-17,Queimadas,1092,11,0,0,0
+2020-08-17,Congo,76,2,0,0,0
+2020-08-17,Bom Jesus,8,0,0,0,0
+2020-08-17,Cajazeiras,1476,38,0,16,0
+2020-08-17,Cruz do Espírito Santo,279,20,0,0,0
+2020-08-17,Itabaiana,1046,22,0,0,0
+2020-08-17,Conde,722,11,0,1,0
+2020-08-17,Coremas,130,2,0,0,0
+2020-08-17,Alagoa Nova,274,8,0,0,0
+2020-08-17,Barra de São Miguel,48,1,0,0,0
+2020-08-17,Itapororoca,756,7,0,0,0
+2020-08-17,Guarabira,3762,52,0,0,0
+2020-08-17,Pedras de Fogo,1269,26,0,0,0
+2020-08-17,Itaporanga,273,2,0,1,0
+2020-08-17,Alagoa Grande,872,18,0,0,0
+2020-08-17,Brejo do Cruz,363,7,0,0,0
+2020-08-17,Caaporã,921,13,0,0,0
+2020-08-17,Coxixola,33,0,0,0,0
+2020-08-17,Boqueirão,355,6,0,0,1
+2020-08-17,Marizópolis,29,1,0,0,0
+2020-08-17,Areia,390,3,0,0,0
+2020-08-17,Gurinhém,425,6,0,0,0
+2020-08-17,Esperança,454,7,0,0,0
+2020-08-17,Lagoa Seca,663,13,0,0,0
+2020-08-17,Mari,1105,17,0,6,0
+2020-08-17,Lucena,392,6,0,1,0
+2020-08-17,Catingueira,17,2,0,0,0
+2020-08-17,Araçagi,484,4,0,0,0
+2020-08-17,São José do Bonfim,58,3,0,0,0
+2020-08-17,Alhandra,611,16,0,1,0
+2020-08-17,Riacho dos Cavalos,13,0,0,0,0
+2020-08-17,Santa Helena,19,0,0,0,0
+2020-08-17,São José de Piranhas,174,0,0,5,0
+2020-08-17,Umbuzeiro,76,2,0,0,0
+2020-08-17,Rio Tinto,1035,21,0,0,0
+2020-08-17,Princesa Isabel,80,5,0,0,0
+2020-08-17,Mamanguape,2183,34,0,3,0
+2020-08-17,Serra Redonda,255,2,0,0,0
+2020-08-17,Casserengue,293,4,0,0,0
+2020-08-17,Caiçara,419,6,0,0,1
+2020-08-17,Imaculada,52,0,0,0,0
+2020-08-17,Monteiro,404,5,0,1,0
+2020-08-17,Pilar,325,8,0,9,1
+2020-08-17,Pilõezinhos,243,2,0,0,0
+2020-08-17,Pitimbu,611,6,0,0,0
+2020-08-17,São José de Espinharas,52,0,0,0,0
+2020-08-17,Piancó,164,5,0,0,0
+2020-08-17,Serra da Raiz,24,0,0,2,0
+2020-08-17,Mulungu,353,7,0,0,1
+2020-08-17,Alagoinha,882,7,0,11,0
+2020-08-17,Mataraca,167,6,0,0,0
+2020-08-17,Pirpirituba,306,2,0,0,0
+2020-08-17,Nova Floresta,64,0,0,0,0
+2020-08-17,Uiraúna,111,4,0,5,1
+2020-08-17,Capim,149,5,0,0,0
+2020-08-17,Remígio,235,3,0,0,0
+2020-08-17,São Sebastião de Lagoa de Roça,231,0,0,5,0
+2020-08-17,Matinhas,71,1,0,0,0
+2020-08-17,Pilões,107,1,0,0,0
+2020-08-17,Condado,123,4,0,0,1
+2020-08-17,Juazeirinho,181,0,0,8,0
+2020-08-17,Massaranduba,313,4,0,0,0
+2020-08-17,Santa Luzia,241,7,0,0,0
+2020-08-17,Baía da Traição,565,4,0,7,0
+2020-08-17,Juripiranga,462,10,0,0,0
+2020-08-17,Cuitegi,390,8,0,2,0
+2020-08-17,Borborema,40,0,0,0,0
+2020-08-17,Pocinhos,152,2,0,0,0
+2020-08-17,Sobrado,178,4,0,0,0
+2020-08-17,Riachão do Bacamarte,227,0,0,0,0
+2020-08-17,São Miguel de Taipu,137,4,0,0,0
+2020-08-17,Sertãozinho,217,0,0,0,0
+2020-08-17,Cajazeirinhas,31,0,0,0,0
+2020-08-17,Bananeiras,242,2,0,1,0
+2020-08-17,Teixeira,160,3,0,0,0
+2020-08-17,Santarém,12,0,0,0,0
+2020-08-17,Campo de Santana,123,0,0,0,0
+2020-08-17,Barra de Santana,103,2,0,6,0
+2020-08-17,São José dos Ramos,245,0,0,1,0
+2020-08-17,Soledade,153,1,0,0,0
+2020-08-17,Ingá,1116,10,0,0,1
+2020-08-17,Gado Bravo,94,2,0,0,0
+2020-08-17,Puxinanã,266,1,0,0,0
+2020-08-17,Aroeiras,203,0,0,0,0
+2020-08-17,São José do Sabugi,223,1,0,3,0
+2020-08-17,Duas Estradas,82,1,0,0,0
+2020-08-17,Lagoa de Dentro,128,0,0,0,0
+2020-08-17,Malta,105,2,0,6,0
+2020-08-17,Santa Teresinha,54,1,0,1,0
+2020-08-17,Juarez Távora,300,1,0,0,0
+2020-08-17,Natuba,62,2,0,0,0
+2020-08-17,Cuité de Mamanguape,108,6,0,0,0
+2020-08-17,Maturéia,40,1,0,0,0
+2020-08-17,Itatuba,328,2,0,1,0
+2020-08-17,Belém,947,9,0,3,0
+2020-08-17,Mogeiro,163,2,0,2,0
+2020-08-17,Cuité,165,1,0,0,0
+2020-08-17,Solânea,512,4,0,0,0
+2020-08-17,Quixabá,29,0,0,0,0
+2020-08-17,Nova Olinda,15,0,0,0,0
+2020-08-17,Serraria,169,2,0,3,0
+2020-08-17,Vista Serrana,10,0,0,0,0
+2020-08-17,Areial,48,2,0,0,0
+2020-08-17,Picuí,205,2,0,0,0
+2020-08-17,Jacaraú,294,4,0,0,0
+2020-08-17,Salgado de São Félix,246,2,0,0,0
+2020-08-17,Conceição,535,6,0,0,0
+2020-08-17,Curral de Cima,26,0,0,0,0
+2020-08-17,Olho d'Água,40,0,0,0,0
+2020-08-17,Amparo,17,0,0,0,0
+2020-08-17,Seridó,49,0,0,0,0
+2020-08-17,Arara,198,6,0,0,0
+2020-08-17,Logradouro,138,2,0,0,0
+2020-08-17,Cacimba de Dentro,260,6,0,2,1
+2020-08-17,Boa Vista,87,1,0,0,0
+2020-08-17,Passagem,30,0,0,0,0
+2020-08-17,Lastro,19,0,0,0,0
+2020-08-17,Caturité,100,1,0,0,0
+2020-08-17,São José de Caiana,47,1,0,0,0
+2020-08-17,Catolé do Rocha,340,12,0,3,0
+2020-08-17,São José da Lagoa Tapada,56,0,0,0,0
+2020-08-17,São Mamede,40,3,0,0,0
+2020-08-17,Paulista,213,2,0,1,0
+2020-08-17,Caldas Brandão,227,2,0,0,0
+2020-08-17,Belém do Brejo do Cruz,35,1,0,0,0
+2020-08-17,Cachoeira dos Índios,99,6,0,1,0
+2020-08-17,Ibiara,64,1,0,0,0
+2020-08-17,Jericó,28,1,0,0,0
+2020-08-17,Montadas,44,1,0,0,0
+2020-08-17,Juru,124,0,0,1,0
+2020-08-17,São José dos Cordeiros,41,0,0,0,0
+2020-08-17,Aguiar,24,0,0,0,0
+2020-08-17,Mato Grosso,17,0,0,0,0
+2020-08-17,Gurjão,25,2,0,1,0
+2020-08-17,Lagoa,6,0,0,0,0
+2020-08-17,Vieirópolis,6,0,0,0,0
+2020-08-17,Fagundes,106,4,0,0,0
+2020-08-17,Manaíra,11,1,0,0,0
+2020-08-17,São João do Tigre,12,0,0,0,0
+2020-08-17,Aparecida,72,2,0,0,1
+2020-08-17,Sumé,244,1,0,0,0
+2020-08-17,Barra de Santa Rosa,69,1,0,0,0
+2020-08-17,Água Branca,52,2,0,0,0
+2020-08-17,Tavares,128,2,0,0,0
+2020-08-17,Várzea,15,0,0,0,0
+2020-08-17,Riacho de Santo Antônio,30,0,0,0,0
+2020-08-17,São Bentinho,52,0,0,0,0
+2020-08-17,Desterro,54,1,0,0,0
+2020-08-17,Cabaceiras,61,0,0,0,0
+2020-08-17,Cacimbas,46,1,0,0,0
+2020-08-17,Mãe d'Água,18,0,0,0,0
+2020-08-17,Carrapateira,50,0,0,0,0
+2020-08-17,Dona Inês,88,2,0,0,0
+2020-08-17,Emas,50,3,0,0,0
+2020-08-17,Araruna,228,7,0,0,0
+2020-08-17,Ouro Velho,1,0,0,0,0
+2020-08-17,São João do Cariri,96,1,0,0,0
+2020-08-17,Santa Cecília,70,0,0,0,0
+2020-08-17,Damião,30,1,0,0,0
+2020-08-17,Salgadinho,29,0,0,0,0
+2020-08-17,São Francisco,33,1,0,0,0
+2020-08-17,Santana dos Garrotes,18,0,0,0,0
+2020-08-17,Tenório,24,0,0,0,0
+2020-08-17,Assunção,45,0,0,0,0
+2020-08-17,Areia de Baraúnas,10,0,0,0,0
+2020-08-17,Alcantil,57,0,0,0,0
+2020-08-17,Boa Ventura,5,0,0,0,0
+2020-08-17,Olivedos,83,1,0,0,0
+2020-08-17,Pedro Régis,48,2,0,0,0
+2020-08-17,São Sebastião do Umbuzeiro,15,0,0,0,0
+2020-08-17,Santa Inês,63,0,0,0,0
+2020-08-17,Marcação,327,2,0,0,0
+2020-08-17,Livramento,97,0,0,0,0
+2020-08-17,Baraúna,131,0,0,0,0
+2020-08-17,Cacimba de Areia,9,0,0,0,0
+2020-08-17,Cubati,75,1,0,0,0
+2020-08-17,Nova Palmeira,69,0,0,2,0
+2020-08-17,Bonito de Santa Fé,24,1,0,0,0
+2020-08-17,Serra Grande,10,0,0,0,0
+2020-08-17,Curral Velho,2,0,0,0,0
+2020-08-17,Pedra Lavrada,33,0,0,0,0
+2020-08-17,Nazarezinho,37,1,0,0,0
+2020-08-17,Caraúbas,40,0,0,0,0
+2020-08-17,Bernardino Batista,7,0,0,0,0
+2020-08-17,Diamante,207,3,0,0,0
+2020-08-17,Santo André,13,0,0,0,0
+2020-08-17,Prata,7,1,0,0,0
+2020-08-17,Riachão,71,0,0,0,0
+2020-08-17,Bom Sucesso,20,0,0,0,0
+2020-08-17,Brejo dos Santos,26,0,0,0,0
+2020-08-17,Santa Cruz,56,2,0,0,0
+2020-08-17,Parari,5,0,0,0,0
+2020-08-17,Sossêgo,15,0,0,0,0
+2020-08-17,São José de Princesa,1,0,0,0,0
+2020-08-17,Triunfo,61,2,0,0,0
+2020-08-17,Frei Martinho,8,0,0,0,0
+2020-08-17,São José do Brejo do Cruz,13,0,0,0,0
+2020-08-17,Camalaú,3,0,0,0,0
+2020-08-17,Zabelê,26,0,0,0,0
+2020-08-17,São Domingos do Cariri,48,2,0,0,0
+2020-08-17,Algodão de Jandaíra,14,0,0,0,0
+2020-08-17,Santana de Mangueira,6,0,0,0,0
+2020-08-17,Poço Dantas,13,1,0,0,0
+2020-08-17,São Domingos,2,0,0,0,0
+2020-08-17,Monte Horebe,27,0,0,0,0
+2020-08-17,Poço de José de Moura,27,0,0,0,0
+2020-08-17,Pedra Branca,1,0,0,0,0
+2020-08-17,Paraíba,96223,2183,53363,190,21
