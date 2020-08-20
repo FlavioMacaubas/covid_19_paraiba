@@ -1287,7 +1287,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-09,Alhandra,24,3,0,0,0
 2020-05-09,Riacho dos Cavalos,2,0,0,1,0
 2020-05-09,Santa Helena,1,0,0,0,0
-2020-05-09,São José de Piranhas,2,0,0,1,0
+2020-05-09,São José de Piranhas,2,1,0,1,1
 2020-05-09,Umbuzeiro,2,1,0,0,0
 2020-05-09,Rio Tinto,12,0,0,0,0
 2020-05-09,Princesa Isabel,3,0,0,0,0
@@ -1380,7 +1380,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-10,Alhandra,24,3,0,0,0
 2020-05-10,Riacho dos Cavalos,2,0,0,0,0
 2020-05-10,Santa Helena,1,0,0,0,0
-2020-05-10,São José de Piranhas,2,0,0,0,0
+2020-05-10,São José de Piranhas,2,1,0,0,0
 2020-05-10,Umbuzeiro,2,1,0,0,0
 2020-05-10,Rio Tinto,12,0,0,0,0
 2020-05-10,Princesa Isabel,3,0,0,0,0
@@ -1481,7 +1481,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-11,Alhandra,32,3,0,8,0
 2020-05-11,Riacho dos Cavalos,2,0,0,0,0
 2020-05-11,Santa Helena,1,0,0,0,0
-2020-05-11,São José de Piranhas,2,0,0,0,0
+2020-05-11,São José de Piranhas,2,1,0,0,0
 2020-05-11,Umbuzeiro,2,1,0,0,0
 2020-05-11,Rio Tinto,13,0,0,1,0
 2020-05-11,Princesa Isabel,3,0,0,0,0
@@ -1591,7 +1591,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-12,Alhandra,34,3,0,2,0
 2020-05-12,Riacho dos Cavalos,2,0,0,0,0
 2020-05-12,Santa Helena,1,0,0,0,0
-2020-05-12,São José de Piranhas,2,0,0,0,0
+2020-05-12,São José de Piranhas,2,1,0,0,0
 2020-05-12,Umbuzeiro,4,1,0,2,0
 2020-05-12,Rio Tinto,13,0,0,0,0
 2020-05-12,Princesa Isabel,3,0,0,0,0
@@ -1705,7 +1705,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-13,Alhandra,46,3,0,12,0
 2020-05-13,Riacho dos Cavalos,2,0,0,0,0
 2020-05-13,Santa Helena,1,0,0,0,0
-2020-05-13,São José de Piranhas,2,0,0,0,0
+2020-05-13,São José de Piranhas,2,1,0,0,0
 2020-05-13,Umbuzeiro,5,1,0,1,0
 2020-05-13,Rio Tinto,14,0,0,1,0
 2020-05-13,Princesa Isabel,3,0,0,0,0
@@ -1826,7 +1826,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-14,Alhandra,50,3,0,4,0
 2020-05-14,Riacho dos Cavalos,2,0,0,0,0
 2020-05-14,Santa Helena,1,0,0,0,0
-2020-05-14,São José de Piranhas,2,0,0,0,0
+2020-05-14,São José de Piranhas,2,1,0,0,0
 2020-05-14,Umbuzeiro,7,1,0,2,0
 2020-05-14,Rio Tinto,15,0,0,1,0
 2020-05-14,Princesa Isabel,3,0,0,0,0
@@ -1952,7 +1952,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-15,Alhandra,50,3,0,0,0
 2020-05-15,Riacho dos Cavalos,2,0,0,0,0
 2020-05-15,Santa Helena,1,0,0,0,0
-2020-05-15,São José de Piranhas,2,0,0,0,0
+2020-05-15,São José de Piranhas,2,1,0,0,0
 2020-05-15,Umbuzeiro,7,1,0,0,0
 2020-05-15,Rio Tinto,15,0,0,0,0
 2020-05-15,Princesa Isabel,3,0,0,0,0
@@ -2081,7 +2081,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-16,Alhandra,53,3,0,3,0
 2020-05-16,Riacho dos Cavalos,2,0,0,0,0
 2020-05-16,Santa Helena,1,0,0,0,0
-2020-05-16,São José de Piranhas,2,0,0,0,0
+2020-05-16,São José de Piranhas,2,1,0,0,0
 2020-05-16,Umbuzeiro,8,1,0,1,0
 2020-05-16,Rio Tinto,16,0,0,1,0
 2020-05-16,Princesa Isabel,4,0,0,1,0
@@ -2216,7 +2216,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-17,Alhandra,56,3,0,3,0
 2020-05-17,Riacho dos Cavalos,2,0,0,0,0
 2020-05-17,Santa Helena,1,0,0,0,0
-2020-05-17,São José de Piranhas,4,0,0,2,0
+2020-05-17,São José de Piranhas,4,1,0,2,0
 2020-05-17,Umbuzeiro,8,1,0,0,0
 2020-05-17,Rio Tinto,16,0,0,0,0
 2020-05-17,Princesa Isabel,4,0,0,0,0
@@ -2353,7 +2353,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-18,Alhandra,56,3,0,0,0
 2020-05-18,Riacho dos Cavalos,2,0,0,0,0
 2020-05-18,Santa Helena,1,0,0,0,0
-2020-05-18,São José de Piranhas,4,0,0,0,0
+2020-05-18,São José de Piranhas,4,1,0,0,0
 2020-05-18,Umbuzeiro,8,1,0,0,0
 2020-05-18,Rio Tinto,16,0,0,0,0
 2020-05-18,Princesa Isabel,4,0,0,0,0
@@ -2495,7 +2495,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-19,Alhandra,62,3,0,6,0
 2020-05-19,Riacho dos Cavalos,2,0,0,0,0
 2020-05-19,Santa Helena,1,0,0,0,0
-2020-05-19,São José de Piranhas,4,0,0,0,0
+2020-05-19,São José de Piranhas,4,1,0,0,0
 2020-05-19,Umbuzeiro,8,1,0,0,0
 2020-05-19,Rio Tinto,16,0,0,0,0
 2020-05-19,Princesa Isabel,5,0,0,1,0
@@ -2644,7 +2644,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-20,Alhandra,69,3,0,7,0
 2020-05-20,Riacho dos Cavalos,2,0,0,0,0
 2020-05-20,Santa Helena,1,0,0,0,0
-2020-05-20,São José de Piranhas,4,0,0,0,0
+2020-05-20,São José de Piranhas,4,1,0,0,0
 2020-05-20,Umbuzeiro,9,1,0,1,0
 2020-05-20,Rio Tinto,19,1,0,3,1
 2020-05-20,Princesa Isabel,5,0,0,0,0
@@ -2802,7 +2802,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-21,Alhandra,69,4,0,0,1
 2020-05-21,Riacho dos Cavalos,2,0,0,0,0
 2020-05-21,Santa Helena,1,0,0,0,0
-2020-05-21,São José de Piranhas,4,0,0,0,0
+2020-05-21,São José de Piranhas,4,1,0,0,0
 2020-05-21,Umbuzeiro,16,1,0,7,0
 2020-05-21,Rio Tinto,19,1,0,0,0
 2020-05-21,Princesa Isabel,5,0,0,0,0
@@ -2964,7 +2964,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-22,Alhandra,69,4,0,0,0
 2020-05-22,Riacho dos Cavalos,2,0,0,0,0
 2020-05-22,Santa Helena,1,0,0,0,0
-2020-05-22,São José de Piranhas,4,0,0,0,0
+2020-05-22,São José de Piranhas,4,1,0,0,0
 2020-05-22,Umbuzeiro,16,1,0,0,0
 2020-05-22,Rio Tinto,26,1,0,7,0
 2020-05-22,Princesa Isabel,5,0,0,0,0
@@ -3139,7 +3139,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-23,Alhandra,69,4,0,0,0
 2020-05-23,Riacho dos Cavalos,2,0,0,0,0
 2020-05-23,Santa Helena,1,0,0,0,0
-2020-05-23,São José de Piranhas,4,0,0,0,0
+2020-05-23,São José de Piranhas,4,1,0,0,0
 2020-05-23,Umbuzeiro,16,1,0,0,0
 2020-05-23,Rio Tinto,26,1,0,0,0
 2020-05-23,Princesa Isabel,5,0,0,0,0
@@ -3317,7 +3317,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-24,Alhandra,78,4,0,9,0
 2020-05-24,Riacho dos Cavalos,2,0,0,0,0
 2020-05-24,Santa Helena,1,0,0,0,0
-2020-05-24,São José de Piranhas,4,0,0,0,0
+2020-05-24,São José de Piranhas,4,1,0,0,0
 2020-05-24,Umbuzeiro,16,1,0,0,0
 2020-05-24,Rio Tinto,26,1,0,0,0
 2020-05-24,Princesa Isabel,5,0,0,0,0
@@ -3496,7 +3496,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-25,Alhandra,78,4,0,0,0
 2020-05-25,Riacho dos Cavalos,2,0,0,0,0
 2020-05-25,Santa Helena,1,0,0,0,0
-2020-05-25,São José de Piranhas,4,0,0,0,0
+2020-05-25,São José de Piranhas,4,1,0,0,0
 2020-05-25,Umbuzeiro,16,1,0,0,0
 2020-05-25,Rio Tinto,26,1,0,0,0
 2020-05-25,Princesa Isabel,5,0,0,0,0
@@ -3677,7 +3677,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-26,Alhandra,97,4,0,19,0
 2020-05-26,Riacho dos Cavalos,2,0,0,0,0
 2020-05-26,Santa Helena,1,0,0,0,0
-2020-05-26,São José de Piranhas,4,0,0,0,0
+2020-05-26,São José de Piranhas,4,1,0,0,0
 2020-05-26,Umbuzeiro,16,1,0,0,0
 2020-05-26,Rio Tinto,36,1,0,10,0
 2020-05-26,Princesa Isabel,5,0,0,0,0
@@ -3859,7 +3859,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-27,Alhandra,113,4,0,16,0
 2020-05-27,Riacho dos Cavalos,2,0,0,0,0
 2020-05-27,Santa Helena,1,0,0,0,0
-2020-05-27,São José de Piranhas,4,0,0,0,0
+2020-05-27,São José de Piranhas,4,1,0,0,0
 2020-05-27,Umbuzeiro,16,1,0,0,0
 2020-05-27,Rio Tinto,42,1,0,6,0
 2020-05-27,Princesa Isabel,5,0,0,0,0
@@ -4045,7 +4045,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-28,Alhandra,113,4,0,0,0
 2020-05-28,Riacho dos Cavalos,2,0,0,0,0
 2020-05-28,Santa Helena,1,0,0,0,0
-2020-05-28,São José de Piranhas,4,0,0,0,0
+2020-05-28,São José de Piranhas,4,1,0,0,0
 2020-05-28,Umbuzeiro,16,1,0,0,0
 2020-05-28,Rio Tinto,43,1,0,1,0
 2020-05-28,Princesa Isabel,7,0,0,2,0
@@ -4235,7 +4235,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-29,Alhandra,126,4,0,13,0
 2020-05-29,Riacho dos Cavalos,2,0,0,0,0
 2020-05-29,Santa Helena,1,0,0,0,0
-2020-05-29,São José de Piranhas,5,0,0,1,0
+2020-05-29,São José de Piranhas,5,1,0,1,0
 2020-05-29,Umbuzeiro,16,1,0,0,0
 2020-05-29,Rio Tinto,51,2,0,8,1
 2020-05-29,Princesa Isabel,8,0,0,1,0
@@ -4428,7 +4428,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-30,Alhandra,135,4,0,9,0
 2020-05-30,Riacho dos Cavalos,2,0,0,0,0
 2020-05-30,Santa Helena,1,0,0,0,0
-2020-05-30,São José de Piranhas,5,0,0,0,0
+2020-05-30,São José de Piranhas,5,1,0,0,0
 2020-05-30,Umbuzeiro,16,1,0,0,0
 2020-05-30,Rio Tinto,55,2,0,4,0
 2020-05-30,Princesa Isabel,8,0,0,0,0
@@ -4623,7 +4623,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-05-31,Alhandra,138,4,0,3,0
 2020-05-31,Riacho dos Cavalos,2,0,0,0,0
 2020-05-31,Santa Helena,1,0,0,0,0
-2020-05-31,São José de Piranhas,5,0,0,0,0
+2020-05-31,São José de Piranhas,5,1,0,0,0
 2020-05-31,Umbuzeiro,16,1,0,0,0
 2020-05-31,Rio Tinto,56,2,0,1,0
 2020-05-31,Princesa Isabel,8,0,0,0,0
@@ -4819,7 +4819,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-01,Alhandra,138,4,0,0,0
 2020-06-01,Riacho dos Cavalos,2,0,0,0,0
 2020-06-01,Santa Helena,1,0,0,0,0
-2020-06-01,São José de Piranhas,5,0,0,0,0
+2020-06-01,São José de Piranhas,5,1,0,0,0
 2020-06-01,Umbuzeiro,16,1,0,0,0
 2020-06-01,Rio Tinto,57,2,0,1,0
 2020-06-01,Princesa Isabel,8,0,0,0,0
@@ -5015,7 +5015,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-02,Alhandra,144,4,0,6,0
 2020-06-02,Riacho dos Cavalos,2,0,0,0,0
 2020-06-02,Santa Helena,1,0,0,0,0
-2020-06-02,São José de Piranhas,5,0,0,0,0
+2020-06-02,São José de Piranhas,5,1,0,0,0
 2020-06-02,Umbuzeiro,16,1,0,0,0
 2020-06-02,Rio Tinto,57,2,0,0,0
 2020-06-02,Princesa Isabel,12,0,0,4,0
@@ -5214,7 +5214,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-03,Alhandra,158,4,0,14,0
 2020-06-03,Riacho dos Cavalos,2,0,0,0,0
 2020-06-03,Santa Helena,2,0,0,1,0
-2020-06-03,São José de Piranhas,6,0,0,1,0
+2020-06-03,São José de Piranhas,6,1,0,1,0
 2020-06-03,Umbuzeiro,16,1,0,0,0
 2020-06-03,Rio Tinto,78,2,0,21,0
 2020-06-03,Princesa Isabel,12,0,0,0,0
@@ -5415,7 +5415,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-04,Alhandra,172,4,0,14,0
 2020-06-04,Riacho dos Cavalos,2,0,0,0,0
 2020-06-04,Santa Helena,2,0,0,0,0
-2020-06-04,São José de Piranhas,8,0,0,2,0
+2020-06-04,São José de Piranhas,8,1,0,2,0
 2020-06-04,Umbuzeiro,16,1,0,0,0
 2020-06-04,Rio Tinto,89,2,0,11,0
 2020-06-04,Princesa Isabel,14,0,0,2,0
@@ -5620,7 +5620,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-05,Alhandra,177,4,0,5,0
 2020-06-05,Riacho dos Cavalos,2,0,0,0,0
 2020-06-05,Santa Helena,2,0,0,0,0
-2020-06-05,São José de Piranhas,8,0,0,0,0
+2020-06-05,São José de Piranhas,8,1,0,0,0
 2020-06-05,Umbuzeiro,16,1,0,0,0
 2020-06-05,Rio Tinto,93,2,0,4,0
 2020-06-05,Princesa Isabel,14,0,0,0,0
@@ -5827,7 +5827,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-06,Alhandra,193,6,0,16,2
 2020-06-06,Riacho dos Cavalos,2,0,0,0,0
 2020-06-06,Santa Helena,2,0,0,0,0
-2020-06-06,São José de Piranhas,9,0,0,1,0
+2020-06-06,São José de Piranhas,9,1,0,1,0
 2020-06-06,Umbuzeiro,16,1,0,0,0
 2020-06-06,Rio Tinto,95,2,0,2,0
 2020-06-06,Princesa Isabel,15,0,0,1,0
@@ -6035,7 +6035,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-07,Alhandra,194,6,0,1,0
 2020-06-07,Riacho dos Cavalos,2,0,0,0,0
 2020-06-07,Santa Helena,2,0,0,0,0
-2020-06-07,São José de Piranhas,9,0,0,0,0
+2020-06-07,São José de Piranhas,9,1,0,0,0
 2020-06-07,Umbuzeiro,17,1,0,1,0
 2020-06-07,Rio Tinto,97,3,0,2,1
 2020-06-07,Princesa Isabel,15,0,0,0,0
@@ -6243,7 +6243,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-08,Alhandra,194,7,0,0,1
 2020-06-08,Riacho dos Cavalos,2,0,0,0,0
 2020-06-08,Santa Helena,2,0,0,0,0
-2020-06-08,São José de Piranhas,9,0,0,0,0
+2020-06-08,São José de Piranhas,9,1,0,0,0
 2020-06-08,Umbuzeiro,17,1,0,0,0
 2020-06-08,Rio Tinto,98,3,0,1,0
 2020-06-08,Princesa Isabel,15,0,0,0,0
@@ -6451,7 +6451,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-09,Alhandra,204,7,0,10,0
 2020-06-09,Riacho dos Cavalos,2,0,0,0,0
 2020-06-09,Santa Helena,2,0,0,0,0
-2020-06-09,São José de Piranhas,10,0,0,1,0
+2020-06-09,São José de Piranhas,10,1,0,1,0
 2020-06-09,Umbuzeiro,17,1,0,0,0
 2020-06-09,Rio Tinto,101,3,0,3,0
 2020-06-09,Princesa Isabel,15,0,0,0,0
@@ -6659,7 +6659,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-10,Alhandra,209,7,0,5,0
 2020-06-10,Riacho dos Cavalos,2,0,0,0,0
 2020-06-10,Santa Helena,2,0,0,0,0
-2020-06-10,São José de Piranhas,12,0,0,2,0
+2020-06-10,São José de Piranhas,12,1,0,2,0
 2020-06-10,Umbuzeiro,17,1,0,0,0
 2020-06-10,Rio Tinto,133,3,0,32,0
 2020-06-10,Princesa Isabel,18,0,0,3,0
@@ -6869,7 +6869,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-11,Alhandra,221,7,0,12,0
 2020-06-11,Riacho dos Cavalos,2,0,0,0,0
 2020-06-11,Santa Helena,2,0,0,0,0
-2020-06-11,São José de Piranhas,12,0,0,0,0
+2020-06-11,São José de Piranhas,12,1,0,0,0
 2020-06-11,Umbuzeiro,18,1,0,1,0
 2020-06-11,Rio Tinto,161,4,0,28,1
 2020-06-11,Princesa Isabel,19,0,0,1,0
@@ -7079,7 +7079,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-12,Alhandra,223,7,0,2,0
 2020-06-12,Riacho dos Cavalos,2,0,0,0,0
 2020-06-12,Santa Helena,2,0,0,0,0
-2020-06-12,São José de Piranhas,12,0,0,0,0
+2020-06-12,São José de Piranhas,12,1,0,0,0
 2020-06-12,Umbuzeiro,18,1,0,0,0
 2020-06-12,Rio Tinto,187,4,0,26,0
 2020-06-12,Princesa Isabel,19,1,0,0,1
@@ -7290,7 +7290,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-13,Alhandra,229,7,0,6,0
 2020-06-13,Riacho dos Cavalos,2,0,0,0,0
 2020-06-13,Santa Helena,2,0,0,0,0
-2020-06-13,São José de Piranhas,12,0,0,0,0
+2020-06-13,São José de Piranhas,12,1,0,0,0
 2020-06-13,Umbuzeiro,18,1,0,0,0
 2020-06-13,Rio Tinto,187,4,0,0,0
 2020-06-13,Princesa Isabel,20,1,0,1,0
@@ -7502,7 +7502,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-14,Alhandra,230,7,0,1,0
 2020-06-14,Riacho dos Cavalos,2,0,0,0,0
 2020-06-14,Santa Helena,2,0,0,0,0
-2020-06-14,São José de Piranhas,12,0,0,0,0
+2020-06-14,São José de Piranhas,12,1,0,0,0
 2020-06-14,Umbuzeiro,18,1,0,0,0
 2020-06-14,Rio Tinto,187,5,0,0,1
 2020-06-14,Princesa Isabel,20,1,0,0,0
@@ -7715,7 +7715,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-15,Alhandra,236,7,0,6,0
 2020-06-15,Riacho dos Cavalos,2,0,0,0,0
 2020-06-15,Santa Helena,2,0,0,0,0
-2020-06-15,São José de Piranhas,13,0,0,1,0
+2020-06-15,São José de Piranhas,13,1,0,1,0
 2020-06-15,Umbuzeiro,18,1,0,0,0
 2020-06-15,Rio Tinto,187,5,0,0,0
 2020-06-15,Princesa Isabel,20,1,0,0,0
@@ -7929,7 +7929,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-16,Alhandra,248,7,0,12,0
 2020-06-16,Riacho dos Cavalos,2,0,0,0,0
 2020-06-16,Santa Helena,3,0,0,1,0
-2020-06-16,São José de Piranhas,14,0,0,1,0
+2020-06-16,São José de Piranhas,14,1,0,1,0
 2020-06-16,Umbuzeiro,18,1,0,0,0
 2020-06-16,Rio Tinto,191,5,0,4,0
 2020-06-16,Princesa Isabel,26,1,0,6,0
@@ -8146,7 +8146,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-17,Alhandra,258,7,0,10,0
 2020-06-17,Riacho dos Cavalos,2,0,0,0,0
 2020-06-17,Santa Helena,3,0,0,0,0
-2020-06-17,São José de Piranhas,17,0,0,3,0
+2020-06-17,São José de Piranhas,17,1,0,3,0
 2020-06-17,Umbuzeiro,18,1,0,0,0
 2020-06-17,Rio Tinto,222,5,0,31,0
 2020-06-17,Princesa Isabel,27,1,0,1,0
@@ -8363,7 +8363,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-18,Alhandra,263,7,0,5,0
 2020-06-18,Riacho dos Cavalos,2,0,0,0,0
 2020-06-18,Santa Helena,3,0,0,0,0
-2020-06-18,São José de Piranhas,19,0,0,2,0
+2020-06-18,São José de Piranhas,19,1,0,2,0
 2020-06-18,Umbuzeiro,20,1,0,2,0
 2020-06-18,Rio Tinto,251,7,0,29,2
 2020-06-18,Princesa Isabel,29,1,0,2,0
@@ -8580,7 +8580,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-19,Alhandra,269,7,0,6,0
 2020-06-19,Riacho dos Cavalos,2,0,0,0,0
 2020-06-19,Santa Helena,3,0,0,0,0
-2020-06-19,São José de Piranhas,21,0,0,2,0
+2020-06-19,São José de Piranhas,21,1,0,2,0
 2020-06-19,Umbuzeiro,22,1,0,2,0
 2020-06-19,Rio Tinto,279,7,0,28,0
 2020-06-19,Princesa Isabel,30,1,0,1,0
@@ -8798,7 +8798,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-20,Alhandra,276,7,0,7,0
 2020-06-20,Riacho dos Cavalos,2,0,0,0,0
 2020-06-20,Santa Helena,8,0,0,5,0
-2020-06-20,São José de Piranhas,21,0,0,0,0
+2020-06-20,São José de Piranhas,21,1,0,0,0
 2020-06-20,Umbuzeiro,25,1,0,3,0
 2020-06-20,Rio Tinto,286,7,0,7,0
 2020-06-20,Princesa Isabel,33,1,0,3,0
@@ -9017,7 +9017,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-21,Alhandra,276,7,0,0,0
 2020-06-21,Riacho dos Cavalos,2,0,0,0,0
 2020-06-21,Santa Helena,8,0,0,0,0
-2020-06-21,São José de Piranhas,23,0,0,2,0
+2020-06-21,São José de Piranhas,23,1,0,2,0
 2020-06-21,Umbuzeiro,26,1,0,1,0
 2020-06-21,Rio Tinto,286,7,0,0,0
 2020-06-21,Princesa Isabel,33,1,0,0,0
@@ -9236,7 +9236,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-22,Alhandra,276,7,0,0,0
 2020-06-22,Riacho dos Cavalos,2,0,0,0,0
 2020-06-22,Santa Helena,8,0,0,0,0
-2020-06-22,São José de Piranhas,23,0,0,0,0
+2020-06-22,São José de Piranhas,23,1,0,0,0
 2020-06-22,Umbuzeiro,26,1,0,0,0
 2020-06-22,Rio Tinto,286,7,0,0,0
 2020-06-22,Princesa Isabel,33,1,0,0,0
@@ -9455,7 +9455,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-23,Alhandra,286,7,0,10,0
 2020-06-23,Riacho dos Cavalos,2,0,0,0,0
 2020-06-23,Santa Helena,9,0,0,1,0
-2020-06-23,São José de Piranhas,26,0,0,3,0
+2020-06-23,São José de Piranhas,26,1,0,3,0
 2020-06-23,Umbuzeiro,27,1,0,1,0
 2020-06-23,Rio Tinto,340,7,0,54,0
 2020-06-23,Princesa Isabel,36,1,0,3,0
@@ -9675,7 +9675,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-24,Alhandra,286,7,0,0,0
 2020-06-24,Riacho dos Cavalos,2,0,0,0,0
 2020-06-24,Santa Helena,9,0,0,0,0
-2020-06-24,São José de Piranhas,28,0,0,2,0
+2020-06-24,São José de Piranhas,28,1,0,2,0
 2020-06-24,Umbuzeiro,29,1,0,2,0
 2020-06-24,Rio Tinto,348,8,0,8,1
 2020-06-24,Princesa Isabel,37,1,0,1,0
@@ -9895,7 +9895,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-25,Alhandra,289,7,0,3,0
 2020-06-25,Riacho dos Cavalos,2,0,0,0,0
 2020-06-25,Santa Helena,9,0,0,0,0
-2020-06-25,São José de Piranhas,28,0,0,0,0
+2020-06-25,São José de Piranhas,28,1,0,0,0
 2020-06-25,Umbuzeiro,30,1,0,1,0
 2020-06-25,Rio Tinto,348,9,0,0,1
 2020-06-25,Princesa Isabel,37,1,0,0,0
@@ -10115,7 +10115,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-26,Alhandra,299,7,0,10,0
 2020-06-26,Riacho dos Cavalos,2,0,0,0,0
 2020-06-26,Santa Helena,9,0,0,0,0
-2020-06-26,São José de Piranhas,34,0,0,6,0
+2020-06-26,São José de Piranhas,34,1,0,6,0
 2020-06-26,Umbuzeiro,30,1,0,0,0
 2020-06-26,Rio Tinto,356,9,0,8,0
 2020-06-26,Princesa Isabel,38,1,0,1,0
@@ -10335,7 +10335,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-27,Alhandra,309,8,0,10,1
 2020-06-27,Riacho dos Cavalos,2,0,0,0,0
 2020-06-27,Santa Helena,9,0,0,0,0
-2020-06-27,São José de Piranhas,37,0,0,3,0
+2020-06-27,São José de Piranhas,37,1,0,3,0
 2020-06-27,Umbuzeiro,30,2,0,0,1
 2020-06-27,Rio Tinto,369,9,0,13,0
 2020-06-27,Princesa Isabel,38,1,0,0,0
@@ -10555,7 +10555,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-28,Alhandra,309,8,0,0,0
 2020-06-28,Riacho dos Cavalos,2,0,0,0,0
 2020-06-28,Santa Helena,10,0,0,1,0
-2020-06-28,São José de Piranhas,38,0,0,1,0
+2020-06-28,São José de Piranhas,38,1,0,1,0
 2020-06-28,Umbuzeiro,30,2,0,0,0
 2020-06-28,Rio Tinto,407,10,0,38,1
 2020-06-28,Princesa Isabel,38,1,0,0,0
@@ -10775,7 +10775,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-29,Alhandra,310,8,0,1,0
 2020-06-29,Riacho dos Cavalos,2,0,0,0,0
 2020-06-29,Santa Helena,10,0,0,0,0
-2020-06-29,São José de Piranhas,38,0,0,0,0
+2020-06-29,São José de Piranhas,38,1,0,0,0
 2020-06-29,Umbuzeiro,30,2,0,0,0
 2020-06-29,Rio Tinto,411,10,0,4,0
 2020-06-29,Princesa Isabel,38,1,0,0,0
@@ -10995,7 +10995,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-06-30,Alhandra,313,8,0,3,0
 2020-06-30,Riacho dos Cavalos,4,0,0,2,0
 2020-06-30,Santa Helena,10,0,0,0,0
-2020-06-30,São José de Piranhas,44,0,0,6,0
+2020-06-30,São José de Piranhas,44,1,0,6,0
 2020-06-30,Umbuzeiro,30,2,0,0,0
 2020-06-30,Rio Tinto,411,10,0,0,0
 2020-06-30,Princesa Isabel,39,1,0,1,0
@@ -11216,7 +11216,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-01,Alhandra,322,9,0,9,1
 2020-07-01,Riacho dos Cavalos,4,0,0,0,0
 2020-07-01,Santa Helena,10,0,0,0,0
-2020-07-01,São José de Piranhas,53,0,0,9,0
+2020-07-01,São José de Piranhas,53,1,0,9,0
 2020-07-01,Umbuzeiro,33,2,0,3,0
 2020-07-01,Rio Tinto,460,10,0,49,0
 2020-07-01,Princesa Isabel,40,1,0,1,0
@@ -11437,7 +11437,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-02,Alhandra,341,10,0,19,1
 2020-07-02,Riacho dos Cavalos,4,0,0,0,0
 2020-07-02,Santa Helena,10,0,0,0,0
-2020-07-02,São José de Piranhas,67,0,0,14,0
+2020-07-02,São José de Piranhas,67,1,0,14,0
 2020-07-02,Umbuzeiro,34,2,0,1,0
 2020-07-02,Rio Tinto,464,10,0,4,0
 2020-07-02,Princesa Isabel,40,1,0,0,0
@@ -11658,7 +11658,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-03,Alhandra,358,10,0,17,0
 2020-07-03,Riacho dos Cavalos,4,0,0,0,0
 2020-07-03,Santa Helena,10,0,0,0,0
-2020-07-03,São José de Piranhas,70,0,0,3,0
+2020-07-03,São José de Piranhas,70,1,0,3,0
 2020-07-03,Umbuzeiro,34,2,0,0,0
 2020-07-03,Rio Tinto,529,10,0,65,0
 2020-07-03,Princesa Isabel,40,1,0,0,0
@@ -11879,7 +11879,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-04,Alhandra,361,10,0,3,0
 2020-07-04,Riacho dos Cavalos,4,0,0,0,0
 2020-07-04,Santa Helena,10,0,0,0,0
-2020-07-04,São José de Piranhas,70,0,0,0,0
+2020-07-04,São José de Piranhas,70,1,0,0,0
 2020-07-04,Umbuzeiro,43,2,0,9,0
 2020-07-04,Rio Tinto,538,11,0,9,1
 2020-07-04,Princesa Isabel,41,1,0,1,0
@@ -12100,7 +12100,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-05,Alhandra,362,10,0,1,0
 2020-07-05,Riacho dos Cavalos,4,0,0,0,0
 2020-07-05,Santa Helena,10,0,0,0,0
-2020-07-05,São José de Piranhas,70,0,0,0,0
+2020-07-05,São José de Piranhas,70,1,0,0,0
 2020-07-05,Umbuzeiro,43,2,0,0,0
 2020-07-05,Rio Tinto,538,11,0,0,0
 2020-07-05,Princesa Isabel,41,1,0,0,0
@@ -12321,7 +12321,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-06,Alhandra,363,12,0,1,2
 2020-07-06,Riacho dos Cavalos,4,0,0,0,0
 2020-07-06,Santa Helena,10,0,0,0,0
-2020-07-06,São José de Piranhas,70,0,0,0,0
+2020-07-06,São José de Piranhas,70,1,0,0,0
 2020-07-06,Umbuzeiro,43,2,0,0,0
 2020-07-06,Rio Tinto,538,11,0,0,0
 2020-07-06,Princesa Isabel,42,1,0,1,0
@@ -12542,7 +12542,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-07,Alhandra,370,12,0,7,0
 2020-07-07,Riacho dos Cavalos,5,0,0,1,0
 2020-07-07,Santa Helena,10,0,0,0,0
-2020-07-07,São José de Piranhas,70,0,0,0,0
+2020-07-07,São José de Piranhas,70,1,0,0,0
 2020-07-07,Umbuzeiro,43,2,0,0,0
 2020-07-07,Rio Tinto,540,11,0,2,0
 2020-07-07,Princesa Isabel,44,2,0,2,1
@@ -12763,7 +12763,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-08,Alhandra,379,13,0,9,1
 2020-07-08,Riacho dos Cavalos,5,0,0,0,0
 2020-07-08,Santa Helena,10,0,0,0,0
-2020-07-08,São José de Piranhas,71,0,0,1,0
+2020-07-08,São José de Piranhas,71,1,0,1,0
 2020-07-08,Umbuzeiro,43,2,0,0,0
 2020-07-08,Rio Tinto,547,11,0,7,0
 2020-07-08,Princesa Isabel,45,2,0,1,0
@@ -12984,7 +12984,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-09,Alhandra,387,13,0,8,0
 2020-07-09,Riacho dos Cavalos,5,0,0,0,0
 2020-07-09,Santa Helena,10,0,0,0,0
-2020-07-09,São José de Piranhas,75,0,0,4,0
+2020-07-09,São José de Piranhas,75,1,0,4,0
 2020-07-09,Umbuzeiro,43,2,0,0,0
 2020-07-09,Rio Tinto,593,11,0,46,0
 2020-07-09,Princesa Isabel,45,2,0,0,0
@@ -13205,7 +13205,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-10,Alhandra,391,13,0,4,0
 2020-07-10,Riacho dos Cavalos,5,0,0,0,0
 2020-07-10,Santa Helena,10,0,0,0,0
-2020-07-10,São José de Piranhas,77,0,0,2,0
+2020-07-10,São José de Piranhas,77,1,0,2,0
 2020-07-10,Umbuzeiro,43,2,0,0,0
 2020-07-10,Rio Tinto,600,11,0,7,0
 2020-07-10,Princesa Isabel,45,2,0,0,0
@@ -13426,7 +13426,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-11,Alhandra,397,13,0,6,0
 2020-07-11,Riacho dos Cavalos,5,0,0,0,0
 2020-07-11,Santa Helena,10,0,0,0,0
-2020-07-11,São José de Piranhas,77,0,0,0,0
+2020-07-11,São José de Piranhas,77,1,0,0,0
 2020-07-11,Umbuzeiro,52,2,0,9,0
 2020-07-11,Rio Tinto,670,11,0,70,0
 2020-07-11,Princesa Isabel,46,2,0,1,0
@@ -13647,7 +13647,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-12,Alhandra,415,13,0,18,0
 2020-07-12,Riacho dos Cavalos,5,0,0,0,0
 2020-07-12,Santa Helena,11,0,0,1,0
-2020-07-12,São José de Piranhas,78,0,0,1,0
+2020-07-12,São José de Piranhas,78,1,0,1,0
 2020-07-12,Umbuzeiro,55,2,0,3,0
 2020-07-12,Rio Tinto,670,11,0,0,0
 2020-07-12,Princesa Isabel,46,2,0,0,0
@@ -13868,7 +13868,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-13,Alhandra,429,13,0,14,0
 2020-07-13,Riacho dos Cavalos,5,0,0,0,0
 2020-07-13,Santa Helena,11,0,0,0,0
-2020-07-13,São José de Piranhas,78,0,0,0,0
+2020-07-13,São José de Piranhas,78,1,0,0,0
 2020-07-13,Umbuzeiro,55,2,0,0,0
 2020-07-13,Rio Tinto,670,11,0,0,0
 2020-07-13,Princesa Isabel,46,2,0,0,0
@@ -14089,7 +14089,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-14,Alhandra,442,13,0,13,0
 2020-07-14,Riacho dos Cavalos,5,0,0,0,0
 2020-07-14,Santa Helena,11,0,0,0,0
-2020-07-14,São José de Piranhas,78,0,0,0,0
+2020-07-14,São José de Piranhas,78,1,0,0,0
 2020-07-14,Umbuzeiro,55,2,0,0,0
 2020-07-14,Rio Tinto,672,13,0,2,2
 2020-07-14,Princesa Isabel,47,3,0,1,1
@@ -14311,7 +14311,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-15,Alhandra,453,13,0,11,0
 2020-07-15,Riacho dos Cavalos,5,0,0,0,0
 2020-07-15,Santa Helena,11,0,0,0,0
-2020-07-15,São José de Piranhas,82,0,0,4,0
+2020-07-15,São José de Piranhas,82,1,0,4,0
 2020-07-15,Umbuzeiro,57,2,0,2,0
 2020-07-15,Rio Tinto,700,15,0,28,2
 2020-07-15,Princesa Isabel,48,3,0,1,0
@@ -14535,7 +14535,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-16,Alhandra,465,13,0,12,0
 2020-07-16,Riacho dos Cavalos,6,0,0,1,0
 2020-07-16,Santa Helena,11,0,0,0,0
-2020-07-16,São José de Piranhas,82,0,0,0,0
+2020-07-16,São José de Piranhas,82,1,0,0,0
 2020-07-16,Umbuzeiro,57,2,0,0,0
 2020-07-16,Rio Tinto,746,16,0,46,1
 2020-07-16,Princesa Isabel,48,3,0,0,0
@@ -14759,7 +14759,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-17,Alhandra,468,13,0,3,0
 2020-07-17,Riacho dos Cavalos,6,0,0,0,0
 2020-07-17,Santa Helena,12,0,0,1,0
-2020-07-17,São José de Piranhas,82,0,0,0,0
+2020-07-17,São José de Piranhas,82,1,0,0,0
 2020-07-17,Umbuzeiro,58,2,0,1,0
 2020-07-17,Rio Tinto,751,16,0,5,0
 2020-07-17,Princesa Isabel,48,3,0,0,0
@@ -14983,7 +14983,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-18,Alhandra,468,13,0,0,0
 2020-07-18,Riacho dos Cavalos,6,0,0,0,0
 2020-07-18,Santa Helena,12,0,0,0,0
-2020-07-18,São José de Piranhas,83,0,0,1,0
+2020-07-18,São José de Piranhas,83,1,0,1,0
 2020-07-18,Umbuzeiro,58,2,0,0,0
 2020-07-18,Rio Tinto,751,16,0,0,0
 2020-07-18,Princesa Isabel,48,3,0,0,0
@@ -15207,7 +15207,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-19,Alhandra,468,14,0,0,1
 2020-07-19,Riacho dos Cavalos,6,0,0,0,0
 2020-07-19,Santa Helena,13,0,0,1,0
-2020-07-19,São José de Piranhas,84,0,0,1,0
+2020-07-19,São José de Piranhas,84,1,0,1,0
 2020-07-19,Umbuzeiro,58,2,0,0,0
 2020-07-19,Rio Tinto,751,16,0,0,0
 2020-07-19,Princesa Isabel,48,3,0,0,0
@@ -15431,7 +15431,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-20,Alhandra,468,14,0,0,0
 2020-07-20,Riacho dos Cavalos,6,0,0,0,0
 2020-07-20,Santa Helena,14,0,0,1,0
-2020-07-20,São José de Piranhas,84,0,0,0,0
+2020-07-20,São José de Piranhas,84,1,0,0,0
 2020-07-20,Umbuzeiro,58,2,0,0,0
 2020-07-20,Rio Tinto,754,17,0,3,1
 2020-07-20,Princesa Isabel,48,3,0,0,0
@@ -15655,7 +15655,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-21,Alhandra,481,14,0,13,0
 2020-07-21,Riacho dos Cavalos,8,0,0,2,0
 2020-07-21,Santa Helena,15,0,0,1,0
-2020-07-21,São José de Piranhas,99,0,0,15,0
+2020-07-21,São José de Piranhas,99,1,0,15,0
 2020-07-21,Umbuzeiro,58,2,0,0,0
 2020-07-21,Rio Tinto,754,17,0,0,0
 2020-07-21,Princesa Isabel,48,3,0,0,0
@@ -15879,7 +15879,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-22,Alhandra,491,14,0,10,0
 2020-07-22,Riacho dos Cavalos,8,0,0,0,0
 2020-07-22,Santa Helena,15,0,0,0,0
-2020-07-22,São José de Piranhas,110,0,0,11,0
+2020-07-22,São José de Piranhas,110,1,0,11,0
 2020-07-22,Umbuzeiro,58,2,0,0,0
 2020-07-22,Rio Tinto,817,17,0,63,0
 2020-07-22,Princesa Isabel,56,3,0,8,0
@@ -16103,7 +16103,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-23,Alhandra,499,14,0,8,0
 2020-07-23,Riacho dos Cavalos,8,0,0,0,0
 2020-07-23,Santa Helena,15,0,0,0,0
-2020-07-23,São José de Piranhas,138,0,0,28,0
+2020-07-23,São José de Piranhas,138,1,0,28,0
 2020-07-23,Umbuzeiro,60,2,0,2,0
 2020-07-23,Rio Tinto,838,17,0,21,0
 2020-07-23,Princesa Isabel,59,4,0,3,1
@@ -16327,7 +16327,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-24,Alhandra,508,14,0,9,0
 2020-07-24,Riacho dos Cavalos,9,0,0,1,0
 2020-07-24,Santa Helena,16,0,0,1,0
-2020-07-24,São José de Piranhas,142,0,0,4,0
+2020-07-24,São José de Piranhas,142,1,0,4,0
 2020-07-24,Umbuzeiro,60,2,0,0,0
 2020-07-24,Rio Tinto,873,17,0,35,0
 2020-07-24,Princesa Isabel,59,4,0,0,0
@@ -16551,7 +16551,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-25,Alhandra,511,14,0,3,0
 2020-07-25,Riacho dos Cavalos,9,0,0,0,0
 2020-07-25,Santa Helena,17,0,0,1,0
-2020-07-25,São José de Piranhas,143,0,0,1,0
+2020-07-25,São José de Piranhas,143,1,0,1,0
 2020-07-25,Umbuzeiro,60,2,0,0,0
 2020-07-25,Rio Tinto,877,17,0,4,0
 2020-07-25,Princesa Isabel,59,4,0,0,0
@@ -16775,7 +16775,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-26,Alhandra,512,15,0,1,1
 2020-07-26,Riacho dos Cavalos,9,0,0,0,0
 2020-07-26,Santa Helena,17,0,0,0,0
-2020-07-26,São José de Piranhas,143,0,0,0,0
+2020-07-26,São José de Piranhas,143,1,0,0,0
 2020-07-26,Umbuzeiro,60,2,0,0,0
 2020-07-26,Rio Tinto,878,17,0,1,0
 2020-07-26,Princesa Isabel,59,4,0,0,0
@@ -16999,7 +16999,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-27,Alhandra,514,16,0,2,1
 2020-07-27,Riacho dos Cavalos,9,0,0,0,0
 2020-07-27,Santa Helena,19,0,0,2,0
-2020-07-27,São José de Piranhas,143,0,0,0,0
+2020-07-27,São José de Piranhas,143,1,0,0,0
 2020-07-27,Umbuzeiro,60,2,0,0,0
 2020-07-27,Rio Tinto,878,18,0,0,1
 2020-07-27,Princesa Isabel,59,4,0,0,0
@@ -17223,7 +17223,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-28,Alhandra,554,16,0,40,0
 2020-07-28,Riacho dos Cavalos,10,0,0,1,0
 2020-07-28,Santa Helena,19,0,0,0,0
-2020-07-28,São José de Piranhas,146,0,0,3,0
+2020-07-28,São José de Piranhas,146,1,0,3,0
 2020-07-28,Umbuzeiro,68,2,0,8,0
 2020-07-28,Rio Tinto,896,19,0,18,1
 2020-07-28,Princesa Isabel,61,4,0,2,0
@@ -17447,7 +17447,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-29,Alhandra,572,16,0,18,0
 2020-07-29,Riacho dos Cavalos,10,0,0,0,0
 2020-07-29,Santa Helena,19,0,0,0,0
-2020-07-29,São José de Piranhas,148,0,0,2,0
+2020-07-29,São José de Piranhas,148,1,0,2,0
 2020-07-29,Umbuzeiro,70,2,0,2,0
 2020-07-29,Rio Tinto,914,19,0,18,0
 2020-07-29,Princesa Isabel,62,4,0,1,0
@@ -17671,7 +17671,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-30,Alhandra,576,16,0,4,0
 2020-07-30,Riacho dos Cavalos,10,0,0,0,0
 2020-07-30,Santa Helena,19,0,0,0,0
-2020-07-30,São José de Piranhas,148,0,0,0,0
+2020-07-30,São José de Piranhas,148,1,0,0,0
 2020-07-30,Umbuzeiro,70,2,0,0,0
 2020-07-30,Rio Tinto,917,19,0,3,0
 2020-07-30,Princesa Isabel,62,4,0,0,0
@@ -17895,7 +17895,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-07-31,Alhandra,576,16,0,0,0
 2020-07-31,Riacho dos Cavalos,11,0,0,1,0
 2020-07-31,Santa Helena,19,0,0,0,0
-2020-07-31,São José de Piranhas,148,0,0,0,0
+2020-07-31,São José de Piranhas,148,1,0,0,0
 2020-07-31,Umbuzeiro,72,2,0,2,0
 2020-07-31,Rio Tinto,943,20,0,26,1
 2020-07-31,Princesa Isabel,63,4,0,1,0
@@ -18119,7 +18119,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-01,Alhandra,577,16,0,1,0
 2020-08-01,Riacho dos Cavalos,11,0,0,0,0
 2020-08-01,Santa Helena,19,0,0,0,0
-2020-08-01,São José de Piranhas,148,0,0,0,0
+2020-08-01,São José de Piranhas,148,1,0,0,0
 2020-08-01,Umbuzeiro,72,2,0,0,0
 2020-08-01,Rio Tinto,944,20,0,1,0
 2020-08-01,Princesa Isabel,63,4,0,0,0
@@ -18343,7 +18343,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-02,Alhandra,579,16,0,2,0
 2020-08-02,Riacho dos Cavalos,11,0,0,0,0
 2020-08-02,Santa Helena,19,0,0,0,0
-2020-08-02,São José de Piranhas,148,0,0,0,0
+2020-08-02,São José de Piranhas,148,1,0,0,0
 2020-08-02,Umbuzeiro,72,2,0,0,0
 2020-08-02,Rio Tinto,944,20,0,0,0
 2020-08-02,Princesa Isabel,63,4,0,0,0
@@ -18567,7 +18567,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-03,Alhandra,581,16,0,2,0
 2020-08-03,Riacho dos Cavalos,11,0,0,0,0
 2020-08-03,Santa Helena,19,0,0,0,0
-2020-08-03,São José de Piranhas,148,0,0,0,0
+2020-08-03,São José de Piranhas,148,1,0,0,0
 2020-08-03,Umbuzeiro,72,2,0,0,0
 2020-08-03,Rio Tinto,944,20,0,0,0
 2020-08-03,Princesa Isabel,63,4,0,0,0
@@ -18791,7 +18791,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-04,Alhandra,584,16,0,3,0
 2020-08-04,Riacho dos Cavalos,12,0,0,1,0
 2020-08-04,Santa Helena,19,0,0,0,0
-2020-08-04,São José de Piranhas,150,0,0,2,0
+2020-08-04,São José de Piranhas,150,1,0,2,0
 2020-08-04,Umbuzeiro,73,2,0,1,0
 2020-08-04,Rio Tinto,950,21,0,6,1
 2020-08-04,Princesa Isabel,66,4,0,3,0
@@ -19015,7 +19015,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-05,Alhandra,589,16,0,5,0
 2020-08-05,Riacho dos Cavalos,12,0,0,0,0
 2020-08-05,Santa Helena,19,0,0,0,0
-2020-08-05,São José de Piranhas,151,0,0,1,0
+2020-08-05,São José de Piranhas,151,1,0,1,0
 2020-08-05,Umbuzeiro,73,2,0,0,0
 2020-08-05,Rio Tinto,985,21,0,35,0
 2020-08-05,Princesa Isabel,67,4,0,1,0
@@ -19239,7 +19239,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-06,Alhandra,589,16,0,0,0
 2020-08-06,Riacho dos Cavalos,12,0,0,0,0
 2020-08-06,Santa Helena,19,0,0,0,0
-2020-08-06,São José de Piranhas,156,0,0,5,0
+2020-08-06,São José de Piranhas,156,1,0,5,0
 2020-08-06,Umbuzeiro,75,2,0,2,0
 2020-08-06,Rio Tinto,986,21,0,1,0
 2020-08-06,Princesa Isabel,69,4,0,2,0
@@ -19463,7 +19463,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-07,Alhandra,591,16,0,2,0
 2020-08-07,Riacho dos Cavalos,12,0,0,0,0
 2020-08-07,Santa Helena,19,0,0,0,0
-2020-08-07,São José de Piranhas,156,0,0,0,0
+2020-08-07,São José de Piranhas,156,1,0,0,0
 2020-08-07,Umbuzeiro,75,2,0,0,0
 2020-08-07,Rio Tinto,997,21,0,11,0
 2020-08-07,Princesa Isabel,72,4,0,3,0
@@ -19687,7 +19687,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-08,Alhandra,595,16,0,4,0
 2020-08-08,Riacho dos Cavalos,12,0,0,0,0
 2020-08-08,Santa Helena,19,0,0,0,0
-2020-08-08,São José de Piranhas,157,0,0,1,0
+2020-08-08,São José de Piranhas,157,1,0,1,0
 2020-08-08,Umbuzeiro,75,2,0,0,0
 2020-08-08,Rio Tinto,999,21,0,2,0
 2020-08-08,Princesa Isabel,73,4,0,1,0
@@ -19911,7 +19911,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-09,Alhandra,595,16,0,0,0
 2020-08-09,Riacho dos Cavalos,12,0,0,0,0
 2020-08-09,Santa Helena,19,0,0,0,0
-2020-08-09,São José de Piranhas,163,0,0,6,0
+2020-08-09,São José de Piranhas,163,1,0,6,0
 2020-08-09,Umbuzeiro,75,2,0,0,0
 2020-08-09,Rio Tinto,999,21,0,0,0
 2020-08-09,Princesa Isabel,74,4,0,1,0
@@ -20135,7 +20135,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-10,Alhandra,596,16,0,1,0
 2020-08-10,Riacho dos Cavalos,12,0,0,0,0
 2020-08-10,Santa Helena,19,0,0,0,0
-2020-08-10,São José de Piranhas,163,0,0,0,0
+2020-08-10,São José de Piranhas,163,1,0,0,0
 2020-08-10,Umbuzeiro,75,2,0,0,0
 2020-08-10,Rio Tinto,999,21,0,0,0
 2020-08-10,Princesa Isabel,75,4,0,1,0
@@ -20359,7 +20359,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-11,Alhandra,596,16,0,0,0
 2020-08-11,Riacho dos Cavalos,13,0,0,1,0
 2020-08-11,Santa Helena,19,0,0,0,0
-2020-08-11,São José de Piranhas,164,0,0,1,0
+2020-08-11,São José de Piranhas,164,1,0,1,0
 2020-08-11,Umbuzeiro,75,2,0,0,0
 2020-08-11,Rio Tinto,1002,21,0,3,0
 2020-08-11,Princesa Isabel,79,4,0,4,0
@@ -20583,7 +20583,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-12,Alhandra,598,16,0,2,0
 2020-08-12,Riacho dos Cavalos,13,0,0,0,0
 2020-08-12,Santa Helena,19,0,0,0,0
-2020-08-12,São José de Piranhas,165,0,0,1,0
+2020-08-12,São José de Piranhas,165,1,0,1,0
 2020-08-12,Umbuzeiro,76,2,0,1,0
 2020-08-12,Rio Tinto,1012,21,0,10,0
 2020-08-12,Princesa Isabel,79,4,0,0,0
@@ -20807,7 +20807,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-13,Alhandra,601,16,0,3,0
 2020-08-13,Riacho dos Cavalos,13,0,0,0,0
 2020-08-13,Santa Helena,19,0,0,0,0
-2020-08-13,São José de Piranhas,165,0,0,0,0
+2020-08-13,São José de Piranhas,165,1,0,0,0
 2020-08-13,Umbuzeiro,76,2,0,0,0
 2020-08-13,Rio Tinto,1014,21,0,2,0
 2020-08-13,Princesa Isabel,79,4,0,0,0
@@ -20880,7 +20880,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-13,Areial,48,2,0,0,0
 2020-08-13,Picuí,200,2,0,5,0
 2020-08-13,Jacaraú,292,4,0,0,0
-2020-08-13,Salgado de São Félix,246,2,0,10,0
+2020-08-13,Salgado de São Félix,245,2,0,9,0
 2020-08-13,Conceição,528,6,0,0,0
 2020-08-13,Curral de Cima,26,0,0,0,0
 2020-08-13,Olho d'Água,40,0,0,0,0
@@ -21031,7 +21031,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-14,Alhandra,608,16,0,7,0
 2020-08-14,Riacho dos Cavalos,13,0,0,0,0
 2020-08-14,Santa Helena,19,0,0,0,0
-2020-08-14,São José de Piranhas,167,0,0,2,0
+2020-08-14,São José de Piranhas,167,1,0,2,0
 2020-08-14,Umbuzeiro,76,2,0,0,0
 2020-08-14,Rio Tinto,1014,21,0,0,0
 2020-08-14,Princesa Isabel,80,5,0,1,1
@@ -21104,7 +21104,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-14,Areial,48,2,0,0,0
 2020-08-14,Picuí,201,2,0,1,0
 2020-08-14,Jacaraú,292,4,0,0,0
-2020-08-14,Salgado de São Félix,246,2,0,0,0
+2020-08-14,Salgado de São Félix,245,2,0,0,0
 2020-08-14,Conceição,528,6,0,0,0
 2020-08-14,Curral de Cima,26,0,0,0,0
 2020-08-14,Olho d'Água,40,0,0,0,0
@@ -21255,7 +21255,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-15,Alhandra,609,16,0,1,0
 2020-08-15,Riacho dos Cavalos,13,0,0,0,0
 2020-08-15,Santa Helena,19,0,0,0,0
-2020-08-15,São José de Piranhas,168,0,0,1,0
+2020-08-15,São José de Piranhas,168,1,0,1,0
 2020-08-15,Umbuzeiro,76,2,0,0,0
 2020-08-15,Rio Tinto,1035,21,0,21,0
 2020-08-15,Princesa Isabel,80,5,0,0,0
@@ -21328,7 +21328,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-15,Areial,48,2,0,0,0
 2020-08-15,Picuí,205,2,0,4,0
 2020-08-15,Jacaraú,294,4,0,2,0
-2020-08-15,Salgado de São Félix,246,2,0,0,0
+2020-08-15,Salgado de São Félix,245,2,0,0,0
 2020-08-15,Conceição,535,6,0,7,0
 2020-08-15,Curral de Cima,26,0,0,0,0
 2020-08-15,Olho d'Água,40,0,0,0,0
@@ -21479,7 +21479,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-16,Alhandra,610,16,0,1,0
 2020-08-16,Riacho dos Cavalos,13,0,0,0,0
 2020-08-16,Santa Helena,19,0,0,0,0
-2020-08-16,São José de Piranhas,169,0,0,1,0
+2020-08-16,São José de Piranhas,169,1,0,1,0
 2020-08-16,Umbuzeiro,76,2,0,0,0
 2020-08-16,Rio Tinto,1035,21,0,0,0
 2020-08-16,Princesa Isabel,80,5,0,0,0
@@ -21552,7 +21552,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-16,Areial,48,2,0,0,0
 2020-08-16,Picuí,205,2,0,0,0
 2020-08-16,Jacaraú,294,4,0,0,0
-2020-08-16,Salgado de São Félix,246,2,0,0,0
+2020-08-16,Salgado de São Félix,245,2,0,0,0
 2020-08-16,Conceição,535,6,0,0,0
 2020-08-16,Curral de Cima,26,0,0,0,0
 2020-08-16,Olho d'Água,40,0,0,0,0
@@ -21703,7 +21703,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-17,Alhandra,611,16,0,1,0
 2020-08-17,Riacho dos Cavalos,13,0,0,0,0
 2020-08-17,Santa Helena,19,0,0,0,0
-2020-08-17,São José de Piranhas,174,0,0,5,0
+2020-08-17,São José de Piranhas,174,1,0,5,0
 2020-08-17,Umbuzeiro,76,2,0,0,0
 2020-08-17,Rio Tinto,1035,21,0,0,0
 2020-08-17,Princesa Isabel,80,5,0,0,0
@@ -21727,7 +21727,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-17,Uiraúna,111,4,0,5,1
 2020-08-17,Capim,149,5,0,0,0
 2020-08-17,Remígio,235,3,0,0,0
-2020-08-17,São Sebastião de Lagoa de Roça,231,0,0,5,0
+2020-08-17,São Sebastião de Lagoa de Roça,230,0,0,4,0
 2020-08-17,Matinhas,71,1,0,0,0
 2020-08-17,Pilões,107,1,0,0,0
 2020-08-17,Condado,123,4,0,0,1
@@ -21776,7 +21776,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-17,Areial,48,2,0,0,0
 2020-08-17,Picuí,205,2,0,0,0
 2020-08-17,Jacaraú,294,4,0,0,0
-2020-08-17,Salgado de São Félix,246,2,0,0,0
+2020-08-17,Salgado de São Félix,245,2,0,0,0
 2020-08-17,Conceição,535,6,0,0,0
 2020-08-17,Curral de Cima,26,0,0,0,0
 2020-08-17,Olho d'Água,40,0,0,0,0
@@ -21927,7 +21927,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Alhandra,614,16,0,3,0
 2020-08-18,Riacho dos Cavalos,13,0,0,0,0
 2020-08-18,Santa Helena,19,0,0,0,0
-2020-08-18,São José de Piranhas,176,0,0,2,0
+2020-08-18,São José de Piranhas,176,1,0,2,0
 2020-08-18,Umbuzeiro,77,2,0,1,0
 2020-08-18,Rio Tinto,1038,21,0,3,0
 2020-08-18,Princesa Isabel,83,5,0,3,0
@@ -21951,7 +21951,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Uiraúna,116,4,0,5,0
 2020-08-18,Capim,149,5,0,0,0
 2020-08-18,Remígio,238,3,0,3,0
-2020-08-18,São Sebastião de Lagoa de Roça,231,0,0,0,0
+2020-08-18,São Sebastião de Lagoa de Roça,230,0,0,0,0
 2020-08-18,Matinhas,72,1,0,1,0
 2020-08-18,Pilões,107,1,0,0,0
 2020-08-18,Condado,124,4,0,1,0
@@ -21959,7 +21959,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Massaranduba,318,4,0,5,0
 2020-08-18,Santa Luzia,247,7,0,6,0
 2020-08-18,Baía da Traição,580,4,0,15,0
-2020-08-18,Juripiranga,466,10,0,4,0
+2020-08-18,Juripiranga,464,10,0,2,0
 2020-08-18,Cuitegi,396,8,0,6,0
 2020-08-18,Borborema,40,0,0,0,0
 2020-08-18,Pocinhos,158,2,0,6,0
@@ -22000,7 +22000,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Areial,48,2,0,0,0
 2020-08-18,Picuí,212,2,0,7,0
 2020-08-18,Jacaraú,294,4,0,0,0
-2020-08-18,Salgado de São Félix,246,2,0,0,0
+2020-08-18,Salgado de São Félix,245,2,0,0,0
 2020-08-18,Conceição,553,6,0,18,0
 2020-08-18,Curral de Cima,26,0,0,0,0
 2020-08-18,Olho d'Água,40,0,0,0,0
@@ -22048,7 +22048,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Mãe d'Água,18,0,0,0,0
 2020-08-18,Carrapateira,50,0,0,0,0
 2020-08-18,Dona Inês,88,2,0,0,0
-2020-08-18,Emas,51,3,0,1,0
+2020-08-18,Emas,50,3,0,0,0
 2020-08-18,Araruna,228,7,0,0,0
 2020-08-18,Ouro Velho,1,0,0,0,0
 2020-08-18,São João do Cariri,98,1,0,2,0
@@ -22076,7 +22076,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-18,Serra Grande,10,0,0,0,0
 2020-08-18,Curral Velho,2,0,0,0,0
 2020-08-18,Pedra Lavrada,34,0,0,1,0
-2020-08-18,Nazarezinho,39,1,0,2,0
+2020-08-18,Nazarezinho,38,1,0,1,0
 2020-08-18,Caraúbas,42,0,0,2,0
 2020-08-18,Bernardino Batista,7,0,0,0,0
 2020-08-18,Diamante,210,3,0,3,0
@@ -22106,7 +22106,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,João Pessoa,25053,768,0,138,5
 2020-08-19,Campina Grande,11965,275,0,64,3
 2020-08-19,Santa Rita,2781,139,0,32,0
-2020-08-19,Sousa,1544,26,0,27,0
+2020-08-19,Sousa,1543,26,0,26,0
 2020-08-19,Igaracy,11,0,0,0,0
 2020-08-19,Patos,3407,76,0,24,2
 2020-08-19,Cabedelo,2651,59,0,14,1
@@ -22151,7 +22151,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Alhandra,618,16,0,4,0
 2020-08-19,Riacho dos Cavalos,14,0,0,1,0
 2020-08-19,Santa Helena,19,0,0,0,0
-2020-08-19,São José de Piranhas,177,0,0,1,0
+2020-08-19,São José de Piranhas,177,1,0,1,0
 2020-08-19,Umbuzeiro,77,2,0,0,0
 2020-08-19,Rio Tinto,1056,21,0,18,0
 2020-08-19,Princesa Isabel,87,5,0,4,0
@@ -22175,7 +22175,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Uiraúna,120,4,0,4,0
 2020-08-19,Capim,149,5,0,0,0
 2020-08-19,Remígio,239,3,0,1,0
-2020-08-19,São Sebastião de Lagoa de Roça,231,0,0,0,0
+2020-08-19,São Sebastião de Lagoa de Roça,230,0,0,0,0
 2020-08-19,Matinhas,72,1,0,0,0
 2020-08-19,Pilões,107,2,0,0,1
 2020-08-19,Condado,125,4,0,1,0
@@ -22183,7 +22183,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Massaranduba,321,4,0,3,0
 2020-08-19,Santa Luzia,250,7,0,3,0
 2020-08-19,Baía da Traição,586,4,0,6,0
-2020-08-19,Juripiranga,466,10,0,0,0
+2020-08-19,Juripiranga,464,10,0,0,0
 2020-08-19,Cuitegi,396,8,0,0,0
 2020-08-19,Borborema,40,0,0,0,0
 2020-08-19,Pocinhos,162,2,0,4,0
@@ -22223,8 +22223,8 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Vista Serrana,13,0,0,0,0
 2020-08-19,Areial,48,2,0,0,0
 2020-08-19,Picuí,223,2,0,11,0
-2020-08-19,Jacaraú,297,4,0,3,0
-2020-08-19,Salgado de São Félix,246,2,0,0,0
+2020-08-19,Jacaraú,294,4,0,0,0
+2020-08-19,Salgado de São Félix,245,2,0,0,0
 2020-08-19,Conceição,555,6,0,2,0
 2020-08-19,Curral de Cima,26,0,0,0,0
 2020-08-19,Olho d'Água,40,0,0,0,0
@@ -22272,7 +22272,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Mãe d'Água,18,0,0,0,0
 2020-08-19,Carrapateira,50,0,0,0,0
 2020-08-19,Dona Inês,88,2,0,0,0
-2020-08-19,Emas,52,3,0,1,0
+2020-08-19,Emas,50,3,0,0,0
 2020-08-19,Araruna,229,7,0,1,0
 2020-08-19,Ouro Velho,1,0,0,0,0
 2020-08-19,São João do Cariri,98,1,0,0,0
@@ -22300,7 +22300,7 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Serra Grande,11,0,0,1,0
 2020-08-19,Curral Velho,2,0,0,0,0
 2020-08-19,Pedra Lavrada,34,0,0,0,0
-2020-08-19,Nazarezinho,39,1,0,0,0
+2020-08-19,Nazarezinho,38,1,0,0,0
 2020-08-19,Caraúbas,42,0,0,0,0
 2020-08-19,Bernardino Batista,8,0,0,1,0
 2020-08-19,Diamante,216,3,0,6,0
@@ -22327,3 +22327,227 @@ data,cidade,confirmados,obitos,recuperados,novos_casos,novos_obitos
 2020-08-19,Poço de José de Moura,29,0,0,0,0
 2020-08-19,Pedra Branca,1,0,0,0,0
 2020-08-19,Paraíba,98494,2223,58031,997,20
+2020-08-20,João Pessoa,25299,771,0,246,3
+2020-08-20,Campina Grande,12036,279,0,71,4
+2020-08-20,Santa Rita,2843,139,0,62,0
+2020-08-20,Sousa,1543,26,0,0,0
+2020-08-20,Igaracy,11,0,0,0,0
+2020-08-20,Patos,3433,76,0,26,0
+2020-08-20,Cabedelo,2659,59,0,8,0
+2020-08-20,Serra Branca,161,3,0,3,0
+2020-08-20,Junco do Seridó,57,2,0,0,0
+2020-08-20,Bayeux,1715,91,0,8,0
+2020-08-20,São João do Rio do Peixe,263,4,0,6,0
+2020-08-20,Taperoá,93,2,0,8,0
+2020-08-20,Sapé,1083,41,0,46,0
+2020-08-20,Pombal,518,5,0,1,0
+2020-08-20,São Bento,1808,24,0,25,0
+2020-08-20,Riachão do Poço,92,3,0,1,0
+2020-08-20,Queimadas,1125,12,0,12,0
+2020-08-20,Congo,79,2,0,1,0
+2020-08-20,Bom Jesus,10,0,0,0,0
+2020-08-20,Cajazeiras,1538,38,0,15,0
+2020-08-20,Cruz do Espírito Santo,280,20,0,2,0
+2020-08-20,Itabaiana,1057,22,0,1,0
+2020-08-20,Conde,750,12,0,7,1
+2020-08-20,Coremas,130,2,0,0,0
+2020-08-20,Alagoa Nova,277,8,0,1,0
+2020-08-20,Barra de São Miguel,53,1,0,0,0
+2020-08-20,Itapororoca,768,7,0,6,0
+2020-08-20,Guarabira,3890,54,0,55,1
+2020-08-20,Pedras de Fogo,1281,27,0,6,1
+2020-08-20,Itaporanga,304,3,0,8,1
+2020-08-20,Alagoa Grande,898,18,0,3,0
+2020-08-20,Brejo do Cruz,388,7,0,4,0
+2020-08-20,Caaporã,925,13,0,0,0
+2020-08-20,Coxixola,34,0,0,0,0
+2020-08-20,Boqueirão,366,6,0,3,0
+2020-08-20,Marizópolis,32,1,0,0,0
+2020-08-20,Areia,411,3,0,3,0
+2020-08-20,Gurinhém,432,7,0,1,1
+2020-08-20,Esperança,469,7,0,5,0
+2020-08-20,Lagoa Seca,672,13,0,3,0
+2020-08-20,Mari,1132,17,0,5,0
+2020-08-20,Lucena,405,6,0,7,0
+2020-08-20,Catingueira,17,2,0,0,0
+2020-08-20,Araçagi,494,4,0,1,0
+2020-08-20,São José do Bonfim,59,3,0,1,0
+2020-08-20,Alhandra,618,16,0,0,0
+2020-08-20,Riacho dos Cavalos,14,0,0,0,0
+2020-08-20,Santa Helena,19,0,0,0,0
+2020-08-20,São José de Piranhas,179,2,0,2,1
+2020-08-20,Umbuzeiro,77,2,0,0,0
+2020-08-20,Rio Tinto,1062,22,0,6,1
+2020-08-20,Princesa Isabel,87,5,0,0,0
+2020-08-20,Mamanguape,2214,35,0,8,0
+2020-08-20,Serra Redonda,261,2,0,4,0
+2020-08-20,Casserengue,332,4,0,6,0
+2020-08-20,Caiçara,429,6,0,1,0
+2020-08-20,Imaculada,52,0,0,0,0
+2020-08-20,Monteiro,468,6,0,38,0
+2020-08-20,Pilar,376,8,0,2,0
+2020-08-20,Pilõezinhos,265,2,0,1,0
+2020-08-20,Pitimbu,611,6,0,0,0
+2020-08-20,São José de Espinharas,58,0,0,2,0
+2020-08-20,Piancó,168,5,0,0,0
+2020-08-20,Serra da Raiz,27,0,0,0,0
+2020-08-20,Mulungu,374,7,0,11,0
+2020-08-20,Alagoinha,924,8,0,9,1
+2020-08-20,Mataraca,208,6,0,5,0
+2020-08-20,Pirpirituba,309,2,0,1,0
+2020-08-20,Nova Floresta,67,0,0,3,0
+2020-08-20,Uiraúna,127,5,0,7,1
+2020-08-20,Capim,149,5,0,0,0
+2020-08-20,Remígio,240,3,0,1,0
+2020-08-20,São Sebastião de Lagoa de Roça,230,0,0,0,0
+2020-08-20,Matinhas,72,1,0,0,0
+2020-08-20,Pilões,108,2,0,1,0
+2020-08-20,Condado,125,4,0,0,0
+2020-08-20,Juazeirinho,197,1,0,6,0
+2020-08-20,Massaranduba,324,4,0,3,0
+2020-08-20,Santa Luzia,251,7,0,1,0
+2020-08-20,Baía da Traição,602,4,0,16,0
+2020-08-20,Juripiranga,464,10,0,0,0
+2020-08-20,Cuitegi,399,8,0,3,0
+2020-08-20,Borborema,40,0,0,0,0
+2020-08-20,Pocinhos,164,2,0,2,0
+2020-08-20,Sobrado,189,4,0,3,0
+2020-08-20,Riachão do Bacamarte,228,0,0,1,0
+2020-08-20,São Miguel de Taipu,139,4,0,0,0
+2020-08-20,Sertãozinho,238,0,0,0,0
+2020-08-20,Cajazeirinhas,32,0,0,0,0
+2020-08-20,Bananeiras,271,2,0,13,0
+2020-08-20,Teixeira,165,3,0,1,0
+2020-08-20,Santarém,15,0,0,0,0
+2020-08-20,Campo de Santana,123,0,0,0,0
+2020-08-20,Barra de Santana,103,3,0,0,1
+2020-08-20,São José dos Ramos,250,1,0,2,1
+2020-08-20,Soledade,164,1,0,3,0
+2020-08-20,Ingá,1192,12,0,18,0
+2020-08-20,Gado Bravo,95,2,0,0,0
+2020-08-20,Puxinanã,275,2,0,4,1
+2020-08-20,Aroeiras,205,0,0,0,0
+2020-08-20,São José do Sabugi,233,1,0,0,0
+2020-08-20,Duas Estradas,82,1,0,0,0
+2020-08-20,Lagoa de Dentro,134,0,0,3,0
+2020-08-20,Malta,106,2,0,1,0
+2020-08-20,Santa Teresinha,54,1,0,0,0
+2020-08-20,Juarez Távora,300,1,0,0,0
+2020-08-20,Natuba,63,2,0,0,0
+2020-08-20,Cuité de Mamanguape,112,7,0,0,0
+2020-08-20,Maturéia,48,1,0,1,0
+2020-08-20,Itatuba,336,2,0,3,0
+2020-08-20,Belém,982,10,0,10,0
+2020-08-20,Mogeiro,167,2,0,2,0
+2020-08-20,Cuité,171,1,0,5,0
+2020-08-20,Solânea,549,5,0,0,0
+2020-08-20,Quixabá,33,0,0,0,0
+2020-08-20,Nova Olinda,15,0,0,0,0
+2020-08-20,Serraria,171,2,0,2,0
+2020-08-20,Vista Serrana,13,0,0,0,0
+2020-08-20,Areial,48,2,0,0,0
+2020-08-20,Picuí,228,2,0,5,0
+2020-08-20,Jacaraú,294,4,0,0,0
+2020-08-20,Salgado de São Félix,245,2,0,0,0
+2020-08-20,Conceição,555,6,0,0,0
+2020-08-20,Curral de Cima,27,0,0,1,0
+2020-08-20,Olho d'Água,40,0,0,0,0
+2020-08-20,Amparo,17,0,0,0,0
+2020-08-20,Seridó,49,0,0,0,0
+2020-08-20,Arara,202,6,0,2,0
+2020-08-20,Logradouro,143,2,0,1,0
+2020-08-20,Cacimba de Dentro,265,6,0,4,0
+2020-08-20,Boa Vista,97,1,0,0,0
+2020-08-20,Passagem,30,0,0,0,0
+2020-08-20,Lastro,19,0,0,0,0
+2020-08-20,Caturité,102,1,0,2,0
+2020-08-20,São José de Caiana,48,1,0,0,0
+2020-08-20,Catolé do Rocha,365,13,0,10,1
+2020-08-20,São José da Lagoa Tapada,58,0,0,1,0
+2020-08-20,São Mamede,44,3,0,4,0
+2020-08-20,Paulista,217,2,0,3,0
+2020-08-20,Caldas Brandão,243,2,0,3,0
+2020-08-20,Belém do Brejo do Cruz,37,1,0,2,0
+2020-08-20,Cachoeira dos Índios,99,6,0,1,0
+2020-08-20,Ibiara,76,1,0,4,0
+2020-08-20,Jericó,33,1,0,0,0
+2020-08-20,Montadas,47,1,0,3,0
+2020-08-20,Juru,130,0,0,0,0
+2020-08-20,São José dos Cordeiros,42,0,0,1,0
+2020-08-20,Aguiar,24,0,0,0,0
+2020-08-20,Mato Grosso,17,0,0,0,0
+2020-08-20,Gurjão,25,2,0,0,0
+2020-08-20,Lagoa,6,0,0,0,0
+2020-08-20,Vieirópolis,7,0,0,0,0
+2020-08-20,Fagundes,107,5,0,1,1
+2020-08-20,Manaíra,11,1,0,0,0
+2020-08-20,São João do Tigre,12,0,0,0,0
+2020-08-20,Aparecida,81,3,0,3,0
+2020-08-20,Sumé,250,1,0,0,0
+2020-08-20,Barra de Santa Rosa,73,1,0,0,0
+2020-08-20,Água Branca,54,2,0,1,0
+2020-08-20,Tavares,139,2,0,0,0
+2020-08-20,Várzea,17,0,0,2,0
+2020-08-20,Riacho de Santo Antônio,30,0,0,0,0
+2020-08-20,São Bentinho,62,0,0,3,0
+2020-08-20,Desterro,54,1,0,0,0
+2020-08-20,Cabaceiras,62,0,0,0,0
+2020-08-20,Cacimbas,46,1,0,0,0
+2020-08-20,Mãe d'Água,18,0,0,0,0
+2020-08-20,Carrapateira,50,0,0,0,0
+2020-08-20,Dona Inês,88,2,0,0,0
+2020-08-20,Emas,50,3,0,0,0
+2020-08-20,Araruna,232,7,0,3,0
+2020-08-20,Ouro Velho,1,0,0,0,0
+2020-08-20,São João do Cariri,99,1,0,1,0
+2020-08-20,Santa Cecília,74,0,0,0,0
+2020-08-20,Damião,32,1,0,0,0
+2020-08-20,Salgadinho,29,0,0,0,0
+2020-08-20,São Francisco,34,1,0,0,0
+2020-08-20,Santana dos Garrotes,18,0,0,0,0
+2020-08-20,Tenório,30,0,0,4,0
+2020-08-20,Assunção,45,0,0,0,0
+2020-08-20,Areia de Baraúnas,11,0,0,0,0
+2020-08-20,Alcantil,59,0,0,0,0
+2020-08-20,Boa Ventura,6,0,0,0,0
+2020-08-20,Olivedos,92,1,0,0,0
+2020-08-20,Pedro Régis,50,2,0,2,0
+2020-08-20,São Sebastião do Umbuzeiro,18,0,0,2,0
+2020-08-20,Santa Inês,63,0,0,0,0
+2020-08-20,Marcação,353,2,0,2,0
+2020-08-20,Livramento,99,0,0,0,0
+2020-08-20,Baraúna,135,0,0,0,0
+2020-08-20,Cacimba de Areia,9,0,0,0,0
+2020-08-20,Cubati,75,1,0,0,0
+2020-08-20,Nova Palmeira,74,0,0,0,0
+2020-08-20,Bonito de Santa Fé,31,1,0,0,0
+2020-08-20,Serra Grande,11,0,0,0,0
+2020-08-20,Curral Velho,2,0,0,0,0
+2020-08-20,Pedra Lavrada,35,0,0,1,0
+2020-08-20,Nazarezinho,38,1,0,0,0
+2020-08-20,Caraúbas,42,0,0,0,0
+2020-08-20,Bernardino Batista,8,0,0,0,0
+2020-08-20,Diamante,218,3,0,2,0
+2020-08-20,Santo André,13,0,0,0,0
+2020-08-20,Prata,7,1,0,0,0
+2020-08-20,Riachão,74,0,0,0,0
+2020-08-20,Bom Sucesso,23,0,0,0,0
+2020-08-20,Brejo dos Santos,29,0,0,0,0
+2020-08-20,Santa Cruz,58,2,0,0,0
+2020-08-20,Parari,5,0,0,0,0
+2020-08-20,Sossêgo,15,0,0,0,0
+2020-08-20,São José de Princesa,2,0,0,0,0
+2020-08-20,Triunfo,66,2,0,2,0
+2020-08-20,Frei Martinho,8,0,0,0,0
+2020-08-20,São José do Brejo do Cruz,13,0,0,0,0
+2020-08-20,Camalaú,3,0,0,0,0
+2020-08-20,Zabelê,28,0,0,1,0
+2020-08-20,São Domingos do Cariri,53,2,0,8,0
+2020-08-20,Algodão de Jandaíra,16,0,0,0,0
+2020-08-20,Santana de Mangueira,6,0,0,0,0
+2020-08-20,Poço Dantas,20,1,0,4,0
+2020-08-20,São Domingos,6,0,0,0,0
+2020-08-20,Monte Horebe,30,0,0,1,0
+2020-08-20,Poço de José de Moura,29,0,0,0,0
+2020-08-20,Pedra Branca,1,0,0,0,0
+2020-08-20,Paraíba,99445,2244,60655,951,21
