@@ -2281,3 +2281,103 @@ data_inicio,data_obito,cidade,genero,idade,diabetes,hipertenso,cardiaco,cancer,n
 2020-06-23,2020-07-11,João Pessoa,mulher,72.0,Não,Não,Não,Sim,Não,Não,Não,Não,Não,Público,2020-08-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-08-2020
 2020-05-10,2020-05-24,João Pessoa,mulher,80.0,Não,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-08-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-08-2020
 2020-05-10,2020-05-21,João Pessoa,homem,80.0,Sim,Sim,Não,Não,Não,Sim,Não,Não,Sim,Privado,2020-08-22,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-22-08-2020
+2020-08-17,2020-08-22,Sousa,homem,33.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-07-30,2020-08-22,Patos,homem,48.0,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-01,2020-08-22,João Pessoa,homem,50.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-15,2020-08-22,Campina Grande,mulher,59.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-20,2020-08-22,Alagoa Grande,mulher,61.0,Sim,Não,Sim,Não,Não,Sim,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-01,2020-08-22,João Pessoa,mulher,80.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-14,2020-08-22,Patos,mulher,86.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-11,2020-08-21,Cuitegi,mulher,78.0,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-12,2020-08-21,Pilar,mulher,88.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-14,2020-08-20,Campina Grande,homem,92.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-12,2020-08-20,Campina Grande,homem,93.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-10,2020-08-19,Queimadas,mulher,92.0,Não,Não,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-18,2020-08-18,Mulungu,homem,76.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-10,2020-08-18,Campina Grande,homem,77.0,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-04,2020-08-11,Caiçara,mulher,76.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-07-29,2020-08-09,Mulungu,mulher,70.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-03,2020-08-08,Alagoinha,mulher,92.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-04-13,2020-07-23,Umbuzeiro,mulher,82.0,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-06-30,2020-07-21,João Pessoa,homem,45.0,Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-05-28,2020-07-06,João Pessoa,homem,71.0,Sim,Sim,Sim,Não,Não,Não,Não,Sim,Não,Público,2020-08-23,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-23-08-2020
+2020-08-10,2020-08-24,Brejo do Cruz,homem,38.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-29,2020-08-24,João Pessoa,homem,73.0,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-06,2020-08-23,Marcação,mulher,54.0,Sim,Sim,Sim,Não,Não,Não,Sim,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-19,2020-08-23,Caaporã,mulher,89.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-31,2020-08-22,Baia da Traição,mulher,61.0,Sim,Sim,Sim,Não,Sim,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-01,2020-08-22,João Pessoa,mulher,87.0,Não,Sim,Não,Não,Sim,Não,Não,Não,Não,Privado,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-17,2020-08-22,Sapé,homem,93.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-26,2020-08-22,Uiraúna,mulher,0.4,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-27,2020-08-21,João Pessoa,mulher,67.0,Sim,Sim,Sim,Não,Não,Não,Sim,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-11,2020-08-21,Cajazeiras,homem,91.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-08,2020-08-19,Serraria,mulher,35.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-16,2020-08-19,João Pessoa,mulher,51.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-30,2020-08-18,Alagoa Grande,mulher,70.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-03,2020-08-13,Monteiro,homem,67.0,Sim,Não,Sim,Não,Não,Não,Sim,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-01,2020-08-06,Santa Rita,mulher,54.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-21,2020-08-03,João Pessoa,homem,69.0,Sim,Sim,Sim,Sim,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-07-09,2020-07-19,João Pessoa,mulher,86.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-06-05,2020-07-11,Sumé,homem,70.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-06-11,2020-06-26,João Pessoa,homem,95.0,Não,Não,Sim,Não,Não,Não,Sim,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-06-23,2020-06-19,Mamanguape,homem,74.0,Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-06-01,2020-06-13,Matinhas,mulher,83.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-05-17,2020-05-18,João Pessoa,homem,47.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-24,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-24-08-2020-1
+2020-08-15,2020-08-24,Guarabira,mulher,93.0,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-03,2020-08-24,Piancó,homem,91.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-10,2020-08-24,Sertãozinho,homem,84.0,Não,Não,Não,Não,Não,Não,Sim,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-15,2020-08-24,Guarabira,mulher,83.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-17,2020-08-24,Teixeira,homem,79.0,Não,Não,Não,Não,Sim,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-06,2020-08-24,Poço Dantas,homem,74.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-16,2020-08-24,Cajazeiras,homem,35.0,Não,Não,Não,Não,Não,Não,Não,Sim,Sim,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-11,2020-08-23,Pedras de Fogo,homem,85.0,Sim,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-13,2020-08-23,Bayeux,mulher,55.0,Sim,Sim,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-16,2020-08-21,Patos,homem,79.0,Não,Sim,Não,Não,Sim,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-11,2020-08-18,João Pessoa,mulher,50.0,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-07,2020-08-12,Juarez Távora,mulher,78.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-07-07,2020-08-08,Alhandra,homem,72.0,Não,Sim,Não,Não,Não,Não,Não,Sim,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-07-02,2020-07-27,Sertãozinho,homem,80.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-06-24,2020-07-19,João Pessoa,homem,84.0,Sim,Não,Não,Não,Sim,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-06-18,2020-07-17,João Pessoa,homem,63.0,Sim,Sim,Sim,Não,Não,Sim,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-06-07,2020-06-24,Campina Grande,homem,55.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-05-22,2020-06-19,Campina Grande,homem,49.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-05-02,2020-05-16,João Pessoa,mulher,50.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-04-21,2020-04-29,João Pessoa,homem,51.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-25,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-25-08-2020
+2020-08-16,2020-08-26,Olho D'Água,homem,94.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-16,2020-08-25,Conde,homem,63.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-06-16,2020-08-25,João Pessoa,mulher,83.0,Não,Não,Não,Não,Sim,Não,Não,Sim,Não,Privado,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-16,2020-08-25,São José de Caiana,mulher,79.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-11,2020-08-25,João Pessoa,homem,70.0,Sim,Sim,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-15,2020-08-23,Itaporanga,homem,91.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-05,2020-08-14,Campina Grande,mulher,97.0,Não,Sim,Não,Não,Não,Não,Não,Não,Sim,Privado,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-25,2020-08-13,Alagoa Grande,mulher,65.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-06,2020-08-13,Itapororoca,homem,44.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-08-01,2020-08-09,João Pessoa,homem,80.0,Sim,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-22,2020-08-08,Itaporanga,homem,53.0,Não,Não,Não,Não,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-05,2020-08-07,Gurinhém,mulher,58.0,Sim,Sim,Não,Não,Não,Sim,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-09,2020-07-20,Campina Grande,homem,56.0,Não,Não,Não,Não,Não,Não,Não,Sim,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-14,2020-07-19,Alagoa Grande,homem,86.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Residência,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-06-09,2020-07-18,João Pessoa,homem,72.0,Não,Não,Não,Sim,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-04,2020-07-16,Bayeux,homem,42.0,Não,Sim,Sim,Não,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-06-29,2020-07-09,Aroeiras,mulher,63.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-06-23,2020-07-07,Araçagi,mulher,79.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-05-14,2020-06-11,Alagoa Nova,homem,81.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-06-01,2020-06-06,Alagoa Nova,homem,79.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-05-10,2020-05-20,Pilar,mulher,39.0,Não,Não,Não,Sim,Não,Não,Não,Não,Sim,Público,2020-08-26,https://paraiba.pb.gov.br/diretas/saude/coronavirus/atualizacao-covid-19-26-08-2020-1
+2020-07-31,2020-08-27,Sapé,mulher,82.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-18,2020-08-27,Sousa,homem,76.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-10,2020-08-27,Uiraúna,homem,89.0,Não,Sim,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-23,2020-08-26,Monteiro,homem,53.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-23,2020-08-26,Santa Rita,mulher,78.0,Não,Não,Sim,Não,Sim,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-17,2020-08-26,Sousa,mulher,61.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-13,2020-08-20,Itapororoca,homem,92.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-01,2020-08-17,Sapé,mulher,51.0,Não,Não,Não,Não,Não,Sim,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-08-04,2020-08-11,Sapé,homem,46.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-07-20,2020-08-04,Guarabira,mulher,54.0,Sim,Sim,Não,Não,Não,Sim,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-07-13,2020-07-24,Lagoa Seca,mulher,73.0,Sim,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-07-08,2020-07-22,João Pessoa,mulher,69.0,Sim,Sim,Não,Sim,Não,Não,Não,Não,Não,Privado,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-06-22,2020-07-09,Lagoa Seca,mulher,109.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-06-20,2020-07-02,Lagoa Seca,mulher,80.0,Não,Não,Sim,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-06-15,2020-06-25,João Pessoa,homem,95.0,Não,Não,Não,Não,Não,Não,Não,Não,Não,Privado,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-06-03,2020-06-24,Rio Tinto,homem,75.0,SI,SI,SI,SI,SI,SI,SI,SI,SI,Privado,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
+2020-04-28,2020-05-05,João Pessoa,homem,45.0,Sim,Não,Não,Não,Não,Não,Não,Não,Não,Público,2020-08-27,https://paraiba.pb.gov.br/diretas/saude/coronavirus/noticias/atualizacao-covid-19-27-08-2020
