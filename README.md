@@ -1,6 +1,6 @@
 # covid_19_paraiba
 
-Dashboard e pipeline anal├¡tico de monitoramento da COVID-19 na Para├¡ba.
+Projeto de monitoramento e visualização de dados da COVID-19 na Paraíba.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Data%20Engineering%20%2B%20IA-0A66C2?style=flat)
